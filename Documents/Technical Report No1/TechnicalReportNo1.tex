@@ -1,0 +1,125 @@
+\documentclass[a4paper, 12pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+\usepackage{csquotes}
+\usepackage{placeins}
+
+\raggedbottom
+\onecolumn
+
+\usepackage{graphicx, amsfonts, psfrag, fancyhdr, layout, subfigure}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{array}
+
+\usepackage[toc,page]{appendix}
+\renewcommand{\appendixtocname}{Παραρτήματα}
+\renewcommand{\appendixname}{Παράρτημα}
+\renewcommand{\appendixpagename}{Παραρτήματα}
+
+\setmainfont[Mapping=tex-text]{GFS Artemisia}
+
+\usepackage[style=numeric, bibstyle=numeric, hyperref=true, backref=true, alldates=terse, indexing=false, backend=bibtex]{biblatex}
+\addbibresource{Bibliography.bib}
+
+\usepackage{index}
+\usepackage[columns=2]{idxlayout}
+\newindex{default}{idx}{ind}{Ευρετήριο}
+
+\usepackage{hyperref}
+
+% Set equal margins on book style
+\setlength{\oddsidemargin}{53pt}
+\setlength{\evensidemargin}{53pt}
+\setlength{\marginparwidth}{57pt}
+\setlength{\footskip}{30pt}
+
+\author{Καφετζής Δημήτριος Ανδρέας}
+\title{Εναέρια λήψη εικόνας - Πρώτη τεχνική έκθεση : Μελέτη σύστασης/κατασκευής πλήρους συστήματος εναέριας λήψης εικόνας}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section*{Περίληψη}
+		\paragraph{}{Με την αναφορά αυτή επιχειρείται να αποσαφηνιστεί το ίδιο το σύστημα της εναέριας λήψης εικόνας. Παρουσιάζονται τα επί μέρους τμήματα και προτείνονται λύσεις.
+		}
+		
+	\section*{Abstract}
+		\paragraph{}{fgfgfgfg}
+		
+	\addcontentsline{toc}{chapter}{Περιεχόμενα}
+	\tableofcontents
+
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Κατάλογος Σχημάτων}
+	\listoffigures
+
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Κατάλογος Πινάκων}
+	\listoftables
+	
+% Code for creating empty pages
+% No headers on empty pages before new chapter
+	\makeatletter
+		\def\cleardoublepage{
+			\clearpage\if@twoside \ifodd\c@page\else
+	    	\hbox{}
+	    	\thispagestyle{plain}
+	    	\newpage
+    		\if@twocolumn\hbox{}\newpage\fi\fi\fi
+    	}
+	\makeatother \clearpage{\pagestyle{plain}\cleardoublepage}
+
+% Define pagestyle
+	\pagestyle{fancy}
+	\fancyhf{}
+	\renewcommand{\chaptermark}[1]{\markboth{ \emph{#1}}{}}
+
+% Adjustments headers
+	\fancyhead[LO]{\emph{Κεφάλαιο \thechapter}}
+	\fancyhead[RE]{\leftmark}
+	\fancyfoot[LE,RO]{\thepage}
+	
+	\chapter{Εισαγωγή}
+		
+		\section{Σκοπός}
+			\paragraph{}{Σκοπός μας είναι η σύνθεση και κατασκευή ενός συστήματος εναέριας λήψης φωτογραφιών και βίντεο υψηλής ανάλυσης σε ποικίλες καιρικές συνθήκες.
+			}
+			
+		\section{Γενικές απαιτήσεις}
+			\paragraph{}{Η κατασκευή και η λειτουργία του συστήματος θα πρέπει να γίνει λαμβάνοντας υπόψιν τους παρακάτω παραμέτρους :
+				\begin{itemize}
+					\item Ασφάλεια - εξοπλισμού και περιβάλλοντος
+					\item Ευχρηστία – πτήσης και λήψης εικόνας
+					\item Λειτουργικότητα – πτήσης και λήψης εικόνας
+					\item Ποιότητα – εξοπλισμού, πτήσης και λαμβανόμενης εικόνας
+					\item Διάρκεια – πτήσης και λαμβανόμενης εικόνας
+Κόστος
+				\end{itemize}
+			}
+			
+			\paragraph{Ασφάλεια}{Το σύστημα θα πρέπει να είναι ασφαλές, αφενός για τον εαυτό του με σκοπό την προστασία του εξοπλισμού και την αποφυγή καταπόνησης του και αφετέρου για τους χρήστες και το ευρύτερο περιβάλλον στο οποίο θα λειτουργεί.
+
+ 			\paragraph{Ευχρηστία}{Το σύστημα όντας εύχρηστο θα μας απαλλάξει από δυσάρεστες καταστάσεις. Απαιτούμενος σκοπός είναι η πτήση και η λήψη εικόνας να γίνονται όσο το δυνατόν ομαλά και ευχάριστα για τους χειριστές. Η εμπλεκόμενες διαδικασίες θα πρέπει να είναι αυτοματοποιημένες σε μεγάλο βαθμό δίνοντας τη δυνατότητα στους χειριστές να επικεντρωθούν στην ποιότητα του τελικού αποτελέσματος.
+
+ 			\paragraph{Λειτουργικότητα}{Θα πρέπει να παρέχονται οι κατάλληλες προϋποθέσεις στους χειριστές του συστήματος για την παραγωγή υψηλής ποιότητας εικόνας και μεγάλου αισθητικού ενδιαφέροντος.
+
+ 			\paragraph{Ποιότητα}{Ο παράγοντας αυτός αφορά τόσο τα κατασκευαστικά χαρακτηριστικά του εξοπλισμού, όσο και την ποιότητα της πτήσης και της καταγραφόμενης εικόνας. Ο εξοπλισμός οφείλεται να αντέξει στο χρόνο με εμφάνιση ελαχίστων προβληματικών εξαρτημάτων ή υποσυστημάτων και με διακριτική συντήρηση τους. Επιπλέον, η πτήση αναμένεται να είναι τόσο ομαλή και ανεπηρέαστη από τις διάφορες καιρικές συνθήκες (αέρας, βροχή, χιόνι) ώστε να αποτελεί αιτία για λήψη χαμηλής ποιότητας φωτογραφιών και βίντεο. Αναφορικά με την ίδια την ποιότητα της λαμβανόμενης εικόνας επιθυμείτε να είναι η μέγιστη δυνατή αν όχι υψηλής ανάλυσης (high definition).
+
+ 			\paragraph{Διάρκεια}{Το σύστημα θα πρέπει να επιτρέπει την αδιάλειπτη καταγραφή εικόνας για μεγάλο χρονικό διάστημα. Ως ενδεικτικός χρόνος συνεχόμενης πτήσης αναφέρονται τα σαράντα (40) λεπτά, ενώ για το χρόνο καταγραφής οι δύο (2)  με δυόμιση (2 και 1/2) ώρες.
+
+ 			\paragraph{Κόστος}{Το κόστος απαιτείται να κυμανθεί στο χαμηλότερο δυνατό επίπεδο. Η σύσταση του συστήματος οφείλεται να γίνει λαμβάνοντας υπόψιν τον υπάρχων εξοπλισμό.
+ 			
+ 	\chapter{Τεχνική ανάλυση}
+		\section{χχχχχ}
+			\paragraph{}{χχχχ
+			}
+ 	
+ 	
+\end{document}
