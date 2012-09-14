@@ -1,0 +1,2885 @@
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.12)  14 SEP 2012 05:58
+entering extended mode
+**TechnicalReportNo1.tex
+
+("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
+chnical Documents\Technical Report No1\TechnicalReportNo1.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty"
+Package: fontspec 2012/05/06 v2.2b Advanced font selection for XeLaTeX/LuaLaTeX
+
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3names.sty
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3bootstrap.sty
+Package: l3bootstrap 2012/07/16 v3991 L3 Experimental bootstrap code
+)
+Package: l3names 2012/07/16 v3990 L3 Namespace for primitives
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count89
+)
+Package: expl3 2012/09/05 v4205 L3 Experimental code bundle wrapper
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3basics.sty
+Package: l3basics 2012/08/27 v4144 L3 Basic definitions
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3expan.sty
+Package: l3expan 2012/08/28 v4149 L3 Argument expansion
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3tl.sty
+Package: l3tl 2012/09/05 v4201 L3 Token lists
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3seq.sty
+Package: l3seq 2012/08/14 v4092 L3 Sequences and stacks
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3int.sty
+Package: l3int 2012/08/17 v4121 L3 Integers
+\c_max_int=\count90
+\l_tmpa_int=\count91
+\l_tmpb_int=\count92
+\g_tmpa_int=\count93
+\g_tmpb_int=\count94
+\l_tmpc_int=\count95
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3quark.sty
+Package: l3quark 2012/08/08 v4065 L3 Quarks
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3prg.sty
+Package: l3prg 2012/08/16 v4114 L3 Control structures
+\g__prg_map_int=\count96
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3clist.sty
+Package: l3clist 2012/08/15 v4102 L3 Comma separated lists
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3token.sty
+Package: l3token 2012/08/08 v4069 L3 Experimental token manipulation
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3prop.sty
+Package: l3prop 2012/09/03 v4190 L3 Property lists
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3msg.sty
+Package: l3msg 2012/08/28 v4147 L3 Messages
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3file.sty
+Package: l3file 2012/08/15 v4101 L3 File and I/O operations
+\l__ior_stream_int=\count97
+\l_iow_line_count_int=\count98
+\l__iow_target_count_int=\count99
+\l__iow_current_line_int=\count100
+\l__iow_current_word_int=\count101
+\l__iow_current_indentation_int=\count102
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3skip.sty
+Package: l3skip 2012/08/17 v4121 L3 Dimensions and skips
+\l_tmpa_dim=\dimen103
+\l_tmpb_dim=\dimen104
+\g_tmpa_dim=\dimen105
+\g_tmpb_dim=\dimen106
+\l_tmpa_skip=\skip43
+\l_tmpb_skip=\skip44
+\g_tmpa_skip=\skip45
+\g_tmpb_skip=\skip46
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3keys.sty
+Package: l3keys 2012/07/16 v3991 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count103
+\l_keys_choice_int=\count104
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3fp.sty
+Package: l3fp 2012/08/28 v4151 L3 Floating points
+\c__fp_leading_shift_int=\count105
+\c__fp_middle_shift_int=\count106
+\c__fp_trailing_shift_int=\count107
+\c__fp_big_leading_shift_int=\count108
+\c__fp_big_middle_shift_int=\count109
+\c__fp_big_trailing_shift_int=\count110
+\c__fp_Bigg_leading_shift_int=\count111
+\c__fp_Bigg_middle_shift_int=\count112
+\c__fp_Bigg_trailing_shift_int=\count113
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3box.sty
+Package: l3box 2012/07/16 v3991 L3 Experimental boxes
+\l_tmpb_box=\box26
+\g_tmpa_box=\box27
+\g_tmpb_box=\box28
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3coffins.sty
+Package: l3coffins 2012/08/14 v4092 L3 Coffin code layer
+\l__coffin_internal_box=\box29
+\l__coffin_internal_dim=\dimen107
+\l__coffin_offset_x_dim=\dimen108
+\l__coffin_offset_y_dim=\dimen109
+\l__coffin_x_dim=\dimen110
+\l__coffin_y_dim=\dimen111
+\l__coffin_x_prime_dim=\dimen112
+\l__coffin_y_prime_dim=\dimen113
+\c_empty_coffin=\box30
+\l__coffin_aligned_coffin=\box31
+\l__coffin_aligned_internal_coffin=\box32
+\l_tmpa_coffin=\box33
+\l_tmpb_coffin=\box34
+\l__coffin_display_coffin=\box35
+\l__coffin_display_coord_coffin=\box36
+\l__coffin_display_pole_coffin=\box37
+\l__coffin_display_offset_dim=\dimen114
+\l__coffin_display_x_dim=\dimen115
+\l__coffin_display_y_dim=\dimen116
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3luatex.sty
+Package: l3luatex 2012/08/03 v4049 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count114
+\g__cctab_stack_int=\count115
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3candidates.sty
+Package: l3candidates 2012/05/12 v3633 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen117
+\l__box_bottom_dim=\dimen118
+\l__box_left_dim=\dimen119
+\l__box_right_dim=\dimen120
+\l__box_top_new_dim=\dimen121
+\l__box_bottom_new_dim=\dimen122
+\l__box_left_new_dim=\dimen123
+\l__box_right_new_dim=\dimen124
+\l__box_internal_box=\box38
+\l__coffin_bounding_shift_dim=\dimen125
+\l__coffin_left_corner_dim=\dimen126
+\l__coffin_right_corner_dim=\dimen127
+\l__coffin_bottom_corner_dim=\dimen128
+\l__coffin_top_corner_dim=\dimen129
+\l__coffin_scaled_total_height_dim=\dimen130
+\l__coffin_scaled_width_dim=\dimen131
+))
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.
+sty
+Package: xparse 2012/09/05 v4205 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count116
+\l__xparse_m_args_int=\count117
+\l__xparse_mandatory_args_int=\count118
+\l__xparse_processor_int=\count119
+\l__xparse_v_nesting_int=\count120
+)
+\l_fontspec_script_int=\count121
+\l_fontspec_language_int=\count122
+\l_fontspec_strnum_int=\count123
+\l_fontspec_tmpa_dim=\dimen132
+\l_fontspec_tmpb_dim=\dimen133
+\l_fontspec_tmpc_dim=\dimen134
+Variant \tl_gset:cV already defined; not changing it on line 66
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec-patches.sty"
+Package: fontspec-patches 2012/05/06 v2.2b Advanced font selection for XeLaTeX/
+LuaLaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 29.
+LaTeX Info: Redefining \- on input line 32.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 107.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 111.
+.................................................
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec-xetex.sty"
+Package: fontspec-xetex 2012/05/06 v2.2b Advanced font selection for XeLaTeX/Lu
+aLaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1enc.def"
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmr.fd"
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+("C:\Program Files\MiKTeX 2.9\tex\xelatex\xunicode\xunicode.sty"
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\tipa\t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmss.fd"
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\tipaTiiicode=\count124
+\tipasavetokens=\toks14
+\tipachecktokens=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetex-def\xetex.def"
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 39.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 43.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 47.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 51.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 59.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 62.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 68.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 84.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 87.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 'm' on line
+. 91.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 118.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 132.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 164.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 192.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 211.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 485
+Variant \prop_gput:cnx already defined; not changing it on line 486
+\l_fontspec_tmp_int=\count125
+LaTeX Info: Redefining \itshape on input line 1893.
+LaTeX Info: Redefining \slshape on input line 1897.
+LaTeX Info: Redefining \scshape on input line 1901.
+LaTeX Info: Redefining \upshape on input line 1905.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg")))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xltxtra\xltxtra.sty"
+Package: xltxtra 2010/09/20 v0.5e Improvements for the "XeLaTeX" format
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\realscripts\realscripts.s
+ty
+Package: realscripts 2010/09/30 v0.3 Access OpenType subscripts and superscript
+s
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fakesubscript with arg. spec. 'm' on line 19.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fakesuperscript with arg. spec. 'm' on line 22.
+.................................................
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \textsubscript with arg. spec. 's' on line 25.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \textsuperscript with arg. spec. 's' on line 28.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \realsubscript with arg. spec. 'm' on line 45.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \realsuperscript with arg. spec. 'm' on line 60.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \textsubsuperscript with arg. spec. 'sO{l}mm' on
+. line 137.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \textsupersubscript with arg. spec. 'sO{l}mm' on
+. line 140.
+.................................................
+\subsupersep=\dimen137
+) (C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\metalogo\metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks17
+\xl@@everylogo=\toks18
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\xxt@tempbox=\box39
+) ("C:\Program Files\MiKTeX 2.9\tex\xelatex\xgreek\xgreek.sty"
+File: xgreek.sty 2011/09/27 v2.3 Package `xgreek.sty'
+
+Package `xgreek' version 2.3 by Apostolos Syropoulos
+\@attic@num=\count126
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.sty
+Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count127
+)
+\csq@reset=\count128
+\csq@gtype=\count129
+\csq@glevel=\count130
+\csq@qlevel=\count131
+\csq@maxlvl=\count132
+\csq@tshold=\count133
+\csq@ltx@everypar=\toks19
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.def
+File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen138
+\Hy@linkcounter=\count134
+\Hy@pagecounter=\count135
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count136
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count137
+
+("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetexurl\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count138
+\Field@Width=\dimen139
+\Fld@charsize=\dimen140
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count139
+\c@Item=\count140
+\c@Hfootnote=\count141
+)
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hxetex.def"
+File: hxetex.def 2012/05/13 v6.82q Hyperref driver for XeTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
+File: puenc.def 2012/05/13 v6.82q Hyperref: PDF Unicode definition (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
+Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box40
+\c@Hy@AnnotLevel=\count142
+\HyField@AnnotCount=\count143
+\Fld@listcount=\count144
+\c@bookmark@seq@number=\count145
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
+)
+\Hy@SectionHShift=\skip47
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\psfrag\psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count146
+\pfg@scount=\count147
+\pfg@temp=\write3
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\layout.sty"
+Package: layout 2000/09/25 v1.2c Show layout parameters
+\oneinch=\count148
+\cnt@paperwidth=\count149
+\cnt@paperheight=\count150
+\cnt@hoffset=\count151
+\cnt@voffset=\count152
+\cnt@textheight=\count153
+\cnt@textwidth=\count154
+\cnt@topmargin=\count155
+\cnt@oddsidemargin=\count156
+\cnt@evensidemargin=\count157
+\cnt@headheight=\count158
+\cnt@headsep=\count159
+\cnt@marginparsep=\count160
+\cnt@marginparwidth=\count161
+\cnt@marginparpush=\count162
+\cnt@footskip=\count163
+\fheight=\count164
+\ref@top=\count165
+\ref@hoffset=\count166
+\ref@voffset=\count167
+\ref@head=\count168
+\ref@body=\count169
+\ref@foot=\count170
+\ref@margin=\count171
+\ref@marginwidth=\count172
+\ref@marginpar=\count173
+\Interval=\count174
+\ExtraYPos=\count175
+\PositionX=\count176
+\PositionY=\count177
+\ArrowLength=\count178
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip57
+\subfigcapskip=\skip58
+\subfigcaptopadj=\dimen141
+\subfigbottomskip=\skip59
+\subfigcapmargin=\dimen142
+\subfiglabelskip=\skip60
+\c@subfigure=\count179
+\c@lofdepth=\count180
+\c@subtable=\count181
+\c@lotdepth=\count182
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
+\subfig@top=\skip61
+\subfig@bottom=\skip62
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen143
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip63
+\LTright=\skip64
+\LTpre=\skip65
+\LTpost=\skip66
+\LTchunksize=\count183
+\LTcapwidth=\dimen144
+\LT@head=\box41
+\LT@firsthead=\box42
+\LT@foot=\box43
+\LT@lastfoot=\box44
+\LT@cols=\count184
+\LT@rows=\count185
+\c@LT@tables=\count186
+\c@LT@chunks=\count187
+\LT@p@ftn=\toks21
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen145
+\extrarowheight=\dimen146
+\NC@list=\toks22
+\extratabsurround=\skip67
+\backup@length=\skip68
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\arydshln\arydshln.sty
+Package: arydshln 2004/08/31 v1.71 
+\dashlinedash=\dimen147
+\dashlinegap=\dimen148
+\adl@box=\box45
+\adl@height=\dimen149
+\adl@heightsave=\dimen150
+\adl@depth=\dimen151
+\adl@depthsave=\dimen152
+\adl@finaldepth=\dimen153
+\adl@columns=\count188
+\adl@ncol=\count189
+\adl@currentcolumn=\count190
+\adl@currentcolumnsave=\count191
+\adl@totalheight=\count192
+\adl@totalheightsave=\count193
+\adl@dash=\count194
+\adl@gap=\count195
+\adl@cla=\count196
+\adl@clb=\count197
+\adl@everyvbox=\toks23
+\adl@LTpagetotal=\dimen154
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count198
+\c@@ppsavesec=\count199
+\c@@ppsaveapp=\count200
+)
+\g_fontspec_family_GFS Artemisia_int=\count201
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(0)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"GFS Artemisia/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"GFS Artemisia/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"GFS Artemisia/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"GFS Artemisia/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"GFS Artemisia/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+.................................................
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+Package: biblatex 2012/08/17 v2.2 programmable bibliographies (PK/JW/AB)
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex1.sty
+Package: biblatex1 2012/08/17 v2.2 programmable bibliographies (bibtex) (PK/JW/
+AB)
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+Normal \count register pool exhausted, switching to extended pool.
+\lrq@indent=\count277
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count278
+\c@listtotal=\count279
+\c@listcount=\count280
+\c@liststart=\count281
+\c@liststop=\count282
+\c@citecount=\count283
+\c@citetotal=\count284
+\c@multicitecount=\count285
+\c@multicitetotal=\count286
+\c@instcount=\count287
+\c@maxnames=\count288
+\c@minnames=\count289
+\c@maxitems=\count290
+\c@minitems=\count291
+\c@citecounter=\count292
+\c@savedcitecounter=\count293
+\c@uniquelist=\count294
+\c@uniquename=\count295
+\c@refsection=\count296
+\c@refsegment=\count297
+\c@maxextrayear=\count298
+\c@maxextraalpha=\count299
+\c@abbrvpenalty=\count300
+\c@highnamepenalty=\count301
+\c@lownamepenalty=\count302
+\c@maxparens=\count303
+\c@parenlevel=\count304
+\blx@tempcnta=\count305
+\blx@tempcntb=\count306
+\blx@tempcntc=\count307
+\blx@maxsection=\count308
+\blx@maxsegment=\count309
+\blx@notetype=\count310
+\blx@parenlevel@text=\count311
+\blx@parenlevel@foot=\count312
+\labelnumberwidth=\skip69
+\labelalphawidth=\skip70
+\shorthandwidth=\skip71
+\biblabelsep=\skip72
+\bibitemsep=\skip73
+\bibnamesep=\skip74
+\bibinitsep=\skip75
+\bibparsep=\skip76
+\bibhang=\skip77
+\blx@auxin=\read1
+\blx@auxout=\write4
+\c@mincomprange=\count313
+\c@maxcomprange=\count314
+\c@mincompwidth=\count315
+\c@labelname=\count316
+\c@savedlabelname=\count317
+\c@author=\count318
+\c@savedauthor=\count319
+\c@shortauthor=\count320
+\c@savedshortauthor=\count321
+\c@editor=\count322
+\c@savededitor=\count323
+\c@editora=\count324
+\c@savededitora=\count325
+\c@editorb=\count326
+\c@savededitorb=\count327
+\c@editorc=\count328
+\c@savededitorc=\count329
+\c@shorteditor=\count330
+\c@savedshorteditor=\count331
+\c@bookauthor=\count332
+\c@savedbookauthor=\count333
+\c@translator=\count334
+\c@savedtranslator=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@commentator=\count338
+\c@savedcommentator=\count339
+\c@introduction=\count340
+\c@savedintroduction=\count341
+\c@foreword=\count342
+\c@savedforeword=\count343
+\c@afterword=\count344
+\c@savedafterword=\count345
+\c@holder=\count346
+\c@savedholder=\count347
+\c@namea=\count348
+\c@savednamea=\count349
+\c@nameb=\count350
+\c@savednameb=\count351
+\c@namec=\count352
+\c@savednamec=\count353
+\c@institution=\count354
+\c@savedinstitution=\count355
+\c@language=\count356
+\c@savedlanguage=\count357
+\c@location=\count358
+\c@savedlocation=\count359
+\c@organization=\count360
+\c@savedorganization=\count361
+\c@origlocation=\count362
+\c@savedoriglocation=\count363
+\c@origpublisher=\count364
+\c@savedorigpublisher=\count365
+\c@pageref=\count366
+\c@savedpageref=\count367
+\c@publisher=\count368
+\c@savedpublisher=\count369
+\c@lista=\count370
+\c@savedlista=\count371
+\c@listb=\count372
+\c@savedlistb=\count373
+\c@listc=\count374
+\c@savedlistc=\count375
+\c@listd=\count376
+\c@savedlistd=\count377
+\c@liste=\count378
+\c@savedliste=\count379
+\c@listf=\count380
+\c@savedlistf=\count381
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def
+File: blx-compat.def 2012/08/17 v2.2 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def
+File: biblatex.def 
+\c@biburlnumpenalty=\count382
+\c@biburlucpenalty=\count383
+\c@biburllcpenalty=\count384
+\c@smartand=\count385
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.bbx
+File: numeric.bbx 2012/08/17 v2.2 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
+File: standard.bbx 2012/08/17 v2.2 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count386
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\numeric.cbx
+File: numeric.cbx 2012/08/17 v2.2 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg
+File: biblatex.cfg 
+)))
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\index\index.sty
+Package: index 2004/01/20 v4.2beta Improved index support (dmj)
+\@indexbox=\insert233
+\indexproofstyle=\toks24
+)
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\idxlayout\idxlayout.sty
+Package: idxlayout 2012/03/30 v0.4d Configurable index layout
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count387
+\mult@box=\box46
+\multicol@leftmargin=\dimen155
+\c@unbalance=\count388
+\c@collectmore=\count389
+\doublecol@number=\count390
+\multicoltolerance=\count391
+\multicolpretolerance=\count392
+\full@width=\dimen156
+\page@free=\dimen157
+\premulticols=\dimen158
+\postmulticols=\dimen159
+\multicolsep=\skip78
+\multicolbaselineskip=\skip79
+\partial@page=\box47
+\last@line=\box48
+\mult@rightbox=\box49
+\mult@grightbox=\box50
+\mult@gfirstbox=\box51
+\mult@firstbox=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\c@columnbadness=\count393
+\c@finalcolumnbadness=\count394
+\last@try=\dimen160
+\multicolovershoot=\dimen161
+\multicolundershoot=\dimen162
+\mult@nat@firstbox=\box70
+\colbreak@box=\box71
+\multicol@sort@counter=\count395
+)
+\c@idxcols=\count396
+\indexcolsep=\skip80
+\indexrule=\skip81
+\ila@indentunit=\skip82
+\ila@initsep=\skip83
+)
+\idxtitle@default=\toks25
+\tf@default=\write5
+Package index Info: Writing index file TechnicalReportNo1.idx on input line 35.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\english.lbx
+File: english.lbx 2012/08/17 v2.2 biblatex localization (PK/JW/AB)
+) (C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip84
+\RaggedLeftLeftskip=\skip85
+\RaggedRightLeftskip=\skip86
+\CenteringRightskip=\skip87
+\RaggedLeftRightskip=\skip88
+\RaggedRightRightskip=\skip89
+\CenteringParfillskip=\skip90
+\RaggedLeftParfillskip=\skip91
+\RaggedRightParfillskip=\skip92
+\JustifyingParfillskip=\skip93
+\CenteringParindent=\skip94
+\RaggedLeftParindent=\skip95
+\RaggedRightParindent=\skip96
+\JustifyingParindent=\skip97
+)
+("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
+chnical Documents\Technical Report No1\TechnicalReportNo1.aux"
+
+LaTeX Warning: Label `φωτ:Cinestar 8' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 46.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 46.
+ (C:\Users\Mntsos\AppData\Roaming\MiKTeX\2.9\tex\latex\tipa\t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 46.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 46.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 46.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 46.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 46.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 46.
+LaTeX Font Info:    Redeclaring math accent \check on input line 46.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 46.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 46.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 46.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 46.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU1/GFSArtemisia(0)/m/n on input line 4
+6.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 46.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> EU1/GFSArtemisia(0)/m/n on input line 
+46.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU1/GFSArtemisia(0)/m/n --> EU1/GFSArtemisia(0)/m/n on 
+input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  EU1/GFSArtemisia(0)/m/n --> EU1/GFSArtemisia(0)/m/n on 
+input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU1/GFSArtemisia(0)/m/it on input line
+ 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU1/GFSArtemisia(0)/bx/n on input line
+ 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 46.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU1/GFSArtemisia(0)/m/n --> EU1/GFSArtemisia(0)/bx/n on
+ input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  EU1/GFSArtemisia(0)/m/n --> EU1/GFSArtemisia(0)/bx/n on
+ input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> EU1/GFSArtemisia(0)/bx/it on input li
+ne 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 46.
+\AtBeginShipoutBox=\box72
+Package hyperref Info: Link coloring OFF on input line 46.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count397
+)
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
+
+("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
+chnical Documents\Technical Report No1\TechnicalReportNo1.out")
+("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
+chnical Documents\Technical Report No1\TechnicalReportNo1.out")
+\@outlinefile=\write6
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'TechnicalReportNo1.bbl' not found.
+No file TechnicalReportNo1.bbl.
+Package biblatex Info: Reference section=0 on input line 46.
+Package biblatex Info: Reference segment=0 on input line 46.
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
+File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
+
+)
+[1
+
+
+] [2]
+("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
+chnical Documents\Technical Report No1\TechnicalReportNo1.toc")
+\tf@toc=\write7
+ [3
+
+]
+("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
+chnical Documents\Technical Report No1\TechnicalReportNo1.lof")
+\tf@lof=\write8
+ [4
+
+]
+("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
+chnical Documents\Technical Report No1\TechnicalReportNo1.lot")
+\tf@lot=\write9
+ [5
+
+] [6
+
+
+]
+Κεφάλαιο 1.
+[7
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Κεφάλαιο 2.
+[9
+
+] [10]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"GFS Artemisia/ICU:script=latn;language=DFLT;mapping=tex-text;+sups;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"GFS
+. Artemisia/ICU:script=latn;language=DFLT;mapping=tex-text;+sups;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"GFS Artemisia/B/ICU:script=latn;language=DFLT;mapping=tex-text;+sups;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"GFS Artemisia/I/ICU:script=latn;language=DFLT;mapping=tex-text;+sups;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"GFS Artemisia/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+sups;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 155
+.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [11]
+File: DJI_S800.png Graphic file (type QTm)
+
+<use  "DJI_S800.png" >
+File: DJI_S800.png Graphic file (type QTm)
+ <use  "DJI_S800.png" > [12]
+File: Droidworx_AD_6HL.png Graphic file (type QTm)
+
+<use  "Droidworx_AD_6HL.png" >
+File: Droidworx_skyjib6.png Graphic file (type QTm)
+ <use  "Droidworx_skyjib6.png" > [13] [14]
+Underfull \hbox (badness 10000) in alignment at lines 233--237
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 237--241
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 241--244
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 244--246
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\EU1/GFSArtemisia(0)/m/n/12 DJI Spreading
+ []
+
+
+Overfull \hbox (2.70975pt too wide) in paragraph at lines 251--251
+[]|\EU1/GFSArtemisia(0)/m/n/12 Κατασκευαστής| 
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 257--257
+[]|\EU1/GFSArtemisia(0)/m/n/12 βάρος απογεί-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+\EU1/GFSArtemisia(0)/m/n/12 -πλατφόρμας
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+\EU1/GFSArtemisia(0)/m/n/12 και gimbal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]|\EU1/GFSArtemisia(0)/m/n/12 LiPo (6S,
+ []
+
+
+Overfull \hbox (24.09937pt too wide) in paragraph at lines 261--261
+\EU1/GFSArtemisia(0)/m/n/12 10000mAh 15000mAh,
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 263--263
+[]|\EU1/GFSArtemisia(0)/m/n/12 μέγιστη κατα-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+[]|\EU1/GFSArtemisia(0)/m/n/12 κατανάλωση
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+\EU1/GFSArtemisia(0)/m/n/12 αιώρησης
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+[]|\EU1/GFSArtemisia(0)/m/n/12 μέγιστος χρό-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+\EU1/GFSArtemisia(0)/m/n/12 νος αιώρησης
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+[]|\EU1/GFSArtemisia(0)/m/n/12 16 λεπτά
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+\EU1/GFSArtemisia(0)/m/n/12 (@10000mAh
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+[]|\EU1/GFSArtemisia(0)/m/n/12 προτεινόμενοι
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+[]|\EU1/GFSArtemisia(0)/m/n/12 AXi 2826/12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\EU1/GFSArtemisia(0)/m/n/12 - (4120/20) ή
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 246--270
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\EU1/GFSArtemisia(0)/m/n/12 προτεινόμενα
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\EU1/GFSArtemisia(0)/m/n/12 AV-200/360 -
+ []
+
+
+Overfull \hbox (7.58174pt too wide) in paragraph at lines 272--272
+[]|\EU1/GFSArtemisia(0)/m/n/12 υποστηριζόμενες
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+[]|\EU1/GFSArtemisia(0)/m/n/12 Samsung HMX-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+\EU1/GFSArtemisia(0)/m/n/12 Q10, Panasonic
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 270--274
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[15
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[16]
+File: cinestar_8.png Graphic file (type QTm)
+ <use  "cinestar_8.png" > [17
+
+]
+File: DroidWorx_AD8.png Graphic file (type QTm)
+ <use  "DroidWorx_AD8.png" >
+File: DroidWrox_Skyjib8.png Graphic file (type QTm)
+
+<use  "DroidWrox_Skyjib8.png" > [18] [19]
+Underfull \hbox (badness 10000) in alignment at lines 330--334
+[] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 334--338
+[] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 338--341
+[] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 341--343
+[] [] [] []
+ []
+
+
+Overfull \hbox (2.70975pt too wide) in paragraph at lines 348--348
+[]|\EU1/GFSArtemisia(0)/m/n/12 Κατασκευαστής| 
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 354--354
+[]|\EU1/GFSArtemisia(0)/m/n/12 βάρος απογεί-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\EU1/GFSArtemisia(0)/m/n/12 -πλατφόρμας
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\EU1/GFSArtemisia(0)/m/n/12 και gimbal
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 360--360
+[]|\EU1/GFSArtemisia(0)/m/n/12 μέγιστη κατα-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\EU1/GFSArtemisia(0)/m/n/12 κατανάλωση
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\EU1/GFSArtemisia(0)/m/n/12 αιώρησης
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\EU1/GFSArtemisia(0)/m/n/12 μέγιστος χρό-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\EU1/GFSArtemisia(0)/m/n/12 νος αιώρησης
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+[]|\EU1/GFSArtemisia(0)/m/n/12 προτεινόμενοι
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+[]|\EU1/GFSArtemisia(0)/m/n/12 AX i2826/12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+\EU1/GFSArtemisia(0)/m/n/12 - (4120/20) ή
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 343--367
+[] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+[]|\EU1/GFSArtemisia(0)/m/n/12 προτεινόμενα
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+[]|\EU1/GFSArtemisia(0)/m/n/12 AV-200/360,
+ []
+
+
+Overfull \hbox (7.58174pt too wide) in paragraph at lines 369--369
+[]|\EU1/GFSArtemisia(0)/m/n/12 υποστηριζόμενες
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+[]|\EU1/GFSArtemisia(0)/m/n/12 Samsung HMX-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+\EU1/GFSArtemisia(0)/m/n/12 Q10, Panasonic
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 369--370
+[]|\EU1/GFSArtemisia(0)/m/n/12 Up tp Red Epic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+\EU1/GFSArtemisia(0)/m/n/12 class video
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 367--371
+[] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] []
+ []
+
+[20
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] []
+ []
+
+[21] [22
+
+] [23]
+Underfull \hbox (badness 10000) in alignment at lines 418--422
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 422--426
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 426--429
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 429--431
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 433--433
+[]|\EU1/GFSArtemisia(0)/m/n/12 Feiyu Tech FY-
+ []
+
+
+Overfull \hbox (2.70975pt too wide) in paragraph at lines 436--436
+[]|\EU1/GFSArtemisia(0)/m/n/12 Κατασκευαστής| 
+ []
+
+
+Overfull \hbox (4.35374pt too wide) in paragraph at lines 442--442
+[]|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενα
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
+[]|\EU1/GFSArtemisia(0)/m/n/12 Τύπος υπο-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
+\EU1/GFSArtemisia(0)/m/n/12 στηριζόμενου
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
+[]|\EU1/GFSArtemisia(0)/m/n/12 Normal, Futaba,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
+[]|\EU1/GFSArtemisia(0)/m/n/12 Typical RC
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 446--446
+\EU1/GFSArtemisia(0)/m/n/12 ριζόμενου πο-
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 446--446
+[]|\EU1/GFSArtemisia(0)/m/n/12 PCM or 2.4GHz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+\EU1/GFSArtemisia(0)/m/n/12 with minimum
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 446--446
+\EU1/GFSArtemisia(0)/m/n/12 7 channels and
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 446--446
+\EU1/GFSArtemisia(0)/m/n/12 Failsafe function
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 446--446
+\EU1/GFSArtemisia(0)/m/n/12 available on all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+[]|\EU1/GFSArtemisia(0)/m/n/12 Robbe-Futaba
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 446--446
+\EU1/GFSArtemisia(0)/m/n/12 PCM G3 mode,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+\EU1/GFSArtemisia(0)/m/n/12 Graupner-JR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+\EU1/GFSArtemisia(0)/m/n/12 SPCM mode),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+\EU1/GFSArtemisia(0)/m/n/12 MPX (PPM8,
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 446--447
+[]|\EU1/GFSArtemisia(0)/m/n/12 HiTec, Spektrum,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
+\EU1/GFSArtemisia(0)/m/n/12 JR, Futaba (it
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--449
+[]|\EU1/GFSArtemisia(0)/m/n/12 Πρωτεύων
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+[]|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]|\EU1/GFSArtemisia(0)/m/n/12 GPS-Compass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]|\EU1/GFSArtemisia(0)/m/n/12 Θερμοκρασία
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\EU1/GFSArtemisia(0)/m/n/12 λειτουργίας
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 431--466
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 467--467
+[]|\EU1/GFSArtemisia(0)/m/n/12 Mode λειτουρ-
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 467--467
+[]|\EU1/GFSArtemisia(0)/m/n/12 Stabilized Mode,
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 467--467
+\EU1/GFSArtemisia(0)/m/n/12 Hold, Automated
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 467--467
+\EU1/GFSArtemisia(0)/m/n/12 Return to Home
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+[]|\EU1/GFSArtemisia(0)/m/n/12 Auto-Leveling,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--469
+[]|\EU1/GFSArtemisia(0)/m/n/12 Μέγιστη γω-
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 471--471
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ακρίβεια αιώ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+[]|\EU1/GFSArtemisia(0)/m/n/12 Μέγιστη yaw
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 477--477
+\EU1/GFSArtemisia(0)/m/n/12 γωνιακή ταχύ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
+[]|\EU1/GFSArtemisia(0)/m/n/12 Μέγιστη κά-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+[]|\EU1/GFSArtemisia(0)/m/n/12 Λειτουργίες
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 485--485
+\EU1/GFSArtemisia(0)/m/n/12 Auto Navigation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+\EU1/GFSArtemisia(0)/m/n/12 mode, Auto
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 485--485
+\EU1/GFSArtemisia(0)/m/n/12 Go Home, Low
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+[]|\EU1/GFSArtemisia(0)/m/n/12 2 level Low
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+\EU1/GFSArtemisia(0)/m/n/12 Voltage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+\EU1/GFSArtemisia(0)/m/n/12 Protection,
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 485--485
+\EU1/GFSArtemisia(0)/m/n/12 Hover, Go-home,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+\EU1/GFSArtemisia(0)/m/n/12 Altitude Go-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+\EU1/GFSArtemisia(0)/m/n/12 home, Attitute
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+[]|\EU1/GFSArtemisia(0)/m/n/12 Επιτρεπτές
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 487--487
+\EU1/GFSArtemisia(0)/m/n/12 συνθήκες ανέ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+[]|\EU1/GFSArtemisia(0)/m/n/12 < 8m/s
+ []
+
+
+Overfull \hbox (3.57936pt too wide) in paragraph at lines 487--487
+\EU1/GFSArtemisia(0)/m/n/12 (17.9mph/28.8km/h)| 
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 489--489
+[]|\EU1/GFSArtemisia(0)/m/n/12 Επιπλέον λει-
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 489--489
+[]|\EU1/GFSArtemisia(0)/m/n/12 Follow me (with
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 489--489
+\EU1/GFSArtemisia(0)/m/n/12 a phone having
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 489--489
+\EU1/GFSArtemisia(0)/m/n/12 gps), Auto take
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
+\EU1/GFSArtemisia(0)/m/n/12 off-landing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
+\EU1/GFSArtemisia(0)/m/n/12 Waypoint
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 489--489
+\EU1/GFSArtemisia(0)/m/n/12 navigation (limit
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 489--489
+\EU1/GFSArtemisia(0)/m/n/12 4 points, within
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 489--489
+\EU1/GFSArtemisia(0)/m/n/12 200m diameter),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
+[]|\EU1/GFSArtemisia(0)/m/n/12 Auto take off-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
+[]|\EU1/GFSArtemisia(0)/m/n/12 MAX 5W
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
+\EU1/GFSArtemisia(0)/m/n/12 (0.9A@5V,
+ []
+
+
+Overfull \hbox (79.04736pt too wide) in paragraph at lines 493--493
+\EU1/GFSArtemisia(0)/m/n/12 0.7A@5.8V,0.5A@7.4V,0.4A@8V)| 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 466--495
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[24
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[25]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[26]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[27]
+Overfull \hbox (9.34543pt too wide) in paragraph at lines 503--503
+[]\EU1/GFSArtemisia(0)/bx/n/14.4 Επίγειος σταθμός παρατήρ
+ησης και ελέγχου πτή-
+ []
+
+
+Overfull \hbox (11.41606pt too wide) in paragraph at lines 511--513
+ []\EU1/GFSArtemisia(0)/bx/n/12 πλατφόρμα της μηχανής[] \EU1
+/GFSArtemisia(0)/m/n/12 Στα αγγλικά χρησιμοποιείται ο
+ όρος ”gimbal”.
+ []
+
+[28
+
+] [29]
+Underfull \hbox (badness 10000) in alignment at lines 518--522
+[] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 522--526
+[] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 526--529
+[] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 529--531
+[] [] [] []
+ []
+
+
+Overfull \hbox (2.70975pt too wide) in paragraph at lines 536--536
+[]|\EU1/GFSArtemisia(0)/m/n/12 Κατασκευαστής| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
+[]|\EU1/GFSArtemisia(0)/m/n/12 Τύπος υπο-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
+\EU1/GFSArtemisia(0)/m/n/12 στηριζόμενου
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 544--544
+\EU1/GFSArtemisia(0)/m/n/12 ριζόμενου πο-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--544
+[]|\EU1/GFSArtemisia(0)/m/n/12 Four spare
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 546--546
+[]|\EU1/GFSArtemisia(0)/m/n/12 Mode λειτουρ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
+[]|\EU1/GFSArtemisia(0)/m/n/12 Orientation-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
+\EU1/GFSArtemisia(0)/m/n/12 locked control,
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 546--546
+\EU1/GFSArtemisia(0)/m/n/12 Non orientation-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
+\EU1/GFSArtemisia(0)/m/n/12 locked control,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+[]|\EU1/GFSArtemisia(0)/m/n/12 Εύρος περι-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+[]|\EU1/GFSArtemisia(0)/m/n/12 Pan axis
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 554--554
+[]|$\OMS/cmsy/m/n/12 ^^F$\EU1/GFSArtemisia(0)/m/n/12 360 continuous
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 555--555
+[]|$\OMS/cmsy/m/n/12 ^^F$\EU1/GFSArtemisia(0)/m/n/12 360 continuous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+[]|\EU1/GFSArtemisia(0)/m/n/12 Roll axis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+[]|$\OMS/cmsy/m/n/12 ^^F$\EU1/GFSArtemisia(0)/m/n/12 40 ($\OMS/cmsy/m/n/12 ^^F$
+\EU1/GFSArtemisia(0)/m/n/12 360
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+\EU1/GFSArtemisia(0)/m/n/12 mechanic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+\EU1/GFSArtemisia(0)/m/n/12 continuous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
+[]|\EU1/GFSArtemisia(0)/m/n/12 Camera shutter
+ []
+
+
+Overfull \hbox (8.34975pt too wide) in paragraph at lines 560--560
+[]|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενες
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
+[]|\EU1/GFSArtemisia(0)/m/n/12 SONY Nex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
+\EU1/GFSArtemisia(0)/m/n/12 5N/Nex-7,
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 531--561
+[] [] [] []
+ []
+
+
+Overfull \hbox (7.13774pt too wide) in paragraph at lines 562--562
+[]|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενοι
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 562--562
+\EU1/GFSArtemisia(0)/m/n/12 αυτόματοι πι-
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 562--562
+[]|\EU1/GFSArtemisia(0)/m/n/12 διαθέτει ενσωμα-
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 564--564
+[]|\EU1/GFSArtemisia(0)/m/n/12 Επιπλέον λει-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
+[]|\EU1/GFSArtemisia(0)/m/n/12 HDMI-AV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
+\EU1/GFSArtemisia(0)/m/n/12 module,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
+\EU1/GFSArtemisia(0)/m/n/12 Wireless video
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
+\EU1/GFSArtemisia(0)/m/n/12 transmission
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 566--566
+[]|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα προ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
+[]|\EU1/GFSArtemisia(0)/m/n/12 Θερμοκρασία
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
+\EU1/GFSArtemisia(0)/m/n/12 λειτουργίας
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 561--570
+[] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] []
+ []
+
+[30
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] []
+ []
+
+[31]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] []
+ []
+
+[32] [33
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 580--584
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 584--588
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 588--591
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 591--593
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+[]|\EU1/GFSArtemisia(0)/m/n/12 DJI Zenmuse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+[]|\EU1/GFSArtemisia(0)/m/n/12 Skyline Gyro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+[]|\EU1/GFSArtemisia(0)/m/n/12 Hoverfly
+ []
+
+
+Overfull \hbox (2.70975pt too wide) in paragraph at lines 598--598
+[]|\EU1/GFSArtemisia(0)/m/n/12 Κατασκευαστής| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\EU1/GFSArtemisia(0)/m/n/12 (Υπάρχουν
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\EU1/GFSArtemisia(0)/m/n/12 προβλήματα
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 604--604
+\EU1/GFSArtemisia(0)/m/n/12 ροποίηση του
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 604--604
+\EU1/GFSArtemisia(0)/m/n/12 pan. Αναμένε-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
+[]|\EU1/GFSArtemisia(0)/m/n/12 Τύπος υπο-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
+\EU1/GFSArtemisia(0)/m/n/12 στηριζόμενου
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 606--606
+[]|\EU1/GFSArtemisia(0)/m/n/12 Futaga, Hitec,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
+[]|\EU1/GFSArtemisia(0)/m/n/12 S.bus, PPM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
+\EU1/GFSArtemisia(0)/m/n/12 PWM, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
+[]|\EU1/GFSArtemisia(0)/m/n/12 PPM, PWM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
+\EU1/GFSArtemisia(0)/m/n/12 S.Bus or
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 608--608
+\EU1/GFSArtemisia(0)/m/n/12 ριζόμενου πο-
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 608--608
+[]|\EU1/GFSArtemisia(0)/m/n/12 Futaga, Hitec,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
+[]|\EU1/GFSArtemisia(0)/m/n/12 προτείνεται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
+\EU1/GFSArtemisia(0)/m/n/12 πομπός οχτώ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
+[]|\EU1/GFSArtemisia(0)/m/n/12 τυπικός με
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
+\EU1/GFSArtemisia(0)/m/n/12 τρία κανάλια
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 608--608
+\EU1/GFSArtemisia(0)/m/n/12 (π.χ. Spektrum
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 608--609
+[]|\EU1/GFSArtemisia(0)/m/n/12 Futaba or JR
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 608--609
+\EU1/GFSArtemisia(0)/m/n/12 (or Compatible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+\EU1/GFSArtemisia(0)/m/n/12 systems with
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 608--609
+\EU1/GFSArtemisia(0)/m/n/12 1500us center)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+\EU1/GFSArtemisia(0)/m/n/12 (8/9 channel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+\EU1/GFSArtemisia(0)/m/n/12 control with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+\EU1/GFSArtemisia(0)/m/n/12 3 sliders or
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 610--610
+[]|\EU1/GFSArtemisia(0)/m/n/12 Mode λειτουρ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[]|\EU1/GFSArtemisia(0)/m/n/12 Orientation-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\EU1/GFSArtemisia(0)/m/n/12 locked
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\EU1/GFSArtemisia(0)/m/n/12 control, Non
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\EU1/GFSArtemisia(0)/m/n/12 orientation-
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 610--610
+\EU1/GFSArtemisia(0)/m/n/12 locked control,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\EU1/GFSArtemisia(0)/m/n/12 FPV mode
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[]|\EU1/GFSArtemisia(0)/m/n/12 Off, Fixed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\EU1/GFSArtemisia(0)/m/n/12 position
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\EU1/GFSArtemisia(0)/m/n/12 stabilized,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[]|\EU1/GFSArtemisia(0)/m/n/12 Autonomous
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 610--610
+\EU1/GFSArtemisia(0)/m/n/12 mode, Guided
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+[]|\EU1/GFSArtemisia(0)/m/n/12 Slew or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+\EU1/GFSArtemisia(0)/m/n/12 Proportional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ασύρματος
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 612--612
+[]|\EU1/GFSArtemisia(0)/m/n/12 roll, tilt and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+\EU1/GFSArtemisia(0)/m/n/12 pan axis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+\EU1/GFSArtemisia(0)/m/n/12 control,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+\EU1/GFSArtemisia(0)/m/n/12 working
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+\EU1/GFSArtemisia(0)/m/n/12 Mode switch,
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 612--612
+\EU1/GFSArtemisia(0)/m/n/12 control, HDMI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+\EU1/GFSArtemisia(0)/m/n/12 orientation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+\EU1/GFSArtemisia(0)/m/n/12 (down or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+[]|\EU1/GFSArtemisia(0)/m/n/12 Angle
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 612--612
+\EU1/GFSArtemisia(0)/m/n/12 velocity, Mode
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+\EU1/GFSArtemisia(0)/m/n/12 switch, Auto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
+[]|\EU1/GFSArtemisia(0)/m/n/12 Slew or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
+\EU1/GFSArtemisia(0)/m/n/12 Proportional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
+\EU1/GFSArtemisia(0)/m/n/12 Control,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
+\EU1/GFSArtemisia(0)/m/n/12 Remote Gain
+ []
+
+
+Overfull \hbox (8.34975pt too wide) in paragraph at lines 616--616
+[]|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενες
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--616
+[]|\EU1/GFSArtemisia(0)/m/n/12 SONY Nex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--616
+\EU1/GFSArtemisia(0)/m/n/12 5N/Nex-7,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--616
+\EU1/GFSArtemisia(0)/m/n/12 Panasonic
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 616--616
+[]|\EU1/GFSArtemisia(0)/m/n/12 Canon 5Dmk2
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 616--616
+[]|\EU1/GFSArtemisia(0)/m/n/12 δεν συνδέεται
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 616--617
+[]|\EU1/GFSArtemisia(0)/m/n/12 δεν συνδέεται
+ []
+
+
+Overfull \hbox (7.13774pt too wide) in paragraph at lines 618--618
+[]|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενοι
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
+[]|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
+\EU1/GFSArtemisia(0)/m/n/12 σε συγκεκρι-
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 618--619
+\EU1/GFSArtemisia(0)/m/n/12 γικοί και ψη-
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 618--619
+\EU1/GFSArtemisia(0)/m/n/12 φιακοί κινητή-
+ []
+
+
+Overfull \hbox (3.98175pt too wide) in paragraph at lines 619--619
+[]|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενη
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 619--619
+\EU1/GFSArtemisia(0)/m/n/12 συχνότητα κι-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--619
+[]|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--619
+\EU1/GFSArtemisia(0)/m/n/12 σε συγκεκρι-
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 621--621
+[]|\EU1/GFSArtemisia(0)/m/n/12 Τρόπος ενσω-
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 623--623
+[]|\EU1/GFSArtemisia(0)/m/n/12 Επιπλέον λει-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
+[]|\EU1/GFSArtemisia(0)/m/n/12 HDMI-AV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
+\EU1/GFSArtemisia(0)/m/n/12 module,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
+\EU1/GFSArtemisia(0)/m/n/12 transmission
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
+[]|\EU1/GFSArtemisia(0)/m/n/12 AutoPanorama
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 593--628
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
+[]|\EU1/GFSArtemisia(0)/m/n/12 Θερμοκρασία
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
+\EU1/GFSArtemisia(0)/m/n/12 λειτουργίας
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 628--631
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[34
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[35]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[36]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[37] [38
+
+]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [39] [40]
+Κεφάλαιο 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--676
+\EU1/GFSArtemisia(0)/m/n/12 πτήσης.
+ []
+
+[41
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 680--684
+\EU1/GFSArtemisia(0)/m/n/12 (7kg).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--684
+\EU1/GFSArtemisia(0)/m/n/12 και μέχρι 25.000 γραμμαρίων (25kg
+).
+ []
+
+[42] [43] [44] [45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 762--762
+[]|\EU1/GFSArtemisia(0)/m/n/12 Application/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--762
+\EU1/GFSArtemisia(0)/m/n/12 ERC/REC/70-03
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--762
+[]|\EU1/GFSArtemisia(0)/m/n/12 Frequencies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--762
+\EU1/GFSArtemisia(0)/m/n/12 / Frequency
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--762
+[]|\EU1/GFSArtemisia(0)/m/n/12 Power /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--762
+[]|\EU1/GFSArtemisia(0)/m/n/12 Duty
+ []
+
+
+Overfull \hbox (2.94489pt too wide) in paragraph at lines 762--762
+[]|\EU1/GFSArtemisia(0)/m/n/12 Channel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--763
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ενδεικτικά Πρότυπα,
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 762--763
+\EU1/GFSArtemisia(0)/m/n/12 Σχόλια, Αντίστοιχη πα-
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 758--764
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 764--768
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 768--771
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 771--773
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 774--774
+[]|\EU1/GFSArtemisia(0)/m/n/12 2400-2483.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]|\EU1/GFSArtemisia(0)/m/n/12 5725 - 5875
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 777--777
+[]|\EU1/GFSArtemisia(0)/m/n/12 WAS/RLAN’s-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--780
+[]|\EU1/GFSArtemisia(0)/m/n/12 Railway
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 780--781
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 300 761- E43 Νο
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+\EU1/GFSArtemisia(0)/m/n/12 license for mobile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+\EU1/GFSArtemisia(0)/m/n/12 stations. License for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--781
+[]|\EU1/GFSArtemisia(0)/m/n/12 5795 - 5815
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[]|\EU1/GFSArtemisia(0)/m/n/12 Radio Frequency
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+\EU1/GFSArtemisia(0)/m/n/12 Identification -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[]|\EU1/GFSArtemisia(0)/m/n/12 2446-2454
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[]|\EU1/GFSArtemisia(0)/m/n/12 Up to
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 773--789
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[47
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[48] [49
+
+]
+Κεφάλαιο 4.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 799.
+[50
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 799.
+
+("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
+chnical Documents\Technical Report No1\TechnicalReportNo1.aux")
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 799.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 799.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'TechnicalReportNo1.run.xml'.
+ )
+(\end occurred inside a group at level 5)
+
+### simple group (level 5) entered at line 115 ({)
+### simple group (level 4) entered at line 113 ({)
+### simple group (level 3) entered at line 111 ({)
+### simple group (level 2) entered at line 109 ({)
+### simple group (level 1) entered at line 107 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 25451 strings out of 429156
+ 484414 string characters out of 3168943
+ 658320 words of memory out of 3000000
+ 28402 multiletter control sequences out of 15000+200000
+ 11793 words of font info for 79 fonts, out of 3000000 for 9000
+ 786 hyphenation exceptions out of 8191
+ 46i,10n,46p,976b,739s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on TechnicalReportNo1.pdf (50 pages).
