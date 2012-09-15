@@ -120,7 +120,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{πλατφόρμα της μηχανής}{29}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{αυτόματος πιλότος για πλατφόρμα της μηχανής}{33}{section*.54}
+\contentsline {paragraph}{αυτόματος πιλότος για την πλατφόρμα της μηχανής}{33}{section*.54}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{επίγειος σταθμός ελέγχου της πλατφόρμας της μηχανής}{38}{section*.55}
 \defcounter {refsection}{0}\relax 
@@ -140,7 +140,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{εναέριος σταθμός μετάδοσης εικόνας}{39}{section*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{επίγειος σταθμός λήψης σύγχρονης εικόνας}{39}{section*.64}
+\contentsline {paragraph}{επίγειος σταθμός λήψης σύγχρονης εικόνας}{40}{section*.64}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{επίγειος σταθμός καταγραφής της εικόνας}{40}{section*.65}
 \defcounter {refsection}{0}\relax 
@@ -172,14 +172,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{45}{section*.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{45}{section*.77}
+\contentsline {paragraph}{Ευρωπαϊκό ρυθμιστικό πλαίσιο}{45}{section*.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{46}{section*.78}
+\contentsline {paragraph}{Ελληνικό ρυθμιστικό πλαίσιο}{46}{section*.78}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{46}{section*.79}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{46}{section*.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{49}{section*.81}
+\contentsline {paragraph}{2400 − 2483,5 MHz}{47}{section*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Προτεινόμενα ολοκληρωμένες λύσεις}{50}{chapter.4}
+\contentsline {paragraph}{5150 - 5725 ΜΗΖ}{47}{section*.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{47}{section*.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{5470 − 5725 ΜΗz}{47}{section*.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{48}{section*.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{1200 MHz}{51}{section*.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Προτεινόμενα ολοκληρωμένες λύσεις}{52}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Βιβλιογραφία}{53}{section*.87}

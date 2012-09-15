@@ -1,0 +1,172 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{ΦΕΚ2006A13}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{NOMOΣ ΥΠ’ ΑΡΙΘ. 3431 - Περί
+  Ηλεκτρονικών Επικοινωνιών και άλλες
+  διατάξεις.,\href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFGQ40gSLPFOXdtvSoClrL8mwqrihVEQjztIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijODZG2MZPzk-Fai88ZD9mnSbg0mnY_i2pMQ6Bq0k0c-N}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ Α 13 - 03.02.2006}
+  \field{month}{02}
+  \field{year}{2006}
+\endentry
+
+\entry{ΦΕΚ2010Β9}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{Απόφαση 2 : Κανονισμός Πτήσεων
+  Αερομοντέλων,\href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wGYK2xFpSwMnXdtvSoClrL8yDC9E5e67ropCCmqt4mgGO50VQv1JorZEmRQwePEviF8EeCoaT0MAKztT3Sb63xk3VkL3PiCQ3RLoVYQqjKiogfu8Gq1RKKQmyoZK8o4WQPG5q2_bMAV69wuvJBGx7c89qknpErdSmympywnDxCVmw..}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ Β 9 - 13.01.2010}
+  \field{month}{01}
+  \field{year}{2010}
+\endentry
+
+\entry{ΦΕΚ2007Α161}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{NOMOΣ ΥΠ’ ΑΡΙΘ. 3592 - Συγκέντρωση και
+  αδειοδότηση Επιχειρήσεων Μέσων
+  Ενημέρωσης και άλλες διατάξεις.,
+  \href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFNA1ry4K61p3dtvSoClrL8px6_ZGPuoJd5MXD0LzQTLWPU9yLzB8V68knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIuVEZTErFupuyMYYwLBBHUiuRiy1KAZ-5P74odFvSkr8X}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ A 161 - 19.07.2007}
+  \field{month}{07}
+  \field{year}{2007}
+\endentry
+
+\entry{ΦΕΚ2000A273}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{NOMOΣ ΥΠ’ ΑΡΙΘ. 2867 - Οργάνωση και
+  λειτουργία των Τηλεπικοινωνιών και άλλες
+  διατάξεις.,
+  \href{http://http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wEtf2Ep4n9LfndtvSoClrL879ErmzuRqmB5MXD0LzQTLWPU9yLzB8V68knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIuSCw7SzNEHakNfplC8ODWZZn8SgHF7tTA8TEoL20JmEC}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ A 273 - 19.12.2000}
+  \field{month}{12}
+  \field{year}{2000}
+\endentry
+
+\entry{ΦΕΚ2012Α82}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{NOMOΣ ΥΠ’ ΑΡΙΘ. 4070 - Ρυθμίσεις
+  Ηλεκτρονικών Επικοινωνιών, Μεταφορών,
+  Δημοσίων Έργων και άλλες διατάξεις.,
+  \href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wEbA_BZxkczbHdtvSoClrL85CIBV551Ig7tIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijLdLEujYx6QwDnl7MK0fSCBFUv1_Z2IMKFvm4ZFaV1ZC}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ A 82 - 10.04.2012}
+  \field{month}{04}
+  \field{year}{2012}
+\endentry
+
+\entry{ΦΕΚ2008Β1979}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{Έγκριση Εθνικού Κανονισμού
+  Κατανομής Ζωνών Συχνοτήτων,
+  \href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wHtyK1ZYNhP8HdtvSoClrL81QBC9NCxtPVp6k5uE6xNduJInJ48_97uHrMts-zFzeyCiBSQOpYnTy36MacmUFCx2ppFvBej56Mmc8Qdb8ZfRJqZnsIAdk8Lv_e6czmhEembNmZCMxLMtQIDyLnXua2t6m-J-3Hm8S6n0nBAxfyvP-WDmMWn4_tt}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ B 1979 - 24.09.2008}
+  \field{month}{09}
+  \field{year}{2008}
+\endentry
+
+\entry{ΦΕΚ2011Β2512}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{Κανονισμός Όρων Χρήσης
+  Μεμονωμένων Ραδιοσυχνοτήτων ή Ζωνών
+  Ραδιοσυχνοτήτων,
+  \href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFYAFdDx4L2G3dtvSoClrL8O_j9lGUdzi_nMRVjyfnPUeJInJ48_97uHrMts-zFzeyCiBSQOpYnT00MHhcXFRTs9HKO3vhZWRc3ZY0NdPD57P-57xGj3Md8oDKaXzjaeIc.}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ B 2512 - 07.11.2011}
+  \field{month}{11}
+  \field{year}{2011}
+\endentry
+
+\entry{ΦΕΚ2006Β750}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{Κανονισμός Χρήσης και Χορήγησης
+  Δικαιωμάτων Χρήσης Ραδιοσυχνοτήτων υπό
+  Καθεστώς Γενικής Άδειας για την Παροχή
+  Δικτύων ή/και Υπηρεσιών Ηλεκτρονικών
+  Επικοινωνιών,
+  \href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFGQ40gSLPFOXdtvSoClrL8gWOB92gSLwx5MXD0LzQTLf7MGgcO23N88knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIuQk8kR6Y9YtgdFiMUrt0LW0n8OUD-xp-tNouub8JzNkL}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ B 750 - 21.06.2006}
+  \field{month}{06}
+  \field{year}{2006}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
