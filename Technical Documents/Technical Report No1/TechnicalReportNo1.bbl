@@ -89,6 +89,30 @@
   \field{year}{2000}
 \endentry
 
+\entry{ΦΕΚ2002Α44}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{Προεδρικό διάταγμα υπ' αριθμ.44 -
+  Ραδιοεξοπλισμός και τηλεπικοινωνιακός
+  τερματικός εξοπλισμός και αμοιβαία
+  αναγνώριση της συμμόρφωσης των
+  εξοπλισμών αυτών. προσαρμογή της
+  ελληνικής νομοθεσίας στη οδηγία 99/5/Εκ του
+  Ευρωπαϊκού Κοινοβουλία και Συμβουλίου
+  της 9 Μαρτίου του 1999.,
+  \href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wHghqNAYvmYB3dtvSoClrL8ES5crdlkS9btIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijNSWR2OND47WlyFExDExMbfEVxrrK5qNLbMRVOn4cLxw}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ A 44 - 07.03.2002}
+  \field{month}{03}
+  \field{year}{2002}
+\endentry
+
 \entry{ΦΕΚ2012Α82}{misc}{}
   \name{author}{1}{}{%
     {{}%
@@ -117,8 +141,13 @@
      {}{}}%
   }
   \field{hyphenation}{greek}
-  \field{note}{Έγκριση Εθνικού Κανονισμού
-  Κατανομής Ζωνών Συχνοτήτων,
+  \field{note}{Αναθεώρηση του Εθνικού Κανονισμού
+  Κατανομής Ζωνών Συχνοτήτων (ΕΚΚΖΣ).
+  (Τροποποίηση της υπ’ αριθμ. 17225/655/2006
+  (Β΄399/3.4.2006) κοινής υπουργικής απόφασης
+  σχετικά με την "Έγκριση Εθνικού
+  Κανονισμού Κατανομής Ζωνών Συχνοτήτων
+  (ΕΚΚΖΣ)"),
   \href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wHtyK1ZYNhP8HdtvSoClrL81QBC9NCxtPVp6k5uE6xNduJInJ48_97uHrMts-zFzeyCiBSQOpYnTy36MacmUFCx2ppFvBej56Mmc8Qdb8ZfRJqZnsIAdk8Lv_e6czmhEembNmZCMxLMtQIDyLnXua2t6m-J-3Hm8S6n0nBAxfyvP-WDmMWn4_tt}{Σύνδεσμος
   Εθνικού Τυπογραφείου}}
   \field{title}{ΦΕΚ B 1979 - 24.09.2008}
@@ -143,6 +172,24 @@
   \field{title}{ΦΕΚ B 2512 - 07.11.2011}
   \field{month}{11}
   \field{year}{2011}
+\endentry
+
+\entry{ΦΕΚ2006Β399}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Βουλή}{.}%
+     {Ελληνική}{.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{hyphenation}{greek}
+  \field{note}{Έγκριση Εθνικού Κανονισμού
+  Κατανομής Ζωνών Συχνοτήτων (ΕΚΚΖΣ).,
+  \href{http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFGQ40gSLPFOXdtvSoClrL8EyEPjuYeiVF5MXD0LzQTLf7MGgcO23N88knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIue9FBBOuHaG5F7l5PH-OTu5NyinF6XelTO54OyDzJKV1}{Σύνδεσμος
+  Εθνικού Τυπογραφείου}}
+  \field{title}{ΦΕΚ B 399 - 03.04.2006}
+  \field{month}{04}
+  \field{year}{2006}
 \endentry
 
 \entry{ΦΕΚ2006Β750}{misc}{}

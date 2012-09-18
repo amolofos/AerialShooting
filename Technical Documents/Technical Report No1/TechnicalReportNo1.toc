@@ -4,9 +4,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Περιεχόμενα}{2}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Κατάλογος Σχημάτων}{4}{section*.4}
+\contentsline {chapter}{Κατάλογος Σχημάτων}{5}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Κατάλογος Πινάκων}{5}{section*.6}
+\contentsline {chapter}{Κατάλογος Πινάκων}{6}{section*.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Εισαγωγή}{7}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -90,108 +90,178 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Αυτόματος πιλότος και χειριστήριο εδάφους}{22}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{αυτόματος πιλότος}{22}{section*.41}
+\contentsline {subsubsection}{Αυτόματος πιλότος}{22}{section*.41}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{22}{section*.42}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{22}{section*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Zero YS-X6}{22}{section*.44}
+\contentsline {paragraph}{}{22}{section*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{DJI Wookong-M}{22}{section*.45}
+\contentsline {paragraph}{Zero YS-X6}{22}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{22}{section*.46}
+\contentsline {paragraph}{DJI Wookong-M}{22}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Feiyu Tech FY-91Q}{23}{section*.47}
+\contentsline {paragraph}{}{22}{section*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{HoverflyPRO}{23}{section*.48}
+\contentsline {paragraph}{Feiyu Tech FY-91Q}{23}{section*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{χειροκίνητη πτήση}{28}{section*.49}
+\contentsline {paragraph}{HoverflyPRO}{23}{section*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{28}{section*.50}
+\contentsline {subsubsection}{Xειροκίνητη πτήση}{30}{section*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Επίγειος σταθμός παρατήρησης και ελέγχου πτήσης}{28}{subsection.2.2.3}
+\contentsline {paragraph}{}{30}{section*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{επίγειος σταθμός ελέγχου πτήσης}{28}{section*.51}
+\contentsline {paragraph}{}{30}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Το σύστημα αυτό δεν θα αναλυθεί στην έκδοση αυτή του κειμένου.}{28}{section*.52}
+\contentsline {subsection}{\numberline {2.2.3}Επίγειος σταθμός παρατήρησης και ελέγχου πτήσης}{30}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Σύστημα λήψης εικόνας}{29}{section.2.3}
+\contentsline {paragraph}{}{30}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{πλατφόρμα της μηχανής}{29}{section*.53}
+\contentsline {paragraph}{Το σύστημα αυτό δεν θα αναλυθεί στην έκδοση αυτή του κειμένου.}{30}{section*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{αυτόματος πιλότος για την πλατφόρμα της μηχανής}{33}{section*.54}
+\contentsline {section}{\numberline {2.3}Σύστημα λήψης εικόνας}{31}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{επίγειος σταθμός ελέγχου της πλατφόρμας της μηχανής}{38}{section*.55}
+\contentsline {subsubsection}{Πλατφόρμα της μηχανής}{31}{section*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{38}{section*.56}
+\contentsline {paragraph}{}{31}{section*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{μηχανή}{38}{section*.57}
+\contentsline {subsubsection}{Αυτόματος πιλότος για την πλατφόρμα της μηχανής}{35}{section*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{38}{section*.58}
+\contentsline {paragraph}{}{35}{section*.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{σταθμός ελέγχου της μηχανής}{38}{section*.59}
+\contentsline {paragraph}{}{35}{section*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{38}{section*.60}
+\contentsline {subsubsection}{Επίγειος σταθμός ελέγχου της πλατφόρμας της μηχανής}{40}{section*.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{StratoSnapper}{39}{section*.61}
+\contentsline {paragraph}{}{40}{section*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{CAMremote-2A}{39}{section*.62}
+\contentsline {paragraph}{}{40}{section*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{εναέριος σταθμός μετάδοσης εικόνας}{39}{section*.63}
+\contentsline {subsubsection}{Μηχανή}{40}{section*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{επίγειος σταθμός λήψης σύγχρονης εικόνας}{40}{section*.64}
+\contentsline {paragraph}{}{40}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{επίγειος σταθμός καταγραφής της εικόνας}{40}{section*.65}
+\contentsline {paragraph}{}{40}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Τα δύο αυτά συστήματα δεν θα αναλυθούν στην παρούσα έκδοση του κειμένου.}{40}{section*.66}
+\contentsline {subsubsection}{Σταθμός ελέγχου της μηχανής}{40}{section*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Νομική ανάλυση}{41}{chapter.3}
+\contentsline {paragraph}{}{40}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{41}{section*.67}
+\contentsline {paragraph}{}{40}{section*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Νομικό πλαίσιο μη επανδρωμένων αεροναυτικών οχημάτων}{41}{section.3.1}
+\contentsline {paragraph}{StratoSnapper}{41}{section*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{41}{section*.68}
+\contentsline {paragraph}{CAMremote-2A}{41}{section*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{41}{section*.69}
+\contentsline {subsubsection}{Εναέριος σταθμός μετάδοσης εικόνας}{41}{section*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{42}{section*.70}
+\contentsline {paragraph}{}{41}{section*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{42}{section*.71}
+\contentsline {subsubsection}{Επίγειος σταθμός λήψης σύγχρονης εικόνας}{42}{section*.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{45}{section*.72}
+\contentsline {paragraph}{}{42}{section*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{45}{section*.73}
+\contentsline {paragraph}{}{42}{section*.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{45}{section*.74}
+\contentsline {subsubsection}{Επίγειος σταθμός καταγραφής σύγχρονης εικόνας}{42}{section*.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Νομικό πλαίσιο τηλεπικοινωνιών}{45}{section.3.2}
+\contentsline {paragraph}{}{42}{section*.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{45}{section*.75}
+\contentsline {paragraph}{}{42}{section*.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{45}{section*.76}
+\contentsline {chapter}{\numberline {3}Νομική ανάλυση}{43}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ευρωπαϊκό ρυθμιστικό πλαίσιο}{45}{section*.77}
+\contentsline {paragraph}{}{43}{section*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ελληνικό ρυθμιστικό πλαίσιο}{46}{section*.78}
+\contentsline {section}{\numberline {3.1}Νομικό πλαίσιο αερομοντέλων και μη επανδρωμένων αεροναυτικών οχημάτων}{43}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{46}{section*.79}
+\contentsline {paragraph}{}{43}{section*.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{46}{section*.80}
+\contentsline {paragraph}{}{43}{section*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{2400 − 2483,5 MHz}{47}{section*.81}
+\contentsline {paragraph}{}{44}{section*.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{5150 - 5725 ΜΗΖ}{47}{section*.82}
+\contentsline {subsection}{\numberline {3.1.1}Κατηγορία πολυπτέρου}{44}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{47}{section*.83}
+\contentsline {paragraph}{}{44}{section*.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{5470 − 5725 ΜΗz}{47}{section*.84}
+\contentsline {subsection}{\numberline {3.1.2}Περιορισμοί για το πολύπτερο}{44}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{48}{section*.85}
+\contentsline {subsection}{\numberline {3.1.3}Περιορισμοί για τον χειριστή}{45}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{1200 MHz}{51}{section*.86}
+\contentsline {subsection}{\numberline {3.1.4}Περιορισμοί για τις πτήσεις}{45}{subsection.3.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Προτεινόμενα ολοκληρωμένες λύσεις}{52}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.5}Εκμετάλλευση πολυπτέρου}{46}{subsection.3.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Βιβλιογραφία}{53}{section*.87}
+\contentsline {subsection}{\numberline {3.1.6}Παραβάσεις}{47}{subsection.3.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{47}{section*.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{47}{section*.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{47}{section*.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Νομικό πλαίσιο τηλεπικοινωνιών}{47}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{47}{section*.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Ισχύον Θεσμικό πλαίσιο}{47}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{47}{section*.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ευρωπαϊκό ρυθμιστικό πλαίσιο}{48}{section*.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ελληνικό ρυθμιστικό πλαίσιο}{48}{section*.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{48}{section*.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{48}{section*.92}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Ορισμοί}{49}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{49}{section*.93}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Κατηγοριοποίηση συστήματος πολυπτέρου}{51}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{51}{section*.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{51}{section*.95}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{51}{section*.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{51}{section*.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{51}{section*.98}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{52}{section*.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{52}{section*.100}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{52}{section*.101}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Ανάλυση επιτρεπόμενων εφαρμογών σε εν δυνάμει χρησιμοποιήσιμες ζώνες συχνοτήτων}{52}{subsection.3.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{52}{section*.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{53}{section*.103}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{53}{section*.104}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{53}{section*.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.5}Επιλογή ζωνών συχνοτήτων}{64}{subsection.3.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{64}{section*.106}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{64}{section*.107}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{64}{section*.108}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{64}{section*.109}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{64}{section*.110}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Προτεινόμενα ολοκληρωμένες λύσεις}{67}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Βιβλιογραφία}{69}{section*.111}

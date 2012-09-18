@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.12)  15 SEP 2012 07:31
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.12)  18 SEP 2012 07:06
 entering extended mode
 **TechnicalReportNo1.tex
 
@@ -1219,28 +1219,27 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 ] [2]
 ("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
-chnical Documents\Technical Report No1\TechnicalReportNo1.toc")
-\tf@toc=\write7
- [3
+chnical Documents\Technical Report No1\TechnicalReportNo1.toc" [3
 
-]
+])
+\tf@toc=\write7
+ [4]
 ("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
 chnical Documents\Technical Report No1\TechnicalReportNo1.lof")
 \tf@lof=\write8
- [4
+ [5
 
 ]
 ("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
 chnical Documents\Technical Report No1\TechnicalReportNo1.lot")
 \tf@lot=\write9
- [5
-
-] [6
-
+ [6
 
 ]
 Κεφάλαιο 1.
 [7
+
+
 
 ]
 
@@ -1601,347 +1600,192 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [21] [22
 
 ] [23]
-Underfull \hbox (badness 10000) in alignment at lines 418--422
+Underfull \hbox (badness 10000) in alignment at lines 420--424
 [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 422--426
+Underfull \hbox (badness 10000) in alignment at lines 424--428
 [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 426--429
+Underfull \hbox (badness 10000) in alignment at lines 428--431
 [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 429--431
+Underfull \hbox (badness 10000) in alignment at lines 431--433
 [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 433--433
+Underfull \hbox (badness 3635) in paragraph at lines 435--435
 []|\EU1/GFSArtemisia(0)/m/n/12 Feiyu Tech FY-
  []
 
 
-Overfull \hbox (2.70975pt too wide) in paragraph at lines 436--436
+Overfull \hbox (2.70975pt too wide) in paragraph at lines 438--438
 []|\EU1/GFSArtemisia(0)/m/n/12 Κατασκευαστής| 
  []
 
 
-Overfull \hbox (4.35374pt too wide) in paragraph at lines 442--442
+Overfull \hbox (4.35374pt too wide) in paragraph at lines 444--444
 []|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
 []|\EU1/GFSArtemisia(0)/m/n/12 Τύπος υπο-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
 \EU1/GFSArtemisia(0)/m/n/12 στηριζόμενου
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
 []|\EU1/GFSArtemisia(0)/m/n/12 Normal, Futaba,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
 []|\EU1/GFSArtemisia(0)/m/n/12 Typical RC
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 446--446
+Underfull \hbox (badness 4181) in paragraph at lines 450--450
 \EU1/GFSArtemisia(0)/m/n/12 ριζόμενου πο-
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 446--446
+Underfull \hbox (badness 2005) in paragraph at lines 450--450
 []|\EU1/GFSArtemisia(0)/m/n/12 PCM or 2.4GHz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
 \EU1/GFSArtemisia(0)/m/n/12 with minimum
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 446--446
+Underfull \hbox (badness 5217) in paragraph at lines 450--450
 \EU1/GFSArtemisia(0)/m/n/12 7 channels and
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 446--446
+Underfull \hbox (badness 2443) in paragraph at lines 450--450
 \EU1/GFSArtemisia(0)/m/n/12 Failsafe function
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 446--446
+Underfull \hbox (badness 3679) in paragraph at lines 450--450
 \EU1/GFSArtemisia(0)/m/n/12 available on all
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
 []|\EU1/GFSArtemisia(0)/m/n/12 Robbe-Futaba
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 446--446
+Underfull \hbox (badness 3895) in paragraph at lines 450--450
 \EU1/GFSArtemisia(0)/m/n/12 PCM G3 mode,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
 \EU1/GFSArtemisia(0)/m/n/12 Graupner-JR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
 \EU1/GFSArtemisia(0)/m/n/12 SPCM mode),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
 \EU1/GFSArtemisia(0)/m/n/12 MPX (PPM8,
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 446--447
+Underfull \hbox (badness 1552) in paragraph at lines 450--451
 []|\EU1/GFSArtemisia(0)/m/n/12 HiTec, Spektrum,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 \EU1/GFSArtemisia(0)/m/n/12 JR, Futaba (it
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--449
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
 []|\EU1/GFSArtemisia(0)/m/n/12 Πρωτεύων
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 []|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 []|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 []|\EU1/GFSArtemisia(0)/m/n/12 GPS-Compass
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
-[]|\EU1/GFSArtemisia(0)/m/n/12 Θερμοκρασία
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
-\EU1/GFSArtemisia(0)/m/n/12 λειτουργίας
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 431--466
+Underfull \hbox (badness 10000) in alignment at lines 433--461
 [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 467--467
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
+[]|\EU1/GFSArtemisia(0)/m/n/12 Θερμοκρασία
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
+\EU1/GFSArtemisia(0)/m/n/12 λειτουργίας
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 478--478
 []|\EU1/GFSArtemisia(0)/m/n/12 Mode λειτουρ-
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 467--467
+Underfull \hbox (badness 8113) in paragraph at lines 478--478
 []|\EU1/GFSArtemisia(0)/m/n/12 Stabilized Mode,
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 467--467
+Underfull \hbox (badness 1314) in paragraph at lines 478--478
 \EU1/GFSArtemisia(0)/m/n/12 Hold, Automated
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 467--467
+Underfull \hbox (badness 1168) in paragraph at lines 478--478
 \EU1/GFSArtemisia(0)/m/n/12 Return to Home
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 []|\EU1/GFSArtemisia(0)/m/n/12 Auto-Leveling,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 []|\EU1/GFSArtemisia(0)/m/n/12 Μέγιστη γω-
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 471--471
-[]|\EU1/GFSArtemisia(0)/m/n/12 Ακρίβεια αιώ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--477
-[]|\EU1/GFSArtemisia(0)/m/n/12 Μέγιστη yaw
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 477--477
-\EU1/GFSArtemisia(0)/m/n/12 γωνιακή ταχύ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
-[]|\EU1/GFSArtemisia(0)/m/n/12 Μέγιστη κά-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-[]|\EU1/GFSArtemisia(0)/m/n/12 Λειτουργίες
- []
-
-
-Underfull \hbox (badness 5417) in paragraph at lines 485--485
-\EU1/GFSArtemisia(0)/m/n/12 Auto Navigation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-\EU1/GFSArtemisia(0)/m/n/12 mode, Auto
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 485--485
-\EU1/GFSArtemisia(0)/m/n/12 Go Home, Low
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-[]|\EU1/GFSArtemisia(0)/m/n/12 2 level Low
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-\EU1/GFSArtemisia(0)/m/n/12 Voltage
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-\EU1/GFSArtemisia(0)/m/n/12 Protection,
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 485--485
-\EU1/GFSArtemisia(0)/m/n/12 Hover, Go-home,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-\EU1/GFSArtemisia(0)/m/n/12 Altitude Go-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-\EU1/GFSArtemisia(0)/m/n/12 home, Attitute
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
-[]|\EU1/GFSArtemisia(0)/m/n/12 Επιτρεπτές
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 487--487
-\EU1/GFSArtemisia(0)/m/n/12 συνθήκες ανέ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
-[]|\EU1/GFSArtemisia(0)/m/n/12 < 8m/s
- []
-
-
-Overfull \hbox (3.57936pt too wide) in paragraph at lines 487--487
-\EU1/GFSArtemisia(0)/m/n/12 (17.9mph/28.8km/h)| 
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 489--489
-[]|\EU1/GFSArtemisia(0)/m/n/12 Επιπλέον λει-
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 489--489
-[]|\EU1/GFSArtemisia(0)/m/n/12 Follow me (with
- []
-
-
-Underfull \hbox (badness 3482) in paragraph at lines 489--489
-\EU1/GFSArtemisia(0)/m/n/12 a phone having
- []
-
-
-Underfull \hbox (badness 4752) in paragraph at lines 489--489
-\EU1/GFSArtemisia(0)/m/n/12 gps), Auto take
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
-\EU1/GFSArtemisia(0)/m/n/12 off-landing,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
-\EU1/GFSArtemisia(0)/m/n/12 Waypoint
- []
-
-
-Underfull \hbox (badness 5189) in paragraph at lines 489--489
-\EU1/GFSArtemisia(0)/m/n/12 navigation (limit
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 489--489
-\EU1/GFSArtemisia(0)/m/n/12 4 points, within
- []
-
-
-Underfull \hbox (badness 7851) in paragraph at lines 489--489
-\EU1/GFSArtemisia(0)/m/n/12 200m diameter),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
-[]|\EU1/GFSArtemisia(0)/m/n/12 Auto take off-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
-[]|\EU1/GFSArtemisia(0)/m/n/12 MAX 5W
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
-\EU1/GFSArtemisia(0)/m/n/12 (0.9A@5V,
- []
-
-
-Overfull \hbox (79.04736pt too wide) in paragraph at lines 493--493
-\EU1/GFSArtemisia(0)/m/n/12 0.7A@5.8V,0.5A@7.4V,0.4A@8V)| 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 466--495
+Underfull \hbox (badness 10000) in alignment at lines 461--487
 [] [] [] [] []
  []
 
@@ -1953,6 +1797,161 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [24
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 491--491
+[]|\EU1/GFSArtemisia(0)/m/n/12 Μέγιστη yaw
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 491--491
+\EU1/GFSArtemisia(0)/m/n/12 γωνιακή ταχύ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
+[]|\EU1/GFSArtemisia(0)/m/n/12 Μέγιστη κά-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+[]|\EU1/GFSArtemisia(0)/m/n/12 Λειτουργίες
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 503--503
+\EU1/GFSArtemisia(0)/m/n/12 Auto Navigation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+\EU1/GFSArtemisia(0)/m/n/12 mode, Auto
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 503--503
+\EU1/GFSArtemisia(0)/m/n/12 Go Home, Low
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+[]|\EU1/GFSArtemisia(0)/m/n/12 2 level Low
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+\EU1/GFSArtemisia(0)/m/n/12 Voltage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+\EU1/GFSArtemisia(0)/m/n/12 Protection,
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 503--503
+\EU1/GFSArtemisia(0)/m/n/12 Hover, Go-home,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+\EU1/GFSArtemisia(0)/m/n/12 Altitude Go-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+\EU1/GFSArtemisia(0)/m/n/12 home, Attitute
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[]|\EU1/GFSArtemisia(0)/m/n/12 Επιτρεπτές
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 506--506
+\EU1/GFSArtemisia(0)/m/n/12 συνθήκες ανέ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[]|\EU1/GFSArtemisia(0)/m/n/12 < 8m/s
+ []
+
+
+Overfull \hbox (3.57936pt too wide) in paragraph at lines 506--506
+\EU1/GFSArtemisia(0)/m/n/12 (17.9mph/28.8km/h)| 
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 509--509
+[]|\EU1/GFSArtemisia(0)/m/n/12 Επιπλέον λει-
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 509--509
+[]|\EU1/GFSArtemisia(0)/m/n/12 Follow me (with
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 509--509
+\EU1/GFSArtemisia(0)/m/n/12 a phone having
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 509--509
+\EU1/GFSArtemisia(0)/m/n/12 gps), Auto take
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+\EU1/GFSArtemisia(0)/m/n/12 off-landing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+\EU1/GFSArtemisia(0)/m/n/12 Waypoint
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 509--509
+\EU1/GFSArtemisia(0)/m/n/12 navigation (limit
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 509--509
+\EU1/GFSArtemisia(0)/m/n/12 4 points, within
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 509--509
+\EU1/GFSArtemisia(0)/m/n/12 200m diameter),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+[]|\EU1/GFSArtemisia(0)/m/n/12 Auto take off-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--515
+[]|\EU1/GFSArtemisia(0)/m/n/12 MAX 5W
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--515
+\EU1/GFSArtemisia(0)/m/n/12 (0.9A@5V,
+ []
+
+
+Overfull \hbox (79.04736pt too wide) in paragraph at lines 515--515
+\EU1/GFSArtemisia(0)/m/n/12 0.7A@5.8V,0.5A@7.4V,0.4A@8V)| 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 487--516
+[] [] [] [] []
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] [] []
  []
@@ -1963,218 +1962,226 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [26]
+Underfull \hbox (badness 10000) in alignment at lines 516--517
+[] [] [] [] []
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] [] []
  []
 
 [27]
-Overfull \hbox (9.34543pt too wide) in paragraph at lines 503--503
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[28]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[29]
+Overfull \hbox (9.34543pt too wide) in paragraph at lines 527--527
 []\EU1/GFSArtemisia(0)/bx/n/14.4 Επίγειος σταθμός παρατήρ
 ησης και ελέγχου πτή-
  []
 
+[30
 
-Overfull \hbox (11.41606pt too wide) in paragraph at lines 511--513
- []\EU1/GFSArtemisia(0)/bx/n/12 πλατφόρμα της μηχανής[] \EU1
-/GFSArtemisia(0)/m/n/12 Στα αγγλικά χρησιμοποιείται ο
- όρος ”gimbal”.
- []
-
-[28
-
-] [29]
-Underfull \hbox (badness 10000) in alignment at lines 518--522
+] [31]
+Underfull \hbox (badness 10000) in alignment at lines 544--548
 [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 522--526
+Underfull \hbox (badness 10000) in alignment at lines 548--552
 [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 526--529
+Underfull \hbox (badness 10000) in alignment at lines 552--555
 [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 529--531
+Underfull \hbox (badness 10000) in alignment at lines 555--557
 [] [] [] []
  []
 
 
-Overfull \hbox (2.70975pt too wide) in paragraph at lines 536--536
+Overfull \hbox (2.70975pt too wide) in paragraph at lines 562--562
 []|\EU1/GFSArtemisia(0)/m/n/12 Κατασκευαστής| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 []|\EU1/GFSArtemisia(0)/m/n/12 Τύπος υπο-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 \EU1/GFSArtemisia(0)/m/n/12 στηριζόμενου
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 544--544
+Underfull \hbox (badness 4181) in paragraph at lines 570--570
 \EU1/GFSArtemisia(0)/m/n/12 ριζόμενου πο-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--544
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 []|\EU1/GFSArtemisia(0)/m/n/12 Four spare
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 546--546
+Underfull \hbox (badness 1365) in paragraph at lines 572--572
 []|\EU1/GFSArtemisia(0)/m/n/12 Mode λειτουρ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--546
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
 []|\EU1/GFSArtemisia(0)/m/n/12 Orientation-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--546
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
 \EU1/GFSArtemisia(0)/m/n/12 locked control,
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 546--546
+Underfull \hbox (badness 3635) in paragraph at lines 572--572
 \EU1/GFSArtemisia(0)/m/n/12 Non orientation-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--546
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
 \EU1/GFSArtemisia(0)/m/n/12 locked control,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--553
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 []|\EU1/GFSArtemisia(0)/m/n/12 Εύρος περι-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 554--554
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 []|\EU1/GFSArtemisia(0)/m/n/12 Pan axis
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 554--554
+Underfull \hbox (badness 1092) in paragraph at lines 580--580
 []|$\OMS/cmsy/m/n/12 ^^F$\EU1/GFSArtemisia(0)/m/n/12 360 continuous
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 555--555
+Underfull \hbox (badness 1092) in paragraph at lines 581--581
 []|$\OMS/cmsy/m/n/12 ^^F$\EU1/GFSArtemisia(0)/m/n/12 360 continuous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 []|\EU1/GFSArtemisia(0)/m/n/12 Roll axis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 []|$\OMS/cmsy/m/n/12 ^^F$\EU1/GFSArtemisia(0)/m/n/12 40 ($\OMS/cmsy/m/n/12 ^^F$
 \EU1/GFSArtemisia(0)/m/n/12 360
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 \EU1/GFSArtemisia(0)/m/n/12 mechanic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 \EU1/GFSArtemisia(0)/m/n/12 continuous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--558
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 []|\EU1/GFSArtemisia(0)/m/n/12 Camera shutter
  []
 
 
-Overfull \hbox (8.34975pt too wide) in paragraph at lines 560--560
+Overfull \hbox (8.34975pt too wide) in paragraph at lines 586--586
 []|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενες
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--560
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
 []|\EU1/GFSArtemisia(0)/m/n/12 SONY Nex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--560
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
 \EU1/GFSArtemisia(0)/m/n/12 5N/Nex-7,
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 531--561
+Underfull \hbox (badness 10000) in alignment at lines 557--587
 [] [] [] []
  []
 
 
-Overfull \hbox (7.13774pt too wide) in paragraph at lines 562--562
+Overfull \hbox (7.13774pt too wide) in paragraph at lines 588--588
 []|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενοι
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 562--562
+Underfull \hbox (badness 4739) in paragraph at lines 588--588
 \EU1/GFSArtemisia(0)/m/n/12 αυτόματοι πι-
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 562--562
+Underfull \hbox (badness 1038) in paragraph at lines 588--588
 []|\EU1/GFSArtemisia(0)/m/n/12 διαθέτει ενσωμα-
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 564--564
+Underfull \hbox (badness 3471) in paragraph at lines 590--590
 []|\EU1/GFSArtemisia(0)/m/n/12 Επιπλέον λει-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
 []|\EU1/GFSArtemisia(0)/m/n/12 HDMI-AV
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
 \EU1/GFSArtemisia(0)/m/n/12 module,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
 \EU1/GFSArtemisia(0)/m/n/12 Wireless video
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
 \EU1/GFSArtemisia(0)/m/n/12 transmission
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 566--566
+Underfull \hbox (badness 2326) in paragraph at lines 592--592
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα προ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
 []|\EU1/GFSArtemisia(0)/m/n/12 Θερμοκρασία
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
 \EU1/GFSArtemisia(0)/m/n/12 λειτουργίας
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 561--570
+Underfull \hbox (badness 10000) in alignment at lines 587--596
 [] [] [] []
  []
 
@@ -2183,462 +2190,462 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] []
  []
 
-[30
+[32
 
 ]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] []
  []
 
-[31]
+[33]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] []
  []
 
-[32] [33
+[34] [35
 
 ]
-Underfull \hbox (badness 10000) in alignment at lines 580--584
+Underfull \hbox (badness 10000) in alignment at lines 609--613
 [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 584--588
+Underfull \hbox (badness 10000) in alignment at lines 613--617
 [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 588--591
+Underfull \hbox (badness 10000) in alignment at lines 617--620
 [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 591--593
+Underfull \hbox (badness 10000) in alignment at lines 620--622
 [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 624--624
 []|\EU1/GFSArtemisia(0)/m/n/12 DJI Zenmuse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 624--624
 []|\EU1/GFSArtemisia(0)/m/n/12 Skyline Gyro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 624--624
 []|\EU1/GFSArtemisia(0)/m/n/12 Hoverfly
  []
 
 
-Overfull \hbox (2.70975pt too wide) in paragraph at lines 598--598
+Overfull \hbox (2.70975pt too wide) in paragraph at lines 627--627
 []|\EU1/GFSArtemisia(0)/m/n/12 Κατασκευαστής| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \EU1/GFSArtemisia(0)/m/n/12 (Υπάρχουν
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \EU1/GFSArtemisia(0)/m/n/12 προβλήματα
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 604--604
+Underfull \hbox (badness 5847) in paragraph at lines 633--633
 \EU1/GFSArtemisia(0)/m/n/12 ροποίηση του
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 604--604
+Underfull \hbox (badness 5274) in paragraph at lines 633--633
 \EU1/GFSArtemisia(0)/m/n/12 pan. Αναμένε-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 635--635
 []|\EU1/GFSArtemisia(0)/m/n/12 Τύπος υπο-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 635--635
 \EU1/GFSArtemisia(0)/m/n/12 στηριζόμενου
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 606--606
+Underfull \hbox (badness 5359) in paragraph at lines 635--635
 []|\EU1/GFSArtemisia(0)/m/n/12 Futaga, Hitec,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 635--635
 []|\EU1/GFSArtemisia(0)/m/n/12 S.bus, PPM,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 635--635
 \EU1/GFSArtemisia(0)/m/n/12 PWM, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 635--635
 []|\EU1/GFSArtemisia(0)/m/n/12 PPM, PWM,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 635--635
 \EU1/GFSArtemisia(0)/m/n/12 S.Bus or
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 608--608
+Underfull \hbox (badness 4181) in paragraph at lines 637--637
 \EU1/GFSArtemisia(0)/m/n/12 ριζόμενου πο-
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 608--608
+Underfull \hbox (badness 5359) in paragraph at lines 637--637
 []|\EU1/GFSArtemisia(0)/m/n/12 Futaga, Hitec,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
 []|\EU1/GFSArtemisia(0)/m/n/12 προτείνεται
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
 \EU1/GFSArtemisia(0)/m/n/12 πομπός οχτώ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
 []|\EU1/GFSArtemisia(0)/m/n/12 τυπικός με
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
 \EU1/GFSArtemisia(0)/m/n/12 τρία κανάλια
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 608--608
+Underfull \hbox (badness 2150) in paragraph at lines 637--637
 \EU1/GFSArtemisia(0)/m/n/12 (π.χ. Spektrum
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 608--609
+Underfull \hbox (badness 3000) in paragraph at lines 637--638
 []|\EU1/GFSArtemisia(0)/m/n/12 Futaba or JR
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 608--609
+Underfull \hbox (badness 1043) in paragraph at lines 637--638
 \EU1/GFSArtemisia(0)/m/n/12 (or Compatible
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--609
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 \EU1/GFSArtemisia(0)/m/n/12 systems with
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 608--609
+Underfull \hbox (badness 1895) in paragraph at lines 637--638
 \EU1/GFSArtemisia(0)/m/n/12 1500us center)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--609
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 \EU1/GFSArtemisia(0)/m/n/12 (8/9 channel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--609
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 \EU1/GFSArtemisia(0)/m/n/12 control with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--609
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 \EU1/GFSArtemisia(0)/m/n/12 3 sliders or
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 610--610
+Underfull \hbox (badness 1365) in paragraph at lines 639--639
 []|\EU1/GFSArtemisia(0)/m/n/12 Mode λειτουρ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 []|\EU1/GFSArtemisia(0)/m/n/12 Orientation-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 \EU1/GFSArtemisia(0)/m/n/12 locked
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 \EU1/GFSArtemisia(0)/m/n/12 control, Non
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 \EU1/GFSArtemisia(0)/m/n/12 orientation-
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 610--610
+Underfull \hbox (badness 1005) in paragraph at lines 639--639
 \EU1/GFSArtemisia(0)/m/n/12 locked control,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 \EU1/GFSArtemisia(0)/m/n/12 FPV mode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 []|\EU1/GFSArtemisia(0)/m/n/12 Off, Fixed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 \EU1/GFSArtemisia(0)/m/n/12 position
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 \EU1/GFSArtemisia(0)/m/n/12 stabilized,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 []|\EU1/GFSArtemisia(0)/m/n/12 Autonomous
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 610--610
+Underfull \hbox (badness 5667) in paragraph at lines 639--639
 \EU1/GFSArtemisia(0)/m/n/12 mode, Guided
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
 []|\EU1/GFSArtemisia(0)/m/n/12 Slew or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
 \EU1/GFSArtemisia(0)/m/n/12 Proportional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 []|\EU1/GFSArtemisia(0)/m/n/12 Ασύρματος
  []
 
 
-Underfull \hbox (badness 7186) in paragraph at lines 612--612
+Underfull \hbox (badness 7186) in paragraph at lines 641--641
 []|\EU1/GFSArtemisia(0)/m/n/12 roll, tilt and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 \EU1/GFSArtemisia(0)/m/n/12 pan axis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 \EU1/GFSArtemisia(0)/m/n/12 control,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 \EU1/GFSArtemisia(0)/m/n/12 working
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 \EU1/GFSArtemisia(0)/m/n/12 Mode switch,
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 612--612
+Underfull \hbox (badness 1158) in paragraph at lines 641--641
 \EU1/GFSArtemisia(0)/m/n/12 control, HDMI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 \EU1/GFSArtemisia(0)/m/n/12 orientation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 \EU1/GFSArtemisia(0)/m/n/12 (down or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 []|\EU1/GFSArtemisia(0)/m/n/12 Angle
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 612--612
+Underfull \hbox (badness 1960) in paragraph at lines 641--641
 \EU1/GFSArtemisia(0)/m/n/12 velocity, Mode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 \EU1/GFSArtemisia(0)/m/n/12 switch, Auto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--613
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
 []|\EU1/GFSArtemisia(0)/m/n/12 Slew or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--613
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
 \EU1/GFSArtemisia(0)/m/n/12 Proportional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--613
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
 \EU1/GFSArtemisia(0)/m/n/12 Control,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--613
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
 \EU1/GFSArtemisia(0)/m/n/12 Remote Gain
  []
 
 
-Overfull \hbox (8.34975pt too wide) in paragraph at lines 616--616
+Overfull \hbox (8.34975pt too wide) in paragraph at lines 645--645
 []|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενες
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--616
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 []|\EU1/GFSArtemisia(0)/m/n/12 SONY Nex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--616
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 \EU1/GFSArtemisia(0)/m/n/12 5N/Nex-7,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--616
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 \EU1/GFSArtemisia(0)/m/n/12 Panasonic
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 616--616
+Underfull \hbox (badness 2065) in paragraph at lines 645--645
 []|\EU1/GFSArtemisia(0)/m/n/12 Canon 5Dmk2
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 616--616
+Underfull \hbox (badness 5460) in paragraph at lines 645--645
 []|\EU1/GFSArtemisia(0)/m/n/12 δεν συνδέεται
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 616--617
+Underfull \hbox (badness 5460) in paragraph at lines 645--646
 []|\EU1/GFSArtemisia(0)/m/n/12 δεν συνδέεται
  []
 
 
-Overfull \hbox (7.13774pt too wide) in paragraph at lines 618--618
+Overfull \hbox (7.13774pt too wide) in paragraph at lines 647--647
 []|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενοι
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--618
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
 []|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--618
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
 \EU1/GFSArtemisia(0)/m/n/12 σε συγκεκρι-
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 618--619
+Underfull \hbox (badness 1762) in paragraph at lines 647--648
 \EU1/GFSArtemisia(0)/m/n/12 γικοί και ψη-
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 618--619
+Underfull \hbox (badness 1087) in paragraph at lines 647--648
 \EU1/GFSArtemisia(0)/m/n/12 φιακοί κινητή-
  []
 
 
-Overfull \hbox (3.98175pt too wide) in paragraph at lines 619--619
+Overfull \hbox (3.98175pt too wide) in paragraph at lines 648--648
 []|\EU1/GFSArtemisia(0)/m/n/12 Υποστηριζόμενη
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 619--619
+Underfull \hbox (badness 4927) in paragraph at lines 648--648
 \EU1/GFSArtemisia(0)/m/n/12 συχνότητα κι-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--619
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--619
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 \EU1/GFSArtemisia(0)/m/n/12 σε συγκεκρι-
  []
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 621--621
+Underfull \hbox (badness 5403) in paragraph at lines 650--650
 []|\EU1/GFSArtemisia(0)/m/n/12 Τρόπος ενσω-
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 623--623
+Underfull \hbox (badness 3471) in paragraph at lines 652--652
 []|\EU1/GFSArtemisia(0)/m/n/12 Επιπλέον λει-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--623
+Underfull \hbox (badness 10000) in paragraph at lines 652--652
 []|\EU1/GFSArtemisia(0)/m/n/12 HDMI-AV
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--623
+Underfull \hbox (badness 10000) in paragraph at lines 652--652
 \EU1/GFSArtemisia(0)/m/n/12 module,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--623
+Underfull \hbox (badness 10000) in paragraph at lines 652--652
 \EU1/GFSArtemisia(0)/m/n/12 transmission
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
 []|\EU1/GFSArtemisia(0)/m/n/12 AutoPanorama
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 593--628
+Underfull \hbox (badness 10000) in alignment at lines 622--657
 [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--629
+Underfull \hbox (badness 10000) in paragraph at lines 658--658
 []|\EU1/GFSArtemisia(0)/m/n/12 Θερμοκρασία
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--629
+Underfull \hbox (badness 10000) in paragraph at lines 658--658
 \EU1/GFSArtemisia(0)/m/n/12 λειτουργίας
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 628--631
+Underfull \hbox (badness 10000) in alignment at lines 657--660
 [] [] [] [] [] []
  []
 
@@ -2647,24 +2654,24 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] [] [] []
  []
 
-[34
+[36
 
 ]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] [] [] []
  []
 
-[35]
+[37]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] [] [] []
  []
 
-[36]
+[38]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] [] [] []
  []
 
-[37] [38
+[39] [40
 
 ]
 .................................................
@@ -2683,159 +2690,1203 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 . 
 . This font family consists of the following shapes:
 .................................................
- [39] [40]
+ [41] [42]
 Κεφάλαιο 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--675
+Overfull \hbox (22.13374pt too wide) in paragraph at lines 706--706
+[]\EU1/GFSArtemisia(0)/bx/n/17.28 Νομικό πλαίσιο αερομοντ�
+�λων και μη επαν-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 712--714
 \EU1/GFSArtemisia(0)/m/n/12 πτήσης.
  []
 
-[41
+[43
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 679--683
+Underfull \hbox (badness 10000) in paragraph at lines 718--722
 \EU1/GFSArtemisia(0)/m/n/12 (7kg).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--683
+Underfull \hbox (badness 10000) in paragraph at lines 718--722
 \EU1/GFSArtemisia(0)/m/n/12 και μέχρι 25.000 γραμμαρίων (25kg
 ).
  []
 
-[42] [43] [44]
-Overfull \hbox (19.77602pt too wide) in paragraph at lines 743--746
+[44] [45] [46]
+Overfull \hbox (19.77602pt too wide) in paragraph at lines 797--800
 \EU1/GFSArtemisia(0)/m/n/12 ρώπη από το []Cept[] (European Conference 
 of Postal and Telecommunications
  []
 
-[45] [46] [47] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 783--783
-[]|\EU1/GFSArtemisia(0)/m/n/12 Application/
+[47]
+Overfull \hbox (3.86403pt too wide) in paragraph at lines 801--803
+\EU1/GFSArtemisia(0)/m/n/12 ρωπαϊκών αποφάσεων (DECisions) κ�
+�ι συστάσεων (RECommendations)
+ []
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 κυμάτων για ειδικούς σκοπού
+ς τηλεπικοινωνίας.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--783
-\EU1/GFSArtemisia(0)/m/n/12 ERC/REC/70-03
+Underfull \hbox (badness 10000) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 καθορισμένων σταθερών σημε�
+�ων.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--783
-[]|\EU1/GFSArtemisia(0)/m/n/12 Frequencies
+Underfull \hbox (badness 10000) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 σταθμών.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--783
-\EU1/GFSArtemisia(0)/m/n/12 / Frequency
+Underfull \hbox (badness 10000) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 σταθμών ξηράς.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--783
-[]|\EU1/GFSArtemisia(0)/m/n/12 Power /
+Underfull \hbox (badness 10000) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 εκπομπής.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--783
+Overfull \hbox (5.22543pt too wide) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 ”\EU1/GFSArtemisia(0)/bx/n/12 ερασιτεχν�
+�κή υπηρεσία\EU1/GFSArtemisia(0)/m/n/12 ” : Υπηρεσία ραδ
+ιοεπικοινωνίας που
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 ρον.
+ []
+
+
+Overfull \hbox (3.08142pt too wide) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 δυασμός πομπών και δεκτών μ�
+�τά των πρόσθετων συσκευών,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 σίας ραδιοαστρονομίας.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--828
+\EU1/GFSArtemisia(0)/m/n/12 κατά τη στάση σε ακαθόριστα 
+σημεία.
+ []
+
+[49]
+Overfull \hbox (2.96141pt too wide) in paragraph at lines 830--837
+\EU1/GFSArtemisia(0)/bx/n/12 RLAN)\EU1/GFSArtemisia(0)/m/n/12 ”: Ευρυζω
+νικά συστήματα ραδιοεπικοινωνιών που πα-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--837
+\EU1/GFSArtemisia(0)/m/n/12 υφιστάμενου δικτύου.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--837
+\EU1/GFSArtemisia(0)/m/n/12 ρεσίας.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--837
+\EU1/GFSArtemisia(0)/m/n/12 Σταθερής Υπηρεσίας.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--837
+\EU1/GFSArtemisia(0)/m/n/12 από απόσταση από το όργανο μ
+ετρήσεως.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--837
+\EU1/GFSArtemisia(0)/m/n/12 την τροποποίηση ή τον τερμα�
+�ισμό.
+ []
+
+
+Overfull \hbox (13.09341pt too wide) in paragraph at lines 830--837
+\EU1/GFSArtemisia(0)/m/n/12 ”\EU1/GFSArtemisia(0)/bx/n/12 Ιδιωτικές 
+κινητές ραδιοεπικοινωνίες\EU1/GFSArtemisia(0)/m/n/12 �
+� (private mobile radio):
+ []
+
+[50]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSArtemisia(1)' created for font 'GFS Artemisia' with options
+. [Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [51] [52] [53]
+Underfull \hbox (badness 10000) in paragraph at lines 879--879
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ζώνες
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 879--879
+\EU1/GFSArtemisia(0)/m/n/12 Ραδιοσυ-
+ []
+
+
+Overfull \hbox (9.71288pt too wide) in paragraph at lines 879--879
+[]|\EU1/GFSArtemisia(0)/m/n/12 Διεπαφές| 
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 879--880
+[]|\EU1/GFSArtemisia(0)/m/n/12 Σημειώσεις - Πρό-
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 874--881
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 885--885
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ζώνες
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 885--885
+\EU1/GFSArtemisia(0)/m/n/12 Ραδιοσυ-
+ []
+
+
+Overfull \hbox (9.71288pt too wide) in paragraph at lines 885--885
+[]|\EU1/GFSArtemisia(0)/m/n/12 Διεπαφές| 
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 885--886
+[]|\EU1/GFSArtemisia(0)/m/n/12 Σημειώσεις - Πρό-
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 881--888
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 888--891
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 891--893
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+[]\EU1/GFSArtemisia(0)/m/n/12 Συσκευές
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+\EU1/GFSArtemisia(0)/m/n/12 που χρησι-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+\EU1/GFSArtemisia(0)/m/n/12 μοποιούνται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+\EU1/GFSArtemisia(0)/m/n/12 ασύρματης
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+\EU1/GFSArtemisia(0)/m/n/12 πρόσβασης
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+\EU1/GFSArtemisia(0)/m/n/12 συμπεριλαμ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+\EU1/GFSArtemisia(0)/m/n/12 βανομένων
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+\EU1/GFSArtemisia(0)/m/n/12 των τοπικών
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+\EU1/GFSArtemisia(0)/m/n/12 επικοινωνιών
+ []
+
+
+Overfull \vbox (112.85205pt too high) detected at line 895
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 895--895
+[]|\EU1/GFSArtemisia(0)/m/n/12 2400 έως
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+\EU1/GFSArtemisia(0)/m/n/12 2483,5
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 895--895
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 300
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--896
+[]|\EU1/GFSArtemisia(0)/m/n/12 ERC/DEC/(01)07,
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 898--898
+[]|\EU1/GFSArtemisia(0)/m/n/12 5470 έως
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 898--898
+\EU1/GFSArtemisia(0)/m/n/12 ουσα (εκτός αερο-
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 898--898
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--898
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 301
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+[]|\EU1/GFSArtemisia(0)/m/n/12 ECC/DEC/(04)08,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+\EU1/GFSArtemisia(0)/m/n/12 ERC REC 70-03.
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 898--899
+\EU1/GFSArtemisia(0)/m/n/12 Η χρήση των συ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+\EU1/GFSArtemisia(0)/m/n/12 στημάτων αυτών
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+\EU1/GFSArtemisia(0)/m/n/12 επιτρέπεται σε
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--901
+[]|\EU1/GFSArtemisia(0)/m/n/12 17,1 έως
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 901--901
+\EU1/GFSArtemisia(0)/m/n/12 ουσα (εκτός αερο-
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 901--901
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--904
+[]|\EU1/GFSArtemisia(0)/m/n/12 57 έως
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 904--904
+\EU1/GFSArtemisia(0)/m/n/12 58,2 GHz
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 904--904
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--904
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 302
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 904--905
+\EU1/GFSArtemisia(0)/m/n/12 στάσεις εξωτερικών
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+[]|\EU1/GFSArtemisia(0)/m/n/12 Συσκευές τη-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 λεχειρισμού
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+[]|\EU1/GFSArtemisia(0)/m/n/12 26,995,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 27,045,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 27,095,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 27,145,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 27,195,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 40,665,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 40,675,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 40,685,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 40,695
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 907--907
+\EU1/GFSArtemisia(0)/m/n/12 ουσα (εκτός αερο-
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 907--907
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 300
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
+[]|\EU1/GFSArtemisia(0)/m/n/12 Συσκευές τη-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
+\EU1/GFSArtemisia(0)/m/n/12 λεχειρισμού
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
+\EU1/GFSArtemisia(0)/m/n/12 ιπτάμενων
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--911
+[]|\EU1/GFSArtemisia(0)/m/n/12 34,995
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--911
+\EU1/GFSArtemisia(0)/m/n/12 έως
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--911
+\EU1/GFSArtemisia(0)/m/n/12 35,225
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 911--911
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--911
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 300
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--914
+[]|\EU1/GFSArtemisia(0)/m/n/12 Συσκευές
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--914
+\EU1/GFSArtemisia(0)/m/n/12 Υπέρ-Ευρείας
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--914
+\EU1/GFSArtemisia(0)/m/n/12 Ζώνης (Ultra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--914
+[]|\EU1/GFSArtemisia(0)/m/n/12 έως 10,6
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--914
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 302
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
+[]|\EU1/GFSArtemisia(0)/m/n/12 Σύμφωνα με την
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 914--915
+\EU1/GFSArtemisia(0)/m/n/12 τροπής των Ευρω-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
+\EU1/GFSArtemisia(0)/m/n/12 2007/131/EK, της
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
+\EU1/GFSArtemisia(0)/m/n/12 21ης Φεβρουαρίου
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--917
+[]|\EU1/GFSArtemisia(0)/m/n/12 13,553
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 917--917
+\EU1/GFSArtemisia(0)/m/n/12 ουσα (εκτός αερο-
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 917--917
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--920
+\EU1/GFSArtemisia(0)/m/n/12 νες συσκευές
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--920
+\EU1/GFSArtemisia(0)/m/n/12 μικρής εμβέ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--920
+[]|\EU1/GFSArtemisia(0)/m/n/12 26,957
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--920
+\EU1/GFSArtemisia(0)/m/n/12 έως
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--920
+\EU1/GFSArtemisia(0)/m/n/12 27,283
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 920--920
+\EU1/GFSArtemisia(0)/m/n/12 ουσα (εκτός αερο-
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 920--920
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--920
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 300
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 923--923
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--923
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 300
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--923
+\EU1/GFSArtemisia(0)/m/n/12 330, ΕΝ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--924
+[]|\EU1/GFSArtemisia(0)/m/n/12 ERC REC 70-03,
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 893--924
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+[]|\EU1/GFSArtemisia(0)/m/n/12 433,05
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+\EU1/GFSArtemisia(0)/m/n/12 έως
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+\EU1/GFSArtemisia(0)/m/n/12 434,79
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 926--926
+\EU1/GFSArtemisia(0)/m/n/12 ουσα (εκτός αερο-
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 926--926
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+[]|\EU1/GFSArtemisia(0)/m/n/12 ΕΝ 300
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 929--929
+[]|\EU1/GFSArtemisia(0)/m/n/12 2400 έως
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--929
+\EU1/GFSArtemisia(0)/m/n/12 2483,5
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 929--929
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--929
+[]|\EU1/GFSArtemisia(0)/m/n/12 ΕΝ 300
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 932--932
+[]|\EU1/GFSArtemisia(0)/m/n/12 5725 έως
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 932--932
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 932--932
+[]|\EU1/GFSArtemisia(0)/m/n/12 ΕΝ 300
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+[]|\EU1/GFSArtemisia(0)/m/n/12 24 έως
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+\EU1/GFSArtemisia(0)/m/n/12 24,25,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+\EU1/GFSArtemisia(0)/m/n/12 61,0 έως
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+\EU1/GFSArtemisia(0)/m/n/12 61,5,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+\EU1/GFSArtemisia(0)/m/n/12 122,25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+\EU1/GFSArtemisia(0)/m/n/12 έως 123,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+\EU1/GFSArtemisia(0)/m/n/12 244 έως
+ []
+
+
+Overfull \hbox (4.13287pt too wide) in paragraph at lines 935--935
+[]|\EU1/GFSArtemisia(0)/m/n/12 διεπαφή
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+[]|\EU1/GFSArtemisia(0)/m/n/12 EN 300
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 924--937
+[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[54
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[55]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[56]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[57]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] [] [] [] []
+ []
+
+[58]
+Underfull \hbox (badness 5622) in paragraph at lines 949--949
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ζώνες Ραδιοσυχνο-
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 944--951
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 955--955
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ζώνες Ραδιοσυχνο-
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 951--958
+[] [] [] [] []
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 958--961
+[] [] [] [] []
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 961--963
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 965--965
+[]\EU1/GFSArtemisia(0)/m/n/12 SAP/SAB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 965--965
+\EU1/GFSArtemisia(0)/m/n/12 Ασύρματες
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 965--966
+\EU1/GFSArtemisia(0)/m/n/12 χνοτήτων 2087,5–2108,5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 965--966
+\EU1/GFSArtemisia(0)/m/n/12 MHz χρησιμοποιείται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 965--966
+\EU1/GFSArtemisia(0)/m/n/12 αποκλειστικά από τις
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
+\EU1/GFSArtemisia(0)/m/n/12 χνοτήτων 2262,5–2283,5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
+\EU1/GFSArtemisia(0)/m/n/12 MHz χρησιμοποιείται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
+\EU1/GFSArtemisia(0)/m/n/12 αποκλειστικά από τις
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 971--971
+[]|\EU1/GFSArtemisia(0)/m/n/12 2300 έως 2400,
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 971--971
+\EU1/GFSArtemisia(0)/m/n/12 10000 έως 10600,
+ []
+
+
+Underfull \hbox (badness 7326) in paragraph at lines 971--971
+\EU1/GFSArtemisia(0)/m/n/12 21200 έως 21400,
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 971--971
+\EU1/GFSArtemisia(0)/m/n/12 22600 έως 23600,
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 971--971
+\EU1/GFSArtemisia(0)/m/n/12 24250 έως 24500,
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 971--971
+\EU1/GFSArtemisia(0)/m/n/12 47200 έως 50200
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--974
+[]\EU1/GFSArtemisia(0)/m/n/12 SAP/SAB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--974
+\EU1/GFSArtemisia(0)/m/n/12 Κινητές ρα-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--974
+\EU1/GFSArtemisia(0)/m/n/12 διοζεύξεις
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--974
+\EU1/GFSArtemisia(0)/m/n/12 για μεταφορά
+ []
+
+
+Overfull \vbox (25.52803pt too high) detected at line 974
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--975
+\EU1/GFSArtemisia(0)/m/n/12 χνοτήτων 2087,5–2108,5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--975
+\EU1/GFSArtemisia(0)/m/n/12 MHz χρησιμοποιείται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--975
+\EU1/GFSArtemisia(0)/m/n/12 αποκλειστικά από τις
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
+\EU1/GFSArtemisia(0)/m/n/12 χνοτήτων 2262,5–2283,5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
+\EU1/GFSArtemisia(0)/m/n/12 MHz χρησιμοποιείται
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
+\EU1/GFSArtemisia(0)/m/n/12 αποκλειστικά από τις
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--983
+\EU1/GFSArtemisia(0)/m/n/12 σία (συμπερι-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--983
+\EU1/GFSArtemisia(0)/m/n/12 λαμβανομένων
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--983
+\EU1/GFSArtemisia(0)/m/n/12 των Ειδικών
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 963--985
+[] [] [] [] []
+ []
+
+
+Overfull \hbox (8.60234pt too wide) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[59
+
+
+]
+Overfull \hbox (8.60234pt too wide) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[60]
+Underfull \hbox (badness 5622) in paragraph at lines 997--997
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ζώνες Ραδιοσυχνο-
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 992--999
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 1003--1003
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ζώνες Ραδιοσυχνο-
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 999--1006
+[] [] [] [] []
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 1006--1009
+[] [] [] [] []
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 1009--1011
+[] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 1013--1014
+[]|\EU1/GFSArtemisia(0)/m/n/12 Εναρμονισμένη στρατιω-
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 1016--1016
+\EU1/GFSArtemisia(0)/m/n/12 εντοπισμός, ραδιο-
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 1016--1016
+\EU1/GFSArtemisia(0)/m/n/12 πλοήγηση, διαστη-
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 1019--1019
+\EU1/GFSArtemisia(0)/m/n/12 εντοπισμός, ραδιο-
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 1019--1019
+\EU1/GFSArtemisia(0)/m/n/12 πλοήγηση, διαστη-
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 1022--1022
+\EU1/GFSArtemisia(0)/m/n/12 εντοπισμός, ραδιο-
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 1022--1022
+\EU1/GFSArtemisia(0)/m/n/12 πλοήγηση, διαστη-
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 1022--1022
+\EU1/GFSArtemisia(0)/m/n/12 μική έρευνα, ερα-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1022
+\EU1/GFSArtemisia(0)/m/n/12 σιτεχνική, ερασιτε-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1025
+\EU1/GFSArtemisia(0)/m/n/12 πλοήγηση, ραδιοε-
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 1028--1028
+\EU1/GFSArtemisia(0)/m/n/12 ουσα (εκτός αερο-
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 1031--1031
+[]|\EU1/GFSArtemisia(0)/m/n/12 1437,5 έως 1465,5
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 1034--1034
+[]|\EU1/GFSArtemisia(0)/m/n/12 1465,5 έως 1486,5
+ []
+
+
+Underfull \hbox (badness 6944) in paragraph at lines 1034--1034
+[]|\EU1/GFSArtemisia(0)/m/n/12 Κινητή Ξηράς ως
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 1034--1034
+\EU1/GFSArtemisia(0)/m/n/12 πρωτεύουσα (εκτός
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 1034--1034
+\EU1/GFSArtemisia(0)/m/n/12 αεροναυτικής κινη-
+ []
+
+
+Overfull \hbox (8.60234pt too wide) in alignment at lines 1011--1039
+[] [] [] [] []
+ []
+
+
+Overfull \hbox (8.60234pt too wide) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[61
+
+
+]
+Overfull \hbox (8.60234pt too wide) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[62]
+Overfull \hbox (8.60234pt too wide) has occurred while \output is active
+[] [] [] [] []
+ []
+
+[63]
+
+LaTeX Warning: Citation 'ΦΕΚ202Α44' on page 64 undefined on input line 1053
+.
+
+[64
+
+] [65]
+Underfull \hbox (badness 6316) in paragraph at lines 1065--1065
+[]|\EU1/GFSArtemisia(0)/m/n/12 Εφαρμογή (παράρ-
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 1065--1065
+\EU1/GFSArtemisia(0)/m/n/12 τημα ERC/REC/70-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1065
+[]|\EU1/GFSArtemisia(0)/m/n/12 Ισχύς εκπο-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1065
 []|\EU1/GFSArtemisia(0)/m/n/12 Duty
  []
 
 
-Overfull \hbox (2.94489pt too wide) in paragraph at lines 783--783
-[]|\EU1/GFSArtemisia(0)/m/n/12 Channel
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1065
+[]|\EU1/GFSArtemisia(0)/m/n/12 Βήμα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--784
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1065
+\EU1/GFSArtemisia(0)/m/n/12 κανα-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
 []|\EU1/GFSArtemisia(0)/m/n/12 Ενδεικτικά Πρότυπα,
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 783--784
+Underfull \hbox (badness 2103) in paragraph at lines 1065--1066
 \EU1/GFSArtemisia(0)/m/n/12 Σχόλια, Αντίστοιχη πα-
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 778--785
+Underfull \hbox (badness 10000) in alignment at lines 1060--1067
 [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 785--789
+Underfull \hbox (badness 10000) in alignment at lines 1067--1071
 [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 789--792
+Underfull \hbox (badness 10000) in alignment at lines 1071--1074
 [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 792--794
+Underfull \hbox (badness 10000) in alignment at lines 1074--1076
 [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--796
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1078
+[]\EU1/GFSArtemisia(0)/m/n/12 Μη καθορισμένες
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1078
+\EU1/GFSArtemisia(0)/m/n/12 συσκευές μικρής
+ []
+
+
+Overfull \vbox (11.77202pt too high) detected at line 1078
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1078
 []|\EU1/GFSArtemisia(0)/m/n/12 2400-2483.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--797
+Underfull \hbox (badness 10000) in paragraph at lines 1081--1081
 []|\EU1/GFSArtemisia(0)/m/n/12 5725 - 5875
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 800--800
-[]|\EU1/GFSArtemisia(0)/m/n/12 WAS/RLAN’s-
+Underfull \hbox (badness 1259) in paragraph at lines 1084--1084
+[]\EU1/GFSArtemisia(0)/m/n/12 WAS / RLAN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 803--803
-[]|\EU1/GFSArtemisia(0)/m/n/12 Railway
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 803--804
-[]|\EU1/GFSArtemisia(0)/m/n/12 EN 300 761- E43 Νο
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 803--804
-\EU1/GFSArtemisia(0)/m/n/12 license for mobile
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 803--804
-\EU1/GFSArtemisia(0)/m/n/12 stations. License for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 804--804
-[]|\EU1/GFSArtemisia(0)/m/n/12 5795 - 5815
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--810
-[]|\EU1/GFSArtemisia(0)/m/n/12 Radio Frequency
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--810
-\EU1/GFSArtemisia(0)/m/n/12 Identification -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--810
-[]|\EU1/GFSArtemisia(0)/m/n/12 2446-2454
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--810
-[]|\EU1/GFSArtemisia(0)/m/n/12 Up to
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 794--813
+Underfull \hbox (badness 10000) in alignment at lines 1076--1089
 [] [] [] [] [] []
  []
 
@@ -2844,36 +3895,41 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] [] [] [] [] []
  []
 
-[49
-
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[] [] [] [] [] []
- []
-
-[50] [51
+[66
 
 ]
 Κεφάλαιο 4.
-[52
+[67
+
+
+] [68
 
 ]
-Overfull \hbox (29.1259pt too wide) in paragraph at lines 829--829
+Overfull \hbox (33.9019pt too wide) in paragraph at lines 1101--1101
 \EU1/GFSArtemisia(0)/m/n/12 3431 - Περί Ηλεκτρονικών Επικο
 ινωνιών και άλλες διατάξεις.,[]Σύνδεσμος
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 830.
-[53
-
+[69
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 830.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1102.
+ [70]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1102.
 
 ("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Te
 chnical Documents\Technical Report No1\TechnicalReportNo1.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 830.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 830.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1102.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1102.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                TechnicalReportNo1
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'TechnicalReportNo1.run.xml'.
  )
 (\end occurred inside a group at level 5)
@@ -2885,12 +3941,12 @@ Package logreq Info: Writing requests to 'TechnicalReportNo1.run.xml'.
 ### simple group (level 1) entered at line 107 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25578 strings out of 429156
- 486879 string characters out of 3168943
+ 25590 strings out of 429156
+ 487119 string characters out of 3168943
  658320 words of memory out of 3000000
- 28527 multiletter control sequences out of 15000+200000
+ 28539 multiletter control sequences out of 15000+200000
  11793 words of font info for 79 fonts, out of 3000000 for 9000
  786 hyphenation exceptions out of 8191
- 46i,10n,46p,1135b,1099s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,11n,46p,1067b,1196s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on TechnicalReportNo1.pdf (53 pages).
+Output written on TechnicalReportNo1.pdf (70 pages).
