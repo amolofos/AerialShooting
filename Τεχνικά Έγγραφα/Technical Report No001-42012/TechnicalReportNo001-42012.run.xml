@@ -44,11 +44,11 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>TechnicalReportNo1.aux</file>
-      <file>TechnicalReportNo1-blx.bib</file>
+      <file>TechnicalReportNo001-42012.aux</file>
+      <file>TechnicalReportNo001-42012-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>TechnicalReportNo1.bbl</file>
+      <file>TechnicalReportNo001-42012.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -65,20 +65,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>TechnicalReportNo1</infile>
+      <infile>TechnicalReportNo001-42012</infile>
     </cmdline>
     <input>
-      <file>TechnicalReportNo1.aux</file>
+      <file>TechnicalReportNo001-42012.aux</file>
     </input>
     <output>
-      <file>TechnicalReportNo1.bbl</file>
+      <file>TechnicalReportNo001-42012.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>TechnicalReportNo1.bbl</file>
+      <file>TechnicalReportNo001-42012.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>TechnicalReportNo1.aux</file>
-      <file>TechnicalReportNo1-blx.bib</file>
+      <file>TechnicalReportNo001-42012.aux</file>
+      <file>TechnicalReportNo001-42012-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>Bibliography.bib</file>

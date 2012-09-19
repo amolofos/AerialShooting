@@ -1,0 +1,402 @@
+\documentclass[a4paper, 12pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{placeins}
+
+\raggedbottom
+\onecolumn
+
+\usepackage{graphicx, amsfonts, psfrag, fancyhdr, layout, subfigure}
+\usepackage{pdflscape}
+%\usepackage{lscape}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{array}
+%The arydshln package offers you the \hdashline and \cdashline commands which are the dashed counterparts of \hline and \cline, respectively. 
+\usepackage{arydshln}
+
+%\usepackage[toc,page]{appendix}
+%\renewcommand{\appendixtocname}{Παραρτήματα}
+%\renewcommand{\appendixname}{Παράρτημα}
+%\renewcommand{\appendixpagename}{Παραρτήματα}
+%
+%\usepackage{index}
+%\usepackage[columns=2]{idxlayout}
+%\newindex{default}{idx}{ind}{Ευρετήριο}
+
+
+\setmainfont[Mapping=tex-text]{GFS Artemisia}
+
+\usepackage[style=numeric, bibstyle=numeric, hyperref=true, backref=true, alldates=terse, indexing=false, backend=bibtex]{biblatex}
+\addbibresource{Bibliography.bib}
+
+% Set equal margins on book style
+\setlength{\oddsidemargin}{53pt}
+\setlength{\evensidemargin}{53pt}
+\setlength{\marginparwidth}{57pt}
+\setlength{\footskip}{30pt}
+
+\author{Καφετζής Δημήτριος Ανδρέας}
+\title{Εναέρια λήψη εικόνας : Προτάσεις ολοκληρωμένων συστημάτων εναέριας λήψης εικόνας}
+\newcommand{\reportRev}{Πρώτη (1)}
+\newcommand{\reportType}{Οικονομοτεχνική Έκθεση}
+\newcommand{\reportNo}{ΟΙΚ-ΤΕΧΝ001-42012}
+\newcommand{\summary}{Με την αναφορά αυτή προτείνονται ολοκληρωμένες λύσεις συστημάτων εναέριας λήψης εικόνας προς αγορά. Διεξάγεται έρευνα αγοράς, παραθέτονται προμηθευτές και εξαρτήματα και συστήνονται λύσεις προς αγορά.}
+
+% Αλλαγή της πρώτης σελίδας που δημιουργείται με την εντολή \maketitle
+\makeatletter
+\newcommand{\makefrontpage}{
+	\newpage
+ 	\null
+ 	\vskip 2em
+ 	\begin{center}
+ 		{\LARGE \@title}\linebreak
+ 		\vskip 2cm
+ 		\underline{Περίληψη}\linebreak
+ 	\end{center}
+ 		\summary\linebreak
+ 		\vskip 7cm
+ 	\begin{center}
+ 		\begin{large}
+ 			\@author\linebreak
+	  		\@date
+ 		\end{large}
+ 	\end{center}
+ 	\vskip 0.5cm
+  	\begin{large}
+  		\begin{tabular}{ l l }
+  			Έκδοση κειμένου & \reportRev \\ 
+			Τύπος κειμένου & \reportType \\
+			Αριθμός κειμένου & \reportNo \\ 
+  		\end{tabular}
+  	\end{large}
+  	\pagebreak
+} \makeatother
+
+
+
+\begin{document}
+	
+	\makefrontpage
+		
+	\addcontentsline{toc}{chapter}{Περιεχόμενα}
+	\tableofcontents
+
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Κατάλογος Σχημάτων}
+	\listoffigures
+
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Κατάλογος Πινάκων}
+	\listoftables
+	
+% Code for creating empty pages
+% No headers on empty pages before new chapter
+	\makeatletter
+		\def\cleardoublepage{
+			\clearpage\if@twoside \ifodd\c@page\else
+	    	\hbox{}
+	    	\thispagestyle{plain}
+	    	\newpage
+    		\if@twocolumn\hbox{}\newpage\fi\fi\fi
+    	}
+	\makeatother \clearpage{\pagestyle{plain}\cleardoublepage}
+
+% Define pagestyle
+	\pagestyle{fancy}
+	\fancyhf{}
+	\renewcommand{\chaptermark}[1]{\markboth{ \emph{#1}}{}}
+
+% Adjustments headers
+	\fancyhead[LO]{\emph{Κεφάλαιο \thechapter}}
+	\fancyhead[RE]{\leftmark}
+	\fancyfoot[LE,RO]{\thepage}
+	
+	\chapter{Εισαγωγή}
+		
+		\section{Σκοπός}
+			
+			\paragraph{}{Με την αναφορά αυτή προτείνονται ολοκληρωμένες λύσεις συστημάτων εναέριας λήψης εικόνας προς αγορά. Διεξάγεται έρευνα αγοράς, παραθέτονται προμηθευτές και εξαρτήματα και συστήνονται λύσεις προς αγορά.
+			}
+			\paragraph{}{Το αντικείμενο, η λειτουργία και οι δυνατότητες του εν λόγω συστήματος περιγράφονται στην τεχνική έκθεση ΤΕΧΝ001-42012 από την οποία παραθέτουμε το γενικό σκοπό του συστήματος :
+				\begin{quote}
+					Σκοπός μας είναι η σύνθεση και κατασκευή ενός συστήματος εναέριας λήψης φωτογραφιών και βίντεο υψηλής ανάλυσης σε ποικίλες καιρικές συνθήκες.
+				\end{quote}
+		}
+			\paragraph{}{Η διαλογή ενός και μόνο συστήματος δεν αποτελεί σκοπό της παρούσας αναφοράς. Αντιθέτως, σκοπός αποτελεί η παρουσίαση ποικίλων συστημάτων έτοιμων προς αγορά και χρήση.
+			}
+		
+		\section{Απαιτήσεις}
+		
+		\subsection{Καθολικές απαιτήσεις}
+			\paragraph{}{Οι καθολικές απαιτήσεις τους συστήματος περιγράφονται στο αντίστοιχο κεφάλαιο της τεχνικής έκθεσης ΤΕΧΝ001-42012.}
+			
+		\subsection{Οικονομικές απαιτήσεις}
+			\paragraph{}{Ο οικονομικός παράγοντας αποτελεί καθοριστικό παράγοντα για την υλοποίηση και απόκτηση του εν λόγου συστήματος. Παράλληλα, διατελεί σημαντικότατο ρόλο και στην επιλογή των ίδιων των υποσυστημάτων αφού υπάρχουν συστήματα ίδιων ή παρόμοιων δυνατοτήτων με μεγάλη διακύμανση στην τιμή κόστους.
+			}
+			\paragraph{}{Συνεπώς, απαιτείται να οριοθετηθεί ο προϋπολογισμός του εγχειρήματος. Τίθεται, λοιπόν, το εύρος των οχτώ με δέκα χιλιάδων ευρώ (8.000 - 10.000). Τονίζεται, όμως, ότι ο περιορισμός αυτός είναι ενδεικτικός. Η επιλογή ενός συστήματος δεν αποτελεί σκοπό της παρούσας αναφοράς. Γι αυτό το λόγο θα παρουσιαστούν συστήματα διαφόρων προϋπολογισμών και διαφορετικών οικονομικών επιπέδων σκοπεύοντας να αποτελέσουν στοιχεία σύγκρισης -ποιότητας και δυνατοτήτων- για την τελική επιλογή.
+			}
+	
+		\section{Συσχετιζόμενα έγγραφα}
+			\paragraph{}{Η αναφορά αυτή έχει ως βάση την τεχνική έκθεση "Εναέρια λήψη εικόνας : Μελέτη σύστασης/κατασκευής πλήρους συστήματος εναέριας λήψης εικόνας" με κωδικό ΤΕΧΝ001-42012 (έκδοση πρώτη). Εξ' αυτής αποκλείει εξαρτήματα και έτοιμα συστήματα της αγοράς και προτείνει άλλα που ικανοποιούν τις απαιτήσεις μας και είναι συμβατά με το ισχύον θεσμικό πλαίσιο.
+			}
+	
+	\chapter{Προμηθευτές}
+		\paragraph{}{Ως προμηθευτές δεν ορίζονται οι κατασκευάστριες εταιρίες των συστημάτων που θα χρησιμοποιηθούν στο πολύπτερο. Αντίθετα, εννοούνται οι εταιρίες οι οποίες προμηθεύουν τα απαραίτητα εξαρτήματα για την κατασκευή του πολυπτέρου και μπορούν να συνθέσουν ένα τέτοιο σύστημα. Στις εταιρίες αυτές περιλαμβάνονται εταιρίες πώλησης αερομοντέλων και συναφών ειδών αλλά και οι ίδιοι οι κατασκευαστές στην περίπτωση που προμηθεύουν τελικούς καταναλωτές.
+		}
+		
+		\paragraph{}{Επιλέγονται προμηθευτές με κύριο κριτήριο την έδρα τους και την παροχή ολοκληρωμένων λύσεων αερομοντελισμού και εναέριας, επαγγελματικής λήψης εικόνας. 
+		}
+		\paragraph{}{Τίθεται γεωγραφικός περιορισμός εξαιτίας των επιπλέον διαδικασιών και εξόδων που απαιτούνται για την προμήθεια συστημάτων εκτός Ευρωπαϊκής Ένωσης. Συγκεκριμένα, εφόσον η εταιρεία βρίσκεται εντός Ευρωπαϊκής Ένωσης είναι υποχρεωτικό να πληρωθεί μόνο ο αναλογούμενος φόρος προστιθέμενης αξίας (φ.π.α.) στην εν λόγω χώρα. Αντίθετα, στην περίπτωση που η εταιρεία βρίσκεται εκτός Ενώσεως -Η.Π.Α., Αυστραλία, Νέα Ζηλανδία, Λαϊκή Δημοκρατίας Κίνας, κ.λ.π.- καθίσταται υποχρεωτικό ο εκτελωνισμός του όλου συστήματος. Αυτό συνεπάγεται επιπλέον χρονοβόρες διαδικασίες, έξοδα εκτελωνισμού (παράβολα κ.λ.π.) και πληρωμή φ.π.α. στο ελληνικό κράτος επιπλέον του φ.π.α. το οποίο θα πληρωθεί στον ίδιο τον προμηθευτή για την χώρα στην οποία εδρεύει.
+		}
+		
+		
+		\begin{landscape}
+		\setlength\LTleft{0pt}            % default: \parindent
+		\setlength\LTright{0pt}           % default: \fill
+	
+		\begin{longtable}{ m{2cm} m{2cm} m{2cm} m{4cm} m{4cm} m{4cm} }
+			\caption [Προμηθευτές]{Προμηθευτές}
+			\label{πιν.:Προμηθευτές}\\
+				\hline
+				~\\
+				Όνομα & Ιστοσελίδα & Έδρα & Διαθέσιμα εξαρτήματα συστήματα & Είδος επικοινωνίας & Παρατηρήσεις\\
+				\hline
+				~\\
+			\endfirsthead
+				\multicolumn{6}{c}{συνέχεια του πίνακα \ref{πιν.:Προμηθευτές}}\\
+				\hline
+				~\\
+				Όνομα & Ιστοσελίδα & Έδρα & Διαθέσιμα εξαρτήματα \& συστήματα & Είδος επικοινωνίας & Παρατηρήσεις\\
+				\hline
+				~\\
+			\endhead
+				\hline
+				\multicolumn{6}{c}{ο πίνακας συνεχίζεται στην επόμενη σελίδα}\\
+			\endfoot
+				\multicolumn{6}{c}{ολοκληρώθηκε ο πίνακας \ref{πιν.:Προμηθευτές}}\\
+			\endlastfoot
+				DJI innovations & \href{http://www.dji-innovations.com/}{σύνδεσμος} & Hong Kong & σκελετοί, αυτόματοι πιλότοι, gimbal, σταθεροποιητές & & Κατασκευαστής, διάθεση μέσω συνεργατών\\
+				\hdashline
+				~\\
+				HoverFly & \href{http://www.hoverflytech.com/}{σύνδεσμος} & Φλόριντα, Η.Π.Α. & σκελετοί, αυτόματοι πιλότοι, σταθεροποιητές και πλήρη συστήματα & Έχουμε λάβει προσφορά & Κατασκευαστής, διάθεση μέσω συνεργατών\\
+				\hdashline
+				~\\
+				RCRUS -radio control aircraft & \href{http://www.rcrus.com/}{σύνδεσμος} & Η.Π.Α. & πλήρης κατάλογος & έχουμε λάβει προτάσεις και προσφορά & Πρότειναν ένα έτοιμο σύστημα το οποίο έχουν. Επιπλέον, για την επίγεια λήψη βίντεο πρότειναν σύστημα στα 1,2 GHz το οποίο δεν μπορεί να χρησιμοποιηθεί στην Ελλάδα. \\
+				\hdashline
+				~\\
+				DronesVision & \href{http://www.dronesvision.com/}{σύνδεσμος} & Taiwan &  πλήρης κατάλογος & & Αποστέλλουν συσκευασίες ως δώρο ή ως δεύτερο χέρι με το να αφαιρούν τις συσκευασίες. \\
+				\hdashline
+				~\\
+				Heliguy & \href{http://quadcopter.heliguy.com/}{σύνδεσμος} & Ηνωμένο Βασίλειο & πλήρης κατάλογος και custom συστήματα & Έχουμε λάβει προσφορά για την Canon 550D & Αρκετά οργανωμένοι και αναλυτικοί\\
+				\hdashline
+				~\\
+				Kopterworx & \href{http://www.kopterworx.com/}{σύνδεσμος} & Σλοβενία & πλήρης κατάλογος και custom συστήματα & Αποστολή ερώτησης για custom σύστημα & \\
+				\hdashline
+				~\\
+				Quadrocopter & \href{http://www.quadrocopter.com/}{σύνδεσμος} & Columbia Falls, Η.Π.Α. & πλήρης κατάλογος & & συνεργάζεται με τη FreeFly\\
+				\hdashline
+				~\\
+				ProAirShop & \href{http://www.proairshop.com/}{σύνδεσμος} & Holte, Δανία & πλήρης κατάλογος και custom συστήματα & Περιμένουμε προσφορά κατά τις 19/09/2012 & \\
+				\hdashline
+				~\\
+				Build Your Own Drone & \href{http://www.buildyourowndrone.co.uk/}{σύνδεσμος} & Hampshire, England & πλήρης κατάλογος & Έχουμε επικοινωνήσει. Μπορούν να συνεργαστούμε και έχουν τα υποσυστήματα που τους ρωτήσαμε & \\
+				\hdashline
+				~\\
+				HobbyKing & \href{http://www.hobbyking.com}{σύνδεσμος} & Hong Kong, China, Germany, Australia, USA & πλήρης κατάλογος & & Έχει αρκετά καλές τιμές. Επίσης έχει αποθήκη στη Γερμανία.\\
+				\hdashline
+				~\\
+				CopterDeluxe & \href{http://www.copterdeluxe.com}{σύνδεσμος} & Γερμανία & πλήρης κατάλογος &  Αποστολή ερώτησης για custom σύστημα &\\
+				\hdashline
+				~\\
+				Digitech & \href{http://digitech.nl/}{σύνδεσμος} & Ολλανδία & πλήρης κατάλογος &  Αποστολή ερώτησης για custom σύστημα &\\
+				\hline
+		\end{longtable}
+		\end{landscape}
+		
+	
+	\chapter{Προτεινόμενα συστήματα}
+	
+		\paragraph{}{Στο κεφάλαιο αυτό θα επιχειρηθεί η σύνθεση ολοκληρωμένων συστημάτων εναέριας λήψης εικόνας. Για τη σύνθεση στηριζόμαστε στην μέχρι τώρα αποκτηθείσα εμπειρία, στις προτάσεις από την επικοινωνία με τους προμηθευτές καθώς και στα σχόλια και παρατηρήσεις από την λειτουργία ήδη έτοιμων συστημάτων τα οποία απαντήθηκαν στο διαδίκτυο.
+		}
+		
+		\begin{landscape}
+			\setlength\LTleft{0pt}            % default: \parindent
+			\setlength\LTright{0pt}           % default: \fill
+			
+		\begin{longtable}{ m{3cm} m{2.2cm} m{2.2cm} m{2.2cm} m{2.2cm} }
+			\caption [Προτεινόμενες λύσεις]{Προτεινόμενες λύσεις}
+			\label{πιν.:Προτεινόμενες λύσεις}\\
+				~\\
+				& Σύστημα DJI & Σύστημα Cinestar6 & Σύστημα Scripta & Σύστημα HeliGuy\\
+				\hline
+				~\\
+			\endfirsthead
+				\multicolumn{5}{c}{συνέχεια του πίνακα \ref{πιν.:Προτεινόμενες λύσεις}}\\
+				\cline{2-4}
+				~\\
+				& Σύστημα DJI & Σύστημα Cinestar6 & Σύστημα Scripta & Σύστημα HeliGuy\\
+				\hline
+				~\\
+			\endhead
+				\multicolumn{5}{c}{ο πίνακας συνεχίζεται στην επόμενη σελίδα}\\
+			\endfoot
+				\multicolumn{5}{c}{ολοκληρώθηκε ο πίνακας \ref{πιν.:Προτεινόμενες λύσεις}}\\
+			\endlastfoot
+				Προμηθευτής & \href{}{} & \href{}{} & \href{http://www.hoverflytech.com/scripta.html}{HoverFly} & \href{http://quadcopter.heliguy.com/}{HeliGuy}\\
+				\multicolumn{5}{c}{ΠΤΗΤΙΚΗ ΜΗΧΑΝΗ}\\
+				\hline
+				~\\
+				Σκελετός & S800 & Cinestar6 & Scripta8  & AD6 HLE\\
+				\hdashline
+				~\\
+				Σύστημα προσγείωσης σκελετού & ενσωματώνεται & δες gimbal & δες gimbal & \\
+				\hdashline
+				~\\
+				\multicolumn{5}{c}{Σύστημα τροφοδοσίας}\\
+				\hdashline
+				~\\
+				Κινητήρες & & & & Axi 2814/22 HL\\
+				\hdashline
+				~\\
+				ESC (οδήγηση κινητήρων) & & & & Hobbywing 40A Opto ESC\\
+				\hdashline
+				~\\
+				Καλωδίωση & & & & \\
+				\hdashline
+				~\\
+				Έλικες & & & & 12x4" Xoar Pair\\
+				\hdashline
+				~\\
+				Πλακέτα διανομής & & & & \\
+				\hdashline
+				~\\
+				Μπαταρίες & 6S Lipo & & & RapidCharge 5S 5000mah, 35C Lipo\\
+				\hdashline
+				~\\
+				Φορτιστής & & & & Powerlab 8 Charger\\
+				\hdashline
+				~\\
+				\multicolumn{5}{c}{ΕΛΕΓΧΟΣ ΠΤΗΣΗΣ}\\
+				\hline
+				~\\
+				Αυτόματος πιλότος & Wookong-M & Wookong-M & HoverflyPRO με HoverflyGPS & \\
+				\hdashline
+				~\\
+				Τηλεχειριστήριο πολυπτέρου & 7 κανάλια στα 2,4 GHz & 7 κανάλια στα 2,4 GHz & Spektrum Radio DX8 & Spektrum DX8\\
+				\hdashline
+				~\\
+				\multicolumn{5}{c}{ΠΛΑΤΦΟΡΜΑ ΜΗΧΑΝΗΣ}\\
+				\hline
+				~\\
+				Gimbal & Zenmuse Z15 & Cinestar 3-Axis & Pro Mount AV200 με 360 & AV200 με 360 pan kit\\
+				\hdashline
+				~\\
+				Σύστημα προσγείωσης gimbal & δες σκελετό & ενσωματώνεται & ενσωματώνεται & \\
+				\hdashline
+				~\\
+				Σταθεροποιητής gimbal & ενσωματώνεται & FreeFly Radian & Hoverfly GIMBAL & Hoverfly Gymbal\\
+				\hdashline
+				~\\
+				Μηχανή & Nex7 & ότι θέλουμε & DSLR cameras like the Canon 5D, 7D and Nikon D4 & DSLR such as Canon 5D\\
+				\hdashline
+				~\\
+				\multicolumn{5}{c}{Σύστημα τροφοδοσίας}\\
+				\hdashline
+				~\\
+				Μπαταρίες & & & & 7.4V 2200mah Lipo\\
+				\hdashline
+				~\\
+				Φορτιστής & & & & \\
+				\hdashline
+				~\\
+				\multicolumn{5}{c}{ΕΛΕΓΧΟΣ ΜΗΧΑΝΗΣ}\\
+				\hline
+				~\\
+				Έλεγχος μηχανής & & & ναι & Camremote 2A Pro\\
+				\hdashline
+				~\\
+				Τηλεχειριστήριο μηχανής & & & Spektrum Radio DX7 & Spektrum DX8\\
+				\hdashline
+				~\\
+				\multicolumn{5}{c}{ΕΠΙΓΕΙΟΣ ΣΤΑΘΜΟΣ}\\
+				\hline
+				~\\
+				Επίγειος σταθμός & παρέχεται με το osd & & & \\
+				\hdashline
+				~\\
+				Πομπός βίντεο & & & 5.8 GHz System, 600mW & Stinger 250mw
+5.8ghz video tx\\
+				\hdashline
+				~\\
+				Δέκτης βίντεο & & & 5.8 GHz System, 600mW & Passport Rx
+5.8Ghz diversity Rx\\
+				\hdashline
+				~\\
+				OSD & DJI Data Link & & & \\
+				\hdashline
+				~\\
+				Οθόνη & & & 13" LCD & 10.1 inch LCD\\
+				\hdashline
+				~\\
+				\multicolumn{5}{c}{Σύστημα τροφοδοσίας}\\
+				\hdashline
+				~\\
+				Μπαταρίες & & & 4 Rechargeable LiPo Batteries & 2200mah 25C Rapidcharge\\
+				\hdashline
+				~\\
+				Φορτιστής & & & & \\
+				\hdashline
+				~\\
+				Λοιπά επίγειου σταθμού & & & & \\
+				\hdashline\
+				~\\
+				\multicolumn{5}{c}{ΘΗΚΕΣ ΜΕΤΑΦΟΡΑΣ}\\
+				\hline
+				~\\
+				Βαλίτσα πολυπτέρου & & & Custom Built Calzone Travel Cases & \\
+				\hdashline
+				~\\
+				Βαλίτσα gimbal & & & Custom Built Anvil ATA Travel Cases & \\
+				\hdashline
+				~\\
+				Βαλίτσα επίγειου σταθμού & & & Pelican Storm Case & Groundstation Peli Case\\
+				\hdashline
+				~\\
+				\multicolumn{5}{c}{ΛΟΙΠΑ}\\
+				\hline
+				~\\
+				Led προσανατολισμού & & & & ναι\\
+				\hdashline
+				~\\
+				Τροφοδοσία & & & & 11.1V 1250mah Lipo Battery for LEDs and Video Tx\\ 
+				~\\
+				Επιπλέον καλωδίωση & & & & \\
+				\hdashline
+				~\\
+				Κόστος σύνθεσης και ελέγχου πτήσης & & & & £1,536.00\\
+				\hline
+				~\\
+				Συνολικό κόστος & & & \$17.500US & £8,418.55\\
+				& & & 13.4 \euro & 10 486 \euro\\
+				\hline
+		\end{longtable}
+		\end{landscape}
+	
+
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Βιβλιογραφία}
+	\label{κεφ.:Βιβλιογραφία}
+	\fancyhead[LO]{\emph{Βιβλιογραφία}}
+	\fancyhead[RE]{\emph{Βιβλιογραφία}}
+	\printbibliography[title={Βιβλιογραφία}]
+	
+\end{document}
