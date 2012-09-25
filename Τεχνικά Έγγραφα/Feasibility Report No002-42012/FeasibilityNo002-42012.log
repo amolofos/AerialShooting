@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.12)  19 SEP 2012 04:37
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.12)  21 SEP 2012 01:26
 entering extended mode
 **FeasibilityNo002-42012.tex
 
@@ -1468,8 +1468,8 @@ Underfull \hbox (badness 1496) in paragraph at lines 210--210
  []
 
 
-Overfull \hbox (4.1265pt too wide) in paragraph at lines 213--213
-[]|\EU1/GFSArtemisia(0)/m/n/12 HobbyKing| 
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\EU1/GFSArtemisia(0)/m/n/12 Drone
  []
 
 
@@ -1478,33 +1478,13 @@ Overfull \hbox (0.8505pt too wide) in paragraph at lines 213--213
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-[]|\EU1/GFSArtemisia(0)/m/n/12 Hong
+Underfull \hbox (badness 7722) in paragraph at lines 213--213
+\EU1/GFSArtemisia(0)/m/n/12 ϊόντα κυρίως της
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-\EU1/GFSArtemisia(0)/m/n/12 Kong,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-\EU1/GFSArtemisia(0)/m/n/12 China,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-\EU1/GFSArtemisia(0)/m/n/12 Germany,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-\EU1/GFSArtemisia(0)/m/n/12 Australia,
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 213--214
-\EU1/GFSArtemisia(0)/m/n/12 τιμές. Επίσης έχει
+Underfull \hbox (badness 1377) in paragraph at lines 213--213
+\EU1/GFSArtemisia(0)/m/n/12 Droidworx και της
  []
 
 
@@ -1513,8 +1493,8 @@ Underfull \hbox (badness 10000) in alignment at lines 185--216
  []
 
 
-Overfull \hbox (16.1145pt too wide) in paragraph at lines 216--216
-[]|\EU1/GFSArtemisia(0)/m/n/12 CopterDeluxe| 
+Overfull \hbox (4.1265pt too wide) in paragraph at lines 216--216
+[]|\EU1/GFSArtemisia(0)/m/n/12 HobbyKing| 
  []
 
 
@@ -1523,12 +1503,52 @@ Overfull \hbox (0.8505pt too wide) in paragraph at lines 216--216
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]|\EU1/GFSArtemisia(0)/m/n/12 Hong
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+\EU1/GFSArtemisia(0)/m/n/12 Kong,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+\EU1/GFSArtemisia(0)/m/n/12 China,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+\EU1/GFSArtemisia(0)/m/n/12 Germany,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+\EU1/GFSArtemisia(0)/m/n/12 Australia,
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 216--217
+\EU1/GFSArtemisia(0)/m/n/12 τιμές. Επίσης έχει
+ []
+
+
+Overfull \hbox (16.1145pt too wide) in paragraph at lines 219--219
+[]|\EU1/GFSArtemisia(0)/m/n/12 CopterDeluxe| 
+ []
+
+
 Overfull \hbox (0.8505pt too wide) in paragraph at lines 219--219
 []|[]\EU1/GFSArtemisia(0)/m/n/12 σύνδεσμος[]| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 216--221
+Overfull \hbox (0.8505pt too wide) in paragraph at lines 222--222
+[]|[]\EU1/GFSArtemisia(0)/m/n/12 σύνδεσμος[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 216--224
 [] [] [] [] [] []
  []
 
@@ -1560,231 +1580,216 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 234--241
+Underfull \hbox (badness 10000) in alignment at lines 237--244
 [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 241--248
+Underfull \hbox (badness 10000) in alignment at lines 244--251
 [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 248--250
+Underfull \hbox (badness 10000) in alignment at lines 251--253
 [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 250--252
+Underfull \hbox (badness 10000) in alignment at lines 253--255
 [] [] [] [] []
  []
 
 
 Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 253.
+(hyperref)                using `UNDEFINED' on input line 256.
 
 
 Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 253.
+(hyperref)                using `UNDEFINED' on input line 256.
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 260--260
+Underfull \hbox (badness 2326) in paragraph at lines 263--263
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα προ-
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 260--260
+Underfull \hbox (badness 2478) in paragraph at lines 263--263
 \EU1/GFSArtemisia(0)/m/n/12 σγείωσης σκε-
  []
 
 
-Overfull \hbox (20.44405pt too wide) in paragraph at lines 260--260
+Overfull \hbox (20.44405pt too wide) in paragraph at lines 263--263
 []|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται| 
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 269--269
+Underfull \hbox (badness 3895) in paragraph at lines 272--272
 []|\EU1/GFSArtemisia(0)/m/n/12 ESC (οδήγηση
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 []|\EU1/GFSArtemisia(0)/m/n/12 Hobbywing
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 269--270
+Underfull \hbox (badness 6268) in paragraph at lines 272--273
 \EU1/GFSArtemisia(0)/m/n/12 40A Opto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 []|\EU1/GFSArtemisia(0)/m/n/12 Πλακέτα δια-
  []
 
 
-Overfull \hbox (7.82004pt too wide) in paragraph at lines 281--282
+Overfull \hbox (7.82004pt too wide) in paragraph at lines 284--285
 []|\EU1/GFSArtemisia(0)/m/n/12 RapidCharge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 \EU1/GFSArtemisia(0)/m/n/12 5S
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 \EU1/GFSArtemisia(0)/m/n/12 5000mah,
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 252--282
+Underfull \hbox (badness 10000) in alignment at lines 255--285
 [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 []|\EU1/GFSArtemisia(0)/m/n/12 Wookong-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 []|\EU1/GFSArtemisia(0)/m/n/12 Wookong-
  []
 
 
-Overfull \hbox (8.78004pt too wide) in paragraph at lines 290--290
+Overfull \hbox (8.78004pt too wide) in paragraph at lines 293--293
 []|\EU1/GFSArtemisia(0)/m/n/12 HoverflyPRO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \EU1/GFSArtemisia(0)/m/n/12 με
  []
 
 
-Overfull \hbox (6.87204pt too wide) in paragraph at lines 290--290
+Overfull \hbox (6.87204pt too wide) in paragraph at lines 293--293
 \EU1/GFSArtemisia(0)/m/n/12 HoverflyGPS| 
  []
 
 
-Overfull \hbox (1.79774pt too wide) in paragraph at lines 293--293
+Overfull \hbox (1.79774pt too wide) in paragraph at lines 296--296
 []|\EU1/GFSArtemisia(0)/m/n/12 Τηλεχειριστήριο
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 293--293
+Underfull \hbox (badness 4859) in paragraph at lines 296--296
 []|\EU1/GFSArtemisia(0)/m/n/12 7 κανάλια
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \EU1/GFSArtemisia(0)/m/n/12 στα 2,4
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 293--293
+Underfull \hbox (badness 4859) in paragraph at lines 296--296
 []|\EU1/GFSArtemisia(0)/m/n/12 7 κανάλια
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \EU1/GFSArtemisia(0)/m/n/12 στα 2,4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 []|\EU1/GFSArtemisia(0)/m/n/12 Spektrum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 []|\EU1/GFSArtemisia(0)/m/n/12 Spektrum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 []|\EU1/GFSArtemisia(0)/m/n/12 Zenmuse
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 299--299
+Underfull \hbox (badness 4378) in paragraph at lines 302--302
 \EU1/GFSArtemisia(0)/m/n/12 AV200 με
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 299--300
+Underfull \hbox (badness 4378) in paragraph at lines 302--303
 []|\EU1/GFSArtemisia(0)/m/n/12 AV200 με
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 302--302
+Underfull \hbox (badness 2326) in paragraph at lines 305--305
 []|\EU1/GFSArtemisia(0)/m/n/12 Σύστημα προ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 \EU1/GFSArtemisia(0)/m/n/12 σγείωσης
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 []|\EU1/GFSArtemisia(0)/m/n/12 δες σκε-
- []
-
-
-Overfull \hbox (20.44405pt too wide) in paragraph at lines 302--302
-[]|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται| 
- []
-
-
-Overfull \hbox (20.44405pt too wide) in paragraph at lines 302--302
-[]|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται| 
- []
-
-
-Overfull \hbox (4.86975pt too wide) in paragraph at lines 305--305
-[]|\EU1/GFSArtemisia(0)/m/n/12 Σταθεροποιητής
  []
 
 
@@ -1793,52 +1798,67 @@ Overfull \hbox (20.44405pt too wide) in paragraph at lines 305--305
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Overfull \hbox (20.44405pt too wide) in paragraph at lines 305--305
+[]|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται| 
+ []
+
+
+Overfull \hbox (4.86975pt too wide) in paragraph at lines 308--308
+[]|\EU1/GFSArtemisia(0)/m/n/12 Σταθεροποιητής
+ []
+
+
+Overfull \hbox (20.44405pt too wide) in paragraph at lines 308--308
+[]|\EU1/GFSArtemisia(0)/m/n/12 ενσωματώνεται| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 []|\EU1/GFSArtemisia(0)/m/n/12 FreeFly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 []|\EU1/GFSArtemisia(0)/m/n/12 Hoverfly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
-[]|\EU1/GFSArtemisia(0)/m/n/12 Hoverfly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
-[]|\EU1/GFSArtemisia(0)/m/n/12 ότι θέ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
-[]|\EU1/GFSArtemisia(0)/m/n/12 DSLR
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
-\EU1/GFSArtemisia(0)/m/n/12 cameras
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
-\EU1/GFSArtemisia(0)/m/n/12 like the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
-\EU1/GFSArtemisia(0)/m/n/12 7D and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 308--309
+[]|\EU1/GFSArtemisia(0)/m/n/12 Hoverfly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\EU1/GFSArtemisia(0)/m/n/12 ότι θέ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\EU1/GFSArtemisia(0)/m/n/12 DSLR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\EU1/GFSArtemisia(0)/m/n/12 cameras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\EU1/GFSArtemisia(0)/m/n/12 like the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\EU1/GFSArtemisia(0)/m/n/12 7D and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
 \EU1/GFSArtemisia(0)/m/n/12 as Canon
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 282--312
+Underfull \hbox (badness 10000) in alignment at lines 285--315
 [] [] [] [] []
  []
 
@@ -1850,97 +1870,97 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 []|\EU1/GFSArtemisia(0)/m/n/12 7.4V
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 \EU1/GFSArtemisia(0)/m/n/12 2200mah
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 []|\EU1/GFSArtemisia(0)/m/n/12 Camremote
  []
 
 
-Overfull \hbox (1.79774pt too wide) in paragraph at lines 326--326
+Overfull \hbox (1.79774pt too wide) in paragraph at lines 329--329
 []|\EU1/GFSArtemisia(0)/m/n/12 Τηλεχειριστήριο
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []|\EU1/GFSArtemisia(0)/m/n/12 Spektrum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 []|\EU1/GFSArtemisia(0)/m/n/12 Spektrum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 []|\EU1/GFSArtemisia(0)/m/n/12 παρέχεται
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 []|\EU1/GFSArtemisia(0)/m/n/12 5.8 GHz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 \EU1/GFSArtemisia(0)/m/n/12 System,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 []|\EU1/GFSArtemisia(0)/m/n/12 Stinger
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 \EU1/GFSArtemisia(0)/m/n/12 250mw
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 \EU1/GFSArtemisia(0)/m/n/12 5.8ghz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 []|\EU1/GFSArtemisia(0)/m/n/12 5.8 GHz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 \EU1/GFSArtemisia(0)/m/n/12 System,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--341
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 []|\EU1/GFSArtemisia(0)/m/n/12 Passport
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 339--341
+Underfull \hbox (badness 1817) in paragraph at lines 342--344
 \EU1/GFSArtemisia(0)/m/n/12 Rx 5.8Ghz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--341
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 \EU1/GFSArtemisia(0)/m/n/12 diversity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 []|\EU1/GFSArtemisia(0)/m/n/12 DJI Data
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 312--344
+Underfull \hbox (badness 10000) in alignment at lines 315--347
 [] [] [] [] []
  []
 
@@ -1955,58 +1975,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 []|\EU1/GFSArtemisia(0)/m/n/12 10.1 inch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
 []|\EU1/GFSArtemisia(0)/m/n/12 4
  []
 
 
-Overfull \hbox (9.05605pt too wide) in paragraph at lines 352--352
+Overfull \hbox (9.05605pt too wide) in paragraph at lines 355--355
 \EU1/GFSArtemisia(0)/m/n/12 Rechargeable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
 \EU1/GFSArtemisia(0)/m/n/12 LiPo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 []|\EU1/GFSArtemisia(0)/m/n/12 2200mah
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 \EU1/GFSArtemisia(0)/m/n/12 25C
  []
 
 
-Overfull \hbox (4.78404pt too wide) in paragraph at lines 352--353
+Overfull \hbox (4.78404pt too wide) in paragraph at lines 355--356
 \EU1/GFSArtemisia(0)/m/n/12 Rapidcharge| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
-[]|\EU1/GFSArtemisia(0)/m/n/12 Custom
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
-\EU1/GFSArtemisia(0)/m/n/12 Built
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
-\EU1/GFSArtemisia(0)/m/n/12 Calzone
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
-\EU1/GFSArtemisia(0)/m/n/12 Travel
  []
 
 
@@ -2015,22 +2015,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--367
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+\EU1/GFSArtemisia(0)/m/n/12 Built
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+\EU1/GFSArtemisia(0)/m/n/12 Calzone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+\EU1/GFSArtemisia(0)/m/n/12 Travel
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]|\EU1/GFSArtemisia(0)/m/n/12 Custom
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
 []|\EU1/GFSArtemisia(0)/m/n/12 Βαλίτσα επί-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
 []|\EU1/GFSArtemisia(0)/m/n/12 Pelican
  []
 
 
-Overfull \hbox (16.55605pt too wide) in paragraph at lines 370--371
+Overfull \hbox (16.55605pt too wide) in paragraph at lines 373--374
 []|\EU1/GFSArtemisia(0)/m/n/12 Groundstation
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 344--374
+Underfull \hbox (badness 10000) in alignment at lines 347--377
 [] [] [] [] []
  []
 
@@ -2040,52 +2060,52 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [16]
-Underfull \hbox (badness 2671) in paragraph at lines 376--376
+Underfull \hbox (badness 2671) in paragraph at lines 379--379
 []|\EU1/GFSArtemisia(0)/m/n/12 Led προσανα-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 []|\EU1/GFSArtemisia(0)/m/n/12 11.1V
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 \EU1/GFSArtemisia(0)/m/n/12 1250mah
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 \EU1/GFSArtemisia(0)/m/n/12 Lipo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 \EU1/GFSArtemisia(0)/m/n/12 Battery
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 \EU1/GFSArtemisia(0)/m/n/12 for LEDs
  []
 
 
-Underfull \hbox (badness 5726) in paragraph at lines 381--381
+Underfull \hbox (badness 5726) in paragraph at lines 384--384
 []|\EU1/GFSArtemisia(0)/m/n/12 Επιπλέον κα-
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 384--384
+Underfull \hbox (badness 1472) in paragraph at lines 387--387
 \EU1/GFSArtemisia(0)/m/n/12 σης και ελέγ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
 []|\EU1/GFSArtemisia(0)/m/n/12 Συνολικό κό-
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 374--390
+Underfull \hbox (badness 10000) in alignment at lines 377--393
 [] [] [] [] []
  []
 
@@ -2111,16 +2131,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [20]
 
-LaTeX Warning: Empty bibliography on input line 400.
+LaTeX Warning: Empty bibliography on input line 403.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 402.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 405.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 405.
 
 ("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Τ
 εχνικά Έγγραφα\Feasibility Report No002-42012\FeasibilityNo002-420
 12.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 402.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 402.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 405.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 405.
 Package logreq Info: Writing requests to 'FeasibilityNo002-42012.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
