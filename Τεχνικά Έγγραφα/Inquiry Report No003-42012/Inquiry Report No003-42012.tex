@@ -1,0 +1,149 @@
+\documentclass[a4paper, 12pt, twoside]{article}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+%\usepackage{xltxtra}
+%\usepackage{xgreek}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{placeins}
+
+\raggedbottom
+\onecolumn
+
+\usepackage{graphicx, amsfonts, psfrag, fancyhdr, layout, subfigure}
+\usepackage{pdflscape}
+%\usepackage{lscape}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{array}
+%The arydshln package offers you the \hdashline and \cdashline commands which are the dashed counterparts of \hline and \cline, respectively. 
+\usepackage{arydshln}
+
+\setmainfont[Mapping=tex-text]{GFS Artemisia}
+
+% Set equal margins on book style
+\setlength{\oddsidemargin}{53pt}
+\setlength{\evensidemargin}{53pt}
+\setlength{\marginparwidth}{57pt}
+\setlength{\footskip}{30pt}
+
+\author{Kafetzis Dimitrios Andreas}
+\title{Aerial photography and cinematography : System Specification}
+\newcommand{\reportRev}{First (1)}
+\newcommand{\reportType}{Inquiry Report}
+\newcommand{\reportNo}{INQ003-42012}
+\newcommand{\summary}{This report summarizes system's requirements and restrictions. Is states what is expected from the supplier and what consists the scope of delivery.}
+
+% Αλλαγή της πρώτης σελίδας που δημιουργείται με την εντολή \maketitle
+\makeatletter
+\newcommand{\makefrontpage}{
+	\newpage
+ 	\null
+ 	\vskip 2em
+ 	\begin{center}
+ 		{\LARGE \@title}\linebreak
+ 		\vskip 2cm
+ 		\underline{Abstract}\linebreak
+ 	\end{center}
+ 		\summary\linebreak
+ 		\vskip 7cm
+ 	\begin{center}
+ 		\begin{large}
+ 			\@author\linebreak
+	  		\@date
+ 		\end{large}
+ 	\end{center}
+ 	\vskip 0.5cm
+  	\begin{large}
+  		\begin{tabular}{ l l }
+  			Report revision & \reportRev \\ 
+			Report type & \reportType \\
+			Report number & \reportNo \\ 
+  		\end{tabular}
+  	\end{large}
+  	\pagebreak
+} \makeatother
+
+
+
+\begin{document}
+	
+	\makefrontpage
+		
+	\addcontentsline{toc}{section}{Contents}
+	\tableofcontents
+
+	\pagebreak
+	
+	\section{Introduction}
+	
+		\subsection{Who we are}
+			\paragraph{}{We are a group of people located at Athens, Greece, who is interested in aerial photography and cinematography. Our team is multidisciplinary consisting of directors, photographers, cameramen, graphic designers and electrical engineers.
+			}
+		
+		\subsection{Why do we contact you}
+			\paragraph{}{Is is in our intentions to acquire a system of high quality for professional aerial photography and cinematography. For this purpose your guidance and expertise is needed. It is being asked to propose a system meeting the following requirements and to place an offer for a ready to fly (RTF) system. 
+			}
+		
+	
+	\section{Requirements}
+		\paragraph{}{It is expected the system is based on a multicopter. The type of the multicopter (hexacopter, octocopter) is not defined.
+		}
+		\paragraph{Autopilot}{An autopilot with extended functionality and fail safe operations is a must. It should be able to maintain its altitude -auto hover- and have extra functionality such as point-of-interest (poi). As far as safety is concerned, Go-Home, Auto-Go-Home when signal is lost or voltage level is low and Auto-landing functions are expected. The multicopter should be able to carry a total weight of 7.0 kilos including itself -this is the maximum weight that a multicopter should have in order to fly without license at Greece.
+		}
+		\paragraph{Operator}{It is expected that the system will be operated by two people -pilot and cameraman-. However it should be built in such a way that changing the configuration to a single operator will be possible. The pilot should have a remote control showing telemetry data.
+		}
+		\paragraph{Camera and gimbal}{Furthermore, it should be able to operate with a variety of cameras. We already have canon 550D, so it should definitely work with it. A 360 pan viewpoint is expected. The cameraman should be able to control the camera from the ground -start/stop of rec function and/or zoom function.
+		}
+		\paragraph{Video link}{The system that is going to be built should include a ground station where the video recorded from the camera is viewed simultaneously. However, you are asked to include only the transmitter and its necessary equipment (batteries, wiring e.t.c.).
+		}
+		\paragraph{Durability}{It is known that a durability of 10 to 14 minutes should be expected. Thus, extra batteries along with their charger are to be included, supporting a 40 minute flight.
+		}
+		\paragraph{Spare parts}{It would be expected that any necessary spare parts, such as a second group of propellers, will be included in the offer.
+		}
+		\paragraph{Cases}{None special case for carrying around the equipment should be included in the offer.
+		}
+		
+	
+	\section{Restrictions}
+		\paragraph{Total weight}{The total weight of the multicopter along with the camera, should not exceed 7.0 kilos. Greece's regulations permit multicopters of maximum weight at 7 kilos to fly without license.
+		}
+		
+		\paragraph{Propellers}{The propellers must not be metallic.
+		}
+		
+		\paragraph{Voltage}{Total maximum generated voltage of the power unit must not exceed 72 volts.
+		}
+		
+		\paragraph{Transmittion frequencies}{There are specific frequencies that are allowed to be used at Greece. These are the following :
+		\begin{itemize}
+			\item 26,995, 27,045, 27,095, 27,145, 27,195, 40,665, 40,675, 40,685 and 40,695 MHz are used for remote controlling of models.
+			\item 34,995 to 35,225 MHz are used for remote controlling of flying models
+			\item 2400 to 2483.5 MHz of maximum 100mW e.r.i.p. are allowed for wide area networks and local area networks (wan-rlan)
+			\item 2400 to 2483.5 MHz of maximum 10mW e.r.i.p. are allowed for small ranged devices (srd)
+			\item 5470 to 5725 MHz of maximum 1W e.r.i.p. are allowed for wide area networks and local area networks (wan-rlan)
+			\item 5725 to 5875 MHz of maximum 25mW e.r.i.p. are allowed for small ranged devices (srd)
+		\end{itemize}
+		}
+		
+		
+	\section{Conclusion}
+		\paragraph{Summarizing,}{it is asked from you to place an offer for a custom system meeting the above requirements and restrictions. The offer should include all the necessary equipment and prices, the scope of delivery and the time of delivery. The total cost should be mentioned with and without vat. Finally, please inform us about the payment method.
+		
+		
+		\paragraph{}{Furthermore, we would like to receive your comments and offers for the following two systems. Only the most important parts are mentioned. Please take into account the previously mentioned requirements.
+		}
+		
+		\paragraph{Cinestar}{Cinestar 8 motor multicopter, Dji Wookong-M autopilot, Cinestar 3-axis gimbal with landing gear and FreeFly Radian stabilization, two men remote control -pilot and cameraman-.
+		}
+		
+		\paragraph{DroidWorx}{SkyJib 8 multikopter, Dji Wookong-M autopilot, AV200 gimbal with 360 pan kit - 3-axis gimbal- and HoverFly stabilization, two men remote control -pilot and cameraman-.
+		}
+		
+	\section{Closing}
+		
+		\paragraph{}{We would like to thank you for the time spent reading this report. We look forward to your offer and hope for our fruitful cooperation.
+		}
+	
+\end{document}

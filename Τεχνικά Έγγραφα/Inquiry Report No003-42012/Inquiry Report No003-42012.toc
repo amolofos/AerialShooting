@@ -1,0 +1,27 @@
+\contentsline {section}{Contents}{2}{Doc-Start}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Who we are}{3}{subsection.1.1}
+\contentsline {paragraph}{}{3}{section*.2}
+\contentsline {subsection}{\numberline {1.2}Why do we contact you}{3}{subsection.1.2}
+\contentsline {paragraph}{}{3}{section*.3}
+\contentsline {section}{\numberline {2}Requirements}{3}{section.2}
+\contentsline {paragraph}{}{3}{section*.4}
+\contentsline {paragraph}{Autopilot}{3}{section*.5}
+\contentsline {paragraph}{Operator}{3}{section*.6}
+\contentsline {paragraph}{Camera and gimbal}{3}{section*.7}
+\contentsline {paragraph}{Video link}{4}{section*.8}
+\contentsline {paragraph}{Durability}{4}{section*.9}
+\contentsline {paragraph}{Spare parts}{4}{section*.10}
+\contentsline {paragraph}{Cases}{4}{section*.11}
+\contentsline {section}{\numberline {3}Restrictions}{4}{section.3}
+\contentsline {paragraph}{Total weight}{4}{section*.12}
+\contentsline {paragraph}{Propellers}{4}{section*.13}
+\contentsline {paragraph}{Voltage}{4}{section*.14}
+\contentsline {paragraph}{Transmittion frequencies}{4}{section*.15}
+\contentsline {section}{\numberline {4}Conclusion}{5}{section.4}
+\contentsline {paragraph}{Summarizing,}{5}{section*.16}
+\contentsline {paragraph}{}{5}{section*.17}
+\contentsline {paragraph}{Cinestar}{5}{section*.18}
+\contentsline {paragraph}{DroidWorx}{5}{section*.19}
+\contentsline {section}{\numberline {5}Closing}{5}{section.5}
+\contentsline {paragraph}{}{5}{section*.20}
