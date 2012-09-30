@@ -1,0 +1,164 @@
+\documentclass[a4paper, 12pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{placeins}
+
+\raggedbottom
+\onecolumn
+
+\usepackage{graphicx, amsfonts, psfrag, fancyhdr, layout, subfigure}
+\usepackage{pdflscape}
+%\usepackage{lscape}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{array}
+%The arydshln package offers you the \hdashline and \cdashline commands which are the dashed counterparts of \hline and \cline, respectively. 
+\usepackage{arydshln}
+
+%\usepackage[toc,page]{appendix}
+%\renewcommand{\appendixtocname}{Παραρτήματα}
+%\renewcommand{\appendixname}{Παράρτημα}
+%\renewcommand{\appendixpagename}{Παραρτήματα}
+%
+%\usepackage{index}
+%\usepackage[columns=2]{idxlayout}
+%\newindex{default}{idx}{ind}{Ευρετήριο}
+
+
+\setmainfont[Mapping=tex-text]{GFS Artemisia}
+
+\usepackage[style=numeric, bibstyle=numeric, hyperref=true, backref=true, alldates=terse, indexing=false, backend=bibtex]{biblatex}
+\addbibresource{Bibliography.bib}
+
+% Set equal margins on book style
+\setlength{\oddsidemargin}{53pt}
+\setlength{\evensidemargin}{53pt}
+\setlength{\marginparwidth}{57pt}
+\setlength{\footskip}{30pt}
+
+\author{Καφετζής Δημήτριος Ανδρέας}
+\title{Εναέρια λήψη εικόνας : Μελέτη σύστασης/κατασκευής ιστοσελίδας και διαμόρφωσης της παρουσίας στο διαδίκτυο}
+\newcommand{\reportRev}{Πρώτη (1)}
+\newcommand{\reportType}{Τεχνική Έκθεση}
+\newcommand{\reportNo}{ΤΕΧΝ004-42012}
+\newcommand{\summary}{Με την αναφορά αυτή επιχειρείται να καθοριστεί η διαδικτυακή παρουσία του συστήματος εναέριας φωτογράφησης και κινηματογράφησης. Προτείνεται η γραφική παρουσίαση της ιστοσελίδας, η λειτουργικότητά της και τα επιμέρους χαρακτηριστικά αυτής. Επιπλέον, γίνεται προσπάθεια να καθοριστεί η όλη παρουσία στο διαδίκτυο συμπεριλαμβανομένων των κοινωνικών δικτύων, των μέσων διαφήμισης και των διανεμομένων εντύπων -φυλλάδια, κάρτες κ.λ.π.-.}
+
+% Αλλαγή της πρώτης σελίδας που δημιουργείται με την εντολή \maketitle
+\makeatletter
+\newcommand{\makefrontpage}{
+	\newpage
+ 	\null
+ 	\vskip 2em
+ 	\begin{center}
+ 		{\LARGE \@title}\linebreak
+ 		\vskip 2cm
+ 		\underline{Περίληψη}\linebreak
+ 	\end{center}
+ 		\summary\linebreak
+ 		\vskip 5cm
+ 	\begin{center}
+ 		\begin{large}
+ 			\@author\linebreak
+	  		\@date
+ 		\end{large}
+ 	\end{center}
+ 	\vskip 0.5cm
+  	\begin{large}
+  		\begin{tabular}{ l l }
+  			Έκδοση κειμένου & \reportRev \\ 
+			Τύπος κειμένου & \reportType \\
+			Αριθμός κειμένου & \reportNo \\ 
+  		\end{tabular} 
+  	\end{large}
+  	\newpage
+} \makeatother
+
+
+
+\begin{document}
+	
+	\makefrontpage
+		
+	\addcontentsline{toc}{chapter}{Περιεχόμενα}
+	\tableofcontents
+
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Κατάλογος Σχημάτων}
+	\listoffigures
+
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Κατάλογος Πινάκων}
+	\listoftables
+	
+% Code for creating empty pages
+% No headers on empty pages before new chapter
+	\makeatletter
+		\def\cleardoublepage{
+			\clearpage\if@twoside \ifodd\c@page\else
+	    	\hbox{}
+	    	\thispagestyle{plain}
+	    	\newpage
+    		\if@twocolumn\hbox{}\newpage\fi\fi\fi
+    	}
+	\makeatother \clearpage{\pagestyle{plain}\cleardoublepage}
+
+% Define pagestyle
+	\pagestyle{fancy}
+	\fancyhf{}
+	\renewcommand{\chaptermark}[1]{\markboth{ \emph{#1}}{}}
+
+% Adjustments headers
+	\fancyhead[LO]{\emph{Κεφάλαιο \thechapter}}
+	\fancyhead[RE]{\leftmark}
+	\fancyfoot[LE,RO]{\thepage}
+	
+	\chapter{Εισαγωγή}
+		
+		\section{Σκοπός}
+	
+	\chapter{Εταιρική Παρουσία}
+	
+	\chapter{Ιστοσελίδα}
+	
+		\section{Ενδιαφέροντες υλοποιημένες προτάσεις}
+			\begin{itemize}
+				\item \href{http://www.templatemonster.com/demo/39989.html}{Agriculture}
+				\item \href{http://www.templatemonster.com/demo/39987.html}{fortune}
+				\item \href{http://www.templatemonster.com/demo/39985.html}{fortune}
+				\item \href{http://www.templatemonster.com/demo/39988.html}{Surfing}
+				\item \href{http://www.themeshark.com/demo/neptune/}{neptune}
+				\item \href{http://www.themeshark.com/demo/amoeba/}{amoeba}
+				\item \href{http://www.themeshark.com/demo/gulfstream/}{gulfstream}
+				\item \href{http://switcher.sooperthemes.com/?theme=prophoto}{ProPhoto}
+				\item \href{http://demo.rockettheme.com/drupal/?theme=crystalline}{Crystaline}
+				\item \href{http://demo.themebrain.com/#methys_ii}{methys}
+				\item \href{http://www.templatemonster.com/demo/39138.html}{arch}
+				\end{itemize}
+	
+	\chapter{Εταιρική κάρτα}
+	
+	\chapter{Εταιρικά έντυπα}
+		
+	
+	
+	
+		
+		
+		
+
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Βιβλιογραφία}
+	\label{κεφ.:Βιβλιογραφία}
+	\fancyhead[LO]{\emph{Βιβλιογραφία}}
+	\fancyhead[RE]{\emph{Βιβλιογραφία}}
+	\printbibliography[title={Βιβλιογραφία}]
+	
+\end{document}
