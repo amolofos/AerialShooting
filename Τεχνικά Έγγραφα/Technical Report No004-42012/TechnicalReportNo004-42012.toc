@@ -16,6 +16,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Ενδιαφέροντες υλοποιημένες προτάσεις}{7}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Εταιρική κάρτα}{8}{chapter.4}
+\contentsline {chapter}{\numberline {4}Εταιρική κάρτα}{9}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Εταιρικά έντυπα}{9}{chapter.5}
+\contentsline {chapter}{\numberline {5}Εταιρικά έντυπα}{10}{chapter.5}

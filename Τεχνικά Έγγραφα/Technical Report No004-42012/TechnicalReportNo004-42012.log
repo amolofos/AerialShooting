@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.12)  1 OCT 2012 01:59
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.12)  3 OCT 2012 23:55
 entering extended mode
 **TechnicalReportNo004-42012.tex
 
@@ -1170,36 +1170,41 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 [7
 
 ]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
 Κεφάλαιο 4.
-[8
+[9
 
 ]
 Κεφάλαιο 5.
-[9
-
-] [10
+[10
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 162.
+LaTeX Warning: Empty bibliography on input line 170.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
 
 ("C:\Users\Mntsos\Documents\Τα αρχεία μου\Projects\AerialShooting\Τ
 εχνικά Έγγραφα\Technical Report No004-42012\TechnicalReportNo004-4
 2012.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 172.
 Package logreq Info: Writing requests to 'TechnicalReportNo004-42012.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 24917 strings out of 429156
- 475122 string characters out of 3168943
- 614986 words of memory out of 3000000
- 27911 multiletter control sequences out of 15000+200000
- 11052 words of font info for 64 fonts, out of 3000000 for 9000
+ 24919 strings out of 429156
+ 475217 string characters out of 3168943
+ 615986 words of memory out of 3000000
+ 27912 multiletter control sequences out of 15000+200000
+ 11060 words of font info for 65 fonts, out of 3000000 for 9000
  786 hyphenation exceptions out of 8191
- 46i,7n,46p,836b,644s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,10n,46p,836b,644s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on TechnicalReportNo004-42012.pdf (10 pages).
