@@ -1,0 +1,340 @@
+\documentclass[a4paper, 12pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{placeins}
+
+\raggedbottom
+\onecolumn
+
+\usepackage{graphicx, amsfonts, psfrag, fancyhdr, layout, subfigure}
+\usepackage{pdflscape}
+%\usepackage{lscape}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{array}
+%The arydshln package offers you the \hdashline and \cdashline commands which are the dashed counterparts of \hline and \cline, respectively. 
+\usepackage{arydshln}
+
+%\usepackage[toc,page]{appendix}
+%\renewcommand{\appendixtocname}{Παραρτήματα}
+%\renewcommand{\appendixname}{Παράρτημα}
+%\renewcommand{\appendixpagename}{Παραρτήματα}
+%
+%\usepackage{index}
+%\usepackage[columns=2]{idxlayout}
+%\newindex{default}{idx}{ind}{Ευρετήριο}
+
+
+\setmainfont[Mapping=tex-text]{GFS Artemisia}
+
+\usepackage[style=numeric, bibstyle=numeric, hyperref=true, backref=true, alldates=terse, indexing=false, backend=bibtex]{biblatex}
+\addbibresource{Bibliography.bib}
+
+% Set equal margins on book style
+\setlength{\oddsidemargin}{53pt}
+\setlength{\evensidemargin}{53pt}
+\setlength{\marginparwidth}{57pt}
+\setlength{\footskip}{30pt}
+
+\author{Καφετζής Δημήτριος Ανδρέας}
+\title{Εναέρια λήψη εικόνας : Εταιρική παρουσία}
+\newcommand{\reportRev}{Πρώτη (1)}
+\newcommand{\reportType}{Εταιρική Έκθεση}
+\newcommand{\reportNo}{ΕΤΑΙΡ004-42012}
+\newcommand{\summary}{Με την αναφορά αυτή επιχειρείται να καθοριστεί η εταιρική παρουσία του συστήματος εναέριας φωτογράφησης και κινηματογράφησης. Παρατίθενται και μελετώνται η επωνυμία αυτής, οι προσφερόμενες υπηρεσίες, η αγορά δραστηριοποίησης και η διαδικτυακή παρουσία της.}
+
+% Αλλαγή της πρώτης σελίδας που δημιουργείται με την εντολή \maketitle
+\makeatletter
+\newcommand{\makefrontpage}{
+	\newpage
+ 	\null
+ 	\vskip 2em
+ 	\begin{center}
+ 		{\LARGE \@title}\linebreak
+ 		\vskip 2cm
+ 		\underline{Περίληψη}\linebreak
+ 	\end{center}
+ 		\summary\linebreak
+ 		\vskip 5cm
+ 	\begin{center}
+ 		\begin{large}
+ 			\@author\linebreak
+	  		\@date
+ 		\end{large}
+ 	\end{center}
+ 	\vskip 0.5cm
+  	\begin{large}
+  		\begin{tabular}{ l l }
+  			Έκδοση κειμένου & \reportRev \\ 
+			Τύπος κειμένου & \reportType \\
+			Αριθμός κειμένου & \reportNo \\ 
+  		\end{tabular} 
+  	\end{large}
+  	\newpage
+} \makeatother
+
+
+
+\begin{document}
+	
+	\makefrontpage
+		
+	\addcontentsline{toc}{chapter}{Περιεχόμενα}
+	\tableofcontents
+
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Κατάλογος Σχημάτων}
+	\listoffigures
+
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Κατάλογος Πινάκων}
+	\listoftables
+	
+% Code for creating empty pages
+% No headers on empty pages before new chapter
+	\makeatletter
+		\def\cleardoublepage{
+			\clearpage\if@twoside \ifodd\c@page\else
+	    	\hbox{}
+	    	\thispagestyle{plain}
+	    	\newpage
+    		\if@twocolumn\hbox{}\newpage\fi\fi\fi
+    	}
+	\makeatother \clearpage{\pagestyle{plain}\cleardoublepage}
+
+% Define pagestyle
+	\pagestyle{fancy}
+	\fancyhf{}
+	\renewcommand{\chaptermark}[1]{\markboth{ \emph{#1}}{}}
+
+% Adjustments headers
+	\fancyhead[LO]{\emph{Κεφάλαιο \thechapter}}
+	\fancyhead[RE]{\leftmark}
+	\fancyfoot[LE,RO]{\thepage}
+	
+	\chapter{Εισαγωγή}
+		
+		\section{Σκοπός}
+	
+	
+	chapter{Εταιρικές δραστηριότητες}
+	
+		\section{Παρεχόμενες υπηρεσίες}
+		
+		\section{Προτεινόμενες εφαρμογές}
+		
+		\section{Αγορά δραστηριοποίησης}	
+			\paragraph{}{Αποτελεί μία ανερχόμενη αγορά στην Ελλάδα τα δυναμικά  χαρακτηριστικά της οποίας δεν έχουν αποσαφηνιστεί ακόμα.
+			}
+			\paragraph{}{Υπάρχουν διάφορες εταιρίες που προσφέρουν υπηρεσίες εναέριας φωτογράφησης και κινηματογράφησης. Κάποιες από αυτές χρησιμοποιούν πραγματικά ελικόπτερα, άλλες μη επανδρωμένα ιπτάμενα οχήματα. Επίσης κάποιες από αυτές προσανατολίζονται σε επιστημονικές εφαρμογές ενώ άλλες σε εφαρμογές ψυχαγωγίας.
+			}
+			
+			\begin{longtable} { m{2.2cm} m{2cm} m{3.5cm} m{3.5cm} }
+					\caption[Εταιρίες εναέριας λήψης εικόνας]{Εταιρίες εναέριας λήψης εικόνας}
+					\label{πιν.:Εταιρίες εναέριας λήψης εικόνας}\\
+					~\\
+					Όνομα & Ιστοσελίδα & Εξοπλισμός & Τομέας ειδίκευσης\\
+					\hline
+					~\\
+					\endfirsthead
+					\multicolumn{4}{c}{συνέχεια του πίνακα \ref{πιν.:Εταιρίες εναέριας λήψης εικόνας}}\\
+					Όνομα & Ιστοσελίδα & Εξοπλισμός & Τομέας ειδίκευσης\\
+					\hline
+					~\\
+					\endhead
+					\multicolumn{4}{c}{ο πίνακας συνεχίζεται στην επόμενη σελίδα}\\
+					\endfoot
+					\multicolumn{4}{c}{ολοκληρώθηκε ο πίνακας \ref{πιν.:Εταιρίες εναέριας λήψης εικόνας}}\\
+					\endlastfoot
+					~\\
+					\multicolumn{4}{c}{μη επανδρωμένα πολύπτερα}\\
+					\hdashline
+					~\\
+					AirCam & \href{http://yes.aircam.gr/el/}{σύνδεσμος} & μη επανδρωμένα ελικόπτερα, με επανδρωμένα πολύπτερα & ψυχαγωγία, κατασκευές, παρακολούθησης\\
+					Aeroworks & \href{http://www.aeroworks.gr/index.php}{σύνδεσμος} & μη επανδρωμένα ελικόπτερα & ψυχαγωγία\\
+					Aeroporos & \href{http://www.aeroporos.com}{σύνδεσμος} & πολύπτερα & ψυχαγωγία, κατασκευές, κτηματομεσιτικός\\
+					Hexateam & \href{http://www.hexateam.gr/}{σύνδεσμος} & πολύπτερα & ψυχαγωγία, κατασκευές, κτηματομεσιτικός\\
+					AeroFilms & \href{http://www.aerofilms.gr}{σύνδεσμος} & πολύπτερα & πλήρεις\\
+					Aeroview & \href{http://www.aeroview.gr/}{σύνδεσμος} & & φωτογραφήσεις, βιντεοσκοπήσεις\\
+					\multicolumn{4}{c}{αεροπλάνα και ελικόπτερα}\\
+					\hdashline
+					~\\
+					Euro wings & \href{http://www.eurowings.gr}{σύνδεσμος} & αεροπλάνο & πλήρεις υπηρεσίες\\
+					Aerial Photo & \href{http://www.aerialphoto.gr/}{σύνδεσμος} & ελικόπτερα & πλήρεις υπηρεσίες\\
+					Rotors air business & \href{http://www.rotors.gr/}{σύνδεσμος} & ελικόπτερα, υπερελαφρά αεροσκάφη, μη επανδρωμένα & πλήρεις\\
+					Air Lift & \href{http://www.airlift.gr}{σύνδεσμος} & ελικόπτερα & πλήρεις\\
+					Abi & \href{http://www.abi.gr}{σύνδεσμος} & ελικόπτερα & πλήρεις\\
+					Γεωανάλυση & \href{http://www.geoanalysis.gr}{σύνδεσμος} & ελικόπτερα & φωτογράφηση, επιστημονικός, κατασκευές\\
+					Airphotos & \href{http://www.airphotos.gr}{σύνδεσμος} & αεροπλάνα & φωτογραφήσεις\\
+					Aerialwork & \href{http://www.aerialwork.com/}{σύνδεσμος} & ελικόπτερα & πλήρεις\\
+					Icss & \href{http://www.icss.gr/}{σύνδεσμος} & ελικόπτερα & φωτογραφήσεις\\
+					Aerophoto & \href{http://www.aerophoto.gr/}{σύνδεσμος} & αεροπλάνο & \\
+					\multicolumn{4}{c}{λοιπές εταιρίες}\\
+					\hdashline
+					~\\					
+					Geomatics & \href{http://www.geomatics.gr}{σύνδεσμος} & & επιστημονικός, κατασκευές\\
+					AirPhoto & \href{http://www.airphoto.gr/}{σύνδεσμος} & & φωτογράφηση\\
+					Hover & \href{http://www.hover.gr/}{σύνδεσμος} & & φωτογράφηση\\
+					Elpho & \href{http://www.elpho.gr}{σύνδεσμος} & & επιστημονική\\
+					Aerovideo & \href{http://www.aerovideo.gr/}{σύνδεσμος} & & \\    
+					\hline
+				\end{longtable}
+	
+		\section{Υπηρεσίες}
+			\paragraph{}{Έχουμε την δυνατότητα να φωτογραφίζουμε μεγάλους εθνικούς δρυμούς ολοκληρωμένη μελέτη εφαρμογών σε γεωγραφικά συστήματα, εναέριες αποτυπώσεις χωροθετήσεων, τουριστικούς χώρους, τοπία, λιμάνια σε γραφικές παραλίες, παραδοσιακούς οικισμούς, νησιά του Αιγαίου και Ιονίου, μεγάλα δημόσια και ιδιωτικά έργα, οδοποιίες, αεροδρόμια , γέφυρες, σήραγγες, φράγματα, βιολογικούς καθαρισμούς, αρδευτικά, συρμούς τραίνων, μεγάλες ξενοδοχειακές και τουριστικές μονάδες σε ακτές και βουνά, λίμνες, μόλυνση σε θαλάσσιους χώρους, πλωτές εξέδρες σε λίμνες και θαλάσσιες περιοχές άντλησης αργού πετρελαίου, εξειδικευμένες θεμελιώσεις, μεγάλα βιομηχανικά συγκροτήματα,  μονάδες εξόρυξης ορυκτών, σταθμούς μετάδοσης και εκπομπής μεγάλων  τηλεπικοινωνιακών έργων, αποστραγγιστικά, αντιπλημμυρικά, εκκλησίες, μοναστήρια, αρχαία θέατρα και μεγάλους αρχαιολογικούς χώρους, μεγάλα κτιριακά συγκροτήματα, ανισόπεδους κόμβους, χώρους υγειονομικής ταφής απορριμμάτων, στάδια και μεγάλες αθλητικές εγκαταστάσεις, χιονοδρομικά κέντρα, μεγάλα πλοία, τουριστική προβολή τοπίων, μεγάλα συγκροτήματα ιχθυοκαλλιεργειών σε θαλάσσιους χώρους, αυθαίρετα κτίσματα σε ευαίσθητες περιοχές, υδροβιότοπους, ΑΓΙΟ ΟΡΟΣ.
+			}
+			
+			\paragraph{Τουριστικές μονάδες}{Καλύπτουμε από αέρος Ξενοδοχειακές μονάδες καθώς και κάθε μορφής Kαταλύματα,Δωμάτια/ Σπίτια προς Ενοικίαση.
+Έχουμε τη δυνατότητα να περιηγηθούμε στο χώρο σας και να σας δώσουμε μοναδικές και εντυπωσιακές λήψεις της επιχείρησής σας με σκοπό την καλύτερη προβολή σας στο τομέα της διαφήμισης, του internet καθώς και για οποιαδήποτε χρήση.
+			}
+			\paragraph{Real-estate επιχειρήσεις}{Φωτογραφίζουμε Δημόσια και Ιδιωτικά Κτήρια, Επιχειρήσεις (Καφέ/ Εστιατόρια/ Καταστήματα/ Οικίες/ Έπαυλεις) καθώς και οικόπεδα, αγροτεμάχια ακόμη και σε δύσβατες περιοχές. Σας παρέχουμε τη δυνατότητα να δείξετε ολοκληρωμένα και απο ψηλά το χώρο σας και απο οποιαδήποτε οπτική γωνία διευκολύνοντας εσάς και τον υποψήφιο αγοραστή-πελάτη. Μπορούμε να προσεγγίσουμε το αντικείμενο του ενδιαφέροντος από πολύ κοντινή απόσταση έως και τα 200μ ύψος και να σας δώσουμε λήψεις, αδύνατες με τα έως τώρα συμβατικά μέσα! 
+			}
+			\paragraph{Αξιοθέατα εκδηλώσεις}{Καλύπτουμε Παραλίες, Τουριστικά Αξιοθέατα, Εκδηλώσεις πάντα με τη μοναδική δυνατότητα προσέγγισης απο αέρος, με αξιοπιστία και με γνώμονα την ασφάλεια όλων! 
+			}
+			\paragraph{}{ Commercial/ Residential real estate
+ Golf Courses
+ Special Events
+ Resorts / Hotels
+ News/Media/Events/Film
+ Environmental protection
+ Landscaping and surveying
+ Advertising and promotions
+ Construction progress
+ Search & Rescue
+ Insurance Assessment
+ Roads and traffic
+ Rural Infrastructure
+ Disaster sites
+ Field Study
+ }
+			
+	\chapter{Εταιρική Παρουσία}
+	
+		\section{Επωνυμία}
+			\paragraph{}{Η επωνυμία πρέπει να χαρακτηρίζει την ίδια την εταιρία στο σύνολό της καθώς. Οφείλεται να επιλεχθεί ένα όνομα που θα δηλώνει τον τομέα δραστηριότητας αυτής, παράλληλα να κεντρίζει το ενδιαφέρον και να είναι εύκολα διαχειρίσιμο.
+			}
+			\paragraph{}{Επιπλέον, πρέπει να ληφθεί υπόψιν η πιθανή εξέλιξη της εταιρίας. Δηλαδή, πρέπει να επιλεγεί ένα όνομα το οποίο θα ανταποκρίνεται στην μελλοντικές δραστηριότητες που θα αναλαμβάνονται. Μελλοντικά, η εταιρία μπορεί να δραστηριοποιείται μόνο στον τομέα των εκδηλώσεων ή μόνο στον τομέα των ταινιών. Μπορεί επίσης να μην προσφέρει κανένα τελικό προϊόν, δηλαδή να προσφέρει ανεπεξέργαστο υλικό και μόνο. Μπορεί ακόμα να αποτελεί ένα πλήρες συνεργείο κινηματογράφησης και η εναέρια λήψη εικόνας να μην αποτελεί το κυρίαρχο χαρακτηριστικό. Αντιθέτως θα αποτελεί μία μόνο υπηρεσία, καινοτόμα βέβαια, από τις προσφερόμενες.
+			}
+			\paragraph{}{Πρέπει να κατοχυρωθεί ως εμπορικό σήμα \textregistered.
+			}
+			
+			
+		\subsection{Υλοποιήσεις}
+			\paragraph{}{Η επωνυμία της εταιρίας έχει ήδη επιλεχθεί να είναι η \textbf{"Unmanned-Evolution}.
+			}
+			
+		
+		\section{Λογότυπο}
+			\paragraph{}{Το λογότυπο αποτελεί το δυναμικότερο και αμεσότερο μέσο αναγνώρισης και αποδοχής της εταιρίας. Πρέπει να εκπέμπει την λογική και το χαρακτήρα της προσπάθειας αυτής.
+			}
+			\paragraph{}{Σχετιζόμενο με την επωνυμία της εταιρίας, ισχύουν και εδώ οι ίδιοι παράγοντες επιλογής και δημιουργίας του λογοτύπου. Μεταξύ άλλων, πρέπει να ληφθεί υπόψιν η πιθανή εξέλιξη της εταιρίας. Δηλαδή, πρέπει να επιλεγεί ένα όνομα το οποίο θα ανταποκρίνεται στην μελλοντικές δραστηριότητες που θα αναλαμβάνονται.
+			}
+			\paragraph{}{Πρέπει να σχεδιαστούν λογότυπα τα οποία θα καλύπτουν πληθώρα εφαρμογών. Πρέπει να υπάρχει ένα κύριο λογότυπο σήμα κατατεθέν της εταιρίας. Επιπλέον πρέπει να υπάρχει ένα λογότυπο μινιμαλιστικό το οποίο θα αποτελείται από μία μόνο εικόνα ή απλώς από τα αρχικά γράμματα της επωνυμίας. Επίσης θα πρέπει η επωνυμία της εταιρίας να σχεδιαστεί ως λογότυπο. Τα απαραίτητα λογότυπα απαριθμούνται στον πίνακα \ref{πιν.:Απαρίθμηση λογοτύπων}.
+			}
+			\paragraph{}{Τα λογότυπα αυτά είναι αναγκαία γιατί θα απαιτούνται από τις παρακάτω χρήσεις :
+			\begin{itemize}
+				\item Ενσωμάτωση στην ιστοσελίδα.
+				\item Ενσωμάτωση στις παραγόμενες φωτογραφίες και βίντεο.
+				\item Δημιουργία εταιρικών καρτών.
+				\item Δημιουργία εταιρικών εντύπων.
+				\item Εκτύπωση πάνω σε μπλούζες, καπέλα κ.ο.κ.
+				\item Εκτύπωση αυτοκόλλητων και άλλου υλικών για την κάλυψη/σημείωση του εξοπλισμού.
+			\end{itemize}
+			}
+			\paragraph{}{Το καθένα από αυτά πρέπει να κατοχυρωθεί ως εμπορικό σήμα \textregistered.
+			}
+			
+			
+			\begin{table}[ht]
+				\centering
+				\begin{tabular}{ m{3cm}  m{9cm} } 
+					~\\
+					Λογότυπο & Χρήση \\ 
+					\hline
+					~\\
+					κύριο & αποτελεί το λογότυπο που θα χρησιμοποιείται κατά κόρον \\ 
+					\hdashline
+					~\\
+					μινιμαλιστικό & θα χρησιμοποιείται σε εφαρμογές που απαιτούν μικρές διαστάσεις και δεν μπορεί να εφαρμοστεί το κύριο \\ 
+					\hdashline
+					~\\
+					επωνυμία εταιρίας & θα χρησιμοποιείται σε εφαρμογές που απαιτούν λογότυπο με διαφορετικές τις δύο διαστάσεις - μήκος και πλάτος. Συγκεκριμένα, το μήκος απαιτείται να είναι μεγάλο και το πλάτος μικρό. Π.χ. στην επικάλυψη των αξόνων του πολυπτέρου. \\
+				\end{tabular}
+				\caption{Απαρίθμηση λογοτύπων}
+				\label{πιν.:Απαρίθμηση λογοτύπων}
+			\end{table}
+			
+		\subsection{Υλοποιήσεις}
+			\paragraph{}{Το λογότυπο σχεδιάζεται ήδη και πιθανότατα θα εμπεριέχει ένα εξάπτερο.
+			}
+			
+		
+		\section{Εταιρική κάρτα}{
+		}
+			\paragraph{}{Τα χαρακτηριστικά και οι προδιαγραφές που ισχύουν για την επωνυμία και το λογότυπο ισχύουν και για την εταιρική κάρτα.
+			}
+			\paragraph{}{Σχεδιάζεται ήδη.
+			}
+		\subsection{Υλοποιήσεις}
+			\paragraph{}{Η κυρίαρχη υλοποίηση εικονίζεται στην ***εικόνα***
+			}
+	
+		\section{Εταιρικά έντυπα}{Πρέπει να υπάρχουν έντυπα τα οποία θα παρουσιάζουν την εταιρία στο σύνολό της και θα αναλύουν τις παρεχόμενες υπηρεσίες αναλυτικά.  
+		}
+		
+		
+		\section{Ιστοσελίδα}
+	
+		\subsection{Ενδιαφέροντες υλοποιημένες προτάσεις}
+			\begin{itemize}
+				\item \href{http://www.templatemonster.com/demo/39989.html}{Agriculture}
+				\item \href{http://www.templatemonster.com/demo/39987.html}{fortune}
+				\item \href{http://www.templatemonster.com/demo/39985.html}{fortune}
+				\item \href{http://www.templatemonster.com/demo/39988.html}{Surfing}
+				\item \href{http://www.themeshark.com/demo/neptune/}{neptune}
+				\item \href{http://www.themeshark.com/demo/amoeba/}{amoeba}
+				\item \href{http://www.themeshark.com/demo/gulfstream/}{gulfstream}
+				\item \href{http://switcher.sooperthemes.com/?theme=prophoto}{ProPhoto}
+				\item \href{http://demo.rockettheme.com/drupal/?theme=crystalline}{Crystaline}
+				\item \href{http://demo.themebrain.com/#methys_ii}{methys}
+				\item \href{http://www.templatemonster.com/demo/39138.html}{arch}
+				\item \href{http://www.fruute.com/}{fruute}
+				\item \href{http://aleksfaure.com/}{aleksfaure}
+				\item \href{http://www.eastworksleather.com/}{eastworksleather}
+				\item \href{http://www.wearemovingthings.com/}{wearemovingthings}
+				\item \href{http://pitch.csspiffle.com/}{csspiffle}
+				\item \href{http://www.jumpboxdesign.co.uk/about.html}{jumpboxdesign}
+				\item \href{http://www.lucidmind.net/index.php}{lucidmind}
+				\item \href{http://soundofdata.nl/en/}{soundofdata}				
+			\end{itemize}
+			
+		\subsection{Υλοποιήσεις άλλων εταιριών}
+			\begin{itemize}
+				\item \href{http://yes.aircam.gr/el/}{AirCam}
+				\item \href{http://www.aeroworks.gr/}{aeroworks}
+				\item \href{http://www.aeroporos.com}{aeroporos}
+			\end{itemize}
+		
+	
+	
+	
+		
+		
+		
+
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Βιβλιογραφία}
+	\label{κεφ.:Βιβλιογραφία}
+	\fancyhead[LO]{\emph{Βιβλιογραφία}}
+	\fancyhead[RE]{\emph{Βιβλιογραφία}}
+	\printbibliography[title={Βιβλιογραφία}]
+	
+\end{document}

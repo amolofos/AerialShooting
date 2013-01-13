@@ -1,0 +1,30 @@
+﻿<?php
+
+	print ' <!-- top level footer section -->
+			<div id="top_level_footer_section_wrapper" class="top_level_footer_section_wrapper">
+			<div id="top_level_footer_section" class="top_level_footer_section">
+				
+				<!-- top level footer copyright section -->
+				<div id="top_level_footer_copyright_section" class="top_level_footer_copyright_section">
+					<p>&copy Διακαίωμα κτήσης <span class="company_name_text">Unmanned</span> <span class="company_text colored">Evolution</span></p>
+				</div>
+		';
+/*		
+				<!-- top level footer acknowledgement section -->
+				<p id="top_level_footer_acknowledgement_section" class="top_level_footer_acknowledgement_section">
+					<div class="top_level_footer_acknowledgement">Γραφίστας : Βούλγαρης Γιώργος</div>
+					<div>Προγραμματιστής : Καφετζής Δημήτριος</div>
+				</p>
+				<!-- top level footer contact us section -->
+				<p id="top_level_footer_contact_section" class="top_level_footer_contact_section">
+					contact us
+				</p>
+				<!-- top level footer law section -->
+				<p id="top_level_footer_law_section" class="top_level_footer_law_section">
+					law section
+				</p>
+			</div>
+			</div>
+	*/
+			
+?>

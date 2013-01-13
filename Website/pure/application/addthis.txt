@@ -1,0 +1,16 @@
+		<!-- AddThis Button BEGIN -->
+		<div class="addthis_toolbox addthis_floating_style addthis_counter_style" style="left:2%;top:20%;"
+			addthis:url="http://www.unmanned-evolution.com/application/application.php#services_section_content_aerialvideo_wrapper"
+			addthis:title="Unmanned Evolution - Εναέρια Κινηματογράφηση"
+			addthis:description="Η προσέγγιση της Unammaned Evolution στην Εναέρια Κινηματογράφηση"> 
+			<a class="addthis_button_facebook_like" fb:like:layout="box_count"></a>
+			<a class="addthis_button_tweet" tw:count="vertical"></a>
+			<a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
+			<a class="addthis_button_linkedin_counter"></a>
+			<a class="addthis_button_pinterest_pinit" pi:pinit:url="http://www.unmanned-evolution.com" pi:pinit:media="http://unmanned-evolution.com/application/img/helic.jpg" pi:pinit:layout="horizontal">  </a>
+			<a class="addthis_button_stumbleupon_badge"></a>
+			<a class="addthis_button_digg" g:digg:size="tall"></a>
+			<a class="addthis_button_delicious" g:delicious:size="tall"></a>
+			<a class="addthis_counter"></a>
+		</div>
+		<!-- AddThis Button END -->

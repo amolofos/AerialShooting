@@ -1,0 +1,330 @@
+function onYouTubeIframeAPIReady() {
+	setTimeout( function() {createPortofolioTrailers();}, 500 );
+}
+
+function createPortofolioTrailers ( ) {
+	
+	//Multi Rotor demo scenes
+	portofolio_trailers_ids = [ "multi_rotor_demo_scenes",
+								"mountains_video",
+								"concerts",
+								"concerts_live",
+								"running_man",
+								"industrial_area",
+								"tourism_businesses",
+								"observation_environment",
+								"downhill_dirfy_2011",
+								"parkour_2011",
+								"presentation_zembili",
+							];
+	
+	portofolio_trailers[ "multi_rotor_demo_scenes" ] = new YT.Player('multi_rotor_demo_scenes', {
+		videoId: '_AeVgCd9U0E',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - Mountains 
+	portofolio_trailers[ "mountains_video" ] = new YT.Player('mountains_video', {
+		videoId: 'rT1BICpC1Gg',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - Concerts 
+	portofolio_trailers[ "concerts" ] = new YT.Player('concerts', {
+		videoId: 'AxmMFyiJ8uA',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - Concerts -LIVE-
+	portofolio_trailers[ "concerts_live" ] = new YT.Player('concerts_live', {
+		videoId: 'AD5CfwNcHHM',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - Running Man
+	portofolio_trailers[ "running_man" ] = new YT.Player('running_man', {
+		videoId: '-TIOiY6qpT8',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - Éndustrial Área
+	portofolio_trailers[ "industrial_area" ] = new YT.Player('industrial_area', {
+		videoId: 'sCE-Ci_ZkKw',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - Tourism businesses
+	portofolio_trailers[ "tourism_businesses" ] = new YT.Player('tourism_businesses', {
+		videoId: 'jvBi8bLDCFk',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - Observation Environment
+	portofolio_trailers[ "observation_environment" ] = new YT.Player('observation_environment', {
+		videoId: 'L86CoQdCNaA',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - DownHill 2011, Dirfy
+	portofolio_trailers[ "downhill_dirfy_2011" ] = new YT.Player('downhill_dirfy_2011', {
+		videoId: 'yMjJarOY-B8',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - Parkour 2011, Athens
+	portofolio_trailers[ "parkour_2011" ] = new YT.Player('parkour_2011', {
+		videoId: '6SB9jgI6qks',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	//Air / Video Experts - presentation
+	portofolio_trailers[ "presentation_zembili" ] = new YT.Player('presentation_zembili', {
+		videoId: 'zkF5QFWbBuU',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	if ( $(window).width() >= 740 ) {
+		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
+			setVideoDimensions( portofolio_trailers[i], "portofolio", 25 );
+		}
+	} else {
+		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
+		}
+	}
+	*/
+}
+
+function onPlayerReady ( event ) {
+	event.target.setPlaybackQuality("large");
+}
+
+function onPortofolioPlayerStateChanged ( event ) {
+	
+	var wrapper = $(event.target.getIframe()).parent("figure");
+	var wrapper_div = $(event.target.getIframe()).parent("figure").parent("div");
+	var iframe = event.target.getIframe();
+	
+	if ( $(window).width() >= 740 ) {
+		if ( event.data == YT.PlayerState.PLAYING ) {
+			/*
+			setVideoDimensions( event.target, "portofolio", 100 );
+			
+			$(wrapper).css( "width", "100%" );
+			$(wrapper).css( "height", "100%" );
+			
+
+			$(iframe).css("background-color", "rgba(252,180,31,0.3)");
+			$(iframe).css("z-index", "400");
+			*/
+		} else if ( event.data == YT.PlayerState.ENDED ) {
+			/*
+			setVideoDimensions( event.target, "portofolio", 25 );
+			$(wrapper_div).css("width", "auto");
+			$(iframe).css("background-color", "rgba(200,200,200,0.3)");
+			$(iframe).css("z-index", "0");
+			*/
+		} else if ( event.data == YT.PlayerState.PAUSED ) {
+		
+		} else if ( event.data == YT.PlayerState.BUFFERING ) {
+		
+		} 
+	}
+}
+
+function setVideoDimensions( target, location_type, width_perc ) {
+	
+	var wrapper_width = $(window).width();
+	var video_width_n;
+	var video_height_n;
+	
+	switch ( location_type ) {
+		case "landing":
+			wrapper_width = $(window).width();
+			break;
+		case "section":
+			wrapper_width = $(target.getIframe()).parent("figure").width();
+			break;
+		case "portofolio":
+			wrapper_width = $(window).width();
+			break;		
+	}
+		
+	video_width_n = Math.round(wrapper_width*width_perc/100);
+	video_height_n = Math.round(video_width_n/1.77);
+	target.setSize( video_width_n, video_height_n );
+}
+
+function setAddThis ( portofolio_item_counters_id, portofolio_item_social_id, addthis_config, url, title, description ) {
+	
+	var addthis_share = {
+		"url": url,
+		"title": title,
+		"description": description
+	};
+	
+	if ( portofolio_item_counters_id != "" ) {
+		
+		var tbx_counters = document.getElementById( portofolio_item_counters_id );
+		tbx_counters.innerHTML += '<a class="addthis_button_facebook_like" fb:like:layout="box_count" fb:like:href="' + url + '"></a>';
+		tbx_counters.innerHTML += '<a class="addthis_button_tweet" tw:via="unmanned_gr" tw:count="vertical" tw:url="' + url + '"></a>';
+		tbx_counters.innerHTML += '<a class="addthis_button_pinterest_pinit" pi:pinit:media="' + url + '" pi:pinit:layout="vertical"></a>';
+		tbx_counters.innerHTML += '<a class="addthis_button_linkedin_counter"></a>';
+		tbx_counters.innerHTML += '<a class="addthis_button_stumbleupon_badge"></a>';		
+		
+		addthis.toolbox( "#"+portofolio_item_counters_id, addthis_config, addthis_share );
+	}
+	
+	if ( portofolio_item_social_id != "" ) {
+		
+		var tbx_social = document.getElementById( portofolio_item_social_id );
+		tbx_social.innerHTML += '<a class="addthis_button_facebook" href="' + url + '"></a>';
+		tbx_social.innerHTML += '<a class="addthis_button_twitter" href="' + url + '"></a>';
+		tbx_social.innerHTML += '<a class="addthis_button_linkedin"></a>';
+		tbx_social.innerHTML += '<a class="addthis_button_pinterest_pinit" pi:pinit:media="' + url + '"></a>';
+		tbx_social.innerHTML += '<a class="addthis_button_stumbleupon"></a>';
+		tbx_social.innerHTML += '<a class="addthis_button_tumblr"></a>';
+		tbx_social.innerHTML += '<a class="addthis_button_digg"></a>';
+		tbx_social.innerHTML += '<a class="addthis_button_delicious"></a>';
+		tbx_social.innerHTML += '<a class="addthis_button_reddit"></a>';
+		tbx_social.innerHTML += '<a class="addthis_button_compact"></a>';
+		tbx_social.innerHTML += '<a class="addthis_bubble_style"></a>';
+
+		addthis.toolbox( "#"+portofolio_item_social_id, addthis_config, addthis_share );
+	}
+
+}
+
+function setAddThisSlideShow ( addthis_config, url, title, description ) {
+	
+	var addthis_share = {
+		"url": url,
+		"title": title,
+		"description": description
+	};
+		
+	$( "#portofolio_slideshow_social a").each( function(){ $(this).remove() } );
+	var tbx = document.getElementById( "portofolio_slideshow_social" );
+	tbx.innerHTML += '<a class="addthis_button_facebook_like" fb:like:layout="box_count" fb:like:href="' + url + '"></a>';
+	tbx.innerHTML += '<a class="addthis_button_facebook_send"></a>';
+	tbx.innerHTML += '<a class="addthis_button_tweet" tw:via="unmanned_gr" tw:count="vertical" tw:url="' + url + '"></a>';
+	tbx.innerHTML += '<a class="addthis_button_pinterest_pinit" pi:pinit:media="' + url + '" pi:pinit:layout="vertical"></a>';
+	tbx.innerHTML += '<a class="addthis_button_linkedin_counter"></a>';
+	tbx.innerHTML += '<a class="addthis_button_stumbleupon_badge"></a>';
+	tbx.innerHTML += '<a class="addthis_button_tumblr"></a>';
+	tbx.innerHTML += '<a class="addthis_button_delicious"></a>';
+	tbx.innerHTML += '<a class="addthis_button_digg"></a>';
+	tbx.innerHTML += '<a class="addthis_button_compact"></a>';		
+	
+	addthis.toolbox( "#portofolio_slideshow_social", addthis_config, addthis_share );
+	
+}
