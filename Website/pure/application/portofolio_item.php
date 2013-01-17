@@ -6,11 +6,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 */
 ?>
 <?php
-	session_start();
+	//session_start();
 	header( 'Content-Type: text/html; charset=UTF-8' );
 	header( 'Cache-Control: max-age=2592000' ); //30days (60sec * 60min * 24hours * 30days)
-	header( 'Expires: Mon, 7 Jan 2013 05:00:00 GMT' );
-	//header( 'Last-Modified: ' . date ("F d Y H:i:s.", getlastmod()) . ' GMT' ); 
+	header( 'Expires: Mon, 7 Jul 2013 05:00:00 GMT' );
+	header( 'Last-Modified: ' . date ("F d Y H:i:s.", getlastmod()) . ' GMT' ); 
 	header( 'Vary: Accept-Encoding' );
 	
 	include "portofolio_items.php";

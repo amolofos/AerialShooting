@@ -8,28 +8,43 @@ Distributed under the Creative Commons Attribution 3.0 License
 */
 ?>
 <?php
-	session_start();
+	//session_start();
+	header( 'Content-Type: text/html; charset=UTF-8' );
+	header( 'Cache-Control: max-age=2592000' ); //30days (60sec * 60min * 24hours * 30days)
+	header( 'Expires: Mon, 7 Jul 2013 05:00:00 GMT' );
+	header( 'Last-Modified: ' . date ("F d Y H:i:s.", getlastmod()) . ' GMT' ); 
+	header( 'Vary: Accept-Encoding' );
 	header('Location: ./application/application.php#landing_section_wrapper');
-	
 ?>
-<!DOCTYPE HTML>
-<html xml:lang="el" lang="el" dir="ltr">
+<!DOCTYPE html>
+<html xml:lang="el" lang="el" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:fb="http://ogp.me/ns/fb#" itemscope itemtype="http://schema.org/WebPage">
 	<head>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/mobile.min.css" /> -->
+		<!-- Enabling HTML5 tags for older IE browsers -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>		
+		<![endif]-->
+		<!--[if IE ]>
+			<link rel="stylesheet" id="ie-css"  href="./css/ie.css" type="text/css" media="all">
+		<![endif]-->
+		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		
 		<title lang="en">Unmanned Evolution | Air / Video Experts</title>
-		<link rel="icon" type="image/png" href="application/img/unmanned-evolution.ico"/>
+		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
 		<meta name="description" content="Καλώς ήλθατε στην Unmanned Evolution. Ειδικευόμαστε στην εναέρια κινηματογράφηση, εναέρια φωτογράφηση, εναέρια παρατήρηση και διάσωση. Χρησιμοποιούμε μη επανδρωμένα πτητικά μέσα -πολύπτερα, multicopters- σε συνδυασμό με κάμερες υψηλής ευκρίνειας -high definition- ώστε να έχουμε την καλύτερη θέαση από το μέγιστο δυνατό και επιθυμητό ύψος"/>
-		<meta name="application-name" content="Επίσημη ιστοσελίδα relocator"/>
-		<meta name="keywords" content="επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter"/>
+		<meta name="application-name" content="Επίσημη ιστοσελίδα"/>
+		<meta name="keywords" content="επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
+		<!-- <link rel="shortlink" href="http://goo.gl/Ly8QY" /> -->
 		<link rel="canonical" href="www.unmanned-evolution.com" />
-		<link rel="shortlink" href="http://goo.gl/glmS" />
-				
+		
+		<meta name="revisit-after" content="1 Days"/>
 		<meta name="robots" content="index, follow" />
 		<meta name="googlebot" content="noodp">
-		<meta name="revisit-after" content="1 Days"/>
 		
 		<meta name="rating" content="general">
 		
@@ -39,91 +54,28 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="geo.placename" content="Athens" />
 		<meta name="geo.position" content="37.975496;23.734868" />
 		<meta name="ICBM" content="37.975496, 23.734868" />
-
-		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
-	<!--		<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
-	<!--		<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
-	<!--		<script src="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css"></script>
-	<!--	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>-->
-	<!--	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css"></script>-->
-	
-		<!-- <script src="application/scripts/jquery.bpopup-0.7.0.min.js"></script> -->
-		<!-- <script src="application/scripts/jquery.quicksand.js"></script> -->
-		<!-- Roundabout plugin : http://fredhq.com/projects/roundabout/ -->
-		<!-- <script src="application/scripts/jquery.roundabout.min.js"></script>-->
 		
-	<!--	<script src="application/scripts/prototype.js"></script>-->
-	<!--	<script src="application/scripts/scriptaculous.js"></script>-->
-	<!--	<script src="application/scripts/slider.js"></script>-->
-	<!--	<script src="application/scripts/effects.js"></script>-->
-	<!--	<script src="application/scripts/controls.js"></script>-->
-		
-	<!--		<script src="application/scripts/modernizr.js"></script> -->
-		
-		<!-- <script src="application/scripts/ckeditor/ckeditor.js"></script> -->
-	
-	<!--		<link href="http://fonts.googleapis.com/css?family=GFS+Neohellenic:400,700&amp;subset=greek" rel="stylesheet" type="text/css"/> -->
-	<!--		<link rel="stylesheet" type="text/css" href="application/css/fonts.css" media="all"/> -->
-	<!--		<link rel="stylesheet" type="text/css" href="application/css/mobile.css" media="all"/> -->
-	<!--		<link rel="stylesheet" type="text/css" href="application/css/narrow.css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)"/> -->
-	<!--		<link rel="stylesheet" type="text/css" href="application/css/middle.css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"/> -->
-	<!--		<link rel="stylesheet" type="text/css" href="application/css/wide_short.css" media="all and (min-width: 1220px) and (max-height: 730px)"/> -->
-	<!--		<link rel="stylesheet" type="text/css" href="application/css/wide.css" media="all and (min-width: 1220px) and (min-height: 730px)"/> -->
-			
-	
-		<!-- dark navigation bar -->
-	<!--		<link rel="stylesheet" type="text/css" href="application/css/navbar.css"/> -->
-		
-		<!-- Loading library FitText.js -->
-		<!-- <script src="application/scripts/jquery.fittext.js"></script> -->
-		
-		<!-- The Compressor -->
-		<!-- If your text is resizing poorly, you will want to turn tweak up/down "The Compressor". It works a little like a guitar amp. The default is `1`. -->
-		<!-- $(".responsive_headline").fitText(1.2);  Turn the compressor up   (text shrinks more aggressively) -->
-		<!-- $(".responsive_headline").fitText(0.8);  Turn the compressor down (text shrinks less aggressively) -->
-		
-		<!-- Loading library Lettering.js -->
-		<!-- <script src="application/scripts/jquery.lettering.js"></script> -->
-		
-		<!-- Loading library FitVid.js -->
-		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
-		<!-- <script src="application/scripts/jquery.fitvids.js"></script> -->
-		
-		
-		<!-- Loading library SlabText.js -->
-		<!-- <script src="application/scripts/jquery.slabtext.min.js"></script>
-        <!-- Function to slabtext the H1 headings -->
-      <!--  <script>  -->
-		<!-- $(document).ready(function(){ -->
-	<!-- 		function slabTextHeadlines() { -->
-      <!--           $(".top_level_header_branding_name_header").slabText({ -->
-                       <!--  Do not slabtext the headers if the viewport is under 380px -->
-      <!--                  "viewportBreakpoint":380 -->
-      <!--           }); -->
-	<!-- 		}; -->
-     <!--    }); -->
-	<!-- 	</script> -->
-	 	
-		
-		<!-- Loading library arctext.js -->
-		<!-- <script src="./application/scripts/jquery.arctext.js"></script> -->
-		
-		
-		<!-- Loading mediaelement video library -->
-		<!-- <script src="application/scripts/video_player/mediaelement-and-player.min.js"></script> -->
-		<!-- <link rel="stylesheet" href="./application/scripts/video_player/mediaelementplayer.min.css"/> -->
-		<!-- 	<script src="application/scripts/video_player/mejs-feature-fontawesome.min.js"></script> -->
-		<!-- 	<script src="application/scripts/video_player/mejs-feature-logo.min.js"></script> -->
-		<!-- <link rel="stylesheet" href="./application/scripts/video_player/mediaelementplayer_plugins.css"/> -->
-		
-		<!-- Custom scripts -->
-		<!-- <script src="application/scripts/unmanned_evolution.js"></script> -->
-		<!-- <script src="application/scripts/resizing.js"></script> -->
-		
-		<!-- Enabling HTML5 tags for older IE browsers -->
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		<!-- open graph meta tags -->
+		<meta property='og:locale' content="el_GR"/>
+		<meta property='og:title' content="Unmanned Evolution | Air / Video Experts"/>
+		<meta property='og:description' content="Εναέρια κινηματογράφηση και φωτογράφιση | Aerial cinematography and photography"/>
+		<meta property='og:url' content="http://www.unmanned-evolution.com"/>
+		<meta property='og:type' content="website"/>
+		<meta property='og:site_name' content="Unmanned Evolution" />
+		<!--  <meta property='og:image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" /> -->
+		<!--  <meta property='og:image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-with-multicopter-name-and-moto.png" /> -->
+		<!--  <meta property='og:image' content="http://www.unmanned-evolution.com/public/pics/Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_445x200.png" /> -->
+		<!--  <meta property='og:image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" /> -->
+		<!--  Google-compatible meta tags -->
+		<meta itemprop="name" content="Unmanned Evolution | Air / Video Experts" />
+		<meta itemprop="url" content="http://www.unmanned-evolution.com" />
+		<meta itemprop="description" content="Εναέρια κινηματογράφηση και φωτογράφιση | Aerial cinematography and photography"/>
+		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
+		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-with-multicopter-name-and-moto.png" />
+		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_445x200.png" />
+		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
+		<meta itemprop='inLanguage' content="el_GR" />
+		<meta itemprop='keywords' content="επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα" />
 		
 		 <!-- Google analytics -->
 		<script type="text/javascript">
