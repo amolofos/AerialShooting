@@ -186,7 +186,8 @@ html, body {
 	#top_level_header_socializing_section {
 		
 	}
-	#top_level_header_socializing_header {
+	#top_level_header_socializing_header,
+	#top_level_header_languages_header {
 		display: none;
 	}
 	#top_level_header_socializing_first_list_wrapper {
@@ -327,7 +328,8 @@ html, body {
 	#top_level_header_socializing_section {
 		
 	}
-	#top_level_header_socializing_header {
+	#top_level_header_socializing_header,
+	#top_level_header_languages_header {
 		display: none;
 		position: absolute;
 		top: -20%;
@@ -480,6 +482,33 @@ html, body {
 		left: 28%;
 	}
 
+	#top_level_header_languages {
+		display: inline-block;
+		position: absolute;
+		top: 10%;
+		width: 15%;
+		left: 70%;
+		padding: 0%;
+		margin: 0%;
+	}
+	#top_level_header_languages_header {
+		display: block;
+		position: relative;
+		padding: 0%;
+		margin: 0%;
+	}
+	.language_form {
+		display: inline-block;
+		position: relative;
+		left: 10%;
+		border: 0px;
+		padding: 0%;
+		margin: 0%;
+	}
+	.language_form input:hover {
+		cursor: pointer;
+	}
+	
 	#top_level_header_socializing_section_wrapper {
 		display: inline;
 		position: absolute;
@@ -2760,7 +2789,8 @@ ul {
 	color: #ffffff;
 }
 
-#top_level_header_socializing_header p {
+#top_level_header_socializing_header p ,
+#top_level_header_languages p {
 	font-family: Galatia, serif;
 	font-style: normal;
 	text-align: justify;
@@ -3016,7 +3046,8 @@ input, textarea {
 		text-shadow: 0px -1px 0px #000000;
 		text-decoration: none;
 	}
-	#top_level_header_socializing_header p {		
+	#top_level_header_socializing_header p,
+	#top_level_header_languages p 	{		
 		font-size: 10px;
 	}
 		
@@ -3079,7 +3110,8 @@ input, textarea {
 		text-shadow: 0px -1px 0px #000000;
 		text-decoration: none;
 	}
-	#top_level_header_socializing_header p {		
+	#top_level_header_socializing_header p,
+	#top_level_header_languages p {		
 		font-size: 14px;
 	}
 	#top_level_footer_section_wrapper #top_level_footer_acknowledgement_section p a {
@@ -3167,7 +3199,8 @@ input, textarea {
 		text-shadow: 0px -1px 0px #000000;
 		text-decoration: none;
 	}
-	#top_level_header_socializing_header p {		
+	#top_level_header_socializing_header p,
+	#top_level_header_languages p {		
 		font-size: 14px;
 	}
 	#top_level_footer_section_wrapper p, #top_level_footer_section_wrapper p a {
@@ -3228,7 +3261,8 @@ input, textarea {
 		text-decoration: none;
 	}
 	
-	#top_level_header_socializing_header p {		
+	#top_level_header_socializing_header p,
+	#top_level_header_languages p {		
 		font-size: 14px;
 	}
 	#top_level_footer_section_wrapper p, #top_level_footer_section_wrapper p a {

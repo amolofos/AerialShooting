@@ -19,7 +19,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 <html xml:lang="el" lang="el" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:fb="http://ogp.me/ns/fb#" itemscope itemtype="http://schema.org/WebPage">
 	<head>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
-		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mobile.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/mobile.min.css" /> -->
 		<!-- Enabling HTML5 tags for older IE browsers -->
 		<!--[if lt IE 9]>
@@ -32,13 +32,12 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		
 		<title lang="en">Unmanned Evolution | Air / Video Experts</title>
-		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
-		<meta name="description" content="Καλώς ήλθατε στην Unmanned Evolution. Ειδικευόμαστε στην εναέρια κινηματογράφηση, εναέρια φωτογράφηση, εναέρια παρατήρηση και διάσωση. Χρησιμοποιούμε μη επανδρωμένα πτητικά μέσα -πολύπτερα, multicopters- σε συνδυασμό με κάμερες υψηλής ευκρίνειας -high definition- ώστε να έχουμε την καλύτερη θέαση από το μέγιστο δυνατό και επιθυμητό ύψος"/>
+		<link rel="icon" type="image/png" href="../img/unmanned-evolution.ico"/>
+		<meta name="description" content="Welcome at Unmanned Evolution's website. We are specializing in aerial cinematography, aerial photography, aerial observation and rescue. Incorporating uavs (unmanned aerial vehicles) -multicopters- together with high definition cameras we succeed in providing the best image and video quality at the desired and maximum altitude."/>
 		<meta name="application-name" content="Επίσημη ιστοσελίδα"/>
-		<meta name="keywords" content="επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα"/>
+		<meta name="keywords" content="official website, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, aerial cinematography, aerial photography, unmanned aerial vehicles, uav, multicopter, helicopter, hexacopter, production, movie, movie production, video clip, marketing, weddings, search and rescue, aerial observation, greece"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
-		<!-- <link rel="shortlink" href="http://goo.gl/Ly8QY" /> -->
 		<link rel="canonical" href="www.unmanned-evolution.com" />
 		
 		<meta name="revisit-after" content="1 Days"/>
@@ -55,38 +54,34 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="ICBM" content="37.975496, 23.734868" />
 		
 		<!-- open graph meta tags -->
-		<meta property='og:locale' content="el_GR"/>
+		<meta property='og:locale' content="en_GB"/>
 		<meta property='og:title' content="Unmanned Evolution | Air / Video Experts"/>
-		<meta property='og:description' content="Εναέρια κινηματογράφηση και φωτογράφιση | Aerial cinematography and photography"/>
+		<meta property='og:description' content="Aerial cinematography and photography"/>
 		<meta property='og:url' content="http://www.unmanned-evolution.com"/>
 		<meta property='og:type' content="website"/>
 		<meta property='og:site_name' content="Unmanned Evolution" />
-		<!--  <meta property='og:image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" /> -->
-		<!--  <meta property='og:image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-with-multicopter-name-and-moto.png" /> -->
-		<!--  <meta property='og:image' content="http://www.unmanned-evolution.com/public/pics/Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_445x200.png" /> -->
-		<!--  <meta property='og:image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" /> -->
 		<!--  Google-compatible meta tags -->
 		<meta itemprop="name" content="Unmanned Evolution | Air / Video Experts" />
 		<meta itemprop="url" content="http://www.unmanned-evolution.com" />
-		<meta itemprop="description" content="Εναέρια κινηματογράφηση και φωτογράφιση | Aerial cinematography and photography"/>
+		<meta itemprop="description" content="Aerial cinematography and photography"/>
 		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
 		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-with-multicopter-name-and-moto.png" />
 		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_445x200.png" />
 		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
-		<meta itemprop='inLanguage' content="el_GR" />
-		<meta itemprop='keywords' content="επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα" />
+		<meta itemprop='inLanguage' content="en_GB" />
+		<meta itemprop='keywords' content="official website, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, aerial cinematography, aerial photography, unmanned aerial vehicles, uav, multicopter, helicopter, hexacopter, production, movie, movie production, video clip, marketing, weddings, search and rescue, aerial observation, greece" />
 		<!-- <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script> -->
 		<!-- <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script> -->
 		<!-- <script src="scripts/jquery.galleriffic.js"></script> -->
 		<!-- <script src="scripts/jquery.cycle.lite.js"></script> -->
 		<!-- <script src="scripts/jquery.easing.1.3.js"></script> -->
 		<!-- <script src="scripts/jquery.lazyload.min.js"></script> -->
-		<script src="scripts/combined.min.js"></script>
+		<script src="../scripts/combined.min.js"></script>
 		<!-- <script src="scripts/jquery.viewport.mini.js"></script> -->
 		<!-- <script src="scripts/jquery.masonry.min.js"></script> -->
 		<!-- Custom scripts -->
 		<!-- <script src="scripts/unmanned_evolution.js"></script> -->
-		<script src="scripts/unmanned_evolution.min.js"></script>
+		<script src="../scripts/unmanned_evolution.min.js"></script>
 		
 		 <!-- Google analytics -->
 		<script type="text/javascript">

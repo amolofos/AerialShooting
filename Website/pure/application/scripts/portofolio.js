@@ -603,3 +603,16 @@ function portofolio_item_aboveTheTop ( ) {
 		}
 	});
 }
+
+function changeLanguage( lang ) {
+
+	var url = document.location.pathname;
+	
+	if ( lang != "en" || lang != "gr" ) {
+		return;
+	}
+	url = url.trimRight( "." );
+	url = url[0];
+	url = url + lang + ".php";
+	console.log( url );
+}

@@ -6,6 +6,9 @@ By Dimitri Kafetzi @ http://www.kafetzisd.gr
 Distributed under the Creative Commons Attribution 3.0 License
 
 */
+$request_uri = $_SERVER["REQUEST_URI"];
+$request_uri = explode( "/", $request_uri);
+$request_uri = $request_uri[ count($request_uri)-1 ];							
 ?>
 	<!-- top level header section -->
 	<div id="top_level_header_section_wrapper">
@@ -73,7 +76,16 @@ Distributed under the Creative Commons Attribution 3.0 License
 			</nav>
 			</div>
 			
-			
+			<!-- supported languages -->
+			<div id="top_level_header_languages">
+				<p id="top_level_header_languages_header">Επιλέξτε γλώσσα</p>
+				<form id="top_level_header_language_form_gr" class="language_form" action="<?php echo $request_uri; ?>">
+					<input id="top_level_header_language_form_submit_gr" type="submit" value="" style="width: 20px; height: 15px; background: url(img/flags/gr.png) no-repeat; border: 0px;">
+				</form>
+				<form id="top_level_header_language_form_gb" class="language_form" action="en/<?php echo $request_uri; ?>">
+					<input id="top_level_header_language_form_submit_gr" type="submit" value="" style="width: 20px; height: 15px; background: url(img/flags/gb.png) no-repeat; border: 0px;">
+				</form>
+			</div>
 			
 			<!-- top level socializing section -->
 			<div id="top_level_header_socializing_section_wrapper">
@@ -84,7 +96,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<div id="top_level_header_socializing_first_list_wrapper">
 					<div id="facebook_header"><a href="http://www.facebook.com/unmanned.evolution/" target="_blank" style="cursor: pointer;" class="social" title="Ακολουθήστε μας στο Facebook"><img src="./img/social/facebook.png" alt="Facebook"/></a></div>
 					<div id="twitter_header"><a href="https://twitter.com/Unmanned_gr" target="_blank" style="cursor: pointer;" class="social" title="Ακολουθήστε μας στο Twitter"><img src="./img/social/twitter.png" alt="Twitter"/></a></div>
-					<div id="youtube_header"><a href="http://www.youtube.com/user/unmannedevolution/videos?view=0" target="_blank" style="cursor: pointer;" class="social" title="Δείτε μας στο Facebook"><img src="./img/social/youtube.png" alt="Youtube"/></a></div>
+					<div id="youtube_header"><a href="http://www.youtube.com/user/unmannedevolution/videos?view=0" target="_blank" style="cursor: pointer;" class="social" title="Δείτε μας στο Youtube"><img src="./img/social/youtube.png" alt="Youtube"/></a></div>
 					<div id="vimeo_header"><a href="https://vimeo.com/unmannedevolution" target="_blank" style="cursor: pointer;" class="social" title="Δείτε μας στο Vimeo"><img src="./img/social/vimeo.png" alt="Vimeo"/></a></div>
 					<div id="linkedin_header"><a href="http://www.linkedin.com/company/2775181?trk=NUS_DIG_CMPY-fol" target="_blank" style="cursor: pointer;" class="social" title="Ακολουθήστε μας στο LinkedIn"><img src="./img/social/linkedin.png" alt="LinkedIn"/></a></div>
 				</div>

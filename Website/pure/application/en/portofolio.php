@@ -19,21 +19,20 @@ Distributed under the Creative Commons Attribution 3.0 License
 <html xml:lang="el" lang="el" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:addthis="http://www.addthis.com/help/api-spec" itemscope itemtype="http://schema.org/WebPage">
 	<head>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
-		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mobile.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/mobile.min.css" /> -->
-		<link rel="stylesheet" type="text/css" href="css/portofolio.css" />
+		<link rel="stylesheet" type="text/css" href="../css/portofolio.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/portofolio.min.css" /> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<title lang="en">Unmanned Evolution portofolio</title>
-		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
-		<meta name="description" content="Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε δείγματα εργασίας ώστε να αξιολογήσετε ιδίας όμασι την ποιότητα της δουλειάς μας. Πληθώρα φωτογραφιών και βίντεο ταξινομημένα κατά : εναέρια κινηματογράφηση, εναέρια φωτογράφηση, εναέρια παρατήρηση και διάσωση, μη επανδρωμένα πτητικά μέσα -πολύπτερα, multicopters-, κάμερες υψηλής ευκρίνειας -high definition-."/>
-		<meta name="application-name" content="Χαρτοφυλάκιο"/>
-		<meta name="keywords" content="portofolio, χαρτοφυλάκιο, επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα"/>
+		<link rel="icon" type="image/png" href="../img/unmanned-evolution.ico"/>
+		<meta name="description" content="Welcome at Unmanned Evolution's portofolio. You are presented with samples of our work to evaluate the quality of it. Plenty of photographs and video are categorised into : aerial cinematography, aerial photography, aerial observation and rescue, uavs (unmanned aerial vehicle - multicopters), high definition cameras."/>
+		<meta name="application-name" content="Portofolio"/>
+		<meta name="keywords" content="portofolio, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, aerial cinematography, aerial photography, unmanned aerial vehicles, uav, multicopter, helicopter, hexacopter, production, movie, movie production, video clip, marketing, weddings, search and rescue, aerial observation, greece"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
-		<link rel="canonical" href="www.unmanned-evolution.com/application/portofolio.php" />
-		<!-- <link rel="shortlink" href="http://goo.gl/LluDd" /> -->
+		<link rel="canonical" href="www.unmanned-evolution.com/application/en/portofolio.php" />
 		
 		<meta name="robots" content="index, follow" />
 		<meta name="googlebot" content="noodp">
@@ -48,22 +47,22 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="geo.position" content="37.975496;23.734868" />
 		<meta name="ICBM" content="37.975496, 23.734868" />
 		<!-- open graph meta tags -->
-		<meta property="og:locale" content="el_GR"/>
+		<meta property="og:locale" content="en_GB"/>
 		<meta property="og:title" content="Unmanned Evolution portofolio | Air / Video Experts"/>
 		<meta property="og:description" content="Portofolio of Unmmanned Evolution"/>
-		<meta property="og:url" content="http://www.unmanned-evolution.com/application/portofolio.php/"/>
+		<meta property="og:url" content="http://www.unmanned-evolution.com/application/en/portofolio.php/"/>
 		<meta property="og:type" content="image"/>
 		<meta property="og:site_name" content="Unmanned Evolution portofolio" />
 		<meta property="og:image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
 		<meta property="og:image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
 		<!--  Google-compatible meta tags -->
 		<meta itemprop="name" content="Unmanned Evolution | Air / Video Experts" />
-		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio.php"/>
+		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/en/portofolio.php"/>
 		<meta itemprop="description" content="Portofolio of Unmmanned Evolution"/>
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
-		<meta itemprop="inLanguage" content="el_GR" />
-		<meta itemprop="keywords" content="portofolio, χαρτοφυλάκιο, επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα" />
+		<meta itemprop="inLanguage" content="en_GB" />
+		<meta itemprop="keywords" content="portofolio, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, aerial cinematography, aerial photography, unmanned aerial vehicles, uav, multicopter, helicopter, hexacopter, production, movie, movie production, video clip, marketing, weddings, search and rescue, aerial observation, greece" />
 		<!-- Enabling HTML5 tags for older IE browsers -->
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>		
@@ -80,12 +79,12 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- <script src="scripts/jquery.lazyload.min.js"></script> -->
 		<!-- <script src="scripts/jquery.viewport.mini.js"></script> -->
 		<!-- <script src="scripts/jquery.masonry.min.js"></script> -->
-		<script src="scripts/combined.min.js"></script>
-		<script src="scripts/jquery.viewport.mini.js"></script>
-		<script src="scripts/jquery.masonry.min.js"></script>
+		<script src="../scripts/combined.min.js"></script>
+		<script src="../scripts/jquery.viewport.mini.js"></script>
+		<script src="../scripts/jquery.masonry.min.js"></script>
 		<!-- Custom scripts -->
 		<!-- <script src="scripts/portofolio.js"></script> -->
-		<script src="scripts/portofolio.min.js"></script>
+		<script src="../scripts/portofolio.min.js"></script>
 
 		 <!-- Google analytics -->
 		<script type="text/javascript">
@@ -106,7 +105,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5089d9595d29b9df&domready=1&async=1"></script>
 		<script>
 			var addthis_share = {
-				"url": "http://www.unmanned-evolution.com/application/portofolio.php",
+				"url": "http://www.unmanned-evolution.com/application/en/portofolio.php",
 				"title": "Unmanned Evolution portofolio",
 				"description": "Unmanned Evolution portofolio"
 			};
@@ -134,29 +133,29 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<section id="portofolio_section">
 					<nav id="filter">
 						<ul>
-							<li id="portofolio_item">Πλήρης Λίστα</li>
-							<li id="photography">Φωτογραφία</li>
-							<li id="video">Βίντεο</li>
-							<li id="aerial_cinematography">Εναέρια κινηματογράφιση</li>
-							<li id="marketing">Διαφήμιση</li>
-							<li id="tourism">Τουρισμός</li>
-							<li id="hotels">Ξενοδοχεία</li>
-							<li id="movies">Ταινίες</li>
-							<li id="conserts">Συναυλίες</li>
-							<li id="video_clip">Βίντεο κλιπ</li>
-							<li id="social">Κοινωνικές εκδηλώσεις</li>
-							<li id="sports">Αθλητισμός</li>
-							<li id="real_estate">Κτηματομεσιτικός τομέας</li>
-							<li id="archeology">Αρχαιολογικοί χώροι</li>
-							<li id="industry">Βιομηχανία</li>
-							<li id="engineering">Μηχανικοί</li>
-							<li id="surveillance">Παρατήρηση</li>
-							<li id="search">Εξερεύνηση</li>
-							<li id="agriculture">Αγροτική παραγωγή</li>
+							<li id="portofolio_item">Full list</li>
+							<li id="photography">Photography</li>
+							<li id="video">Video</li>
+							<li id="aerial_cinematography">Aerial Cinematography</li>
+							<li id="marketing">Advertising</li>
+							<li id="tourism">Tourism</li>
+							<li id="hotels">Hotels</li>
+							<li id="movies">Movies</li>
+							<li id="concerts">Concerts</li>
+							<li id="video_clip">Video clip</li>
+							<li id="social">Social events</li>
+							<li id="sports">Sports</li>
+							<li id="real_estate">Real estate</li>
+							<li id="archeology">Archaelogy</li>
+							<li id="industry">Industry</li>
+							<li id="engineering">Engineering</li>
+							<li id="surveillance">Surveillance</li>
+							<li id="search">Search</li>
+							<li id="agriculture">Agriculture</li>
 							
-							<li id="mountains">Βουνό</li>
+							<li id="mountains">Mountains</li>
 							<li id="Unmanned_Evolution">Unmanned Evolution</li>
-							<li id="equipment">Εξοπλισμός</li>
+							<li id="equipment">Equipment</li>
 						</ul>
 					<!-- The menu items will go here (generated by jQuery) -->
 					</nav>
