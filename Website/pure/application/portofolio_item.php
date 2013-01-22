@@ -14,28 +14,36 @@ Distributed under the Creative Commons Attribution 3.0 License
 	header( 'Last-Modified: ' . date("F d Y H:i:s e", getlastmod()) );
 	
 	include "portofolio_items.php";
+	include "application_items.php";
 	
+	if( isset($_GET[ 'lang' ]) ) {
+		$language = $_GET[ 'lang' ];
+		if ( $language != "el" || $language != "en" ) {
+			$language = $_GET[ 'lang' ];
+		}
+	} else {
+		$language = "el";
+	}
 	$type = $_GET[ 'type' ];
 	$id   = $_GET[ 'id' ];
 	
 ?>
 <!DOCTYPE HTML>
-<html xml:lang="el" lang="el" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:addthis="http://www.addthis.com/help/api-spec" itemscope itemtype="http://schema.org/WebPage">
+<html xml:lang="<?php echo $language; ?>" lang="<?php echo $language; ?>" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:addthis="http://www.addthis.com/help/api-spec" itemscope itemtype="http://schema.org/WebPage">
 	<head>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css/portofolio_item.css"/>
 		<!-- <link rel="stylesheet" type="text/css" href="css/portofolio_item.min.css"/> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<title>Unmanned Evolution portofolio | <?php echo $portofolio_items[$id]["title"]?></title>
+		<title><?php if ($language == "el") { echo $application_items["itm_head_title"] . " | " . $portofolio_items[$id]["title"]; } else { echo $application_items["itm_head_title_en"] . " | " . $portofolio_items[$id]["title_en"];} ?></title>
 		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
-		<meta name="description" content="Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε <?php if($type=="image"){echo "την ακόλουθη φωτογραφία";} elseif($type=="video"){echo "το ακόλουθο video";}?> : <?php echo $portofolio_items[$id]["title"]?>."/>
+		<meta name="description" content="<?php if ( $language == "el" ) { echo "test1"; } else { echo "test2"; } ?>"/>
 		<meta name="application-name" content="Δείγμα δουλειάς της Unmanned Evolution."/>
 		<meta name="keywords" content="portofolio, χαρτοφυλάκιο, επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα, <?php echo $portofolio_items[$id]["tags"]?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
 		<link rel="canonical" href="http://www.unmanned-evolution.com/application/portofolio_item.php?type=<?php echo $type?>&id=<?php echo $id?>" />
-		<!-- <link rel="shortlink" href="http://goo.gl/LluDd" /> -->
 		
 		<meta name="robots" content="index, follow" />
 		<meta name="googlebot" content="noodp">

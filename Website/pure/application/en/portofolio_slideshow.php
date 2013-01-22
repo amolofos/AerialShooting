@@ -28,9 +28,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- <link rel="stylesheet" type="text/css" href="css/portofolio_slideshow.min.css"/> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<title>Unmanned Evolution portofolio slide show | <?php echo $portofolio_items[$id]["title"]?></title>
+		<title>Unmanned Evolution portofolio slideshow | <?php echo $portofolio_items[$id]["title"]?></title>
 		<link rel="icon" type="image/png" href="../img/unmanned-evolution.ico"/>
-		<meta name="description" content="Welcame at Unmanned Evolution's portofolio. You are presented with <?php if($type=="image"){echo "the following photography";} elseif($type=="video"){echo "the following video";}?> : <?php echo $portofolio_items[$id]["title"]?>."/>
+		<meta name="description" content="Welcome at Unmanned Evolution's portofolio. You are presented with <?php if($type=="image"){echo "the following photography";} elseif($type=="video"){echo "the following video";}?> : <?php echo $portofolio_items[$id]["title"]?>."/>
 		<meta name="application-name" content="Sample of Unmanned Evolution works."/>
 		<meta name="keywords" content="portofolio, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, aerial cinematography, aerial photography, unmanned aerial vehicles, uav, multicopter, helicopter, hexacopter, production, movie, movie production, video clip, marketing, weddings, search and rescue, aerial observation, greece, <?php echo $portofolio_items[$id]["tags"]?>"/>
 		<meta name="author" content="Unmanned Evolution"/>

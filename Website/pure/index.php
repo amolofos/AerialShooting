@@ -13,7 +13,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 	header( 'Cache-Control: max-age=2592000' ); //30days (60sec * 60min * 24hours * 30days)
 	header( 'Expires: Mon, 7 Jul 2013 05:00:00 GMT' );
 	header( 'Last-Modified: ' . date("F d Y H:i:s e", getlastmod()) );
-	header('Location: ./application/application.php#landing_section_wrapper');
+	header('Location: ./application/application.php?lang=el#landing_section_wrapper');
 ?>
 <!DOCTYPE html>
 <html xml:lang="el" lang="el" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:fb="http://ogp.me/ns/fb#" itemscope itemtype="http://schema.org/WebPage">
@@ -38,7 +38,6 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="keywords" content="επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
-		<!-- <link rel="shortlink" href="http://goo.gl/Ly8QY" /> -->
 		<link rel="canonical" href="www.unmanned-evolution.com" />
 		
 		<meta name="revisit-after" content="1 Days"/>

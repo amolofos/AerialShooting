@@ -14,113 +14,94 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<ul id="applications_section_content_list">
 					<!-- ------------------------------------------------------------ -->
 					<li id="applications_section_content_item_1" class="application">
-						
 						<header class="application_social">
-							<a href="application.php#applications_section_content_social_wrapper">
-								<h3>Συναυλίες, Αθλητικές και κοινωνικές εκδηλώσεις</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#applications_section_content_social_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["appl_social_title"]; } else { echo $application_items["appl_social_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["appl_social_more"]; } else { echo $application_items["appl_social_more_en"]; } ?></span>
 							</a>
 						</header>								
-								
 					</li>
 					<!-- ------------------------------------------------------------ -->					
 					<li id="applications_section_content_item_2" class="application">
-						
 						<header id="applications_list_movies_header" class="application_movies">
-							<a href="application.php#applications_section_content_movies_wrapper">
-								<h3>Παραγωγή ταινιών και βίντεο κλιπ</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#applications_section_content_movies_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["appl_movies_title"]; } else { echo $application_items["appl_movies_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["appl_movies_more"]; } else { echo $application_items["appl_movies_more_en"]; } ?></span>
 							</a>
 						</header>
-
 					</li>
 					<!-- ------------------------------------------------------------ -->					
 					<li id="applications_section_content_item_3" class="application">
-						
 						<header class="application_hotels">
-							<a href="application.php#applications_section_content_hotels_wrapper">
-								<h3>Προώθηση ξενοδοχείων και επιχειρήσεων</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#applications_section_content_hotels_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["appl_hotels_title"]; } else { echo $application_items["appl_hotels_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["appl_hotels_more"]; } else { echo $application_items["appl_hotels_more_en"]; } ?></span>
 							</a>
 						</header>
-						
 					</li>
 					<!-- ------------------------------------------------------------ -->
 					<li id="applications_section_content_item_4" class="application">
-						
 						<header class="application_realestate">
-							<a href="application.php#applications_section_content_realestate_wrapper">
-								<h3>Κτηματομεσιτικός τομέας</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#applications_section_content_realestate_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["appl_real_estate_title"]; } else { echo $application_items["appl_real_estate_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["appl_real_estate_more"]; } else { echo $application_items["appl_real_estate_more_en"]; } ?></span>
 							</a>
 						</header>
-
-
 					</li>
 					<!-- ------------------------------------------------------------ -->
 					<li id="applications_section_content_item_5" class="application">
-						
 						<header class="application_engineering">
-							<a href="application.php#applications_section_content_engineering_wrapper">
-								<h3>Εφαρμογές μηχανικών και βιομηχανίας</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#applications_section_content_engineering_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["appl_engineering_title"]; } else { echo $application_items["appl_engineering_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["appl_engineering_more"]; } else { echo $application_items["appl_engineering_more_en"]; } ?></span>
 							</a>
 						</header>
 						
 					</li>
 					<!-- ------------------------------------------------------------ -->
 					<li id="applications_section_content_item_6" class="application">
-						
 						<header class="application_enviroment">
-							<a href="application.php#applications_section_content_environment_wrapper">
-								<h3>Παρατήρηση και προστασία περιβάλλοντος</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#applications_section_content_environment_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["appl_environment_title"]; } else { echo $application_items["appl_environment_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["appl_environment_more"]; } else { echo $application_items["appl_environment_more_en"]; } ?></span>
 							</a>
 						</header>
-						
 					</li>
 					<!-- ------------------------------------------------------------ -->
 					<li id="applications_section_content_item_7" class="application">
-						
 						<header class="application_searchandrescue">
-							<a href="application.php#applications_section_content_searchandrescue_wrapper">
-								<h3>Καταστροφικά γεγονότα και Διασώσεις</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#applications_section_content_searchandrescue_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["appl_search_and_rescue_title"]; } else { echo $application_items["appl_search_and_rescue_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["appl_search_and_rescue_more"]; } else { echo $application_items["appl_search_and_rescue_more_en"]; } ?></span>
 							</a>
 						</header>
-						
 					</li>
 					<!-- ------------------------------------------------------------ -->
 					<li id="applications_section_content_item_8" class="application">
-						
 						<header class="application_agriculture">
-							<a href="application.php#applications_section_content_agriculture_wrapper">
-								<h3>Αγροτική παραγωγή</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#applications_section_content_agriculture_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["appl_agriculture_title"]; } else { echo $application_items["appl_agriculture_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["appl_agriculture_more"]; } else { echo $application_items["appl_agriculture_more_en"]; } ?></span>
 							</a>
-						</header>
-						
+						</header>						
 					</li>
 					<!-- ------------------------------------------------------------ -->
 					<li id="applications_section_content_item_9" class="application">
-						
 						<header class="application_custom">
-							<a href="application.php#applications_section_content_custom_wrapper">
-								<h3>Εξειδικευμένες εφαρμογές</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#applications_section_content_custom_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["appl_custom_title"]; } else { echo $application_items["appl_custom_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["appl_custom_more"]; } else { echo $application_items["appl_custom_more_en"]; } ?></span>
 							</a>
-						</header>
-						
+						</header>						
 					</li>
-					<li id="applications_section_content_item_9" class="application">
-						
+					<!-- ------------------------------------------------------------ -->
+					<li id="applications_section_content_item_9" class="application">				
 						<header class="application_info">
-							<a href="application.php#contact_section_wrapper">
-								<h3>Προτείνεται τη δικιά σας συγκεκριμένη εφαρμογή</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#contact_section_wrapper">
+								<h3><?php if ( $language == "el" ) { echo "Προτείνεται τη δικιά σας εφαρμογή"; } else { echo "Inform us about your project"; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo "πληροφορίες"; } else { echo "more..."; } ?></span>
 							</a>
-						</header>
-						
+						</header>						
 					</li>						
 				</ul>
 			</div>
@@ -130,8 +111,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="applications_section_content_social_wrapper" class="application_content_wrapper">
 		<section id="applications_section_content_social" class="application_content top_section">
 			<header id="applications_section_content_social_header">
-				<a href="application.php#applications_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
-				<h3>Συναυλίες, Αθλητικές και κοινωνικές εκδηλώσεις</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#applications_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["appl_social_title"]; } else { echo $application_items["appl_social_title_en"]; } ?></h3>
 			</header>
 			<div id="applications_section_content_social_figure_wrapper_1" class="application_figure_wrapper">
 				<figure id="applications_section_content_social_figure_1">
@@ -254,8 +235,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="applications_section_content_movies_wrapper" class="application_content_wrapper">
 		<section id="applications_section_content_movies" class="application_content top_section">
 			<header id="applications_section_content_movies_header">
-				<a href="application.php#applications_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
-				<h3>Παραγωγή ταινιών και βίντεο κλιπ</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#applications_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["appl_movies_title"]; } else { echo $application_items["appl_movies_title_en"]; } ?></h3>
 			</header>
 			<div id="applications_section_content_movies_figure_wrapper_1" class="application_figure_wrapper">
 				<figure id="applications_section_content_movies_figure_1">
@@ -277,8 +258,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="applications_section_content_hotels_wrapper" class="application_content_wrapper">
 		<section id="applications_section_content_hotels" class="application_content top_section">
 			<header id="applications_section_content_hotels_header">
-				<a href="application.php#applications_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
-				<h3>Προώθηση ξενοδοχείων και επιχειρήσεων</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#applications_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["appl_hotels_title"]; } else { echo $application_items["appl_hotels_title_en"]; } ?></h3>
 			</header>
 			<div id="applications_section_content_hotels_figure_wrapper" class="application_figure_wrapper">
 				<figure id="applications_section_content_hotels_figure">
@@ -299,8 +280,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="applications_section_content_realestate_wrapper" class="application_content_wrapper">
 		<section id="applications_section_content_realestate" class="application_content top_section">
 			<header id="applications_section_content_realestate_header">
-				<a href="application.php#applications_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
-				<h3>Κτηματομεσιτικός τομέας</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#applications_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["appl_real_estate_title"]; } else { echo $application_items["appl_real_estate_title_en"]; } ?></h3>
 			</header>
 			<div id="applications_section_content_realestate_figure_wrapper" class="application_figure_wrapper">
 				<figure class="clearfix photo" id="applications_section_content_realestate_figure">				
@@ -346,8 +327,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="applications_section_content_engineering_wrapper" class="application_content_wrapper">
 		<section id="applications_section_content_engineering" class="application_content top_section">
 			<header id="applications_section_content_engineering_header">
-				<a href="application.php#applications_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
-				<h3>Εφαρμογές μηχανικών και βιομηχανίας</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#applications_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["appl_engineering_title"]; } else { echo $application_items["appl_engineering_title_en"]; } ?></h3>
 			</header>
 			<div id="applications_section_content_engineering_figure_wrapper" class="application_figure_wrapper">
 				<figure id="applications_section_content_engineering_figure">
@@ -364,8 +345,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="applications_section_content_environment_wrapper" class="application_content_wrapper">
 		<section id="applications_section_content_environment" class="application_content top_section">
 			<header id="applications_section_content_environment_header">
-				<a href="application.php#applications_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
-				<h3>Παρατήρηση και προστασία περιβάλλοντος</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#applications_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["appl_environment_title"]; } else { echo $application_items["appl_environment_title_en"]; } ?></h3>
 			</header>
 			<div id="applications_section_content_environment_figure_wrapper" class="application_figure_wrapper">
 				<figure id="applications_section_content_environment_figure">
@@ -381,8 +362,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="applications_section_content_searchandrescue_wrapper" class="application_content_wrapper">
 		<section id="applications_section_content_searchandrescue" class="application_content top_section">
 			<header id="applications_section_content_searchandrescue_header">
-				<a href="application.php#applications_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0"/></a>
-				<h3>Καταστροφικά γεγονότα και Διασώσεις</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#applications_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0"/></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["appl_search_and_rescue_title"]; } else { echo $application_items["appl_search_and_rescue_title_en"]; } ?></h3>
 			</header>
 			<article id="applications_section_content_searchandrescue_article">
 				<p>Η ενότητα αυτή θα είναι έτοιμη σε σύντομο χρονικό διάστημα.</p>
@@ -393,8 +374,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="applications_section_content_agriculture_wrapper" class="application_content_wrapper">
 		<section id="applications_section_content_agriculture" class="application_content top_section">
 			<header id="applications_section_content_agriculture_header">
-				<a href="application.php#applications_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0"/></a>
-				<h3>Αγροτική παραγωγή</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#applications_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0"/></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["appl_agriculture_title"]; } else { echo $application_items["appl_agriculture_title_en"]; } ?></h3>
 			</header>
 			<div id="applications_section_content_agriculture_figure_wrapper" class="application_figure_wrapper">
 				<figure id="applications_section_content_agriculture_figure">
@@ -411,8 +392,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="applications_section_content_custom_wrapper" class="application_content_wrapper">
 		<section id="applications_section_content_custom" class="application_content top_section">
 			<header id="applications_section_content_custom_header">
-				<a href="application.php#applications_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
-				<h3>Εξειδικευμένες εφαρμογές</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#applications_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["appl_custom_title"]; } else { echo $application_items["appl_custom_title_en"]; } ?></h3>	
 			</header>
 			<div id="applications_section_content_custom_figure_wrapper" class="application_figure_wrapper">
 				<figure id="applications_section_content_custom_figure">
@@ -421,7 +402,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			</div>
 			<article id="applications_section_content_custom_article">
 				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> προσφέρει πληθώρα υπηρεσιών και διαμέσου της συγκεκριμένης ιστοσελίδας παρουσιάζει περιπτώσεις χρήσεις στις οποίες η εναέρια κινηματογράφιση και φωτογράφιση αποτελεί πολύτιμη προσθήκη ή ακόμα και αναγκαία για την ολοκλήρωση του έργου.</p>
-				<p>Αν δεν σας έχουμε καλύψει ή/και ετοιμάζετε έργο στο οποίο οι υπηρεσίες μας θα αποβούν χρήσιμες, μη διστάσετε να επικοινωνήσετε μαζί μας στο info@unmanned-evolution.com ή μέσω της <a href="application.php#contact_section_wrapper" >φόρμα επικοινωνίας</a></p>
+				<p>Αν δεν σας έχουμε καλύψει ή/και ετοιμάζετε έργο στο οποίο οι υπηρεσίες μας θα αποβούν χρήσιμες, μη διστάσετε να επικοινωνήσετε μαζί μας στο info@unmanned-evolution.com ή μέσω της <a href="application.php?lang=<?php echo $language; ?>#contact_section_wrapper" >φόρμα επικοινωνίας</a></p>
 			</article>
 		</section>
 	</div>

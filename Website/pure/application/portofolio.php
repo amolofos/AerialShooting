@@ -14,9 +14,21 @@ Distributed under the Creative Commons Attribution 3.0 License
 	header( 'Cache-Control: max-age=2592000' ); //30days (60sec * 60min * 24hours * 30days)
 	header( 'Expires: Mon, 7 Jul 2013 05:00:00 GMT' );
 	header( 'Last-Modified: ' . date("F d Y H:i:s e", getlastmod()) );
+	
+	include "application_items.php";
+	
+	if( isset($_GET[ 'lang' ]) ) {
+		$language = $_GET[ 'lang' ];
+		if ( $language != "el" || $language != "en" ) {
+			$language = $_GET[ 'lang' ];
+		}
+	} else {
+		$language = "el";
+	}
+	
 ?>
 <!DOCTYPE HTML>
-<html xml:lang="el" lang="el" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:addthis="http://www.addthis.com/help/api-spec" itemscope itemtype="http://schema.org/WebPage">
+<html xml:lang="<?php echo $language; ?>" lang="<?php echo $language; ?>" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:addthis="http://www.addthis.com/help/api-spec" itemscope itemtype="http://schema.org/WebPage">
 	<head>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
@@ -25,15 +37,14 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- <link rel="stylesheet" type="text/css" href="css/portofolio.min.css" /> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<title lang="en">Unmanned Evolution portofolio</title>
+		<title lang="<?php echo $language ?>"><?php if ($language == "el") { echo $application_items["prt_head_title"]; } else { echo $application_items["prt_head_title_en"]; }?></title>
 		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
-		<meta name="description" content="Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε δείγματα εργασίας ώστε να αξιολογήσετε ιδίας όμασι την ποιότητα της δουλειάς μας. Πληθώρα φωτογραφιών και βίντεο ταξινομημένα κατά : εναέρια κινηματογράφηση, εναέρια φωτογράφηση, εναέρια παρατήρηση και διάσωση, μη επανδρωμένα πτητικά μέσα -πολύπτερα, multicopters-, κάμερες υψηλής ευκρίνειας -high definition-."/>
-		<meta name="application-name" content="Χαρτοφυλάκιο"/>
-		<meta name="keywords" content="portofolio, χαρτοφυλάκιο, επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα"/>
+		<meta name="description" content="<?php if ($language == "el") { echo $application_items["prt_head_description"]; } else { echo $application_items["prt_head_description_en"]; }?>"/>
+		<meta name="application-name" content="<?php if ($language == "el") { echo $application_items["prt_application-name"]; } else { echo $application_items["prt_application-name_en"]; }?>"/>
+		<meta name="keywords" content="<?php if ($language == "el") { echo $application_items["prt_keywords"]; } else { echo $application_items["prt_keywords_en"]; }?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
 		<link rel="canonical" href="www.unmanned-evolution.com/application/portofolio.php" />
-		<!-- <link rel="shortlink" href="http://goo.gl/LluDd" /> -->
 		
 		<meta name="robots" content="index, follow" />
 		<meta name="googlebot" content="noodp">
@@ -48,9 +59,10 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="geo.position" content="37.975496;23.734868" />
 		<meta name="ICBM" content="37.975496, 23.734868" />
 		<!-- open graph meta tags -->
-		<meta property="og:locale" content="el_GR"/>
+		<meta property='og:locale' content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>"/>
+		<meta property='og:locale:alternate' content="<?php if ($language == "el") { echo "en_US"; } else { echo "el_GR"; }?>"/>
 		<meta property="og:title" content="Unmanned Evolution portofolio | Air / Video Experts"/>
-		<meta property="og:description" content="Portofolio of Unmmanned Evolution"/>
+		<meta property="og:description" content="<?php if ($language == "el") { echo $application_items["prt_graph_desription"]; } else { echo $application_items["prt_graph_desription_en"]; }?>"/>
 		<meta property="og:url" content="http://www.unmanned-evolution.com/application/portofolio.php/"/>
 		<meta property="og:type" content="image"/>
 		<meta property="og:site_name" content="Unmanned Evolution portofolio" />
@@ -59,11 +71,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!--  Google-compatible meta tags -->
 		<meta itemprop="name" content="Unmanned Evolution | Air / Video Experts" />
 		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio.php"/>
-		<meta itemprop="description" content="Portofolio of Unmmanned Evolution"/>
+		<meta itemprop="description" content="<?php if ($language == "el") { echo $application_items["prt_itemprop_desription"]; } else { echo $application_items["prt_itemprop_desription_en"]; }?>"/>
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
-		<meta itemprop="inLanguage" content="el_GR" />
-		<meta itemprop="keywords" content="portofolio, χαρτοφυλάκιο, επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα" />
+		<meta itemprop='inLanguage' content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>" />
+		<meta itemprop="keywords" content="<?php if ($language == "el") { echo $application_items["prt_itemprop_keywords"]; } else { echo $application_items["prt_itemprop_keywords_en"]; }?>" />
 		<!-- Enabling HTML5 tags for older IE browsers -->
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>		

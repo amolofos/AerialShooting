@@ -14,41 +14,41 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<ul id="services_section_content_list">
 					<li id="services_section_content_item_aerialvideo" class="service">
 						<header>
-							<a href="application.php#services_section_content_aerialvideo_wrapper">
-								<h3>Εναέρια Κινηματογράφηση</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#services_section_content_aerialvideo_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_cinematography_title"]; } else { echo $application_items["serv_aerial_cinematography_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["serv_aerial_cinematography_more"]; } else { echo $application_items["serv_aerial_cinematography_more_en"]; } ?></span>
 							</a>
 						</header>
 					</li>
 					<li id="services_section_content_item_aerialphoto" class="service">
 						<header>
-							<a href="application.php#services_section_content_aerialphoto_wrapper">
-								<h3>Εναέρια Φωτογράφιση</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#services_section_content_aerialphoto_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_photography_title"]; } else { echo $application_items["serv_aerial_photography_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["serv_aerial_photography_more"]; } else { echo $application_items["serv_aerial_photography_more_en"]; } ?></span>
 							</a>
 						</header>
 					</li>
 					<li id="services_section_content_item_materialproduction" class="service">
 						<header>
-							<a href="application.php#services_section_content_materialproduction_wrapper">
-								<h3>Δημιουργία Οπτικο-ακουστικού Υλικού</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#services_section_content_materialproduction_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["serv_material_production_title"]; } else { echo $application_items["serv_material_production_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["serv_material_production_more"]; } else { echo $application_items["serv_material_production_more_en"]; } ?></span>
 							</a>
 						</header>
 					</li>
 					<li id="services_section_content_item_aerialobservation" class="service">
 						<header>
-							<a href="application.php#services_section_content_aerialobservation_wrapper">
-								<h3>Εναέρια Παρατήρηση</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#services_section_content_aerialobservation_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_observation_title"]; } else { echo $application_items["serv_aerial_observation_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["serv_aerial_observation_more"]; } else { echo $application_items["serv_aerial_observation_more_en"]; } ?></span>
 							</a>
 						</header>
 					</li>
 					<li id="services_section_content_item_searchandrescue" class="service">
 						<header>
-							<a href="application.php#services_section_content_searchandrescue_wrapper">
-								<h3>Ερευνα και Διάσωση</h3>
-								<span>πληροφορίες</span>
+							<a href="application.php?lang=<?php echo $language; ?>#services_section_content_searchandrescue_wrapper">
+								<h3><?php if ( $language == "el" ) { echo $application_items["serv_search_and_rescue_title"]; } else { echo $application_items["serv_search_and_rescue_title_en"]; } ?></h3>
+								<span><?php if ( $language == "el" ) { echo $application_items["serv_search_and_rescue_more"]; } else { echo $application_items["serv_search_and_rescue_more_en"]; } ?></span>
 							</a>
 						</header>
 					</li>
@@ -61,8 +61,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="services_section_content_aerialvideo_wrapper" class="service_content_wrapper">		
 		<section id="services_section_content_aerialvideo" class="service_content top_section">
 			<header id="services_section_content_aerialvideo_header">
-				<a href="application.php#services_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png" title="επιστροφή" border="0" /></a>
-				<h3>Εναέρια Κινηματογράφηση</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή" border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_cinematography_title"]; } else { echo $application_items["serv_aerial_cinematography_title_en"]; } ?></h3>	
 			</header>
 			<div id="services_section_content_aerialvideo_figure_wrapper_1" class="service_figure_wrapper">
 				<figure id="services_section_content_aerialvideo_figure_1">
@@ -70,8 +70,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="services_section_content_aerialvideo_article">
-				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> παρέχει τη δυνατότητα εναέριας κινηματογράφησης με τα ποιο σύγχρονα Μη Επανδρωμένα Αεροναυτικά Οχήματα συνδυάζοντας κορυφαίας ποιότητας stabilization. Χρησιμοποιούμε τελευταίας τεχνολογίας DSLR με ποιότητα εγγραφής full HD και δυνατότητα ζωντανής μετάδοσης και live streaming.</p>	
-				<p>Οι υπηρεσίες που παρέχουμε είναι συνδυασμός επίγειας και εναέριας κινηματογράφησης που έχουν να κάνουν με : ταινίες, ντοκιμαντέρ, διαφημίστηκα τρέιλερ, κοινωνικές και πολιτιστικές εκδηλώσεις, προώθηση ξενοδοχείων και επιχειρήσεων, προβολή δημοσίων και ιδιωτικών έργων,  χαρτογράφηση περιοχών και αγροτικών εκτάσεων, συμμετοχή σε επιχειρήσεις έρευνας και διάσωσης και ότι ακόμα μπορεί να περάσει από το μυαλό σας σε άριστη ποιότητα, τιμές αλλά και ασφάλεια που μόνο η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> μπορεί να σας προσφέρει.</p>
+				<?php if ( $language == "el" ) { echo $application_items["serv_aerial_cinematography_article"]; } else { echo $application_items["serv_aerial_cinematography_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -79,8 +78,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="services_section_content_aerialphoto_wrapper" class="service_content_wrapper">
 		<section id="services_section_content_aerialphoto" class="service_content top_section">
 			<header id="services_section_content_aerialphoto_header">
-				<a href="application.php#services_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png" title="επιστροφή" border="0" /></a>
-				<h3>Εναέρια Φωτογράφηση</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή" border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_photography_title"]; } else { echo $application_items["serv_aerial_photography_title_en"]; } ?></h3>
 			</header>
 			<div id="services_section_content_aerialphoto_figure_wrapper" class="service_figure_wrapper">
 				<figure class="clearfix photo" id="applications_section_content_aerialphoto_figure">
@@ -253,9 +252,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="services_section_content_aerialphoto_article">
-				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> παρέχει τη δυνατότητα εναέριας φωτογράφησης με τα ποιο σύγχρονα Μη Επανδρωμένα Αεροναυτικά Οχήματα συνδυάζοντας κορυφαίας ποιότητας stabilization. Χρησιμοποιούμε τελευταίας τεχνολογίας DSLR με ποιότητα που μπορεί να αντεπεξέλθει και να ικανοποιήσει τους πιο απαιτητικούς.</p>
-				<p>Οι υπηρεσίες μας στον τομέα τις φωτογραφίας αποφέρουν αποτελέσματα που μόνο ένα ιπτάμενο όχημα -ελικόπτερο,  αεροπλάνο- μπορεί να προσφέρει. Η Unmanned Evolution ρίχνει το κόστος παρουσιάζοντας τη δική της λύση στην εναέρια λήψη.  Συνδυάζοντας τα αεροναυτικά οχήματά της και το άριστο τεχνικό προσωπικό επιτυγχάνει με ευκολία γωνίες λήψεις για φωτογραφία και βίντεο που κανένα άλλο επίγειο ή εναέριο μέσο δεν είναι ικανό να δώσει.</p>
-				<p>Οι υπηρεσίες που παρέχουμε είναι συνδυασμός επίγειας και εναέριας φωτογράφησης που έχουν να κάνουν με : ταινίες, ντοκιμαντέρ, διαφημίστηκα τρέιλερ, κοινωνικές και πολιτιστικές εκδηλώσεις, προώθηση ξενοδοχείων και επιχειρήσεων, προβολή δημοσίων και ιδιωτικών έργων,  χαρτογράφηση περιοχών και αγροτικών εκτάσεων, συμμετοχή σε επιχειρήσεις έρευνας και διάσωσης και ότι ακόμα μπορεί να περάσει από το μυαλό σας σε άριστη ποιότητα, τιμές αλλά και ασφάλεια που μόνο η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> μπορεί να σας προσφέρει.</p>
+				<?php if ( $language == "el" ) { echo $application_items["serv_aerial_photography_article"]; } else { echo $application_items["serv_aerial_photography_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -263,8 +260,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="services_section_content_materialproduction_wrapper" class="service_content_wrapper">
 		<section id="services_section_content_materialproduction" class="service_content top_section">
 			<header id="services_section_content_materialproduction_header">
-				<a href="application.php#services_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png" title="επιστροφή" border="0"/></a>
-				<h3>Δημιουργία Οπτικο-ακουστικού Υλικού</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή" border="0"/></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["serv_material_production_title"]; } else { echo $application_items["serv_material_production_title_en"]; } ?></h3>
 			</header>
 			<div id="services_section_content_materialproduction_figure_wrapper_1" class="service_figure_wrapper">
 				<figure id="services_section_content_materialproduction_figure_1">
@@ -272,8 +269,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="services_section_content_materialproduction_article">
-				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> προφέρει ολοκληρωμένες λύσεις για την παραγωγή οποιουδήποτε τύπου - είδος οπτικοακουστικού υλικού, μιας και είναι η μόνη εταιρία που μπορεί να προσφέρει επίγεια κάλυψη, φωτογράφιση, εναέρια κινηματογράφηση, εναέρια φωτογράφιση αλλά και υπερσύγχρονη σουίτα Μοντάζ.</p>		
-				<p>Το τεχνικό προσωπικό της <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> προερχόμενο από το χώρο της τηλεόρασης και του κινηματογράφου, ειδικευμένο στις πιο σύγχρονες ευρωπαϊκές προδιαγραφές προσφέρει ολοκληρωμένες λύσεις σε βίντεο κλιπ, movie editing, 3D animation και post production.</p>
+				
 			</article>
 			<div id="services_section_content_materialproduction_figure_wrapper_2" class="service_figure_wrapper">
 				<figure id="services_section_content_materialproduction_figure_2">
@@ -289,11 +285,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="services_section_content_aerialobservation_wrapper" class="service_content_wrapper">
 		<section id="services_section_content_aerialobservation" class="service_content top_section">
 			<header id="services_section_content_aerialobservation_header">
-				<a href="application.php#services_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png" title="επιστροφή"  border="0" /></a>
-				<h3>Εναέρια Παρατήρηση</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_observation_title"]; } else { echo $application_items["serv_aerial_observation_title_en"]; } ?></h3>
 			</header>
 			<article id="services_section_content_aerialobservation_article" class="under_construction">
-				<p>Η ενότητα αυτή θα είναι έτοιμη σε σύντομο χρονικό διάστημα.</p>
+				<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_observation_article"]; } else { echo $application_items["serv_aerial_observation_article_en"]; } ?></h3>
 			</article>
 		</section>
 	</div>
@@ -301,11 +297,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="services_section_content_searchandrescue_wrapper" class="service_content_wrapper">
 		<section id="services_section_content_searchandrescue" class="service_content top_section">
 			<header id="services_section_content_searchandrescue_header">
-				<a href="application.php#services_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png" title="επιστροφή"  border="0" /></a>
-				<h3>Έρευνα και Διάσωση</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["serv_search_and_rescue_title"]; } else { echo $application_items["serv_search_and_rescue_title_en"]; } ?></h3>
 			</header>
 			<article id="services_section_content_searchandrescue_article" class="under_construction">
-				<p>Η ενότητα αυτή θα είναι έτοιμη σε σύντομο χρονικό διάστημα.</p>
+				<h3><?php if ( $language == "el" ) { echo $application_items["serv_search_and_rescue_article"]; } else { echo $application_items["serv_search_and_rescue_article_en"]; } ?></h3>
 			</article>
 		</section>
 	</div>

@@ -1,6 +1,6 @@
 ﻿<?php
 /*
-	This file is the landing one of www.unmanned-evolution.com
+	This file contains any information about photographs and videos of this site (www.unmanned-evolution.com)
 By Dimitri Kafetzi @ http://www.kafetzisd.gr
 Distributed under the Creative Commons Attribution 3.0 License
 */
@@ -18,6 +18,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Εναέρια φωτογράφιση γάμου στην Κομοτηνή.",
 			"title"		=> "Εναέρια φωτογράφιση γάμου στην Κομοτηνή.",
 			"caption"	=> "Εναέρια φωτογράφιση γάμου στην Κομοτηνή.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι"
 		),
 		"Married-couple-in-front-of-a-greek-church-low-height" => array (
@@ -30,6 +33,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή από χαμηλό ύψος",
 			"title"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή από χαμηλό ύψος.",
 			"caption"	=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή από χαμηλό ύψος.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Married-couple-at-Komotini" => array (
@@ -42,6 +48,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι στην εκκλησία της Αγίας παρασκευής, Κομοτηνή",
 			"title"		=> "Νιόπαντρο ζευγάρι στην εκκλησία της Αγίας παρασκευής, Κομοτηνή. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
 			"caption"	=> "Νιόπαντρο ζευγάρι στην εκκλησία της Αγίας παρασκευής, Κομοτηνή. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Married-couple-in-front-of-a-greek-church" => array (
@@ -54,6 +63,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής.",
 			"title"		=> "Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
 			"caption"	=> "Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Married-couple-in-front-of-a-greek-church-at-Komotini" => array (
@@ -66,6 +78,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή",
 			"title"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή.",
 			"caption"	=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Just-Married-Couple-at-the-edge-of-a-bridge" => array (
@@ -78,6 +93,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου",
 			"title"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου.",
 			"caption"	=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Picture-of-a-bride-through-her-window" => array (
@@ -90,6 +108,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νύφη στέκεται στο παραθυρό της. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution",
 			"title"		=> "Νύφη στέκεται στο παραθυρό της.",
 			"caption"	=> "Νύφη στέκεται στο παραθυρό της.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Married-couple-by-the-river-from-Goris-Photography" => array (
@@ -102,6 +123,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι δίπλα στον ποταμό Νέστο (by Goris Photography)",
 			"title"		=> "Νιόπαντρο ζευγάρι δίπλα στον ποταμό Νέστο (by Goris Photography).",
 			"caption"	=> "Νιόπαντρο ζευγάρι δίπλα στον ποταμό Νέστο (by Goris Photography).",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
 		),
 		"Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography" => array (
@@ -114,6 +138,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου (by Goris Photography)",
 			"title"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου (by Goris Photography).",
 			"caption"	=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου (by Goris Photography).",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
 		),
 		"Married-couple-sitting-on-a-bridge-from-Goris-Photography" => array (
@@ -126,6 +153,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι καθισμένο σε γέφυρα πάνω από τον ποταμό Νέστο  (by Goris Photography)",
 			"title"		=> "Νιόπαντρο ζευγάρι καθισμένο σε γέφυρα πάνω από τον ποταμό Νέστο  (by Goris Photography).",
 			"caption"	=> "Νιόπαντρο ζευγάρι καθισμένο σε γέφυρα πάνω από τον ποταμό Νέστο (by Goris Photography).",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
 		),
 		"Married-couple-playing-by-the-river-from-Goris-Photography" => array (
@@ -138,6 +168,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι παίζει στην κοίτη του ποταμού Νέστου (by Goris Photography)",
 			"title"		=> "Νιόπαντρο ζευγάρι παίζει στην κοίτη του ποταμού Νέστου (by Goris Photography).",
 			"caption"	=> "Νιόπαντρο ζευγάρι παίζει στην κοίτη του ποταμού Νέστου (by Goris Photography).",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
 		),
 		"Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography" => array (
@@ -150,6 +183,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography)",
 			"title"		=> "Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography).",
 			"caption"	=> "Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography).",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
 		),
 		"Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography" => array (
@@ -162,6 +198,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography)",
 			"title"		=> "Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography).",
 			"caption"	=> "Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography).",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
 		),
 		"Husband-takes-his-wife-on-hands-by-the-river-from-Goris-Photography" => array (
@@ -174,6 +213,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Η νύφη στα χέρια του γαμπρού  δίπλα στο ποτάμι (by Goris Photography)",
 			"title"		=> "Η νύφη στα χέρια του γαμπρού  δίπλα στο ποτάμι (by Goris Photography).",
 			"caption"	=> "Η νύφη στα χέρια του γαμπρού  δίπλα στο ποτάμι (by Goris Photography).",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
 		),
 		"Bride-looking-at-her-husband-from-Goris-Photography" => array (
@@ -186,6 +228,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Διπλό πορτραίτο - φωτογραφία γάμου (by Goris Photography)",
 			"title"		=> "Διπλό πορτραίτο - φωτογραφία γάμου (by Goris Photography).",
 			"caption"	=> "Διπλό πορτραίτο - φωτογραφία γάμου (by Goris Photography).",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
 		),
 		"Married-couple-kissing-at-traditional-city-of-Xanthi-Greece" => array (
@@ -198,6 +243,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Φωτογραφία γάμου τραβηγμένη υπό γωνία με πολύπτερο στην παλιά πόλη της Ξάνθης",
 			"title"		=> "Φωτογραφία γάμου τραβηγμένη υπό γωνία με πολύπτερο στην παλιά πόλη της Ξάνθης.",
 			"caption"	=> "Φωτογραφία γάμου τραβηγμένη υπό γωνία με πολύπτερο στην παλιά πόλη της Ξάνθης.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Aerial-photo-of-a-married-couple-at-traditional-city-of-Xanthi-Greece" => array (
@@ -210,6 +258,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Το νιόπαντρο ζευγάρι σε μία pop φωτογράφιση στην παλιά πόλη της Ξάνθης",
 			"title"		=> "Το νιόπαντρο ζευγάρι σε μία pop φωτογράφιση στην παλιά πόλη της Ξάνθης.",
 			"caption"	=> "Το νιόπαντρο ζευγάρι σε μία pop φωτογράφιση στην παλιά πόλη της Ξάνθης.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Artistic-photo-of-a-married-couple" => array (
@@ -222,6 +273,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Νιόπαντρο ζευγάρι σε τρυφερή στιγμή. Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution",
 			"title"		=> "Νιόπαντρο ζευγάρι σε τρυφερή στιγμή. Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution.",
 			"caption"	=> "Νιόπαντρο ζευγάρι σε τρυφερή στιγμή. Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Artistic-black-and-white-aerial-photo-of-a-married-couple" => array (
@@ -234,6 +288,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution. Ασπρόμαυρη με μία αίσθηση άλλης εποχής",
 			"title"		=> "Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution. Ασπρόμαυρη με μία αίσθηση άλλης εποχής.",
 			"caption"	=> "Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution. Ασπρόμαυρη με μία αίσθηση άλλης εποχής.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Syntagma-Square-Athens-Greece" => array (
@@ -246,6 +303,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Η Πλατεία Συντάγματος μέσα από την ιπτάμενη κάμερα της Unmanned Evolution",
 			"title"		=> "Η Πλατεία Συντάγματος μέσα από την ιπτάμενη κάμερα της Unmanned Evolution.",
 			"caption"	=> "Η Πλατεία Συντάγματος μέσα από την ιπτάμενη κάμερα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, marketing, tourism"
 		),
 		"Theatre-of-Lykavittos-by-nightfall" => array (
@@ -258,6 +318,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Το Θέατρο του Λυκαβυττού μέσα από την ιπτάμενη κάμερα της Unmanned Evolution",
 			"title"		=> "Το Θέατρο του Λυκαβυττού μέσα από την ιπτάμενη κάμερα της Unmanned Evolution.",
 			"caption"	=> "Το Θέατρο του Λυκαβυττού μέσα από την ιπτάμενη κάμερα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, κτηματομεσιτικός τομέας, ξενοδοχεία, marketing, tourism, realestate, hotels"
 		),
 		"Columns-of-the-Olympian-Zeus-Athens-Greece" => array (
@@ -270,6 +333,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Οι Στήλες του Ολυμπίου Διός στο κέντρο της Αθήνας",
 			"title"		=> "Οι Στήλες του Ολυμπίου Διός στο κέντρο της Αθήνας.",
 			"caption"	=> "Οι Στήλες του Ολυμπίου Διός στο κέντρο της Αθήνας.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, αρχαιολογικοί χώροι, marketing, archeology"
 		),
 		"Panoramic-view-of-Athens-Greece" => array (
@@ -282,6 +348,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Πανοραμική θέας της Αθήνας από το Λυκαβυττό",
 			"title"		=> "Πανοραμική θέας της Αθήνας από το Λυκαβυττό.",
 			"caption"	=> "Πανοραμική θέας της Αθήνας από το Λυκαβυττό.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, κτηματομεσιτικός τομέας, marketing, realestate"
 		),
 		"Beach-at-sunset" => array (
@@ -294,6 +363,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Σούρουπο στην παραλία",
 			"title"		=> "Σούρουπο στην παραλία.",
 			"caption"	=> "Σούρουπο στην παραλία.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, ταινίες, marketing, movies"
 		),
 		"Arch-of-Hadrian" => array (
@@ -306,6 +378,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Η Πύλη του Αδριανού. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution",
 			"title"		=> "Η Πύλη του Αδριανού. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
 			"caption"	=> "Η Πύλη του Αδριανού. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, αρχαιολογικοί χώροι, marketing, archeology"
 		),
 		"Entrance-of-Zappeion" => array (
@@ -318,6 +393,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Η Πύλη του Ζαππείου Μεγάρου. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution",
 			"title"		=> "Η Πύλη του Ζαππείου Μεγάρου. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
 			"caption"	=> "Η Πύλη του Ζαππείου Μεγάρου. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, αρχαιολογικοί χώροι, marketing, archeology"
 		),
 		"Freighter-from-above-in-a-greek-port" => array (
@@ -330,6 +408,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Λιμενισμένο φορτηγό πλοίο. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution",
 			"title"		=> "Λιμενισμένο φορτηγό πλοίο. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
 			"caption"	=> "Λιμενισμένο φορτηγό πλοίο. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, βιομηχανία, παρατήρηση, industry, surveillance"
 		),
 		"Sea-side-building-Greece" => array (
@@ -342,6 +423,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Πέτρινο κτήριο δίπλα σε προβλήτα",
 			"title"		=> "Πέτρινο κτήριο δίπλα σε προβλήτα.",
 			"caption"	=> "Πέτρινο κτήριο δίπλα σε προβλήτα.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, κτηματομεσιτικός τομέας, ξενοδοχεία, tourism, realestate, hotels"
 		),
 		"Unmanned-Evolutions-Multicopter-in-a-cloudy-day" => array (
@@ -354,6 +438,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Πολύπτερο της Unmanned Evolution κάτω από τα σύννεφα",
 			"title"		=> "Πολύπτερο της Unmanned Evolution κάτω από τα σύννεφα.",
 			"caption"	=> "Πολύπτερο της Unmanned Evolution κάτω από τα σύννεφα.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, εξοπλισμός, Unmanned-Evolution, equipment"
 		),
 		"Upside-down-Multicopter" => array (
@@ -366,6 +453,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Έπαθλο: Ένα πολύπτερο της Unmanned Evolution",
 			"title"		=> "Έπαθλο: Ένα πολύπτερο της Unmanned Evolution.",
 			"caption"	=> "Έπαθλο: Ένα πολύπτερο της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, εξοπλισμός, Unmanned-Evolution, equipment"
 		),
 		"Unmanned-Evolution-team" => array (
@@ -378,6 +468,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Η ομάδα της Unmanned Evolution",
 			"title"		=> "Η ομάδα της Unmanned Evolution.",
 			"caption"	=> "Η ομάδα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, ομάδα, Unmanned-Evolution, team"
 		),
 		"Open-Field-By-River" => array (
@@ -390,6 +483,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Παραποτάμιο οικόπεδο",
 			"title"		=> "Παραποτάμιο οικόπεδο.",
 			"caption"	=> "Παραποτάμιο οικόπεδο.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, μαρκετινγκ, κτηματομεσιτικός τομέας, marketing, realestate"
 		),
 		"Sea-side-resorts" => array (
@@ -402,6 +498,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Παραθαλάσσιες ξενοδοχιακές μονάδες με μικρό λιμένα",
 			"title"		=> "Παραθαλάσσιες ξενοδοχιακές μονάδες με μικρό λιμένα.",
 			"caption"	=> "Παραθαλάσσιες ξενοδοχιακές μονάδες με μικρό λιμένα.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, μαρκετινγκ, τουρισμός, κτηματομεσιτικός τομέας, marketing, tourism, realestate"
 		),
 		"Sea-side-football-field" => array (
@@ -414,6 +513,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Παραθαλάσσιο γήπεδο ποδοσφαίρου",
 			"title"		=> "Παραθαλάσσιο γήπεδο ποδοσφαίρου.",
 			"caption"	=> "Παραθαλάσσιο γήπεδο ποδοσφαίρου.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, μαρκετινγκ, αθλητισμός, κτηματομεσιτικός τομέας, marketing, sports, realestate"
 		),
 		"Someone-is-watching-you-from-the-sky" => array (
@@ -426,6 +528,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"alt"		=> "Κάποιος παρακολουθεί από τον ουρανό την ομάδα της Unmanned Evolution",
 			"title"		=> "Κάποιος παρακολουθεί από τον ουρανό την ομάδα της Unmanned Evolution.",
 			"caption"	=> "Κάποιος παρακολουθεί από τον ουρανό την ομάδα της Unmanned Evolution.",
+			"alt_en"    => "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, ομάδα, Unmanned-Evolution, team"
 		),				
 		/***************** videos ******************/
@@ -436,6 +541,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "_AeVgCd9U0E",
 			"title"		=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
 			"caption"	=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video"
 		),
 		"Multi-rotor-demo-scenes" => array (
@@ -445,6 +553,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "_AeVgCd9U0E",
 			"title"		=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
 			"caption"	=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video"
 		),
 		"Wedding-trailer" => array (
@@ -454,6 +565,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "zRsutyxTC_g",
 			"title"		=> "Wedding trailer",
 			"caption"	=> "Trailer γάμου γυρισμένο με τις επίγειες και εναέριες κάμερες της Unmanned Evolution σε εντυπωσιακά μέρη της βορείου Ελλάδος.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Mountains" => array (
@@ -463,6 +577,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "rT1BICpC1Gg",
 			"title"		=> "Λήψεις της Unmanned Evolution στο δάσος Παρνασίου.",
 			"caption"	=> "Λήψεις της Unmanned Evolution στο δάσος Παρνασίου χρησιμοποιώντας ιπτάμενα μη επανδρωμένα οχήματα. Τα οχήματα αυτά χρησιμοποιούνται στην αγροτική παραγωγή και γενικά στην καταγραφή και παρακολούθηση του φυσικού περιβάλλοντος.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, αγροτική παραγωγή, παρατήρηση, έρευνα και παρατήρηση, βουνό, καταγραφή διάσωσης, διάσωση, πρόσβαση σε απομακρυσμένες περιοχές, πανοραμική φωτογραφία"
 		),
 		"Concerts" => array (
@@ -472,6 +589,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "rT1BICpC1Gg",
 			"title"		=> "Χρησιμοποίηση ιπτάμενων μη επανδρωμένων οχημάτων για την κάλυψη εκδηλώσεων, συναυλιών και κάθε άλλου κοινωνικού γεγονότος.",
 			"caption"	=> "Χρησιμοποίηση ιπτάμενων μη επανδρωμένων οχημάτων για την κάλυψη εκδηλώσεων, συναυλιών και κάθε άλλου κοινωνικού γεγονότος.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, συναυλίες, video clip, κοινωνικές εκδηλώσεις, άλμπουμ, album, μουσική, παραγωγή βίντεο, παραγωγή μουσικής"
 		),
 		"Concerts_live" => array (
@@ -481,6 +601,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "AD5CfwNcHHM",
 			"title"		=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην κάλυψη ζωντανών γεγονότων, όπως η παρουσιαζόμενη συναυλία.",
 			"caption"	=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην κάλυψη ζωντανών γεγονότων, όπως η παρουσιαζόμενη συναυλία.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, συναυλίες, video clip, κοινωνικές εκδηλώσεις, άλμπουμ, album, μουσική, παραγωγή βίντεο, παραγωγή μουσικής"
 		),
 		"Running_man" => array (
@@ -490,6 +613,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "-TIOiY6qpT8",
 			"title"		=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην παραγωγή ταινιών, βίντεο κλιπ και άλλου οπτικοακουστικού υλικού.",
 			"caption"	=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην παραγωγή ταινιών, βίντεο κλιπ και άλλου οπτικοακουστικού υλικού.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, video clip, παραγωγή ταινιών, movie production, δύσκολες κινηματογραφικές σκηνές, cascader, κασκαντέρ"
 		),
 		"Ιndustrial_area" => array (
@@ -499,6 +625,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "sCE-Ci_ZkKw",
 			"title"		=> "Εποπτεία παραγωγικών διαδικασιών με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
 			"caption"	=> "Η Unmanned Evolution προσφέρει τη δυνατότητα καταγραφής και εποπτείας της παραγωγικής διαδικασίας ενός εργοστασίου ή επιχείρησης όταν τα συμβατικά μέσα δεν επαρκούν. Πληθώρα δραστηριοτήτων μηχανικών μπορούν να επιταχυνθούν και να βελτιωθούν με τη βοήθεια ιπτάμενων αεροναυτικών οχημάτων.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, μηχανικοί"
 		),
 		"Τourism_businesses" => array (
@@ -508,6 +637,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "jvBi8bLDCFk",
 			"title"		=> "Παρουσίαση και προώθηση τουριστικών επιχειρήσεων από την Unmanned Evolution",
 			"caption"	=> "Η Unmanned Evolution σας παρουσιάζει ένα μικρό δείγμα αξιοποίησης των τεχνολογιών της για την προώθηση τουριστικών επιχειρήσεων, λιμένων, σκαφών και αρχαιολογικών χώρων.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, τουρισμός, marketing, διαφημίσεις, προώθηση ξενοδοχείων, διαφήμιση ξενοδοχείων, προβολή ξενοδοχείων, βίντεο παρουσίασης, trailer video"
 		),
 		"Οbservation_environment" => array (
@@ -517,6 +649,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "L86CoQdCNaA",
 			"title"		=> "Εναέρια παρακολούθηση περιβάλλοντος και παραγωγικών διαδικασιών.",
 			"caption"	=> "",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, παρατήρηση, έρευνα και διάσωση, μηχανικοί, καταγραφή διάσωσης, διάσωση, πρόσβαση σε απομακρυσμένες περιοχές, πανοραμική φωτογραφία"
 		),
 		"Downhill_dirfy_2011" => array (
@@ -526,6 +661,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "yMjJarOY-B8",
 			"title"		=> "Φίλοι της Unmanned Evolution και του Lifeedite κάνουν downhill sτη Δίρφη Ευβοίας",
 			"caption"	=> "Dowhill στη Δίρφη με το κινηματογραφικό συνεργείο της Unmanned Evolution.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, αθλητισμός, marketing, καταγραφή εκδηλώσεων, κοινωνικές εκδηλώσεις, χορηγός επικοινωννίας, extreme sport, προώθηση αθλητισμού, mountain bike, gears, dirt, Δίρφη, Dirfy, Εύβοια"
 		),
 		"Parkour_2011" => array (
@@ -535,6 +673,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "6SB9jgI6qks",
 			"title"		=> "Μια parkour και free running προπόνηση από τον Άκη Ζέκη και την παρέα του.",
 			"caption"	=> "Mε την κάμερα ανα χείρας και με την πρωινή δροσιά του Σαββάτου να θολώνει το φακό της κάμερας, βρεθήκαμε στο Πάρκο Μητέρας στο Δήμο αγίας βαρβάρας να συναντήσουμε απο κοντά τον Άκη Ζέκης και την παρέα του, σε μια parkour free running προπόνηση.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, αθλητισμός, marketing, καταγραφή εκδηλώσεων, κοινωνικές εκδηλώσεις, χορηγός επικοινωννίας, extreme sport, προώθηση αθλητισμού, Άκης Ζέκης, Αγία Βαρβάρα, Αθήνα"
 		),
 		"Presentation_zembili" => array (
@@ -544,6 +685,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "zkF5QFWbBuU",
 			"title"		=> "Παρουσίαση του παντοπωλείου Ζεμπίλι από την Unmanned Evolution και το Lifeedite.",
 			"caption"	=> "Διαφημιστικό video-παρουσίασης από το συνεργείο της Unmanned Evolution για το LifeEdite.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, αθλητισμός, marketing, προώθηση επιχειρήσεων, διαφήμιση επιχειρήσεων, προβολή επιχειρήσεων, βίντεο παρουσίασης, trailer video"
 		),
 		"Concerts_Tsaligopoulou" => array (
@@ -553,8 +697,10 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "xi3cxWC5iJI",
 			"title"		=> "Απόσπασμα συναυλίας από το φεστιβάλ Άρδα 2012",
 			"caption"	=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην κάλυψη ζωντανών γεγονότων, όπως η παρουσιαζόμενη συναυλία.",
+			"category_en"=> "",
+			"title_en"  => "",
+			"caption_en"=> "",
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, συναυλίες, video clip, κοινωνικές εκδηλώσεις, Τσαλιγοπούλου, Άρδας, 2012, Tsaligopoulou, Ardas, παραγωγή μουσικής, συναυλίες, Βόρεια Ελλάδα, live, ζωντανή μουσική"
 		)
 	);
-
 ?>

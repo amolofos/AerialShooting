@@ -14,7 +14,15 @@ Distributed under the Creative Commons Attribution 3.0 License
 	header( 'Last-Modified: ' . date("F d Y H:i:s e", getlastmod()) );
 	
 	include "portofolio_items.php";
+	include "application_items.php";
 	
+	if( isset($_GET[ 'lang' ]) ) {
+		if ( $language != "el" || $language != "en" ) {
+			$language = $_GET[ 'lang' ];
+		}
+	} else {
+		$language = "el";
+	}	
 	$type = $_GET[ 'type' ];
 	$id   = $_GET[ 'id' ];
 ?>
@@ -28,7 +36,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- <link rel="stylesheet" type="text/css" href="css/portofolio_slideshow.min.css"/> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<title>Unmanned Evolution portofolio slide show | <?php echo $portofolio_items[$id]["title"]?></title>
+		<title>Unmanned Evolution portofolio slideshow | <?php echo $portofolio_items[$id]["title"]?></title>
 		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
 		<meta name="description" content="Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε <?php if($type=="image"){echo "την ακόλουθη φωτογραφία";} elseif($type=="video"){echo "το ακόλουθο video";}?> : <?php echo $portofolio_items[$id]["title"]?>."/>
 		<meta name="application-name" content="Δείγμα δουλειάς της Unmanned Evolution."/>
