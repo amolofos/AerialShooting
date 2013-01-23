@@ -10,48 +10,66 @@ Distributed under the Creative Commons Attribution 3.0 License
 		/***************** images ******************/
 		"Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini" => array (
 			"id" 		=> "Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original",
 			"small"		=> "Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_445x200-90q",
-			"thumb"		=> "Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_60x30-90q",
-			"alt"		=> "Εναέρια φωτογράφιση γάμου στην Κομοτηνή.",
-			"title"		=> "Εναέρια φωτογράφιση γάμου στην Κομοτηνή.",
-			"caption"	=> "Εναέρια φωτογράφιση γάμου στην Κομοτηνή.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι"
+			"thumb"		=> "Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_60x30-90q",			
+			"el" 		=> array (
+				"category"	=> "Γάμος",
+				"alt"		=> "Εναέρια φωτογράφιση γάμου στην Κομοτηνή.",
+				"title"		=> "Εναέρια φωτογράφιση γάμου στην Κομοτηνή.",
+				"caption"	=> "Εναέρια φωτογράφιση γάμου στην Κομοτηνή.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, γάμοι, γάμος, Κομοτηνή, Ελλάδα, βαπτίσεις"
+			),
+			"en"        => array (
+				"category"	=> "Weddings",
+				"alt"		=> "Aerial photography of a wedding at Komotini.",
+				"title"		=> "Aerial photography of a wedding at Komotini.",
+				"caption"	=> "Aerial photography of a wedding at Komotini.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, baptism"
+			)
 		),
 		"Married-couple-in-front-of-a-greek-church-low-height" => array (
 			"id" 		=> "Married-couple-in-front-of-a-greek-church-low-height",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Married-couple-in-front-of-a-greek-church-low-height_original",
 			"small"		=> "Married-couple-in-front-of-a-greek-church-low-height_original_400x268-90q",
 			"thumb"		=> "Married-couple-in-front-of-a-greek-church-low-height_original_60x40-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή από χαμηλό ύψος",
-			"title"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή από χαμηλό ύψος.",
-			"caption"	=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή από χαμηλό ύψος.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"	=> "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή από χαμηλό ύψος",
+				"title"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή από χαμηλό ύψος.",
+				"caption"	=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή από χαμηλό ύψος.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, γάμοι, γάμος, Κομοτηνή, Ελλάδα, βαπτίσεις"
+			),
+			"en"        => array (
+				"category"	=> "Weddings",
+				"alt"       => "Married couple in front of Agia Paraskeui Church located at Komitini filmed at low altitude.",
+				"title"     => "Married couple in front of Agia Paraskeui Church located at Komitini filmed at low altitude.",
+				"caption"   => "Married couple in front of Agia Paraskeui Church located at Komitini filmed at low altitude.",
+				"tags"      => "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, baptism"
+			)
 		),
 		"Married-couple-at-Komotini" => array (
 			"id" 		=> "Married-couple-at-Komotini",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Married-couple-at-Komotini_original",
 			"small"		=> "Married-couple-at-Komotini_original_200x327-90q",
 			"thumb"		=> "Married-couple-at-Komotini_original_30x60-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι στην εκκλησία της Αγίας παρασκευής, Κομοτηνή",
-			"title"		=> "Νιόπαντρο ζευγάρι στην εκκλησία της Αγίας παρασκευής, Κομοτηνή. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
-			"caption"	=> "Νιόπαντρο ζευγάρι στην εκκλησία της Αγίας παρασκευής, Κομοτηνή. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"	=> "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι στην εκκλησία της Αγίας παρασκευής, Κομοτηνή",
+				"title"		=> "Νιόπαντρο ζευγάρι στην εκκλησία της Αγίας παρασκευής, Κομοτηνή. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+				"caption"	=> "Νιόπαντρο ζευγάρι στην εκκλησία της Αγίας παρασκευής, Κομοτηνή. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			),
+			"en" 		=> array (
+				"category"	=> "Weddings",
+				"alt"		=> "Just married couple in front of Agia Paraskeui Church, Komitini, Greece.",
+				"title"		=> "Just married couple in front of Agia Paraskeui Church, Komitini, Greece. Photography shooting by Unmanned Evolution's unmanned aerial vehicles.",
+				"caption"	=> "Just married couple in front of Agia Paraskeui Church, Komitini, Greece. Photography shooting by Unmanned Evolution's unmanned aerial vehicles.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, baptism"
+			)
 		),
 		"Married-couple-in-front-of-a-greek-church" => array (
 			"id" 		=> "Married-couple-in-front-of-a-greek-church",
@@ -375,13 +393,18 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"original"	=> "Arch-of-Hadrian_original",
 			"small"		=> "Arch-of-Hadrian_original_400x198-90q",
 			"thumb"		=> "Arch-of-Hadrian_original_60x30-90q",
-			"alt"		=> "Η Πύλη του Αδριανού. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution",
-			"title"		=> "Η Πύλη του Αδριανού. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
-			"caption"	=> "Η Πύλη του Αδριανού. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, αρχαιολογικοί χώροι, marketing, archeology"
+			"el" 		=> array (
+				"alt"		=> "Η Πύλη του Αδριανού. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution",
+				"title"		=> "Η Πύλη του Αδριανού. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+				"caption"	=> "Η Πύλη του Αδριανού. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, τουρισμός, αρχαιολογικοί χώροι, archeology, marketing, διαφήμιση, πύλη του Αδριανού, Αδριανός, Ελλάδα, Αθήνα, Βυζάντιο, uav, μη επανδρωμένα, αεροναυτικά, οχήματα, πολυκόπτερο, multicopter"			
+			),
+			"en"        => array (
+				"alt"		=> "Arch of Hadrian. Photography taken by Unmanned Evolution's uavs -unmanned aerial vehicles.",
+				"title"		=> "Arch of Hadrian. Photography taken by Unmanned Evolution's uavs -unmanned aerial vehicles.",
+				"caption"	=> "Arch of Hadrian. Photography taken by Unmanned Evolution's uavs -unmanned aerial vehicles.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, tourism, archaelogical sites, marketing, archeology, arch of Hadrian, Hadrian, Athens, Greece, Rome, Byzantium, uav, unmanned aerial vehicle, multicopter"
+			)
 		),
 		"Entrance-of-Zappeion" => array (
 			"id" 		=> "Entrance-of-Zappeion",

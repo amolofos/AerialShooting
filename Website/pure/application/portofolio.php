@@ -118,7 +118,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5089d9595d29b9df&domready=1&async=1"></script>
 		<script>
 			var addthis_share = {
-				"url": "http://www.unmanned-evolution.com/application/portofolio.php",
+				"url": "http://www.unmanned-evolution.com/application/portofolio.php?lang=<?php echo $language; ?>",
 				"title": "Unmanned Evolution portofolio",
 				"description": "Unmanned Evolution portofolio"
 			};

@@ -36,11 +36,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- <link rel="stylesheet" type="text/css" href="css/portofolio_item.min.css"/> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<title><?php if ($language == "el") { echo $application_items["itm_head_title"] . " | " . $portofolio_items[$id]["title"]; } else { echo $application_items["itm_head_title_en"] . " | " . $portofolio_items[$id]["title_en"];} ?></title>
+		<title><?php if ($language == "el") { echo $application_items["itm_head_title"]; } else { echo $application_items["itm_head_title_en"]; } ?> | <?php echo $portofolio_items[$id][$language]["title"]; ?></title>
 		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
 		<meta name="description" content="<?php if ( $language == "el" ) { echo "test1"; } else { echo "test2"; } ?>"/>
-		<meta name="application-name" content="Δείγμα δουλειάς της Unmanned Evolution."/>
-		<meta name="keywords" content="portofolio, χαρτοφυλάκιο, επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα, <?php echo $portofolio_items[$id]["tags"]?>"/>
+		<meta name="application-name" content="<?php if ($language == "el") { echo $application_items["itm_application-name"]; } else { echo $application_items["itm_application-name_en"]; } ?>"/>
+		<meta name="keywords" content="<?php if ( $language == "el" ) { echo $application_items[$id]["itm_keywords"]; } else { echo $application_items[$id]["itm_keywords_en"]; } ?> <?php echo $portofolio_items[$id][$language]["tags"]?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
 		<link rel="canonical" href="http://www.unmanned-evolution.com/application/portofolio_item.php?type=<?php echo $type?>&id=<?php echo $id?>" />
@@ -58,9 +58,10 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="geo.position" content="37.975496;23.734868" />
 		<meta name="ICBM" content="37.975496, 23.734868" />
 		<!-- open graph meta tags -->
-		<meta property='og:locale' content="el_GR"/>
-		<meta property='og:title' content="<?php echo $portofolio_items[$id]["title"]?>"/>
-		<meta property='og:description' content="<?php echo $portofolio_items[$id]["caption"]?>"/>
+		<meta property='og:locale' content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>"/>
+		<meta property='og:locale:alternate' content="<?php if ($language == "el") { echo "en_US"; } else { echo "el_GR"; }?>"/>
+		<meta property='og:title' content="<?php echo $portofolio_items[$id][$language]["title"]?>"/>
+		<meta property='og:description' content="<?php echo $portofolio_items[$id][$language]["caption"]?>"/>
 		<meta property='og:url' content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?type=<?php echo $type?>&id=<?php echo $id?>"/>
 		<?php 
 			if ( isset( $portofolio_items[$id]["small"] ) ) {
@@ -76,12 +77,12 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta property='og:type' content="article"/>
 		<meta property="og:site_name" content="Unmanned Evolution portofolio" />
 		<meta property="article:author"          content="Unmanned Evolution">
-		<meta property="article:section"         content="<?php echo $portofolio_items[$id]["category"]?>">
-		<meta property="article:tag"             content="<?php echo $portofolio_items[$id]["tags"]?>">
+		<meta property="article:section"         content="<?php echo $portofolio_items[$id][$language]["category"]?>">
+		<meta property="article:tag"             content="<?php echo $portofolio_items[$id][$language]["tags"]?>">
 		<!--  Google-compatible meta tags -->
-		<meta itemprop="name" content="<?php echo $portofolio_items[$id]["title"]?>" />
-		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?type=<?php echo $type?>&id=<?php echo $id?>"/>
-		<meta itemprop="description" content="<?php echo $portofolio_items[$id]["caption"]?>"/>
+		<meta itemprop="name" content="<?php echo $portofolio_items[$id][$language]["title"]?>" />
+		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>type=<?php echo $type?>&id=<?php echo $id?>"/>
+		<meta itemprop="description" content="<?php echo $portofolio_items[$id][$language]["caption"]?>"/>
 		<?php 
 			if ( isset( $portofolio_items[$id]["small"] ) ) {
 				$html = "";
@@ -96,8 +97,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 				echo $html;
 			}
 		?>
-		<meta itemprop="inLanguage" content="el_GR" />
-		<meta itemprop="keywords" content="portofolio, χαρτοφυλάκιο, επίσημη ιστοσελίδα, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, εναέρια φωτογράφηση, εναέρια κινηματογράφηση, εναερια φωτογραφηση, εναερια κινηματογραφηση, αέρια φωτογράφηση, αέρια κινηματογράφηση, αερια φωτογραφηση, αερια κινηματογραφηση, αεροφωτογράφηση, αεροφωτογράφηση, μη επανδωμένα οχήματα, μη επανδρωμενα οχηματα, uav, multicopter, πολύπτερο, πολυπτερο, helicopter, ελικόπτερο, ελικοπτερο, εξακόπτερο, εξάπτερο, hexacopter, παραγωγή, ταινιών, βιντεο κλιπ, κινηματογράφηση, aerial photo, aerialphoto, greece, Ελλάδα, <?php echo $portofolio_items[$id]["tags"]?>" />
+		<meta itemprop="inLanguage" content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>" />
+		<meta itemprop="keywords" content="<?php if ( $language == "el" ) { echo $application_items[$id]["itm_itemprop_keywords"]; } else { echo $application_items[$id]["itm_itemprop_keywords_en"]; } ?> <?php echo $portofolio_items[$id][$language]["tags"]?>"/>
 		<!-- Enabling HTML5 tags for older IE browsers -->
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>		
@@ -137,9 +138,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 		
 		<script>
 			var addthis_share = {
-				"url": "http://www.unmanned-evolution.com/application/portofolio_slideshow.php?type=<?php echo $type?>&id=<?php echo $portofolio_items[$id]["id"]?>",
-				"title": "<?php echo $portofolio_items[$id]["title"]?>",
-				"description": "<?php echo $portofolio_items[$id]["caption"]?>"
+				"url": "http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>type=<?php echo $type?>&id=<?php echo $portofolio_items[$id]["id"]?>",
+				"title": "<?php echo $portofolio_items[$id][$language]["title"]?>",
+				"description": "<?php echo $portofolio_items[$id][$language]["caption"]?>"
 			};
 			var addthis_config = {
 				"ui_click": true,
@@ -178,18 +179,18 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<?php
 					if ( $type == "image" ) {
 						$html = "";
-						$html = '<img id="' . $portofolio_items[$id]["id"] . '" class="lazy portofolio_item_media"  data-original="media/pictures/' . $portofolio_items[$id]["original"] . '.' . $portofolio_items[$id]["type"] . '" src="media/pictures/' . $portofolio_items[$id]["small"] . '.' . $portofolio_items[$id]["type"] . '" alt="' . $portofolio_items[$id]["alt"] . '" title="' . $portofolio_items[$id]["title"] . '" itemprop="image"/>';
+						$html = '<img id="' . $portofolio_items[$id]["id"] . '" class="lazy portofolio_item_media"  data-original="media/pictures/' . $portofolio_items[$id]["original"] . '.' . $portofolio_items[$id]["type"] . '" src="media/pictures/' . $portofolio_items[$id]["small"] . '.' . $portofolio_items[$id]["type"] . '" alt="' . $portofolio_items[$id][$language]["alt"] . '" title="' . $portofolio_items[$id][$language]["title"] . '" itemprop="image"/>';
 						echo $html;
 					} elseif ( $type == "video" ) {
 						$html = "";
-						$html = '<div id="' . $portofolio_items[$id]["id"] . '_wrapper" class="portofolio_item_media" title="' . $portofolio_items[$id]["title"] . '">';
+						$html = '<div id="' . $portofolio_items[$id]["id"] . '_wrapper" class="portofolio_item_media" title="' . $portofolio_items[$id][$language]["title"] . '">';
 						$html .= '<div id="' . $portofolio_items[$id]["id"] . '" class="player" itemprop="video"></div>';
 						$html .= '</div>';
 						echo $html;
 					}
 				?>
 				<div id="<?php echo $portofolio_items[$id]["id"]?>_caption" class="portofolio_item_caption">
-					<p itemprop="description"><?php echo $portofolio_items[$id]["caption"]?></p>
+					<p itemprop="description"><?php echo $portofolio_items[$id][$language]["caption"]?></p>
 				</div>
 			</article>
 			<footer id="<?php echo $portofolio_items[$id]["id"]?>_footer">

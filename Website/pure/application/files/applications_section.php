@@ -6,6 +6,29 @@ By Dimitri Kafetzi @ http://www.kafetzisd.gr
 Distributed under the Creative Commons Attribution 3.0 License
 
 */
+
+/*
+ Contains the photo's ids that should be displayed into the slideshow of aerial photo section
+*/
+$social_slideshow = array (
+	"Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini",
+	"Married-couple-in-front-of-a-greek-church",
+	"Picture-of-a-bride-through-her-window",
+	"Just-Married-Couple-at-the-edge-of-a-bridge",
+	"Married-couple-by-the-river-from-Goris-Photography",
+	"Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography",
+	"Married-couple-sitting-on-a-bridge-from-Goris-Photography",
+	"Married-couple-playing-by-the-river-from-Goris-Photography",
+	"Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography",
+	"Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography",
+	"Bride-looking-at-her-husband-from-Goris-Photography"
+);
+$realestate_slideshow = array (
+	"Panoramic-view-of-Athens-Greece",
+	"Sea-side-building-Greece",
+	"Microlimano-Piraeus-Greece"
+);
+
 ?>
 <!-- applications section -->
 	<div id="applications_section_wrapper" class="top_section_wrapper">
@@ -125,11 +148,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="applications_section_content_social_article">
-				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> έχοντας πρωτοπορήσει στο χώρου του βίντεο και της φωτογραφίας είναι έτοιμη να δώσει σε σας το καλύτερο αποτέλεσμα σε όλα τα είδη των εκδηλώσεων.</p>
-				<p>Μπορούμε να καλύψουμε συναυλίες, αθλητικές και κοινωνικές εκδηλώσεις αφού πρώτα το τεχνικό μας προσωπικό, ο σκηνοθέτης και οι operater μας μαζί με τη βοήθειά σας σχεδιάσουν το πλάνο της κινηματογράφησης. Δηλαδή, τα σημεία λήψης της εκδήλωσης, επίγεια ή εναέρια, τις φωτιστικές συνθήκες που καθορίζουν την αισθητική της λήψης μέχρι και το “στήσιμο” μιας κινηματογραφικής σκηνής.</p>
-				<p>Πρωτοπορούμε και θέλουμε να κάνουμε τη διαφορά στη βιντεο-λήψη γάμων αναπαριστώντας σκηνές γνωριμίας του ζευγαριού που θα είναι η αιτία να τους ενώσει με τα αιώνια δεσμά του γάμου.</p>
-				<p>Έχοντας ολοκληρωμένα πακέτα επίγειας και εναέριας λήψης βίντεο και φωτογραφίας από πολλές ή μία κάμερες, συνδυασμένα με τη σωστή επεξεργασία της εικόνας, προσφέρουμε άριστη ποιότητα υλικού -full HD- αποθηκευμένο σε blu-ray , dvd ακόμα και σε stick μνήμης.</p>
-				<p>Είμαστε έτοιμοι να καλύψουμε οποιαδήποτε εκδήλωση επιθυμείτε, όπως αθλητικά γεγονότα, συναυλίες,  γάμους, συνέδρια, επαγγελματικές συναντήσεις κ.ο.κ. Ότι είδους και αν είναι η εκδήλωση σας και ότι μπορείτε να φανταστείτε μπορούμε να το αναδείξουμε για σας με άριστη ποιότητα, χαμηλές τιμές και ασφάλεια φτάνει μόνο να έρθετε σε επικοινωνία μαζί μας.</p>
+				<?php if ( $language == "el" ) { echo $application_items["appl_social_article"]; } else { echo $application_items["appl_social_article_en"]; } ?>
 			</article>
 			<div id="applications_section_content_social_figure_wrapper_2" class="application_figure_wrapper">
 				<figure class="clearfix photo" id="applications_section_content_social_figure_2">				
@@ -137,94 +156,19 @@ Distributed under the Creative Commons Attribution 3.0 License
 					<div id="applications_section_content_social_figure_caption" class="caption"></div>
 					<div id="applications_section_content_social_figure_thumbs" class="thumbs_div">
 						<ul class="thumbs noscript">
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_445x200-90q.jpg" title="Εναέρια φωτογράφιση γάμου στην Κομοτηνή">
-									<img src="./media/pictures/Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_60x30-90q.jpg" alt="Εναέρια φωτογράφιση γάμου στην Κομοτηνή." />
-								</a>
-								<div class="caption">
-									<span>Εναέρια φωτογράφιση γάμου στην Κομοτηνή.</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Married-couple-in-front-of-a-greek-church_original_400x200-90q.jpg" title="Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής">
-									<img src="./media/pictures/Married-couple-in-front-of-a-greek-church_original_60x30-90q.jpg" alt="Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής." />
-								</a>
-								<div class="caption">
-									<span>Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Picture-of-a-bride-through-her-window_original_400x200-90q.jpg" title="Νύφη στέκεται στο παραθυρό της">
-									<img src="./media/pictures/Picture-of-a-bride-through-her-window_original_60x30-90q.jpg" alt="Νύφη στέκεται στο παραθυρό της" />
-								</a>
-								<div class="caption">
-									<span>Νύφη στέκεται στο παραθυρό της. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Just-Married-Couple-at-the-edge-of-a-bridge_original.jpg" title="Νιόπαντρο ζευγάρι στην άκρη μιας γέφυρας">
-									<img src="./media/pictures/Just-Married-Couple-at-the-edge-of-a-bridge_original_60x30-90q.jpg" alt="Νιόπαντρο ζευγάρι στην άκρη μιας γέφυρας" />
-								</a>
-								<div class="caption">
-									<span>Νιόπαντρο ζευγάρι στην άκρη μιας γέφυρας.</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Married-couple-by-the-river-from-Goris-Photography_original.jpg" title="Νιόπαντρο ζευγάρι δίπλα στο ποτάμι (by Goris Photography)">
-									<img src="./media/pictures/Married-couple-by-the-river-from-Goris-Photography_original_60x30-90q.jpg" alt="Νιόπαντρο ζευγάρι δίπλα στο ποτάμι (by Goris Photography)" />
-								</a>
-								<div class="caption">
-									<span>Νιόπαντρο ζευγάρι δίπλα στο ποτάμι (by Goris Photography).</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography_original.jpg" title="Νιόπαντρο ζευγάρι στην άκρη γέφυρας (by Goris Photography)">
-									<img src="./media/pictures/Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography_original_60x30-90q.jpg" alt="Νιόπαντρο ζευγάρι στην άκρη γέφυρας (by Goris Photography)" />
-								</a>
-								<div class="caption">
-									<span>Νιόπαντρο ζευγάρι στην άκρη γέφυρας (by Goris Photography)</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Married-couple-sitting-on-a-bridge-from-Goris-Photography_original.jpg" title="Νιόπαντρο ζευγάρι καθισμένο στη γέφυρα (by Goris Photography)">
-									<img src="./media/pictures/Married-couple-sitting-on-a-bridge-from-Goris-Photography_original_40x60-90q.jpg" alt="Νιόπαντρο ζευγάρι καθισμένο στη γέφυρα (by Goris Photography)" />
-								</a>
-								<div class="caption">
-									<span>Νιόπαντρο ζευγάρι καθισμένο στη γέφυρα (by Goris Photography)</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Married-couple-playing-by-the-river-from-Goris-Photography_original.jpg" title="Νιόπαντρο ζευγάρι παίζει στην κοίτη ποταμιού (by Goris Photography)">
-									<img src="./media/pictures/Married-couple-playing-by-the-river-from-Goris-Photography_original_60x40-90q.jpg" alt="Νιόπαντρο ζευγάρι παίζει στην κοίτη ποταμιού (by Goris Photography)" />
-								</a>
-								<div class="caption">
-									<span>Νιόπαντρο ζευγάρι παίζει στην κοίτη ποταμιού (by Goris Photography)</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/media/pictures/Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography_original.jpg" title="Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography)">
-									<img src="./media/pictures/Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography_original_47x60-90q.jpg" alt="Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography)" />
-								</a>
-								<div class="caption">
-									<span>Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography)</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography_original.jpg" title="Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography)">
-									<img src="./media/pictures/Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography_original_60x40-90q.jpg" alt="Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography)" />
-								</a>
-								<div class="caption">
-									<span>Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography)</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Bride-looking-at-her-husband-from-Goris-Photography_original.jpg" title="Νύφη κοιτάζει με χαμόγελο το γαμπρό - ασπρόμαυρη φωτογραφία (by Goris Photography)">
-									<img src="./media/pictures/Bride-looking-at-her-husband-from-Goris-Photography_original_40x60-90q.jpg" alt="Νύφη κοιτάζει με χαμόγελο το γαμπρό - ασπρόμαυρη φωτογραφία (by Goris Photography)" />
-								</a>
-								<div class="caption">
-									<span>Νύφη κοιτάζει με χαμόγελο το γαμπρό - ασπρόμαυρη φωτογραφία (by Goris Photography)</span>
-								</div>
-							</li>
+							<?php	foreach ( $social_slideshow as $photo_id ) {
+									$html = '';
+									$html .= '<li>';
+									$html .= '<a class="thumb" href="./media/pictures/' . $portofolio_items[$photo_id]["original"] . '.' . $portofolio_items[$photo_id]["type"] . '" title="' . $portofolio_items[$photo_id][$language]["title"] . '">';
+									$html .= '<img src="./media/pictures/' . $portofolio_items[$photo_id]["thumb"] . '.' . $portofolio_items[$photo_id]["type"] . '" alt="' . $portofolio_items[$photo_id][$language]["alt"] . '" />';
+									$html .= '</a>';
+									$html .= '<div class="caption">';
+									$html .= '<span>' . $portofolio_items[$photo_id][$language]["caption"] . '</span>';
+									$html .= '</div>';
+									$html .= '</li>';
+									echo $html;
+								}
+							?>
 						</ul>
 					</div>
 				</figure>
@@ -244,8 +188,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="applications_section_content_movies_article">
-				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> έχοντας πρωτοπορήσει στο χώρου του βίντεο και της φωτογραφίας είναι έτοιμη να δώσει σε σας το καλύτερο αποτέλεσμα σε όλα τα είδη των κινηματογραφικών σκηνών. Χρησιμοποιώντας μη επανδρωμένα αεροναυτικά οχήματα, προσφέρουμε οικονομικές λύσεις και ευκολία γυρίσματος αντικαθιστώντας σε κάποιες περιπτώσεις τα βαριά και μεγάλα οχήματα των κινηματογραφικών συνεργείων -γερανοί κ.λ.π..</p>
-				<p>Η κατηγορία των βίντεο κλιπ είναι μία από τις πιο εύκολες περιπτώσεις που μπορεί να αντιμετωπίσει το τεχνικό μας προσωπικό. Ο ρυθμός και η μουσική σε συνδυασμό πάντα με την πολυετή πείρα του σκηνοθέτη μας μπορεί να δώσει στο βίντεο κλιπ σας απίστευτη δυναμική. Το μόνο που έχετε να κάνετε είναι να επικοινωνήσετε μαζί μας.</p>
+				<?php if ( $language == "el" ) { echo $application_items["appl_movies_article"]; } else { echo $application_items["appl_movies_article_en"]; } ?>
 			</article>
 			<div id="applications_section_content_movies_figure_wrapper_2" class="application_figure_wrapper">
 				<figure id="applications_section_content_movies_figure_2">
@@ -267,7 +210,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="applications_section_content_hotels_article">
-				<p>Προωθήστε και διαφημίστε την επιχείρησή σας  με τη βοήθεια του εξειδικευμένου προσωπικού της <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span>. Τα εναέρια και επίγεια πλάνα μας μπορούν να αναδείξουν την ομορφιά και τη λειτουργικότητα της επιχείρησή σας σχεδιάζοντας και σκηνοθετώντας για εσάς το βίντεο που σας ταιριάζει.</p>
+				<?php if ( $language == "el" ) { echo $application_items["appl_hotels_article"]; } else { echo $application_items["appl_hotels_article_en"]; } ?>
 			</article>
 			<div id="applications_section_content_hotels_figure_wrapper_2" class="application_figure_wrapper">
 				<figure id="applications_section_content_hotels_figure_2">
@@ -289,37 +232,25 @@ Distributed under the Creative Commons Attribution 3.0 License
 					<div id="applications_section_content_realestate_figure_caption" class="caption"></div>
 					<div id="applications_section_content_realestate_figure_thumbs" class="thumbs_div">
 						<ul class="thumbs noscript">
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Panoramic-view-of-Athens-Greece_original.jpg" title="Πανοραμική θέα της Αθήνας κατά το σούρουπο.">
-									<img src="./media/pictures/Panoramic-view-of-Athens-Greece_original_60x40-90q.jpg" alt="Πανοραμική θέα της Αθήνας κατά το σούρουπο." />
-								</a>
-								<div class="caption">
-									<span>Πανοραμική θέα της Αθήνας κατά το σούρουπο. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Sea-side-building-Greece_original.jpg" title="Πέτρινο κτήριο δίπλα σε προβλήτα.">
-									<img src="./media/pictures/Sea-side-building-Greece_original_60x29.jpg" alt="Πέτρινο κτήριο δίπλα σε προβλήτα." />
-								</a>
-								<div class="caption">
-									<span>Πέτρινο κτήριο δίπλα σε προβλήτα. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.</span>
-								</div>
-							</li>
-							<li>
-								<a class="thumb" name="optionalCustomIdentifier" href="./media/pictures/Microlimano-Piraeus-Greece_original.jpg" title="Το Μικρολίμανο από ψηλά.">
-									<img src="./media/pictures/Microlimano-Piraeus-Greece_original_60x30-90q.jpg" alt="Το Μικρολίμανο από ψηλά." />
-								</a>
-								<div class="caption">
-									<span>Το Μικρολίμανο από ψηλά. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.</span>
-								</div>
-							</li>
+							<?php	foreach ( $realestate_slideshow as $photo_id ) {
+									$html = '';
+									$html .= '<li>';
+									$html .= '<a class="thumb" href="./media/pictures/' . $portofolio_items[$photo_id]["original"] . '.' . $portofolio_items[$photo_id]["type"] . '" title="' . $portofolio_items[$photo_id][$language]["title"] . '">';
+									$html .= '<img src="./media/pictures/' . $portofolio_items[$photo_id]["thumb"] . '.' . $portofolio_items[$photo_id]["type"] . '" alt="' . $portofolio_items[$photo_id][$language]["alt"] . '" />';
+									$html .= '</a>';
+									$html .= '<div class="caption">';
+									$html .= '<span>' . $portofolio_items[$photo_id][$language]["caption"] . '</span>';
+									$html .= '</div>';
+									$html .= '</li>';
+									echo $html;
+								}
+							?>
 						</ul>
 					</div>
 				</figure>
 			</div>
 			<article id="applications_section_content_realestate_article">
-				<p>Η προώθηση κτηματομεσιτικών προϊόντων αποτελεί μία απαιτητική εργασία. Σε αυτήν ως αναπόσπαστο τμήμα,  κατέχει εξέχουσα θέση η οπτική παρουσίαση του αντικειμένου στην αγορά.  Οι υπηρεσίες της <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> καλύπτουν με τον καλύτερο δυνατό τρόπο τις απαιτήσεις που έχει η παρουσίαση του κτηματομεσιτικού προϊόντος.</p>
-				<p>Ο τεχνικός εξοπλισμός μας προσφέρει ευρυγώνιες και πανοραμικές λήψεις ώστε να είναι ξεκάθαρη η εικόνα και η τοποθεσία του κτήματος, οικοπέδου ή κτηρίου που μας ενδιαφέρει. Τα μη επανδρωμένα οχήματα της <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> έχουν πρόσβαση και στα πιο δύσβατα μέρη ώστε να μπορέσουν να καλύψουν με φωτογραφία και εικόνα το σημείο που θα μας υποδείξετε.</p>
+				<?php if ( $language == "el" ) { echo $application_items["appl_real_estate_article"]; } else { echo $application_items["appl_real_estate_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -336,8 +267,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="applications_section_content_engineering_article">
-				<p>Οι σύγχρονες απαιτήσεις ποιότητας των έργων μηχανικών και βιομηχανίας είναι ιδιαίτερα αυξημένες. Συχνά απαιτείται η παρατήρηση ενός έργου ή μιας βιομηχανικής διεργασίας σε αυξημένο ύψος, δύσκολα προσβάσιμο. Επιπλέον υπάρχουν περιπτώσεις μελέτης και έρευνας χώρων και εγκαταστάσεων η πρόσβαση των οποίων είναι σχεδόν αδύνατη ή χρειάζεται η καταγραφή οπτικών δεδομένων από ψηλά.</p>
-				<p>Το κενό αυτό καλύπτει η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> προσφέροντας ποιότητα εικόνας full HD, μέγιστο ύψος πτήσης και καταγραφής τα 130 μέτρα και ακτίνα δράσης τα 5 χιλιόμετρα. Πλέον, είναι εφικτό να παρατηρήσουμε ένα κτηριακό συγκρότημα από ψηλά χρησιμοποιώντας θερμική κάμερα, προσφέροντας ακριβέστερα δεδομένα στο έργο που έχετε αναλάβει. Ακόμα, είναι εφικτό η παρακολούθηση μιας γραμμής παραγωγής -διυλιστήρια, μονάδες αφαλάτωσης, ιχθυοκαλλιέργειες κ.λ.π.-  από μεγάλο ύψος. Να σημειώσουμε στο σημείο αυτό ότι τα μη επανδρωμένα αεροναυτικά οχήματα είναι εφοδιασμένα με τον πιο σύγχρονο αυτόματο πιλότο καθιστώντας αδύνατη την πτώση του οχήματος.</p>
+				<?php if ( $language == "el" ) { echo $application_items["appl_engineering_article"]; } else { echo $application_items["appl_engineering_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -354,7 +284,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="applications_section_content_environment_article">
-				<p>Η ενότητα αυτή θα είναι έτοιμη σε σύντομο χρονικό διάστημα.</p>
+				<?php if ( $language == "el" ) { echo $application_items["appl_environment_article"]; } else { echo $application_items["appl_environment_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -366,7 +296,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<h3><?php if ( $language == "el" ) { echo $application_items["appl_search_and_rescue_title"]; } else { echo $application_items["appl_search_and_rescue_title_en"]; } ?></h3>
 			</header>
 			<article id="applications_section_content_searchandrescue_article">
-				<p>Η ενότητα αυτή θα είναι έτοιμη σε σύντομο χρονικό διάστημα.</p>
+				<?php if ( $language == "el" ) { echo $application_items["appl_search_and_rescue_article"]; } else { echo $application_items["appl_search_and_rescue_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -383,8 +313,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="applications_section_content_agriculture_article">
-				<p>Ο αγροτικός τομέας χρειάζεται εξειδικευμένες υπηρεσίες προώθησης των παραγομένων προϊόντων του. Ακόμα, υπάρχουν περιπτώσεις οι οποίες απαιτούν παρατήρηση και έλεγχο της καλλιεργούμενης έκτασης η οποία δεν μπορεί να πραγματοποιηθεί εύκολα από ανθρώπινο χέρι και επίγεια μέσα.</p>
-				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> με τα πιο σύγχρονα Μη Επανδρωμένα Αεροναυτικά οχήματα και με υψηλό δείκτη ασφάλειας είναι έτοιμη να προσφέρει τις υπηρεσίες της σε όποιον τις χρειαστεί και να αναδείξει τις αγροτικές παραγωγές της περιφέρειας σας, του νομού σας, ακόμα και της ιδιωτικής σας επιχείρησης. </p>
+				<?php if ( $language == "el" ) { echo $application_items["appl_agriculture_article"]; } else { echo $application_items["appl_agriculture_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -401,8 +330,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</figure>
 			</div>
 			<article id="applications_section_content_custom_article">
-				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> προσφέρει πληθώρα υπηρεσιών και διαμέσου της συγκεκριμένης ιστοσελίδας παρουσιάζει περιπτώσεις χρήσεις στις οποίες η εναέρια κινηματογράφιση και φωτογράφιση αποτελεί πολύτιμη προσθήκη ή ακόμα και αναγκαία για την ολοκλήρωση του έργου.</p>
-				<p>Αν δεν σας έχουμε καλύψει ή/και ετοιμάζετε έργο στο οποίο οι υπηρεσίες μας θα αποβούν χρήσιμες, μη διστάσετε να επικοινωνήσετε μαζί μας στο info@unmanned-evolution.com ή μέσω της <a href="application.php?lang=<?php echo $language; ?>#contact_section_wrapper" >φόρμα επικοινωνίας</a></p>
+				<?php if ( $language == "el" ) { echo $application_items["appl_custom_article"]; } else { echo $application_items["appl_custom_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
