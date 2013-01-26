@@ -154,7 +154,7 @@ html, body {
 	}
 	#top_level_header_branding_name {
 		position: absolute;
-		width: 80%;
+		width: 70%;
 		height: 100%;
 		text-align: left;
 		padding: 0%;
@@ -167,11 +167,33 @@ html, body {
 		position: absolute;
 		width: 100%;
 		z-index: 200;
-		
 		top: 60%;
 		left: 0%;
 		float: left;
 	}
+	
+	#top_level_header_languages {
+		display: inline-block;
+		position: absolute;
+		top: 45%;
+		width: 30%;
+		left: 40%;
+		padding: 0%;
+		margin: 0%;
+		z-index: 200;
+	}
+	.language_form {
+		display: inline-block;
+		position: relative;
+		left: 0%;
+		border: 0px;
+		padding: 0%;
+		margin: 0%;
+	}
+	.language_form input:hover {
+		cursor: pointer;
+	}
+	
 	#top_level_header_socializing_section_wrapper {
 		position: relative;
 		width: 40%;
@@ -313,7 +335,29 @@ html, body {
 		left: 15%;
 	}
 
-
+	#top_level_header_languages {
+		display: inline-block;
+		position: absolute;
+		top: 1%;
+		width: 15%;
+		left: 65%;
+		padding: 0%;
+		margin: 0%;
+	}
+	.language_form {
+		display: inline-block;
+		position: relative;
+		left: 20%;
+		border: 0px;
+		padding: 0%;
+		margin: 0%;
+	}
+	.language_form input:hover {
+		cursor: pointer;
+	}
+	#top_level_header_languages_header {
+		display: block;
+	}
 
 	#top_level_header_socializing_section_wrapper {
 		display: inline;
@@ -329,8 +373,7 @@ html, body {
 	#top_level_header_socializing_section {
 		
 	}
-	#top_level_header_socializing_header,
-	#top_level_header_languages_header {
+	#top_level_header_socializing_header {
 		display: none;
 		position: absolute;
 		top: -20%;
@@ -964,6 +1007,8 @@ html, body {
 	position: relative;
 	display: inline-block!important;
 	padding: 0%;
+	padding-left: 1%;
+	padding-right: 1%;
 	margin: 0%;
 	border: 0px;
 }
@@ -1357,6 +1402,8 @@ html, body {
 	position: relative;
 	display: inline-block!important;
 	padding: 0%;
+	padding-left: 1%;
+	padding-right: 1%;
 	margin: 0%;
 	border: 0px;
 }
@@ -2420,7 +2467,7 @@ html, body {
 	Top level footer section
 */
 
-#top_level_footer_section_wrapper {
+	#top_level_footer_section_wrapper {
 		display: inline;
 		position: fixed;
 		bottom: 0%;
@@ -2581,8 +2628,8 @@ html, body {
 		display: inline;
 		position: absolute;
 		float: right;
-		right: 13%;
-		bottom: -30%;
+		right: 20%;
+		bottom: -10%;
 	}
 }
 /* Ipads, desktops and laptops ----------- */	

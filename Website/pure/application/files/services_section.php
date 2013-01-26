@@ -19,7 +19,7 @@ $aerialphoto_slideshow = array (
 	"Entrance-of-Zappeion",
 	"Married-couple-in-front-of-a-greek-church-low-height",
 	"Syntagma-Square-Athens-Greece",
-	"Greek-small-port-from-above",
+	"Freighter-from-above-in-a-greek-port",
 	"Married-couple-at-Komotini",
 	"Married-couple-in-front-of-a-greek-church",
 	"Married-couple-in-front-of-a-greek-church-at-Komotini",

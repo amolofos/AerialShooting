@@ -17,12 +17,17 @@ Distributed under the Creative Commons Attribution 3.0 License
 	include "application_items.php";
 	
 	if( isset($_GET[ 'lang' ]) ) {
-		if ( $language != "el" || $language != "en" ) {
-			$language = $_GET[ 'lang' ];
-		}
+		$language = $_GET[ 'lang' ];
 	} else {
 		$language = "el";
-	}	
+	}
+
+	if( isset($_GET[ 'slide' ]) ) {
+		$slide_type = $_GET[ 'slide' ];
+	} else {
+		$slide_type = "st"; /* standalone */
+	}
+
 	$type = $_GET[ 'type' ];
 	$id   = $_GET[ 'id' ];
 ?>
@@ -32,20 +37,22 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css/mobile.css"/>
 		<link rel="stylesheet" type="text/css" href="css/portofolio_slideshow.css"/>
+		<?php if ( $slide_type == "st" ) { echo '<link rel="stylesheet" type="text/css" href="css/portofolio_slideshow' . "_st" . '.css"/>'; } ?>
+		
 		<!-- <link rel="stylesheet" type="text/css" href="css/mobile.min.css"/> -->
 		<!-- <link rel="stylesheet" type="text/css" href="css/portofolio_slideshow.min.css"/> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<title>Unmanned Evolution portofolio slideshow | <?php echo $portofolio_items[$id][$language]["title"]?></title>
 		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
-		<meta name="description" content="Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε <?php if($type=="image"){echo "την ακόλουθη φωτογραφία";} elseif($type=="video"){echo "το ακόλουθο video";}?> : <?php echo $portofolio_items[$id]["title"]?>."/>
+		<meta name="description" content="<?php if ( $language == "el" ) { echo "Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε "; } else { echo "Welcome at Unmanned Evolution\'s portofolio. You are presented with the following "; } ?><?php if($type=="image"){echo "την ακόλουθη φωτογραφία";} elseif($type=="video"){echo "το ακόλουθο video";}?> : <?php echo $portofolio_items[$id][$language]["title"]?>."/>
 		
 		
 		<meta name="application-name" content="<?php if ($language == "el") { echo $application_items["itm_application-name"]; } else { echo $application_items["itm_application-name_en"]; } ?>"/>
 		<meta name="keywords" content="<?php if ( $language == "el" ) { echo $application_items[$id]["sld_keywords"]; } else { echo $application_items[$id]["sld_keywords_en"]; } ?> <?php echo $portofolio_items[$id][$language]["tags"]?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
-		<link rel="canonical" href="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?type=<?php echo $type?>&id=<?php echo $id?>" />
+		<link rel="canonical" href="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $id?>" />
 		<!-- <link rel="shortlink" href="http://goo.gl/LluDd" /> -->
 		
 		<meta name="robots" content="index, follow" />
@@ -65,7 +72,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta property='og:locale:alternate' content="<?php if ($language == "el") { echo "en_US"; } else { echo "el_GR"; }?>"/>
 		<meta property='og:title' content="<?php echo $portofolio_items[$id][$language]["title"]?>"/>
 		<meta property='og:description' content="<?php echo $portofolio_items[$id][$language]["caption"]?>"/>
-		<meta property='og:url' content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?type=<?php echo $type?>&id=<?php echo $id?>"/>
+		<meta property='og:url' content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $id?>"/>
 		<?php 
 			if ( isset( $portofolio_items[$id]["small"] ) ) {
 				$html = "";
@@ -84,7 +91,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta property="article:tag"             content="<?php echo $portofolio_items[$id][$language]["tags"]?>">
 		<!--  Google-compatible meta tags -->
 		<meta itemprop="name" content="<?php echo $portofolio_items[$id][$language]["title"]?>" />
-		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?type=<?php echo $type?>&id=<?php echo $id?>"/>
+		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $id?>"/>
 		<meta itemprop="description" content="<?php echo $portofolio_items[$id][$language]["caption"]?>"/>
 		<?php 
 			if ( isset( $portofolio_items[$id]["small"] ) ) {
@@ -141,13 +148,13 @@ Distributed under the Creative Commons Attribution 3.0 License
 
 		<script>
 			var addthis_share = {
-				"url": "http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>type=<?php echo $type?>&id=<?php echo $portofolio_items[$id]["id"]?>",
+				"url": "http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $portofolio_items[$id]["id"]?>",
 				"title": "<?php echo $portofolio_items[$id][$language]["title"]?>",
 				"description": "<?php echo $portofolio_items[$id][$language]["caption"]?>"
 			};
 			var addthis_config = {
 				"ui_click": true,
-				"ui_language": 'el',
+				"ui_language": '<?php echo $language; ?>',
 				"data_ga_property": 'UA-35818718-1',
 				"data_ga_social": true,
 				"data_track_addressbar": true
@@ -162,7 +169,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<article id="<?php echo $portofolio_items[$id]["id"]?>_article" class="clearfix <?php echo $type?>" itemscope itemtype="http://schema.org/<?php if ( $type == "image" ) { echo "Photograph"; } elseif ( $type == "image" ) { echo "Movie"; }?>">
 					<header id="portofolio_slideshow_header" class="clearfix">
 						<div id="portofolio_slideshow_close">
-							<img alt="επιστροφή" src="./img/navbar/left-pointing-arrow.png" title="επιστροφή" border="0" />
+							<img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/navbar/left-pointing-arrow.png" title="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>"  border="0" />
 						</div>
 					</header>
 					<div id="portofolio_slideshow_media_wrapper">

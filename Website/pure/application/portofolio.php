@@ -16,16 +16,92 @@ Distributed under the Creative Commons Attribution 3.0 License
 	header( 'Last-Modified: ' . date("F d Y H:i:s e", getlastmod()) );
 	
 	include "application_items.php";
+	include "portofolio_items.php";
+	include "portofolio_nav.php";
 	
 	if( isset($_GET[ 'lang' ]) ) {
 		$language = $_GET[ 'lang' ];
-		if ( $language != "el" || $language != "en" ) {
-			$language = $_GET[ 'lang' ];
-		}
 	} else {
 		$language = "el";
 	}
 	
+	$portofolio_nav_used = array (
+		"portofolio_item",
+		"photography",
+		"video",
+		"aerial_cinematography",
+		"marketing",
+		"tourism",
+		"hotels",
+		"movies",
+		"concerts",
+		"video_clip",
+		"social",
+		"sports",
+		"real_estate",
+		"archaeology",
+		"industry",
+		"engineering",
+		"surveillance",
+		"search",
+		"agriculture",
+		"mountains",
+		"Unmanned_Evolution",
+		"equipment"
+	);
+	
+	$portofolio_items_used = array (
+		/* ***************** picture ***************** */
+		"Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini",
+		"Married-couple-in-front-of-a-greek-church-low-height",
+		"Married-couple-at-Komotini",
+		"Married-couple-in-front-of-a-greek-church",
+		"Married-couple-in-front-of-a-greek-church-at-Komotini",
+		"Just-Married-Couple-at-the-edge-of-a-bridge",
+		"Picture-of-a-bride-through-her-window",
+		"Married-couple-by-the-river-from-Goris-Photography",
+		"Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography",
+		"Married-couple-sitting-on-a-bridge-from-Goris-Photography",							
+		"Married-couple-playing-by-the-river-from-Goris-Photography",
+		"Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography",
+		"Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography",
+		"Husband-takes-his-wife-on-hands-by-the-river-from-Goris-Photography",
+		"Bride-looking-at-her-husband-from-Goris-Photography",
+		"Married-couple-kissing-at-traditional-city-of-Xanthi-Greece",
+		"Aerial-photo-of-a-married-couple-at-traditional-city-of-Xanthi-Greece",
+		"Artistic-photo-of-a-married-couple",
+		"Artistic-black-and-white-aerial-photo-of-a-married-couple",
+		"Syntagma-Square-Athens-Greece",
+		"Theatre-of-Lykavittos-by-nightfall",
+		"Columns-of-the-Olympian-Zeus-Athens-Greece",
+		"Panoramic-view-of-Athens-Greece",
+		"Beach-at-sunset",
+		"Arch-of-Hadrian",
+		"Entrance-of-Zappeion",
+		"Freighter-from-above-in-a-greek-port",
+		"Sea-side-building-Greece",
+		"Unmanned-Evolutions-Multicopter-in-a-cloudy-day",
+		"Upside-down-Multicopter",
+		"Unmanned-Evolution-team",
+		"Open-Field-By-River",
+		"Sea-side-resorts",
+		"Sea-side-football-field",
+		"Someone-is-watching-you-from-the-sky",
+		/* ***************** videos ***************** */
+		"Multi-rotor-demo-scenes",
+		"Wedding-trailer",
+		"Mountains",
+		"Concerts",
+		"Concerts_live",
+		"Running_man",
+		"Ιndustrial_area",
+		"Τourism_businesses",
+		"Οbservation_environment",
+		"Downhill_dirfy_2011",
+		"Parkour_2011",
+		"Presentation_zembili",
+		"Concerts_Tsaligopoulou"
+	);
 ?>
 <!DOCTYPE HTML>
 <html xml:lang="<?php echo $language; ?>" lang="<?php echo $language; ?>" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:addthis="http://www.addthis.com/help/api-spec" itemscope itemtype="http://schema.org/WebPage">
@@ -44,7 +120,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="keywords" content="<?php if ($language == "el") { echo $application_items["prt_keywords"]; } else { echo $application_items["prt_keywords_en"]; }?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
-		<link rel="canonical" href="www.unmanned-evolution.com/application/portofolio.php" />
+		<link rel="canonical" href="www.unmanned-evolution.com/application/portofolio.php?lang=<?php echo $language; ?>" />
 		
 		<meta name="robots" content="index, follow" />
 		<meta name="googlebot" content="noodp">
@@ -63,14 +139,14 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta property='og:locale:alternate' content="<?php if ($language == "el") { echo "en_US"; } else { echo "el_GR"; }?>"/>
 		<meta property="og:title" content="Unmanned Evolution portofolio | Air / Video Experts"/>
 		<meta property="og:description" content="<?php if ($language == "el") { echo $application_items["prt_graph_desription"]; } else { echo $application_items["prt_graph_desription_en"]; }?>"/>
-		<meta property="og:url" content="http://www.unmanned-evolution.com/application/portofolio.php/"/>
+		<meta property="og:url" content="http://www.unmanned-evolution.com/application/portofolio.php?lang=<?php echo $language; ?>"/>
 		<meta property="og:type" content="image"/>
 		<meta property="og:site_name" content="Unmanned Evolution portofolio" />
 		<meta property="og:image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
 		<meta property="og:image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
 		<!--  Google-compatible meta tags -->
 		<meta itemprop="name" content="Unmanned Evolution | Air / Video Experts" />
-		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio.php"/>
+		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio.php?lang=<?php echo $language; ?>"/>
 		<meta itemprop="description" content="<?php if ($language == "el") { echo $application_items["prt_itemprop_desription"]; } else { echo $application_items["prt_itemprop_desription_en"]; }?>"/>
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
@@ -96,8 +172,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<script src="scripts/jquery.viewport.mini.js"></script>
 		<script src="scripts/jquery.masonry.min.js"></script>
 		<!-- Custom scripts -->
-		<!-- <script src="scripts/portofolio.js"></script> -->
-		<script src="scripts/portofolio.min.js"></script>
+		<script src="scripts/portofolio.js"></script>
+		<!-- <script src="scripts/portofolio.min.js"></script> -->
 
 		 <!-- Google analytics -->
 		<script type="text/javascript">
@@ -124,7 +200,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			};
 			var addthis_config = {
 				"ui_click": true,
-				"ui_language": 'el',
+				"ui_language": '<?php echo $language; ?>',
 				"data_ga_property": 'UA-35818718-1',
 				"data_ga_social": true,
 				"data_track_addressbar": false
@@ -146,29 +222,12 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<section id="portofolio_section">
 					<nav id="filter">
 						<ul>
-							<li id="portofolio_item">Πλήρης Λίστα</li>
-							<li id="photography">Φωτογραφία</li>
-							<li id="video">Βίντεο</li>
-							<li id="aerial_cinematography">Εναέρια κινηματογράφιση</li>
-							<li id="marketing">Διαφήμιση</li>
-							<li id="tourism">Τουρισμός</li>
-							<li id="hotels">Ξενοδοχεία</li>
-							<li id="movies">Ταινίες</li>
-							<li id="conserts">Συναυλίες</li>
-							<li id="video_clip">Βίντεο κλιπ</li>
-							<li id="social">Κοινωνικές εκδηλώσεις</li>
-							<li id="sports">Αθλητισμός</li>
-							<li id="real_estate">Κτηματομεσιτικός τομέας</li>
-							<li id="archeology">Αρχαιολογικοί χώροι</li>
-							<li id="industry">Βιομηχανία</li>
-							<li id="engineering">Μηχανικοί</li>
-							<li id="surveillance">Παρατήρηση</li>
-							<li id="search">Εξερεύνηση</li>
-							<li id="agriculture">Αγροτική παραγωγή</li>
-							
-							<li id="mountains">Βουνό</li>
-							<li id="Unmanned_Evolution">Unmanned Evolution</li>
-							<li id="equipment">Εξοπλισμός</li>
+							<?php	foreach ( $portofolio_nav_used as $nav_id ) {
+									$html = '';
+									$html .= '<li id="' . $nav_id . '">' . $portofolio_nav[$language][$nav_id] . '</li>';
+									echo $html;
+								}
+							?>
 						</ul>
 					<!-- The menu items will go here (generated by jQuery) -->
 					</nav>
@@ -176,200 +235,13 @@ Distributed under the Creative Commons Attribution 3.0 License
 					<section id="container">
 						<div id="stage">
 							<!-- Your portfolio items go here -->
-							<!-- pictures -->
-							<div id="Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Married-couple-in-front-of-a-greek-church-low-height_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Married-couple-at-Komotini_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Married-couple-in-front-of-a-greek-church_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Married-couple-in-front-of-a-greek-church-at-Komotini_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Just-Married-Couple-at-the-edge-of-a-bridge_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Picture-of-a-bride-through-her-window_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Married-couple-by-the-river-from-Goris-Photography_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Married-couple-sitting-on-a-bridge-from-Goris-Photography_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>					
-							
-							<div id="Married-couple-playing-by-the-river-from-Goris-Photography_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-
-							<div id="Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Husband-takes-his-wife-on-hands-by-the-river-from-Goris-Photography_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Bride-looking-at-her-husband-from-Goris-Photography_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Married-couple-kissing-at-traditional-city-of-Xanthi-Greece_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Aerial-photo-of-a-married-couple-at-traditional-city-of-Xanthi-Greece_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Artistic-photo-of-a-married-couple_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Artistic-black-and-white-aerial-photo-of-a-married-couple_iFrame_wrapper" class="portofolio_item photography social">
-
-							</div>
-							
-							<div id="Syntagma-Square-Athens-Greece_iFrame_wrapper" class="portofolio_item photography marketing tourism">
-
-							</div>
-							
-							<div id="Theatre-of-Lykavittos-by-nightfall_iFrame_wrapper" class="portofolio_item photography marketing tourism reale_state hotels">
-
-							</div>
-							
-							<div id="Columns-of-the-Olympian-Zeus-Athens-Greece_iFrame_wrapper" class="portofolio_item photography marketing archeology">
-
-							</div>
-							
-							<div id="Panoramic-view-of-Athens-Greece_iFrame_wrapper" class="portofolio_item photography marketing real_estate">
-
-							</div>
-							
-							<div id="Beach-at-sunset_iFrame_wrapper" class="portofolio_item photography marketing movies">
-
-							</div>
-							
-							<div id="Arch-of-Hadrian_iFrame_wrapper" class="portofolio_item photography marketing archeology">
-
-							</div>
-							
-							<div id="Entrance-of-Zappeion_iFrame_wrapper" class="portofolio_item photography marketing archeology">
-
-							</div>
-							
-							<div id="Freighter-from-above-in-a-greek-port_iFrame_wrapper" class="portofolio_item photography marketing industry surveillance">
-
-							</div>
-							
-							<div id="Sea-side-building-Greece_iFrame_wrapper" class="portofolio_item photography marketing tourism reale_state hotels">
-
-							</div>
-							
-							<div id="Unmanned-Evolutions-Multicopter-in-a-cloudy-day_iFrame_wrapper" class="portofolio_item photography Unmanned_Evolution equipment">
-
-							</div>
-							
-							<div id="Upside-down-Multicopter_iFrame_wrapper" class="portofolio_item photography Unmanned_Evolution equipment">
-
-							</div>
-							
-							<div id="Unmanned-Evolution-team_iFrame_wrapper" class="portofolio_item photography Unmanned_Evolution">
-
-							</div>
-							
-							<div id="Open-Field-By-River_iFrame_wrapper" class="portofolio_item photography marketing real_estate">
-
-							</div>
-							
-							<div id="Sea-side-resorts_iFrame_wrapper" class="portofolio_item photography marketing tourism reale_state">
-
-							</div>
-							
-							<div id="Sea-side-football-field_iFrame_wrapper" class="portofolio_item photography marketing sports reale_state">
-
-							</div>
-							
-							<div id="Someone-is-watching-you-from-the-sky_iFrame_wrapper" class="portofolio_item photography Unmanned_Evolution">
-
-							</div>
-										
-							<!-- ------------------------------------ -->
-							<!-- videos -->
-							<div id="Multi-rotor-demo-scenes_iFrame_wrapper" class="portofolio_item video aerial_cinematography">
-
-							</div>
-							
-							<div id="Wedding-trailer_iFrame_wrapper" class="portofolio_item video aerial_cinematography social">
-
-							</div>
-							
-							<div id="Mountains_iFrame_wrapper" class="portofolio_item video agriculture surveillance search mountains">
-
-							</div>
-							
-							<div id="Concerts_iFrame_wrapper" class="portofolio_item video conserts video_clip">
-								
-							</div>
-							
-							<div id="Concerts_live_iFrame_wrapper" class="portofolio_item video conserts video_clip">
-
-							</div>
-							
-							<div id="Running_man_iFrame_wrapper" class="portofolio_item video movies video_clip">
-
-							</div>
-							
-							<div id="Ιndustrial_area_iFrame_wrapper" class="portofolio_item video industry engineering">
-
-							</div>
-							
-							<div id="Τourism_businesses_iFrame_wrapper" class="portofolio_item video hotels real_estate marketing">
-
-							</div>
-							
-							<div id="Οbservation_environment_iFrame_wrapper" class="portofolio_item video surveillance">
-
-							</div>
-							
-							<div id="Downhill_dirfy_2011_iFrame_wrapper" class="portofolio_item video movies video_clip marketing sports">
-
-							</div>
-							
-							<div id="Parkour_2011_iFrame_wrapper" class="portofolio_item video movies video_clip marketing sports">
-
-							</div>
-							
-							<div id="Presentation_zembili_iFrame_wrapper" class="portofolio_item video movies video_clip marketing sports">
-
-							</div>
-							
-							<div id="Concerts_Tsaligopoulou_iFrame_wrapper" class="portofolio_item video movies video_clip marketing sports">
-
-							</div>
+							<?php	foreach ( $portofolio_items_used as $item_id ) {
+									$html = '';
+									$html .= '<div id="' . $portofolio_items[$item_id]["id"] . '_iFrame_wrapper" class="portofolio_item ' . $portofolio_items[$item_id]["nav_class"] . '">';
+									$html .= '</div>';
+									echo $html;
+								}
+							?>
 						</div>
 					</section>
 				

@@ -509,7 +509,7 @@ function iframe_builder( id ) {
 						id = id[0];
 						keepFrameSize_onLoad( portofolio_items[ id ][ "id" ] );
 					};
-	iframe.src = "portofolio_item.php?type=" + portofolio_items[ id ][ "type" ] + "&id=" + portofolio_items[ id ][ "id" ];
+	iframe.src = "portofolio_item.php?lang=" + getQueryParams( "lang" ) + "&type=" + portofolio_items[ id ][ "type" ] + "&id=" + portofolio_items[ id ][ "id" ];
 	iframe.id = portofolio_items[ id ][ "id" ] + "_iFrame";
 	
 	iframe_span =  document.createElement( "span" );
@@ -604,15 +604,11 @@ function portofolio_item_aboveTheTop ( ) {
 	});
 }
 
-function changeLanguage( lang ) {
+function getQueryParams( name ){
 
-	var url = document.location.pathname;
-	
-	if ( lang != "en" || lang != "gr" ) {
-		return;
+	if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search)) {
+		return decodeURIComponent(name[1]);
+	} else {
+		return "el";
 	}
-	url = url.trimRight( "." );
-	url = url[0];
-	url = url + lang + ".php";
-	console.log( url );
 }

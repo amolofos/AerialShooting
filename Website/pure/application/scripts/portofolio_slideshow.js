@@ -31,7 +31,7 @@ $(document).ready(function( ) {
 	tag_add_this.src = "http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5089d9595d29b9df&domready=1&async=1";
 	firstScriptTag_add_this = document.getElementsByTagName('script')[0];
 	firstScriptTag_add_this.parentNode.insertBefore(tag_add_this, firstScriptTag_add_this);
-	setTimeout( function(){ addthis.init(); }, 500 );
+	setTimeout( function(){ addthis.init(); }, 700 );
 
 	is_type = $( "article" ).hasClass( "video" );
 	if( !is_type ) {
@@ -52,17 +52,6 @@ $(document).ready(function( ) {
 		$( "#portofolio_item_media_wrapper" ).css( "height", "80%" );
 	}
 	
-	href = window.top.location.pathname;
-	href = href.split( "/" );
-	href = href[ href.length-1];
-	
-	if ( href == "portofolio_slideshow.php" ) {
-		$( "#portofolio_slideshow_social" ).css( "top", "15%" );
-		$( "#portofolio_slideshow_social" ).css( "left", "5%" );
-		$( "#portofolio_slideshow_wrapper" ).css( "border-radius", "0px" );
-		$( ".portofolio_item_caption" ).css( "top", "10%" );
-	}
-	
 	$( "#portofolio_slideshow_close > img" ).bind( "click", function( e ) {
 		var href;
 		var iframe;
@@ -72,7 +61,7 @@ $(document).ready(function( ) {
 		href = href[ href.length-1];
 		e.preventDefault( );
 		if ( href == "portofolio_slideshow.php" ) {
-			window.location.href = "portofolio.php";
+			window.location.href = "portofolio.php?lang=" + getQueryParams( "lang" );
 		} else {
 			window.top.document.getElementById( "portofolio_slideshow_section_wrapper" ).style.display = "none";
 			iframe = window.top.document.getElementById( "portofolio_slideshow_iFrame" );
@@ -224,12 +213,11 @@ function imagePlacing( ) {
 	$( "#portofolio_item_media_wrapper" ).css( "visibility", "visible" );
 }
 
-function on_load_start( ) {
+function getQueryParams( name ){
 
-	console.log( "loadstart" );
-}
-
-function on_loaded_meta_data( ) {
-
-	console.log( "onloadedmetadata" );
+	if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search)) {
+		return decodeURIComponent(name[1]);
+	} else {
+		return "el";
+	}
 }
