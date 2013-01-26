@@ -408,6 +408,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Xanthi, baptism, Goris Photography, Giannis Goris, black and white photograph, black and white, blackNwhite, blackandwhite"
 			)
 		),
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 		"Syntagma-Square-Athens-Greece" => array (
 			"id" 		=> "Syntagma-Square-Athens-Greece",
 			"category"	=> "Πόλη",
@@ -661,9 +662,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "_AeVgCd9U0E",
 			"title"		=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
 			"caption"	=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
+
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video"
 		),
 		"Multi-rotor-demo-scenes" => array (
@@ -673,9 +672,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "_AeVgCd9U0E",
 			"title"		=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
 			"caption"	=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
+
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video"
 		),
 		"Wedding-trailer" => array (
@@ -685,9 +682,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "zRsutyxTC_g",
 			"title"		=> "Wedding trailer",
 			"caption"	=> "Trailer γάμου γυρισμένο με τις επίγειες και εναέριες κάμερες της Unmanned Evolution σε εντυπωσιακά μέρη της βορείου Ελλάδος.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
+
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
 		),
 		"Mountains" => array (
@@ -697,9 +692,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "rT1BICpC1Gg",
 			"title"		=> "Λήψεις της Unmanned Evolution στο δάσος Παρνασίου.",
 			"caption"	=> "Λήψεις της Unmanned Evolution στο δάσος Παρνασίου χρησιμοποιώντας ιπτάμενα μη επανδρωμένα οχήματα. Τα οχήματα αυτά χρησιμοποιούνται στην αγροτική παραγωγή και γενικά στην καταγραφή και παρακολούθηση του φυσικού περιβάλλοντος.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
+
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, αγροτική παραγωγή, παρατήρηση, έρευνα και παρατήρηση, βουνό, καταγραφή διάσωσης, διάσωση, πρόσβαση σε απομακρυσμένες περιοχές, πανοραμική φωτογραφία"
 		),
 		"Concerts" => array (
@@ -709,9 +702,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "rT1BICpC1Gg",
 			"title"		=> "Χρησιμοποίηση ιπτάμενων μη επανδρωμένων οχημάτων για την κάλυψη εκδηλώσεων, συναυλιών και κάθε άλλου κοινωνικού γεγονότος.",
 			"caption"	=> "Χρησιμοποίηση ιπτάμενων μη επανδρωμένων οχημάτων για την κάλυψη εκδηλώσεων, συναυλιών και κάθε άλλου κοινωνικού γεγονότος.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
+
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, συναυλίες, video clip, κοινωνικές εκδηλώσεις, άλμπουμ, album, μουσική, παραγωγή βίντεο, παραγωγή μουσικής"
 		),
 		"Concerts_live" => array (
@@ -721,94 +712,128 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"host_id"	=> "AD5CfwNcHHM",
 			"title"		=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην κάλυψη ζωντανών γεγονότων, όπως η παρουσιαζόμενη συναυλία.",
 			"caption"	=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην κάλυψη ζωντανών γεγονότων, όπως η παρουσιαζόμενη συναυλία.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
+
 			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, συναυλίες, video clip, κοινωνικές εκδηλώσεις, άλμπουμ, album, μουσική, παραγωγή βίντεο, παραγωγή μουσικής"
 		),
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */	
 		"Running_man" => array (
 			"id" 		=> "Running_man",
-			"category"	=> "Ταινίες",
 			"type"		=> "youtube",
 			"host_id"	=> "-TIOiY6qpT8",
-			"title"		=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην παραγωγή ταινιών, βίντεο κλιπ και άλλου οπτικοακουστικού υλικού.",
-			"caption"	=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην παραγωγή ταινιών, βίντεο κλιπ και άλλου οπτικοακουστικού υλικού.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, video clip, παραγωγή ταινιών, movie production, δύσκολες κινηματογραφικές σκηνές, cascader, κασκαντέρ"
+			"el"        => array (
+				"category"  => "Ταινίες",
+				"title"		=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην παραγωγή ταινιών, βίντεο κλιπ και άλλου οπτικοακουστικού υλικού.",
+				"caption"	=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην παραγωγή ταινιών, βίντεο κλιπ και άλλου οπτικοακουστικού υλικού.",
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, video clip, παραγωγή ταινιών, movie production, δύσκολες κινηματογραφικές σκηνές, cascader, κασκαντέρ"
+			),
+			"en"        => array (
+				"category"  => "Movies",
+				"title"		=> "Unmanned Evolution\'s capabilities in movie and media production.",
+				"caption"	=> 'Unmanned Evolution\'s capabilities in movie and media production.',
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, observation, engineers, produstion processes, video"
+			)
 		),
 		"Ιndustrial_area" => array (
 			"id" 		=> "Ιndustrial_area",
-			"category"	=> "Μηχανικοί",
 			"type"		=> "youtube",
 			"host_id"	=> "sCE-Ci_ZkKw",
-			"title"		=> "Εποπτεία παραγωγικών διαδικασιών με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
-			"caption"	=> "Η Unmanned Evolution προσφέρει τη δυνατότητα καταγραφής και εποπτείας της παραγωγικής διαδικασίας ενός εργοστασίου ή επιχείρησης όταν τα συμβατικά μέσα δεν επαρκούν. Πληθώρα δραστηριοτήτων μηχανικών μπορούν να επιταχυνθούν και να βελτιωθούν με τη βοήθεια ιπτάμενων αεροναυτικών οχημάτων.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, μηχανικοί"
+			"el"        => array (
+				"category"  => "Μηχανικοί",
+				"title"		=> "Εποπτεία παραγωγικών διαδικασιών με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution",
+				"caption"	=> "Η Unmanned Evolution προσφέρει τη δυνατότητα καταγραφής και εποπτείας της παραγωγικής διαδικασίας ενός εργοστασίου ή επιχείρησης όταν τα συμβατικά μέσα δεν επαρκούν. Πληθώρα δραστηριοτήτων μηχανικών μπορούν να επιταχυνθούν και να βελτιωθούν με τη βοήθεια ιπτάμενων αεροναυτικών οχημάτων.",
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, aerial cinematography, video, μηχανικοί"
+			),
+			"en"        => array (
+				"category"  => "Engineering",
+				"title"		=> "Observing production processes using uavs by Unmanned Evolution",
+				"caption"	=> 'Unmanned Evolution\'s services include observation and monitoring of production processes when non-uav means are proven to be insufficient.',
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, observation, engineers, produstion processes, video"
+			)
 		),
 		"Τourism_businesses" => array (
 			"id" 		=> "Τourism_businesses",
-			"category"	=> "Τουρισμός",
 			"type"		=> "youtube",
 			"host_id"	=> "jvBi8bLDCFk",
-			"title"		=> "Παρουσίαση και προώθηση τουριστικών επιχειρήσεων από την Unmanned Evolution",
-			"caption"	=> "Η Unmanned Evolution σας παρουσιάζει ένα μικρό δείγμα αξιοποίησης των τεχνολογιών της για την προώθηση τουριστικών επιχειρήσεων, λιμένων, σκαφών και αρχαιολογικών χώρων.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, τουρισμός, marketing, διαφημίσεις, προώθηση ξενοδοχείων, διαφήμιση ξενοδοχείων, προβολή ξενοδοχείων, βίντεο παρουσίασης, trailer video"
+			"el"        => array (
+				"category"  => "Τουρισμός",
+				"title"		=> "Παρουσίαση και προώθηση τουριστικών επιχειρήσεων από την Unmanned Evolution",
+				"caption"	=> "Η Unmanned Evolution σας παρουσιάζει ένα μικρό δείγμα αξιοποίησης των τεχνολογιών της για την προώθηση τουριστικών επιχειρήσεων, λιμένων, σκαφών και αρχαιολογικών χώρων.",
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, τουρισμός, marketing, διαφημίσεις, προώθηση ξενοδοχείων, διαφήμιση ξενοδοχείων, προβολή ξενοδοχείων, βίντεο παρουσίασης, trailer video"
+			),
+			"en"        => array (
+				"category"  => "Tourism",
+				"title"		=> "Unmanned Evolution's services for marketing and advertizing tourism and hotels",
+				"caption"	=> 'Unmanned Evolution presents a sample of applying uavs\' filming into businesses, ports, archaelogical sites and touristic advertisments.',
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, marketing, advertizing, hotels, trailer video, tourism, siteseeing"
+			)
 		),
 		"Οbservation_environment" => array (
 			"id" 		=> "Οbservation_environment",
-			"category"	=> "Παρατήρηση",
 			"type"		=> "youtube",
 			"host_id"	=> "L86CoQdCNaA",
-			"title"		=> "Εναέρια παρακολούθηση περιβάλλοντος και παραγωγικών διαδικασιών.",
-			"caption"	=> "",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, παρατήρηση, έρευνα και διάσωση, μηχανικοί, καταγραφή διάσωσης, διάσωση, πρόσβαση σε απομακρυσμένες περιοχές, πανοραμική φωτογραφία"
+			"el"        => array (
+				"category"  => "Παρατήρηση",
+				"title"		=> "Εναέρια παρακολούθηση περιβάλλοντος και παραγωγικών διαδικασιών.",
+				"caption"	=> "",
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, παρατήρηση, έρευνα και διάσωση, μηχανικοί, καταγραφή διάσωσης, διάσωση, πρόσβαση σε απομακρυσμένες περιοχές, πανοραμική φωτογραφία"
+			),
+			"en"        => array (
+				"category"  => "Observation",
+				"title"		=> "Aerial observation of environment and production lines.",
+				"caption"	=> '',
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, observation, search and rescue, engineers, rescue filming, rescue video, panoramic"
+			)
 		),
 		"Downhill_dirfy_2011" => array (
 			"id" 		=> "Downhill_dirfy_2011",
-			"category"	=> "Ταινίες",
 			"type"		=> "youtube",
 			"host_id"	=> "yMjJarOY-B8",
-			"title"		=> "Φίλοι της Unmanned Evolution και του Lifeedite κάνουν downhill sτη Δίρφη Ευβοίας",
-			"caption"	=> "Dowhill στη Δίρφη με το κινηματογραφικό συνεργείο της Unmanned Evolution.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, αθλητισμός, marketing, καταγραφή εκδηλώσεων, κοινωνικές εκδηλώσεις, χορηγός επικοινωννίας, extreme sport, προώθηση αθλητισμού, mountain bike, gears, dirt, Δίρφη, Dirfy, Εύβοια"
+			"el"        => array (
+				"category"  => "Ταινίες",
+				"title"		=> "Φίλοι της Unmanned Evolution και του Lifeedite κάνουν downhill στη Δίρφη Ευβοίας",
+				"caption"	=> "Dowhill στη Δίρφη με το κινηματογραφικό συνεργείο της Unmanned Evolution.",
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, αθλητισμός, marketing, καταγραφή εκδηλώσεων, κοινωνικές εκδηλώσεις, χορηγός επικοινωννίας, extreme sport, προώθηση αθλητισμού, mountain bike, gears, dirt, Δίρφη, Dirfy, Εύβοια"
+			),
+			"en"        => array (
+				"category"  => "Movies",
+				"title"		=> "Friends of Unmanned Evolution and Lifeedite went for downhill at Dirfy of Euvoia.",
+				"caption"	=> 'Downhill at Dirfy of Euvoia filmed by Unmanned Evolution.',
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, events, sports, extreme sport, downhill, mountain, mountain bike, gears, dirt, Dirfy, Euvoia, Greece, live broadcasting, trailer video"
+			)
 		),
 		"Parkour_2011" => array (
 			"id" 		=> "Parkour_2011",
-			"category"	=> "Ταινίες",
 			"type"		=> "youtube",
 			"host_id"	=> "6SB9jgI6qks",
-			"title"		=> "Μια parkour και free running προπόνηση από τον Άκη Ζέκη και την παρέα του.",
-			"caption"	=> "Mε την κάμερα ανα χείρας και με την πρωινή δροσιά του Σαββάτου να θολώνει το φακό της κάμερας, βρεθήκαμε στο Πάρκο Μητέρας στο Δήμο αγίας βαρβάρας να συναντήσουμε απο κοντά τον Άκη Ζέκης και την παρέα του, σε μια parkour free running προπόνηση.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, αθλητισμός, marketing, καταγραφή εκδηλώσεων, κοινωνικές εκδηλώσεις, χορηγός επικοινωννίας, extreme sport, προώθηση αθλητισμού, Άκης Ζέκης, Αγία Βαρβάρα, Αθήνα"
+			"el"        => array (
+				"category"  => "Ταινίες",
+				"title"		=> "Μια parkour και free running προπόνηση από τον Άκη Ζέκη και την παρέα του.",
+				"caption"	=> "Mε την κάμερα ανα χείρας και με την πρωινή δροσιά του Σαββάτου να θολώνει το φακό της κάμερας, βρεθήκαμε στο Πάρκο Μητέρας στο Δήμο αγίας βαρβάρας να συναντήσουμε απο κοντά τον Άκη Ζέκης και την παρέα του, σε μια parkour free running προπόνηση.",
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, αθλητισμός, marketing, καταγραφή εκδηλώσεων, κοινωνικές εκδηλώσεις, χορηγός επικοινωννίας, extreme sport, προώθηση αθλητισμού, Άκης Ζέκης, Αγία Βαρβάρα, Αθήνα"
+			),
+			"en"        => array (
+				"category"  => "Movies",
+				"title"		=> "Parkour and free running demonstration by Akis Zekis and his crew",
+				"caption"	=> 'Parkour and free running demonstration by Akis Zekis and his crew.',
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, events, sports, extreme sport, Akis Zekis, Agia Varvara, Athens, Greece, parkour, free running, free runners, live broadcasting, trailer video"
+			)
 		),
 		"Presentation_zembili" => array (
 			"id" 		=> "Presentation_zembili",
-			"category"	=> "Marketing",
 			"type"		=> "youtube",
 			"host_id"	=> "zkF5QFWbBuU",
-			"title"		=> "Παρουσίαση του παντοπωλείου Ζεμπίλι από την Unmanned Evolution και το Lifeedite.",
-			"caption"	=> "Διαφημιστικό video-παρουσίασης από το συνεργείο της Unmanned Evolution για το LifeEdite.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, αθλητισμός, marketing, προώθηση επιχειρήσεων, διαφήμιση επιχειρήσεων, προβολή επιχειρήσεων, βίντεο παρουσίασης, trailer video"
+			"el"        => array (
+				"category"  => "Marketing",
+				"title"		=> "Παρουσίαση του παντοπωλείου Ζεμπίλι από την Unmanned Evolution και το Lifeedite.",
+				"caption"	=> 'Διαφημιστικό video-παρουσίασης από το συνεργείο της Unmanned Evolution για το LifeEdite.',
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, ταινίες, αθλητισμός, marketing, προώθηση επιχειρήσεων, διαφήμιση επιχειρήσεων, προβολή επιχειρήσεων, βίντεο παρουσίασης, trailer video, διαφημιστικά σποτ"
+			),
+			"en"        => array (
+				"category"  => "Marketing",
+				"title"		=> "Presenting Zembili traditional store by Unmanned Evolution and Lifeedite",
+				"caption"	=> 'Advertizing trailer of Zembili traditional market by Unmanned Evolution and LifeEdite.',
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, events, video clip, marketing, advertizing, media production, trailer video, business marketing"
+			)			
 		),
 		"Concerts_Tsaligopoulou" => array (
 			"id" 		=> "Concerts_Tsaligopoulou",
