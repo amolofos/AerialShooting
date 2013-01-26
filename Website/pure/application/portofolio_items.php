@@ -73,168 +73,234 @@ Distributed under the Creative Commons Attribution 3.0 License
 		),
 		"Married-couple-in-front-of-a-greek-church" => array (
 			"id" 		=> "Married-couple-in-front-of-a-greek-church",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Married-couple-in-front-of-a-greek-church_original",
 			"small"		=> "Married-couple-in-front-of-a-greek-church_original_400x200-90q",
 			"thumb"		=> "Married-couple-in-front-of-a-greek-church_original_60x30-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής.",
-			"title"		=> "Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
-			"caption"	=> "Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής.",
+				"title"		=> "Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+				"caption"	=> "Νιόπαντρο ζευγάρι σε εκκλησία της Κομοτηνής. Φωτογραφία βγαλμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Just married couple at a church of Komotini, Greece",
+				"title"     => "Just married couple at a church of Komitini, Greece. Photography shooting by Unmanned Evolution's unmanned aerial vehicles.",
+				"caption"   => "Just married couple at a church of Komitini, Greece. Photography shooting by Unmanned Evolution's unmanned aerial vehicles.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, baptism"
+			)
 		),
 		"Married-couple-in-front-of-a-greek-church-at-Komotini" => array (
 			"id" 		=> "Married-couple-in-front-of-a-greek-church-at-Komotini",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Married-couple-in-front-of-a-greek-church-at-Komotini_original",
 			"small"		=> "Married-couple-in-front-of-a-greek-church-at-Komotini_original_400x225-90q",
 			"thumb"		=> "Married-couple-in-front-of-a-greek-church-at-Komotini_original_60x34-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή",
-			"title"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή.",
-			"caption"	=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή",
+				"title"		=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή.",
+				"caption"	=> "Νιόπαντρο ζευγάρι μπροστά στην εκκλησία της Αγίας Παρασκευής στην Κομοτηνή.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Just married couple at Agia Paraskeui church of Komotini, Greece",
+				"title"     => "Just married couple at Agia Paraskeui church of Komotini, Greece. Photography shooting by Unmanned Evolution's unmanned aerial vehicles.",
+				"caption"   => "Just married couple at Agia Paraskeui church of Komotini, Greece. Photography shooting by Unmanned Evolution's unmanned aerial vehicles.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, baptism"
+			)
 		),
 		"Just-Married-Couple-at-the-edge-of-a-bridge" => array (
 			"id" 		=> "Just-Married-Couple-at-the-edge-of-a-bridge",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Just-Married-Couple-at-the-edge-of-a-bridge_original",
 			"small"		=> "Just-Married-Couple-at-the-edge-of-a-bridge_original_400x180-90q",
 			"thumb"		=> "Just-Married-Couple-at-the-edge-of-a-bridge_original_60x30-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου",
-			"title"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου.",
-			"caption"	=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου",
+				"title"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου.",
+				"caption"	=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Νέστος, ποταμός, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Just married couple at a bridge over river Nestos, Komotini, Greece",
+				"title"     => "Just married couple at a bridge over river Nestos, Komotini, Greece.",
+				"caption"   => "Just married couple at a bridge over river Nestos, Komotini, Greece.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Nestos, river, baptism"
+			)
 		),
 		"Picture-of-a-bride-through-her-window" => array (
 			"id" 		=> "Picture-of-a-bride-through-her-window",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Picture-of-a-bride-through-her-window_original",
 			"small"		=> "Picture-of-a-bride-through-her-window_original_400x200-90q",
 			"thumb"		=> "Picture-of-a-bride-through-her-window_original_60x30-90q",
-			"alt"		=> "Νύφη στέκεται στο παραθυρό της. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution",
-			"title"		=> "Νύφη στέκεται στο παραθυρό της.",
-			"caption"	=> "Νύφη στέκεται στο παραθυρό της.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Νύφη στέκεται στο παραθυρό της. Φωτογραφία τραβηγμένη με τα μη επανδρωμένα αεροναυτικά οχήματα της Unmanned Evolution",
+				"title"		=> "Νύφη στέκεται στο παραθυρό της.",
+				"caption"	=> "Νύφη στέκεται στο παραθυρό της.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Picture of a bride through her window",
+				"title"     => "Picture of a bride through her window.",
+				"caption"   => "Picture of a bride through her window.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, baptism"
+			)
 		),
 		"Married-couple-by-the-river-from-Goris-Photography" => array (
 			"id" 		=> "Married-couple-by-the-river-from-Goris-Photography",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Married-couple-by-the-river-from-Goris-Photography_original",
 			"small"		=> "Married-couple-by-the-river-from-Goris-Photography_original_400x266-90q",
 			"thumb"		=> "Married-couple-by-the-river-from-Goris-Photography_original_60x30-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι δίπλα στον ποταμό Νέστο (by Goris Photography)",
-			"title"		=> "Νιόπαντρο ζευγάρι δίπλα στον ποταμό Νέστο (by Goris Photography).",
-			"caption"	=> "Νιόπαντρο ζευγάρι δίπλα στον ποταμό Νέστο (by Goris Photography).",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι δίπλα στον ποταμό Νέστο (by Goris Photography)",
+				"title"		=> "Νιόπαντρο ζευγάρι δίπλα στον ποταμό Νέστο (by Goris Photography).",
+				"caption"	=> "Νιόπαντρο ζευγάρι δίπλα στον ποταμό Νέστο (by Goris Photography).",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Νέστος, ποταμός, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Married couple by the river from Goris Photography",
+				"title"     => "Married couple by the river from Goris Photography.",
+				"caption"   => "Married couple by the river from Goris Photography.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Nestos, river, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography" => array (
 			"id" 		=> "Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography_original",
 			"small"		=> "Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography_original_400x266-90q",
 			"thumb"		=> "Just-Married-Couple-at-the-edge-of-a-bridge-from-Goris-Photography_original_60x40-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου (by Goris Photography)",
-			"title"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου (by Goris Photography).",
-			"caption"	=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου (by Goris Photography).",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου (by Goris Photography)",
+				"title"		=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου (by Goris Photography).",
+				"caption"	=> "Νιόπαντρο ζευγάρι σε μονοπάτι του ποταμού Νέστου (by Goris Photography).",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Νέστος, ποταμός, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Just married couple at the edge of a bridge from Goris Photography",
+				"title"     => "Just married couple at the edge of a bridge from Goris Photography.",
+				"caption"   => "Just married couple at the edge of a bridge from Goris Photography.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Nestos, river, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Married-couple-sitting-on-a-bridge-from-Goris-Photography" => array (
 			"id" 		=> "Married-couple-sitting-on-a-bridge-from-Goris-Photography",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Married-couple-sitting-on-a-bridge-from-Goris-Photography_original",
 			"small"		=> "Married-couple-sitting-on-a-bridge-from-Goris-Photography_original_266x400-90q",
 			"thumb"		=> "Married-couple-sitting-on-a-bridge-from-Goris-Photography_original_40x60-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι καθισμένο σε γέφυρα πάνω από τον ποταμό Νέστο  (by Goris Photography)",
-			"title"		=> "Νιόπαντρο ζευγάρι καθισμένο σε γέφυρα πάνω από τον ποταμό Νέστο  (by Goris Photography).",
-			"caption"	=> "Νιόπαντρο ζευγάρι καθισμένο σε γέφυρα πάνω από τον ποταμό Νέστο (by Goris Photography).",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι καθισμένο σε γέφυρα πάνω από τον ποταμό Νέστο  (by Goris Photography)",
+				"title"		=> "Νιόπαντρο ζευγάρι καθισμένο σε γέφυρα πάνω από τον ποταμό Νέστο  (by Goris Photography).",
+				"caption"	=> "Νιόπαντρο ζευγάρι καθισμένο σε γέφυρα πάνω από τον ποταμό Νέστο (by Goris Photography).",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Νέστος, ποταμός, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Married couple sitting on a bridge from Goris Photography",
+				"title"     => "Married couple sitting on a bridge from Goris Photography.",
+				"caption"   => "Married couple sitting on a bridge from Goris Photography.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Nestos, river, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Married-couple-playing-by-the-river-from-Goris-Photography" => array (
 			"id" 		=> "Married-couple-playing-by-the-river-from-Goris-Photography",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Married-couple-playing-by-the-river-from-Goris-Photography_original",
 			"small"		=> "Married-couple-playing-by-the-river-from-Goris-Photography_original_400x266-90q",
 			"thumb"		=> "Married-couple-playing-by-the-river-from-Goris-Photography_original_60x40-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι παίζει στην κοίτη του ποταμού Νέστου (by Goris Photography)",
-			"title"		=> "Νιόπαντρο ζευγάρι παίζει στην κοίτη του ποταμού Νέστου (by Goris Photography).",
-			"caption"	=> "Νιόπαντρο ζευγάρι παίζει στην κοίτη του ποταμού Νέστου (by Goris Photography).",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι παίζει στην κοίτη του ποταμού Νέστου (by Goris Photography)",
+				"title"		=> "Νιόπαντρο ζευγάρι παίζει στην κοίτη του ποταμού Νέστου (by Goris Photography).",
+				"caption"	=> "Νιόπαντρο ζευγάρι παίζει στην κοίτη του ποταμού Νέστου (by Goris Photography).",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Νέστος, ποταμός, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Married couple playing by the river from Goris Photography",
+				"title"     => "Married couple playing by the river from Goris Photography.",
+				"caption"   => "Married couple playing by the river from Goris Photography.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Nestos, river, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography" => array (
 			"id" 		=> "Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography_original",
 			"small"		=> "Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography_original_313x400-90q",
 			"thumb"		=> "Unmanned-Evolution-multicopter-filming-married-couple-from-Goris-Photography_original_47x60-90q",
-			"alt"		=> "Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography)",
-			"title"		=> "Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography).",
-			"caption"	=> "Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography).",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography)",
+				"title"		=> "Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography).",
+				"caption"	=> "Πολύπτερο της Unmanned Evolution κινηματογραφεί νιόπαντρο ζευγάρι (by Goris Photography).",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Νέστος, ποταμός, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Unmanned Evolution multicopter filming married couple from Goris Photography",
+				"title"     => "Unmanned Evolution multicopter filming married couple from Goris Photography.",
+				"caption"   => "Unmanned Evolution multicopter filming married couple from Goris Photography.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Nestos, river, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography" => array (
 			"id" 		=> "Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography_original",
 			"small"		=> "Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography_original_400x266-90q",
 			"thumb"		=> "Unmanned-Evolution-multicopter-and-weddings-from-Goris-Photography_original_60x40-90q",
-			"alt"		=> "Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography)",
-			"title"		=> "Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography).",
-			"caption"	=> "Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography).",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography)",
+				"title"		=> "Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography).",
+				"caption"	=> "Πολύπτερο της Unmanned Evolution κατά την κινηματογράφηση νιόπαντρου ζευγαριού (by Goris Photography).",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Νέστος, ποταμός, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Unmanned Evolution multicopter and weddings from Goris Photography",
+				"title"     => "Unmanned Evolution multicopter and weddings from Goris Photography.",
+				"caption"   => "Unmanned Evolution multicopter and weddings from Goris Photography.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Nestos, river, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Husband-takes-his-wife-on-hands-by-the-river-from-Goris-Photography" => array (
 			"id" 		=> "Husband-takes-his-wife-on-hands-by-the-river-from-Goris-Photography",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Husband-takes-his-wife-on-hands-by-the-river-from-Goris-Photography_original",
 			"small"		=> "Husband-takes-his-wife-on-hands-by-the-river-from-Goris-Photography_original_400x266-90q",
 			"thumb"		=> "Husband-takes-his-wife-on-hands-by-the-river-from-Goris-Photography_original_60x40-90q",
-			"alt"		=> "Η νύφη στα χέρια του γαμπρού  δίπλα στο ποτάμι (by Goris Photography)",
-			"title"		=> "Η νύφη στα χέρια του γαμπρού  δίπλα στο ποτάμι (by Goris Photography).",
-			"caption"	=> "Η νύφη στα χέρια του γαμπρού  δίπλα στο ποτάμι (by Goris Photography).",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Η νύφη στα χέρια του γαμπρού  δίπλα στο ποτάμι (by Goris Photography)",
+				"title"		=> "Η νύφη στα χέρια του γαμπρού  δίπλα στο ποτάμι (by Goris Photography).",
+				"caption"	=> "Η νύφη στα χέρια του γαμπρού  δίπλα στο ποτάμι (by Goris Photography).",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Νέστος, ποταμός, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Husband takes his wife on hands by the river from Goris Photography",
+				"title"     => "Husband takes his wife on hands by the river from Goris Photography.",
+				"caption"   => "Husband takes his wife on hands by the river from Goris Photography.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Nestos, river, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Bride-looking-at-her-husband-from-Goris-Photography" => array (
 			"id" 		=> "Bride-looking-at-her-husband-from-Goris-Photography",
@@ -243,73 +309,104 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"original"	=> "Bride-looking-at-her-husband-from-Goris-Photography_original",
 			"small"		=> "Bride-looking-at-her-husband-from-Goris-Photography_original_266x400-90q",
 			"thumb"		=> "Bride-looking-at-her-husband-from-Goris-Photography_original_40x60-90q",
-			"alt"		=> "Διπλό πορτραίτο - φωτογραφία γάμου (by Goris Photography)",
-			"title"		=> "Διπλό πορτραίτο - φωτογραφία γάμου (by Goris Photography).",
-			"caption"	=> "Διπλό πορτραίτο - φωτογραφία γάμου (by Goris Photography).",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Διπλό πορτραίτο - φωτογραφία γάμου (by Goris Photography)",
+				"title"		=> "Διπλό πορτραίτο - φωτογραφία γάμου (by Goris Photography).",
+				"caption"	=> "Διπλό πορτραίτο - φωτογραφία γάμου (by Goris Photography).",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Νέστος, ποταμός, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης, πορτραίτιο γάμου, πορτραίτο"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Double portrait - wedding photography (by Goris Photography)",
+				"title"     => "Double portrait - wedding photography (by Goris Photography).",
+				"caption"   => "Double portrait - wedding photography (by Goris Photography).",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Nestos, river, baptism, Goris Photography, Giannis Goris, wedding portrait, portrait"
+			)
 		),
 		"Married-couple-kissing-at-traditional-city-of-Xanthi-Greece" => array (
 			"id" 		=> "Married-couple-kissing-at-traditional-city-of-Xanthi-Greece",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Married-couple-kissing-at-traditional-city-of-Xanthi-Greece_original",
 			"small"		=> "Married-couple-kissing-at-traditional-city-of-Xanthi-Greece_original_400x325-90q",
 			"thumb"		=> "Married-couple-kissing-at-traditional-city-of-Xanthi-Greece_original_60x49-90q",
-			"alt"		=> "Φωτογραφία γάμου τραβηγμένη υπό γωνία με πολύπτερο στην παλιά πόλη της Ξάνθης",
-			"title"		=> "Φωτογραφία γάμου τραβηγμένη υπό γωνία με πολύπτερο στην παλιά πόλη της Ξάνθης.",
-			"caption"	=> "Φωτογραφία γάμου τραβηγμένη υπό γωνία με πολύπτερο στην παλιά πόλη της Ξάνθης.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Φωτογραφία γάμου τραβηγμένη υπό γωνία με πολύπτερο στην παλιά πόλη της Ξάνθης",
+				"title"		=> "Φωτογραφία γάμου τραβηγμένη υπό γωνία με πολύπτερο στην παλιά πόλη της Ξάνθης.",
+				"caption"	=> "Φωτογραφία γάμου τραβηγμένη υπό γωνία με πολύπτερο στην παλιά πόλη της Ξάνθης.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Ξάνθη, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Wedding picture taken under angle through multicopter at traditional city of Xanthi, Greece",
+				"title"     => "Wedding picture taken under angle through multicopter at traditional city of Xanthi, Greece.",
+				"caption"   => "Wedding picture taken under angle through multicopter at traditional city of Xanthi, Greece.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Xanthi, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Aerial-photo-of-a-married-couple-at-traditional-city-of-Xanthi-Greece" => array (
 			"id" 		=> "Aerial-photo-of-a-married-couple-at-traditional-city-of-Xanthi-Greece",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Aerial-photo-of-a-married-couple-at-traditional-city-of-Xanthi-Greece_original",
 			"small"		=> "Aerial-photo-of-a-married-couple-at-traditional-city-of-Xanthi-Greece_original_400x191-90q",
 			"thumb"		=> "Aerial-photo-of-a-married-couple-at-traditional-city-of-Xanthi-Greece_original_60x39-90q",
-			"alt"		=> "Το νιόπαντρο ζευγάρι σε μία pop φωτογράφιση στην παλιά πόλη της Ξάνθης",
-			"title"		=> "Το νιόπαντρο ζευγάρι σε μία pop φωτογράφιση στην παλιά πόλη της Ξάνθης.",
-			"caption"	=> "Το νιόπαντρο ζευγάρι σε μία pop φωτογράφιση στην παλιά πόλη της Ξάνθης.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Το νιόπαντρο ζευγάρι σε μία pop φωτογράφιση στην παλιά πόλη της Ξάνθης",
+				"title"		=> "Το νιόπαντρο ζευγάρι σε μία pop φωτογράφιση στην παλιά πόλη της Ξάνθης.",
+				"caption"	=> "Το νιόπαντρο ζευγάρι σε μία pop φωτογράφιση στην παλιά πόλη της Ξάνθης.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Ξάνθη, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Just married couple at traditional city of Xanthi, Greece, in a pop culture photography",
+				"title"     => "Just married couple at traditional city of Xanthi, Greece, in a pop culture photography.",
+				"caption"   => "Just married couple at traditional city of Xanthi, Greece, in a pop culture photography.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Xanthi, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Artistic-photo-of-a-married-couple" => array (
 			"id" 		=> "Artistic-photo-of-a-married-couple",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Artistic-photo-of-a-married-couple_original",
 			"small"		=> "Artistic-photo-of-a-married-couple_original_400x108-90q",
 			"thumb"		=> "Artistic-photo-of-a-married-couple_original_60x16-90q",
-			"alt"		=> "Νιόπαντρο ζευγάρι σε τρυφερή στιγμή. Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution",
-			"title"		=> "Νιόπαντρο ζευγάρι σε τρυφερή στιγμή. Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution.",
-			"caption"	=> "Νιόπαντρο ζευγάρι σε τρυφερή στιγμή. Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Νιόπαντρο ζευγάρι σε τρυφερή στιγμή. Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution",
+				"title"		=> "Νιόπαντρο ζευγάρι σε τρυφερή στιγμή. Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution.",
+				"caption"	=> "Νιόπαντρο ζευγάρι σε τρυφερή στιγμή. Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Ξάνθη, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "A romantic married couple",
+				"title"     => "A romantic married couple. Photograph being shooted using uav -unmanned aerial vehicle- of Unmanned Evolution.",
+				"caption"   => "A romantic married couple. Photograph being shooted using uav -unmanned aerial vehicle- of Unmanned Evolution.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Xanthi, baptism, Goris Photography, Giannis Goris"
+			)
 		),
 		"Artistic-black-and-white-aerial-photo-of-a-married-couple" => array (
 			"id" 		=> "Artistic-black-and-white-aerial-photo-of-a-married-couple",
-			"category"	=> "Γάμος",
 			"type"		=> "jpg",
 			"original"	=> "Artistic-black-and-white-aerial-photo-of-a-married-couple_original",
 			"small"		=> "Artistic-black-and-white-aerial-photo-of-a-married-couple_original_225x400-90q",
 			"thumb"		=> "Artistic-black-and-white-aerial-photo-of-a-married-couple_original_30x60-90q",
-			"alt"		=> "Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution. Ασπρόμαυρη με μία αίσθηση άλλης εποχής",
-			"title"		=> "Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution. Ασπρόμαυρη με μία αίσθηση άλλης εποχής.",
-			"caption"	=> "Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution. Ασπρόμαυρη με μία αίσθηση άλλης εποχής.",
-			"alt_en"    => "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου"
+			"el"        => array (
+				"category"  => "Γάμος",
+				"alt"		=> "Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution. Ασπρόμαυρη με μία αίσθηση άλλης εποχής",
+				"title"		=> "Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution. Ασπρόμαυρη με μία αίσθηση άλλης εποχής.",
+				"caption"	=> "Φωτογραφία τραβηγμένη με ιπτάμενο αεροναυτικό όχημα της Unmanned Evolution. Ασπρόμαυρη με μία αίσθηση άλλης εποχής.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, κοινωνικές εκδηλώσεις, γάμοι, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, Ξάνθη, Κομοτηνή, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Goris Photography, Γιάννης Γκόρης, ασπρόμαυρη φωτογραφία, ασπρόμαυρη, καλλιτεχνική"
+			),
+			"en"        => array (
+				"category"  => "Weddings",
+				"alt"       => "Artistic black and white photograph of a married couple",
+				"title"     => "Artistic black and white photograph of a married couple. Photograph being shooted using uav -unmanned aerial vehicle- of Unmanned Evolution.",
+				"caption"   => "Artistic black and white photograph of a married couple. Photograph being shooted using uav -unmanned aerial vehicle- of Unmanned Evolution..",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, social events, events, wedding, marriage, wedding photography, wedding filming, marriage filming, marriage photography, Komotini, Greece, Xanthi, baptism, Goris Photography, Giannis Goris, black and white photograph, black and white, blackNwhite, blackandwhite"
+			)
 		),
 		"Syntagma-Square-Athens-Greece" => array (
 			"id" 		=> "Syntagma-Square-Athens-Greece",
@@ -715,15 +812,21 @@ Distributed under the Creative Commons Attribution 3.0 License
 		),
 		"Concerts_Tsaligopoulou" => array (
 			"id" 		=> "Concerts_Tsaligopoulou",
-			"category"	=> "Συναυλίες",
 			"type"		=> "youtube",
 			"host_id"	=> "xi3cxWC5iJI",
-			"title"		=> "Απόσπασμα συναυλίας από το φεστιβάλ Άρδα 2012",
-			"caption"	=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην κάλυψη ζωντανών γεγονότων, όπως η παρουσιαζόμενη συναυλία.",
-			"category_en"=> "",
-			"title_en"  => "",
-			"caption_en"=> "",
-			"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, συναυλίες, video clip, κοινωνικές εκδηλώσεις, Τσαλιγοπούλου, Άρδας, 2012, Tsaligopoulou, Ardas, παραγωγή μουσικής, συναυλίες, Βόρεια Ελλάδα, live, ζωντανή μουσική"
+			"el"        => array (
+				"category"  => "Συναυλίες",
+				"title"		=> "Απόσπασμα συναυλίας από το φεστιβάλ Άρδας 2012",
+				"caption"	=> "Δείγμα των δυνατοτήτων των οχημάτων της Unmanned Evolution στην κάλυψη ζωντανών γεγονότων, όπως η παρουσιαζόμενη συναυλία.",
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, συναυλίες, video clip, κοινωνικές εκδηλώσεις, Τσαλιγοπούλου, Άρδας, 2012, Tsaligopoulou, Ardas, παραγωγή μουσικής, συναυλίες, Βόρεια Ελλάδα, live, ζωντανή μουσική"
+			),
+			"en"        => array (
+				"category"  => "Concerts",
+				"title"		=> "Ardas 2012 festival. A small extract.",
+				"caption"	=> "Sample of uavs' capabilities in filming live events.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, concerts, events, video clip, Tsaligopoulou, Ardas, 2012, music production, movie production, live, live music, Greece"
+			
+			)
 		)
 	);
 ?>

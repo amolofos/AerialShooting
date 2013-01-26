@@ -63,15 +63,15 @@ $request_uri = $request_uri[ count($request_uri)-1 ];
 						</ul>
 					</li>
 					<li id="top_level_header_navigation_list_item_portofolio"  class="portofolio_nav"><a id="top_level_header_nav_portofolio" href="portofolio.php?lang=<?php echo $language; ?>"><?php if ( $language == "el") { echo "Χαρτοφυλάκιο"; } else { echo "Portofolio"; } ?></a></li>
-					<li class="company_nav"><a href="application.php#company_section_wrapper"><?php if ( $language == "el") { echo "Εταιρία"; } else { echo "Company"; } ?></a>
+					<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_wrapper"><?php if ( $language == "el") { echo "Εταιρία"; } else { echo "Company"; } ?></a>
 						<ul>
-							<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_content_profil_wrapper">Προφίλ</a></li>
-							<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_content_humanresources_wrapper">Ανθρώπινο Δυναμικό</a></li>
-							<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_content_career_wrapper">Καριέρα</a></li>
-							<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_content_partners_wrapper">Συνεργάτες</a></li>
+							<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_content_profil_wrapper"><?php if ( $language == "el" ) { echo $application_items["comp_profil_title"]; } else { echo $application_items["comp_profil_title_en"]; } ?></a></li>
+							<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_content_humanresources_wrapper"><?php if ( $language == "el" ) { echo $application_items["comp_hr_title"]; } else { echo $application_items["comp_hr_title_en"]; } ?></a></li>
+							<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_content_career_wrapper"><?php if ( $language == "el" ) { echo $application_items["comp_career_title"]; } else { echo $application_items["comp_career_title_en"]; } ?></a></li>
+							<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_content_partners_wrapper"><?php if ( $language == "el" ) { echo $application_items["comp_partners_title"]; } else { echo $application_items["comp_partners_title_en"]; } ?></a></li>
 						</ul>
 					</li>
-					<li class="contact_nav"><a href="application.php?lang=<?php echo $language; ?>#contact_section_wrapper"><?php if ( $language == "el") { echo "Επικοινωνία"; } else { echo "Contact us"; } ?></a></li>
+					<li class="contact_nav"><a href="application.php?lang=<?php echo $language; ?>#contact_section_wrapper"><?php if ( $language == "el") { echo $application_items["contact_us_title"]; } else { echo $application_items["contact_us_title_en"]; } ?></a></li>
 				</ul>
 			</nav>
 			</div>
@@ -80,10 +80,12 @@ $request_uri = $request_uri[ count($request_uri)-1 ];
 			<div id="top_level_header_languages">
 				<p id="top_level_header_languages_header" lang="en">Choose language</p>
 				<form id="top_level_header_language_form_gr" class="language_form" action="<?php echo $request_uri; ?>" method="GET">
-					<input id="top_level_header_language_form_submit_gr" name="lang" value="el" type="submit" style="width: 20px; height: 15px; background: url(img/flags/gr.png) no-repeat; border: 0px;">
+					<input id="top_level_header_language_form_submit_gr" name="lang" value="el" type="hidden" />
+					<input type="Submit" value="" style="width: 20px; height: 15px; background: url(img/flags/gr.png) no-repeat; border: 0px;"/>
 				</form>
 				<form id="top_level_header_language_form_en" class="language_form" action="<?php echo $request_uri; ?>" method="GET">
-					<input id="top_level_header_language_form_submit_en" name="lang" value="en" type="submit" value="" style="width: 20px; height: 15px; background: url(img/flags/gb.png) no-repeat; border: 0px;">
+					<input id="top_level_header_language_form_submit_en" name="lang" value="en" type="hidden" />
+					<input type="Submit" value="" style="width: 20px; height: 15px; background: url(img/flags/gb.png) no-repeat; border: 0px;"/>
 				</form>
 			</div>
 			

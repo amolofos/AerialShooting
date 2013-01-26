@@ -17,6 +17,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 	
 	include "application_items.php";
 	include "portofolio_items.php";
+	include "partners_items.php";
 	
 	if( isset($_GET[ 'lang' ]) ) {
 		$language = $_GET[ 'lang' ];

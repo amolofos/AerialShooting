@@ -13,7 +13,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			
 			<!-- top level footer law section -->
 			<section id="top_level_footer_law_section">
-					<p><a href="application.php?lang=<?php echo $language; ?>#termsofuse_section_wrapper"><?php if ( $language == "el" ) { echo "Όροι χρήσης"; } else { echo "Terms of use"; } ?></a> | <a href="application.php#sensitivedata_section_wrapper"><?php if ( $language == "el" ) { echo "Προσωπικά δεδομένα"; } else { echo "Privacy policy"; } ?></a></p>
+					<p><a href="application.php?lang=<?php echo $language; ?>#termsofuse_section_wrapper"><?php if ( $language == "el" ) { echo $application_items["terms_of_use_title"]; } else { echo $application_items["terms_of_use_title_en"]; } ?></a> | <a href="application.php?lang=<?php echo $language; ?>#sensitivedata_section_wrapper"><?php if ( $language == "el" ) { echo $application_items["private_data_title"]; } else { echo $application_items["private_data_title_en"]; } ?></a></p>
 			</section>
 			
 			<!-- top level footer contact us section -->

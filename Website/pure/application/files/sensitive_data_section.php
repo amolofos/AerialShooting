@@ -11,12 +11,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="sensitivedata_section_wrapper" class="sensitivedata_content_wrapper">
 		<section id="sensitivedata_section" class="sensitivedata_content top_section">
 			<header id="sensitivedata_section_content_header">
-				<a href="application.php#landing_section_wrapper" class="clearfix"><img alt="επιστροφή" src="./img/svgs/multi-back.png"/></a>
-				<h3>Προσωπικά Δεδομένα</h3>
+				<a href="application.php#landing_section_wrapper" class="clearfix"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"/></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["private_data_title"]; } else { echo $application_items["private_data_title_en"]; } ?></h3>
 			</header>
 			<article id="sensitivedata_section_content_article">
-				<p>Κάθε επισκέπτης μπορεί να περιηγηθεί στο site χωρίς να δώσει οποιαδήποτε προσωπική πληροφορία. Προσωπικά δεδομένα δεν καταγράφονται σε οποιαδήποτε στάδιο της περιήγησης του επισκέπτη στην παρούσα ιστοσελίδα.</p>
-				<p>Γνωστοποιείται ότι για την εύρυθμη λειτουργία της ιστοσελίδας εγκαθιστόνται cookies στο φυλλομετρητή του επισκέπτη. Τα cookies αυτά δεν περιέχουν κανένα προσωπικό δεδομένο.</p>
+				<?php if ( $language == "el" ) { echo $application_items["private_data_article"]; } else { echo $application_items["private_data_article_en"]; } ?>
 			</article>
 		</section>
 	</div>

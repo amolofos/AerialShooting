@@ -120,11 +120,10 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<p>Πρωτοπορούμε και θέλουμε να κάνουμε τη διαφορά στη βιντεο-λήψη γάμων αναπαριστώντας σκηνές γνωριμίας του ζευγαριού που θα είναι η αιτία να τους ενώσει με τα αιώνια δεσμά του γάμου.</p>
 				<p>Έχοντας ολοκληρωμένα πακέτα επίγειας και εναέριας λήψης βίντεο και φωτογραφίας από πολλές ή μία κάμερες, συνδυασμένα με τη σωστή επεξεργασία της εικόνας, προσφέρουμε άριστη ποιότητα υλικού -full HD- αποθηκευμένο σε blu-ray , dvd ακόμα και σε stick μνήμης.</p>
 				<p>Είμαστε έτοιμοι να καλύψουμε οποιαδήποτε εκδήλωση επιθυμείτε, όπως αθλητικά γεγονότα, συναυλίες,  γάμους, συνέδρια, επαγγελματικές συναντήσεις κ.ο.κ. Ότι είδους και αν είναι η εκδήλωση σας και ότι μπορείτε να φανταστείτε μπορούμε να το αναδείξουμε για σας με άριστη ποιότητα, χαμηλές τιμές και ασφάλεια φτάνει μόνο να έρθετε σε επικοινωνία μαζί μας.</p>',
-		"appl_social_article_en" => '<p> </p>
-				<p> </p>
-				<p> </p>
-				<p> </p>
-				<p> </p>',
+		"appl_social_article_en" => '<p><span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> using innovative methods and up to date equipment is capable of providing the best quality and services for any social, artistic or sports events.</p>
+				<p>Concerts, sport events, social meetings could be filmed and proadcasted live. Our personel, the director and the operators, should firstly contact you to design the filming plan. The filming spots, overground or in the sky, the lighting requirements and any other detail should be known before hand.</p>
+				<p>Using overground and aerial filming and photography and editing the captured media by experts, we provide excellent media quality -full HD-.</p>
+				<p>Any event could be covered such as sport events, concerts, weddings, conferences etc.Whatever is the event we are capable of capturing its magic and joyful moments in full quality, low prices and top security.</p>',
 		/***************** application.php -- applications -- movies ******************/
 		"appl_movies_title"      => "Παραγωγή Ταινιών και Βίντεο κλιπ",
 		"appl_movies_title_en"   => "Movie and Video clip production",
@@ -190,6 +189,98 @@ Distributed under the Creative Commons Attribution 3.0 License
 		"appl_custom_article"    => '<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> προσφέρει πληθώρα υπηρεσιών και διαμέσου της συγκεκριμένης ιστοσελίδας παρουσιάζει περιπτώσεις χρήσεις στις οποίες η εναέρια κινηματογράφιση και φωτογράφιση αποτελεί πολύτιμη προσθήκη ή ακόμα και αναγκαία για την ολοκλήρωση του έργου.</p>
 				<p>Αν δεν σας έχουμε καλύψει ή/και ετοιμάζετε έργο στο οποίο οι υπηρεσίες μας θα αποβούν χρήσιμες, μη διστάσετε να επικοινωνήσετε μαζί μας στο info@unmanned-evolution.com ή μέσω της <a href="application.php?lang=el#contact_section_wrapper" >φόρμα επικοινωνίας</a>.</p>',
 		"appl_custom_article_en" => '<p><span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> offers a variety of services. Through this website use cases where aerial cinematography - filming and aerial photography play a major role are presented.</p>
-				<p>If there is any use case that has not been mentioned at the previous sections, please contact us at <email>info@unmanned-evolution.com</email> or through the <a href="application.php?lang=en#contact_section_wrapper" >contact form</a>.</p>'
+				<p>If there is any use case that has not been mentioned at the previous sections, please contact us at <email>info@unmanned-evolution.com</email> or through the <a href="application.php?lang=en#contact_section_wrapper" >contact form</a>.</p>',
+	/***************** application.php -- company -- Profil ******************/
+		"comp_profil_title"      => "Προφίλ",
+		"comp_profil_title_en"   => "Profil",
+		"comp_profil_more"       => "πληροφορίες",
+		"comp_profil_more_en"    => "more...",
+		"comp_profil_article"    => '<h2>Προφίλ</h2>
+				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> ξεκίνησε τον Ιούνιο του 2012 με στόχο να μπει δυναμικά στις παραγωγές οπτικο-ακουστικών έργων. Στην αναζήτησή της για σύγχρονα μέσα παραγωγής με στόχο το καλύτερο αποτελέσμα στο χώρο της εικόνας και του ήχου, μελέτησε για τρία χρόνια τη λειτουργικότητα και την κατασκευή των μη επανδρωμένων αεροναυτικών οχημάτων. Τα αποτελέσματα της μελέτης οδήγησαν την Unmanned Evolution να γίνει ιδιοκτήτης των οχημάτων αυτών.</p>
+				<p>Αυτή είναι μόνο η αρχή.</p>
+				<p>Το έμπειρο τεχνικό προσωπικό της Unmanned Evolution έχει τη δυνατότητα να μελετήσει, κατασκευάσει και επισκευάσει οποιοδήποτε μη επανδρωμένο όχημα -UAV. Αυτό συνεπάγεται ότι τα οχήματά μας υπόκεινται σε διαρκή διαδικασία βελτίωσης και συντήρησης.</p>
+				<p>Στην πορεία μας αυτή η Unmanned Evolution ήρθε σε επαφή με ανθρώπους του κινηματογράφου και της τηλεόρασης. Ορισμένοι από αυτούς γίνανε αναπόσπαστο κομμάτι της ομάδας μας.</p>
+				<p>Φέρνουμε, λοιπόν, νέο άνεμο στον τομέα δραστηριοποίησής μας επειδή είμαστε οι πρώτοι στην Ελλάδα που πραγματικά συνδυάσαμε την άριστη τεχνογνωσία ανθρώπων πάνω στα μη  επανδρωμένα οχήματα και την άριστη τεχνογνωσία ανθρώπων της εικόνας και του ήχου με τα καλύτερα δυνατά αποτελέσματα.</p>
+				<p>Είμαστε έτοιμοι να σας αποδείξουμε και να σας πείσουμε ότι αυτό που υποσχόμαστε είναι πραγματικό και προσιτό σε όλους. Σε αυτήν εδώ τη σελίδα θα δείτε πράγματα που είναι γραμμένα από εμάς, γυρισμένα από εμάς και πάντα με την υπογραφή μας.</p>
+				<h2>Οι αξίες μας</h2>
+				<p>ΚΑΙΝΟΤΟΜΙΑ:<br>Σε κάθε νέα υπηρεσία που παρέχουμε, μέσα από ενδελεχή έρευνα και μελέτη.</p>
+				<p>ΤΑΥΤΙΣΗ ΛΟΓΟΥ ΚΑΙ ΕΡΓΩΝ:<br>Σε κάθε δέσμευσή μας προς όλα τα εμπλεκόμενα μέρη.</p>
+				<p>ΟΜΑΔΙΚΟΤΗΤΑ:<br>Στον τρόπο συμπεριφοράς και αναγνώρισης των συνεργατών μας.</p>
+				<p>ΣΕΒΑΣΜΟΣ:<br>Στο ανθρώπινο περιβάλλον του οποίου αποτελούμε τμήμα.</p>
+				<p>ΠΑΓΚΟΣΜΙΟΣ ΠΡΟΣΑΝΑΤΟΛΙΣΜΟΣ:<br>Μας ενδιαφέρει η εξέλιξη στα μέσα επικοινωνίας που έχουν να κάνουν με την εικόνα, τον ήχο και την εναέρια καταγραφή.</p>
+				<p>ΠΕΡΙΒΑΛΛΟΝΤΙΚΗ ΣΥΝΕΙΔΗΣΗ:<br>Σε όλο τον κύκλο λειτουργίας της ομάδας.</p>',
+		"comp_profil_article_en" => '<h2>Profil</h2>
+				<p><span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> was founded at July of 2012. She intends to make a break through in media production. Searching for up to date productions means in order to provide the best video and sound quality, uavs -unmanned aerial vehicles- have been studied and investigated for three (3) years. Based on the results unmanned aerial vehicles we aquired.</p>
+				<p>This is only the beginning.</p>
+				<p>The experienced personel of Unmanned Evolution\s teams have the capability to study, design, build and repair any uav vehicle. Consequently, the equipment being used are commited to an endless upgrading and improving procedure.</p>
+				<p>Unmanned Evolution incorporates not only techinal skills, but artistic talents also.</p>
+				<p>So, a break through has been taking place being the first to combine experts\' knowledge upon unmanned flying vehicles with experrts\' knowledge upon media production. Thus the best quality is achieved.</p>
+				<h2>Our Values</h2>
+				<p>INNOVATION:<br>In every new service we provide after in depth search and study.</p>
+				<p>HONESTY:<br>In every commitment we make to every person included.</p>
+				<p>TEAM WORKING:<br>In our way of working with colleagues.</p>
+				<p>RESPECT:<br>Respect towards humanity which we belong to.</p>
+				<p>GLOBALIZED VIEW:<br>We are interested in media\'s evolutiuon concerning filming and photography.</p>
+				<p>ENVIRONMENTAL CONSCIOUSNESS:<br>In the entire project lifecycle.</p>',
+		/***************** application.php -- company -- Human Resources ******************/
+		"comp_hr_title"      => "Ανθρώπινπο δυναμικό",
+		"comp_hr_title_en"   => "Human Resources",
+		"comp_hr_more"       => "πληροφορίες",
+		"comp_hr_more_en"    => "more...",
+		"comp_hr_article"    => '<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> πιστεύει ότι το ανθρώπινο δυναμικό της είναι ο ακρογωνιαίος λίθος των δραστηριοτήτων της. Συμπεριλαμβάνει στις ομάδες της άριστα καταρτισμένους και διαθέτοντας την απαραίτητη τεχνογνωσία για να έλθει εις πέρας κάθε προσδοκία σας.</p>
+				<p>Το προσωπικό της <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> αποτελείται από πιλότους και τεχνικούς μη επανδρωμένων, σκηνοθέτες, οπερατέρ, φωτογράφους, μοντέρ, γραφίστες και 3D animation artists. Για την καλύτερη διεκπεραίωση των δραστηριοτήτων μας έχουν συσταθεί τμήματα Πλοήγησης, Κατασκευής, Παραγωγής Έργου, Καλλιτεχνικής Επιμέλειας, Post Production, Έρευνας και Ανάπτυξης.</p>',
+		"comp_hr_article_en" => '<p><span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> respects her personel as the most important part of her activities. Employees capable of succeding in every task will handle your project.</p>
+				<p><span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution\'s</span> personel consists of pilots and engineers dealing with uavs, directors, operater, photographers, editors and 3D animation artists. To provide top quality services specialized departments have been established : Flying, Engineering, Project Planning, Art department, Post Production and Research and Development department.</p>',
+		/***************** application.php -- company -- Career ******************/
+		"comp_career_title"      => "Καριέρα",
+		"comp_career_title_en"   => "Career",
+		"comp_career_more"       => "πληροφορίες",
+		"comp_career_more_en"    => "more...",
+		"comp_career_article"    => '<p>Είμαστε ανοιχτοί σε ιδέες και προτάσεις συνεργασίας.</p>
+				<p>Επικοινωνήστε με την <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> στο info@unmanned-evolution.com ή στείλτε μας το βιογραφικό σας με τη <a href="application.php#contact_section_wrapper" >φόρμα επικοινωνίας</a></p>',
+		"comp_career_article_en" => '<p>We are looking for good projects and suggestions.</p>
+				<p>Contact <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> either at info@unmanned-evolution.com or send us your cv using this website\'s form <a href="application.php#contact_section_wrapper" >contact form</a></p>',
+		/***************** application.php -- company -- Partners ******************/
+		"comp_partners_title"      => "Συνεργάτες",
+		"comp_partners_title_en"   => "Partners",
+		"comp_partners_more"       => "πληροφορίες",
+		"comp_partners_more_en"    => "more...",
+		"comp_partners_article"    => '',
+		"comp_partners_article_en" => '',
+		/***************** application.php -- terms of use ******************/
+		"terms_of_use_title"      => "Όροι χρήσης",
+		"terms_of_use_title_en"   => "Terms of use",
+		"terms_of_use_article"    => '<p>Το παρόν κείμενο αποτελεί τους όρους χρήσης των δικτυακών τόπων <span lang="en">www.unmanned-evolution.com</span> και <span lang="en">www.unmanned-evolution.gr</span> και αφορούν τους όρους, τις συνθήκες, τις αποποιήσεις ή άλλες νομικές παρατηρήσεις για κάθε άλλη σελίδα στον παρόντα δικτυακό τόπο. Η χρήση αυτού του δικτυακού τόπου δηλώνει αυτόματα ότι αποδέχεστε τους όρους χρήσης του. Σε περίπτωση που δε συμφωνείτε με τους όρους χρήσης ΜΗΝ χρησιμοποιήσετε αυτό το δικτυακό τόπο.</p>
+				<h3>Γενικά</h3>
+				<p>Γενικά ο επισκέπτης της παρούσας ιστοσελίδας κατανοεί και αποδέχεται ότι το σύνολο των σελίδων παρέχονται "ως έχει". Έχει την ευθύνη πρόσβασης στις υπηρεσίες του δικτυακού τόπου και η σχετική πρόσβαση μπορεί να απαιτεί την καταβολή τελών σε τρίτους φορείς (π.χ. παροχείς υπηρεσιών Ιnternet, χρέωση χρόνου παραμονής στο Ιnternet). Είναι αποκλειστικά υπεύθυνος για τον εξοπλισμό και τα απαραίτητα τεχνολογικά μέσα που του επιτρέπουν την πρόσβαση στις υπηρεσίες του δικτυακού τόπου.</p>
+				<p>Η <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span> δεν ευθύνεται για οποιασδήποτε μορφής ζημία υποστεί ο επισκέπτης των σελίδων, υπηρεσιών, επιλογών και περιεχομένων του, στις οποίες προβαίνει με δική του πρωτοβουλία.</p>
+				<h3>Μεταβολή περιεχομένου</h3>
+				<p>Οι πληροφορίες και το περιεχόμενο που περιλαμβάνονται στην παρούσα ιστοσελίδα υπόκεινται σε μεταβολές κατά την ελεύθερη κρίση της <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span>, άνευ προηγούμενης σχετικής ειδοποίησης του κοινού.</p>
+				<h3>Περιορισμοί χρήσης - Πνευματική ιδιοκτησία</h3>
+				<p>Η παρούσα ιστοσελίδα ανήκει στην <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span>. Οι χρήστες δεν μπορούν να αντιγράψουν (download), αναπαράγουν, διανείμουν, διασπείρουν, διαμοιράσουν, πουλήσουν, δημοσιεύσουν και κυκλοφορήσουν με οποιοδήποτε τρόπο υλικό από τον παρόντα δικτυακό τόπο, παρά μόνο για προσωπική, μη κερδοσκοπική χρήση. Σε άλλη περίπτωση χρειάζεται έγγραφη συναίνεση της <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span>. Τα γραφικά και οι εικόνες που εμφανίζονται σ\' αυτόν το δικτυακό τόπο προστατεύονται από πνευματικά και συγγραφικά δικαιώματα (copyright) και δεν επιτρέπεται να αναπαραχθούν με οποιοδήποτε τρόπο, χωρίς την έγγραφη συναίνεση του αντίστοιχου δικαιούχου. Τροποποίηση του υλικού ή χρήση για άλλους σκοπούς διώκεται ποινικά.</p>
+				<h3>Ευθύνη για το περιεχόμενο τρίτων - Παραπομπές</h3>
+				<p>Η παρούσα ιστοσελίδα, ενδεχομένως, εμπεριέχει παραπομπές σε άλλους δικτυακούς τόπους (links), κατασκευασμένους από άλλους ιδιώτες και οργανισμούς. Οι παραπομπές αυτές παρέχονται για την εξυπηρέτηση των χρηστών. H <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span> δεν είναι υπεύθυνη για οποιαδήποτε εσφαλμένη πληροφορία ή παράλειψη εμπεριέχεται στις σελίδες αυτές καθώς και για οποιαδήποτε ζημία προκύψει από τη χρήση τους. H <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span> αποποιείται κάθε ευθύνης για το περιεχόμενο των παραπομπών αυτών, στις οποίες ο χρήστης έχει πρόσβαση με δική του ευθύνη.</p>
+				<p>Οι ανωτέρω όροι και προϋποθέσεις χρήσης του παρόντος δικτυακού τόπου, καθώς και οποιαδήποτε τροποποίηση τους, διέπονται και συμπληρώνονται από το ελληνικό και ευρωπαϊκό δίκαιο και τις σχετικές διεθνείς συνθήκες</p>',
+		"terms_of_use_article_en" => '<p>This article describes the terms for using the <span lang="en">www.unmanned-evolution.com</span> and <span lang="en">www.unmanned-evolution.gr</span> websites. The terms, conditions and any other law information regarding every page of the mentioned websites are stated. Using these websites the following terms are being accepted. In case anyone does not agree with the terms, he is requested to leave these websites.</p>
+				<h3>General</h3>
+				<p>In general any visitor of the present webpage understands and accepts the fact that the pages are provided "as they are". The visitor has the responsibility of using the website\'s services and is aware that there may be some fees towards 3rd party providers (such as internet providers). He is the only one responsible for obtaining the necessary equipment for accessing this website.</p>
+				<p><span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span> is not responsible for any kind of damage that the visitor may suffer.</p>
+				<h3>Context changes</h3>
+				<p>The context included in this website are due to change with no previous notice under <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution\'s</span> free will.</p>
+				<h3>Restrictions of use - Copyright</h3>
+				<p>The present webpage consists property of <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span>. Users may download, reproduce, share, publish or use the webpage\'s context with any other means for personal, non profitable purposes only. In any other case written permittion granded by <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span> is needed. Phorographs, videos and any other media contained in this website consist copyright material. It is not allowed to be reproduced with any means with written prermittion or the respective owner.</p>				
+				<h3>Responsibility of 3rd parties information - Links</h3>
+				<P>The present website may include in it\'s context links leading in other websites being created by any other person or organization. These links are provided for information purposes. <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span> has no responsibility for any misleading or inaccurate information stated in the linked websites. <span class="company_name_text">Unmanned</span> <span class="company_name_text_colored">Evolution</span> cannot be charged as responsible for any damage caused by the linked websites.</p>
+				<p>The stated terms of use and conditions are being supplemented to greek, european and international laws.</p>',
+		/***************** application.php -- private date ******************/
+		"private_data_title"      => "Προσωπικά Δεδομένα",
+		"private_data_title_en"   => "Private data",
+		"private_data_article"    => '<p>Κάθε επισκέπτης μπορεί να περιηγηθεί στο site χωρίς να δώσει οποιαδήποτε προσωπική πληροφορία. Προσωπικά δεδομένα δεν καταγράφονται σε οποιαδήποτε στάδιο της περιήγησης του επισκέπτη στην παρούσα ιστοσελίδα.</p>
+				<p>Γνωστοποιείται ότι για την εύρυθμη λειτουργία της ιστοσελίδας εγκαθιστόνται cookies στο φυλλομετρητή του επισκέπτη. Τα cookies αυτά δεν περιέχουν κανένα προσωπικό δεδομένο.</p>',
+		"private_data_article_en" => '<p>Any visitor may surf in the present website without giving any personal information. Private data are not being recorded with any means.</p>
+				<p>It is being stated that cookies are used to improve user experience. These cookies contain no personal information.</p>',
+		/***************** application.php -- contact us ******************/
+		"contact_us_title"      => "Επικοινωνία",
+		"contact_us_title_en"   => "Contact us"
 	);
 ?>

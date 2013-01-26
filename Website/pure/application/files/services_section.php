@@ -87,7 +87,7 @@ $aerialphoto_slideshow = array (
 	<div id="services_section_content_aerialvideo_wrapper" class="service_content_wrapper">		
 		<section id="services_section_content_aerialvideo" class="service_content top_section">
 			<header id="services_section_content_aerialvideo_header">
-				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή" border="0" /></a>
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" border="0" /></a>
 				<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_cinematography_title"]; } else { echo $application_items["serv_aerial_cinematography_title_en"]; } ?></h3>	
 			</header>
 			<div id="services_section_content_aerialvideo_figure_wrapper_1" class="service_figure_wrapper">
@@ -104,7 +104,7 @@ $aerialphoto_slideshow = array (
 	<div id="services_section_content_aerialphoto_wrapper" class="service_content_wrapper">
 		<section id="services_section_content_aerialphoto" class="service_content top_section">
 			<header id="services_section_content_aerialphoto_header">
-				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή" border="0" /></a>
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" border="0" /></a>
 				<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_photography_title"]; } else { echo $application_items["serv_aerial_photography_title_en"]; } ?></h3>
 			</header>
 			<div id="services_section_content_aerialphoto_figure_wrapper" class="service_figure_wrapper">
@@ -139,7 +139,7 @@ $aerialphoto_slideshow = array (
 	<div id="services_section_content_materialproduction_wrapper" class="service_content_wrapper">
 		<section id="services_section_content_materialproduction" class="service_content top_section">
 			<header id="services_section_content_materialproduction_header">
-				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή" border="0"/></a>
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" border="0"/></a>
 				<h3><?php if ( $language == "el" ) { echo $application_items["serv_material_production_title"]; } else { echo $application_items["serv_material_production_title_en"]; } ?></h3>
 			</header>
 			<div id="services_section_content_materialproduction_figure_wrapper_1" class="service_figure_wrapper">
@@ -164,7 +164,7 @@ $aerialphoto_slideshow = array (
 	<div id="services_section_content_aerialobservation_wrapper" class="service_content_wrapper">
 		<section id="services_section_content_aerialobservation" class="service_content top_section">
 			<header id="services_section_content_aerialobservation_header">
-				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή"  border="0" /></a>
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>"  border="0" /></a>
 				<h3><?php if ( $language == "el" ) { echo $application_items["serv_aerial_observation_title"]; } else { echo $application_items["serv_aerial_observation_title_en"]; } ?></h3>
 			</header>
 			<article id="services_section_content_aerialobservation_article" class="under_construction">
@@ -176,7 +176,7 @@ $aerialphoto_slideshow = array (
 	<div id="services_section_content_searchandrescue_wrapper" class="service_content_wrapper">
 		<section id="services_section_content_searchandrescue" class="service_content top_section">
 			<header id="services_section_content_searchandrescue_header">
-				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="επιστροφή"  border="0" /></a>
+				<a href="application.php?lang=<?php echo $language; ?>#services_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png" title="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>"  border="0" /></a>
 				<h3><?php if ( $language == "el" ) { echo $application_items["serv_search_and_rescue_title"]; } else { echo $application_items["serv_search_and_rescue_title_en"]; } ?></h3>
 			</header>
 			<article id="services_section_content_searchandrescue_article" class="under_construction">

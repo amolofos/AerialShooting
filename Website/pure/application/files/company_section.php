@@ -14,33 +14,33 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<ul id="company_section_content_list">
 					<li id="company_section_content_item_social" class="company">
 							<header>
-								<a href="application.php#company_section_content_profil_wrapper">
-									<h3>Προφίλ</h3>
-									<span>πληροφορίες</span>
+								<a href="application.php?lang=<?php echo $language; ?>#company_section_content_profil_wrapper">
+									<h3><?php if ( $language == "el" ) { echo $application_items["comp_profil_title"]; } else { echo $application_items["comp_profil_title_en"]; } ?></h3>
+									<span><?php if ( $language == "el" ) { echo $application_items["comp_profil_more"]; } else { echo $application_items["comp_profil_more_en"]; } ?></span>
 								</a>
 							</header>
 					</li>
 					<li id="company_section_content_item_humanresources" class="company">
 							<header>
-								<a href="application.php#company_section_content_humanresources_wrapper">
-									<h3>Ανθρώπινο δυναμικό</h3>
-									<span>πληροφορίες</span>
+								<a href="application.php?lang=<?php echo $language; ?>#company_section_content_humanresources_wrapper">
+									<h3><?php if ( $language == "el" ) { echo $application_items["comp_hr_title"]; } else { echo $application_items["comp_hr_title_en"]; } ?></h3>
+									<span><?php if ( $language == "el" ) { echo $application_items["comp_hr_more"]; } else { echo $application_items["comp_hr_more_en"]; } ?></span>
 								</a>
 							</header>
 					</li>
 					<li id="company_section_content_item_career" class="company">
 							<header>
-								<a href="application.php#company_section_content_career_wrapper">
-									<h3>Καριέρα</h3>
-									<span>πληροφορίες</span>
+								<a href="application.php?lang=<?php echo $language; ?>#company_section_content_career_wrapper">
+									<h3><?php if ( $language == "el" ) { echo $application_items["comp_career_title"]; } else { echo $application_items["comp_career_title_en"]; } ?></h3>
+									<span><?php if ( $language == "el" ) { echo $application_items["comp_career_more"]; } else { echo $application_items["comp_career_more_en"]; } ?></span>
 								</a>
 							</header>
 					</li>
 					<li id="company_section_content_item_partners" class="company">
 							<header>
-								<a href="application.php#company_section_content_partners_wrapper">
-									<h3>Συνεργάτες</h3>
-									<span>πληροφορίες</span>
+								<a href="application.php?lang=<?php echo $language; ?>#company_section_content_partners_wrapper">
+									<h3><?php if ( $language == "el" ) { echo $application_items["comp_partners_title"]; } else { echo $application_items["comp_partners_title_en"]; } ?></h3>
+									<span><?php if ( $language == "el" ) { echo $application_items["comp_profil_more"]; } else { echo $application_items["comp_partners_more_en"]; } ?></span>
 								</a>
 							</header>
 					</li>
@@ -52,24 +52,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="company_section_content_profil_wrapper" class="company_content_wrapper">
 		<section id="company_section_content_profil" class="company_content top_section">
 			<header id="company_section_content_profil_header">
-				<a href="application.php#company_section_wrapper" class="clearfix"><img alt="επιστροφή" src="./img/svgs/multi-back.png"/></a>
+				<a href="application.php?lang=<?php echo $language; ?>#company_section_wrapper" class="clearfix"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"/></a>
 				<h3><span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span></h3>
 			</header>
 			<article id="company_section_content_profil_article">
-				<h2>Προφίλ</h2>
-				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> ξεκίνησε τον Ιούνιο του 2012 με στόχο να μπει δυναμικά στις παραγωγές οπτικο-ακουστικών έργων. Στην αναζήτησή της για σύγχρονα μέσα παραγωγής με στόχο το καλύτερο αποτελέσμα στο χώρο της εικόνας και του ήχου, μελέτησε για τρία χρόνια τη λειτουργικότητα και την κατασκευή των μη επανδρωμένων αεροναυτικών οχημάτων. Τα αποτελέσματα της μελέτης οδήγησαν την Unmanned Evolution να γίνει ιδιοκτήτης των οχημάτων αυτών.</p>
-				<p>Αυτή είναι μόνο η αρχή.</p>
-				<p>Το έμπειρο τεχνικό προσωπικό της Unmanned Evolution έχει τη δυνατότητα να μελετήσει, κατασκευάσει και επισκευάσει οποιοδήποτε μη επανδρωμένο όχημα -UAV. Αυτό συνεπάγεται ότι τα οχήματά μας υπόκεινται σε διαρκή διαδικασία βελτίωσης και συντήρησης.</p>
-				<p>Στην πορεία μας αυτή η Unmanned Evolution ήρθε σε επαφή με ανθρώπους του κινηματογράφου και της τηλεόρασης. Ορισμένοι από αυτούς γίνανε αναπόσπαστο κομμάτι της ομάδας μας.</p>
-				<p>Φέρνουμε, λοιπόν, νέο άνεμο στον τομέα δραστηριοποίησής μας επειδή είμαστε οι πρώτοι στην Ελλάδα που πραγματικά συνδυάσαμε την άριστη τεχνογνωσία ανθρώπων πάνω στα μη  επανδρωμένα οχήματα και την άριστη τεχνογνωσία ανθρώπων της εικόνας και του ήχου με τα καλύτερα δυνατά αποτελέσματα.</p>
-				<p>Είμαστε έτοιμοι να σας αποδείξουμε και να σας πείσουμε ότι αυτό που υποσχόμαστε είναι πραγματικό και προσιτό σε όλους. Σε αυτήν εδώ τη σελίδα θα δείτε πράγματα που είναι γραμμένα από εμάς, γυρισμένα από εμάς και πάντα με την υπογραφή μας.</p>
-				<h2>Οι αξίες μας</h2>
-				<p>ΚΑΙΝΟΤΟΜΙΑ:<br>Σε κάθε νέα υπηρεσία που παρέχουμε, μέσα από ενδελεχή έρευνα και μελέτη.</p>
-				<p>ΤΑΥΤΙΣΗ ΛΟΓΟΥ ΚΑΙ ΕΡΓΩΝ:<br>Σε κάθε δέσμευσή μας προς όλα τα εμπλεκόμενα μέρη.</p>
-				<p>ΟΜΑΔΙΚΟΤΗΤΑ:<br>Στον τρόπο συμπεριφοράς και αναγνώρισης των συνεργατών μας.</p>
-				<p>ΣΕΒΑΣΜΟΣ:<br>Στο ανθρώπινο περιβάλλον του οποίου αποτελούμε τμήμα.</p>
-				<p>ΠΑΓΚΟΣΜΙΟΣ ΠΡΟΣΑΝΑΤΟΛΙΣΜΟΣ:<br>Μας ενδιαφέρει η εξέλιξη στα μέσα επικοινωνίας που έχουν να κάνουν με την εικόνα, τον ήχο και την εναέρια καταγραφή.</p>
-				<p>ΠΕΡΙΒΑΛΛΟΝΤΙΚΗ ΣΥΝΕΙΔΗΣΗ:<br>Σε όλο τον κύκλο λειτουργίας της ομάδας.</p>
+				<?php if ( $language == "el" ) { echo $application_items["comp_profil_article"]; } else { echo $application_items["comp_profil_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -77,12 +64,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="company_section_content_humanresources_wrapper" class="company_content_wrapper">
 		<section id="company_section_content_humanresources" class="company_content top_section">
 			<header id="company_section_content_humanresources_header">
-				<a href="application.php#company_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
-				<h3>Ανθρώπινο δυναμικό</h3>	
+				<a href="application.php?lang=<?php echo $language; ?>#company_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["comp_hr_title"]; } else { echo $application_items["comp_hr_title_en"]; } ?></h3>	
 			</header>
 			<article id="company_section_content_humanresources_article">
-				<p>Η <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> πιστεύει ότι το ανθρώπινο δυναμικό της είναι ο ακρογωνιαίος λίθος των δραστηριοτήτων της. Συμπεριλαμβάνει στις ομάδες της άριστα καταρτισμένους και διαθέτοντας την απαραίτητη τεχνογνωσία για να έλθει εις πέρας κάθε προσδοκία σας.</p>
-				<p>Το προσωπικό της <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> αποτελείται από πιλότους και τεχνικούς μη επανδρωμένων, σκηνοθέτες, οπερατέρ, φωτογράφους, μοντέρ, γραφίστες και 3D animation artists. Για την καλύτερη διεκπεραίωση των δραστηριοτήτων μας έχουν συσταθεί τμήματα Πλοήγησης, Κατασκευής, Παραγωγής Έργου, Καλλιτεχνικής Επιμέλειας, Post Production, Έρευνας και Ανάπτυξης.</p>
+				<?php if ( $language == "el" ) { echo $application_items["comp_hr_article"]; } else { echo $application_items["comp_hr_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -90,12 +76,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="company_section_content_career_wrapper" class="company_content_wrapper">
 		<section id="company_section_content_career" class="company_content top_section">
 			<header id="company_section_content_career_header">
-				<a href="application.php#company_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<a href="application.php?lang=<?php echo $language; ?>#company_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
 				<h3><span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span></h3>
 			</header>
 			<article id="company_section_content_career_article">
-				<p>Είμαστε ανοιχτοί σε ιδέες και προτάσεις συνεργασίας.</p>
-				<p>Επικοινωνήστε με την <span lang="en" class="company_name_text">Unmanned</span> <span lang="en" class="company_name_text_colored">Evolution</span> στο info@unmanned-evolution.com ή στείλτε μας το βιογραφικό σας με τη <a href="application.php#contact_section_wrapper" >φόρμα επικοινωνίας</a></p>
+				<?php if ( $language == "el" ) { echo $application_items["comp_career_article"]; } else { echo $application_items["comp_career_article_en"]; } ?>
 			</article>
 		</section>
 	</div>
@@ -103,99 +88,95 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<div id="company_section_content_partners_wrapper" class="company_content_wrapper">
 		<section id="company_section_content_partners" class="company_content top_section">
 			<header id="company_section_content_partners_header">
-				<a href="application.php#company_section_wrapper"><img alt="επιστροφή" src="./img/svgs/multi-back.png"  border="0" /></a>
-				<h3>Συνεργάτες</h3>
+				<a href="application.php?lang=<?php echo $language; ?>#company_section_wrapper"><img alt="<?php if ( $language == "el" ) { echo "επιστροφή"; } else { echo "return"; } ?>" src="./img/svgs/multi-back.png"  border="0" /></a>
+				<h3><?php if ( $language == "el" ) { echo $application_items["comp_partners_title"]; } else { echo $application_items["comp_partners_title_en"]; } ?></h3>
 			</header>
 			<article id="company_section_content_partners_article">
 				<div class="company_section_content_partner_wrapper">
-						<p><a class="sponsor_name" href="http://www.lifeedite.gr" target="_blank" style="cursor: pointer;">LifeEdite</a></p>
+						<p><a class="sponsor_name" href="<?php echo $partners_items["lifeedite"]["link"]; ?>" target="_blank" style="cursor: pointer;"><?php echo $partners_items["lifeedite"][$language]["name"]; ?></a></p>
 						<div class="company_section_content_partner_logo">
 							<figure class="clearfix">
-								<a href="http://www.lifeedite.gr" target="_blank" style="cursor: pointer;">
-									<img src="../application/img/sponsors/lifeedite.jpg" alt="LifeEdite.gr" title="LifeEdite | Η άλλη πλευρά της πόλης" />
+								<a href="<?php echo $partners_items["lifeedite"]["link"]; ?>" target="_blank" style="cursor: pointer;">
+									<img src="../application/img/sponsors/<?php echo $partners_items["lifeedite"]["image"] . "." . $partners_items["lifeedite"]["type"]; ?>" alt="<?php echo $partners_items["lifeedite"][$language]["alt"]; ?>" title="<?php echo $partners_items["lifeedite"][$language]["title"]; ?>" />
 								</a>
 							</figure>
 						</div>
 						<div class="company_section_content_partner_data">
-							<p><a href="http://www.lifeedite.gr" target="_blank" style="cursor: pointer;">www.LifeEdite.gr</a></p> <p>Ψυχαγωγική ιστοσελίδα με στοιχείο την εικόνα και το βίντεο.</p>
+							<?php echo $partners_items["lifeedite"][$language]["article"]; ?>
 						</div>
 				</div>
 				<div class="company_section_content_partner_wrapper">
-						<p><a class="sponsor_name" href="http://www.omegaproductions.com" target="_blank" style="cursor: pointer;">Omega Productions</a></p>
+						<p><a class="sponsor_name" href="<?php echo $partners_items["omegaproductions"]["link"]; ?>" target="_blank" style="cursor: pointer;"><?php echo $partners_items["omegaproductions"][$language]["name"]; ?></a></p>
 						<div class="company_section_content_partner_logo">
 							<figure class="clearfix">
-								<a href="http://www.omegaproductions.com" target="_blank" style="cursor: pointer;">
-									<img src="../application/img/sponsors/omega_productions.jpg" alt="OmegaProductions.com" title="Omega Prosuctions | Serving The Universe" />
+								<a href="<?php echo $partners_items["omegaproductions"]["link"]; ?>" target="_blank" style="cursor: pointer;">
+									<img src="../application/img/sponsors/<?php echo $partners_items["omegaproductions"]["image"] . "." . $partners_items["omegaproductions"]["type"]; ?>" alt="<?php echo $partners_items["omegaproductions"][$language]["alt"]; ?>" title="<?php echo $partners_items["omegaproductions"][$language]["title"]; ?>" />
 								</a>
 							</figure>
 						</div>
 						<div class="company_section_content_partner_data">
-							<p><a href="http://www.omegaproductions.com" target="_blank" style="cursor: pointer;">www.omegaproductions.com</a></p> <p>For over 15 years Omega Productions has been Serving The Universe. We specialize in custom Sound Effect & Music Libraries, Radio Station Imaging, Radio/TV Voiceovers and complete Commercial Production.</p>
+							<?php echo $partners_items["omegaproductions"][$language]["article"]; ?>
 						</div>
 				</div>
 				<div class="company_section_content_partner_wrapper">
-						<p><a class="sponsor_name" href="http://www.noirproductions.gr" target="_blank" style="cursor: pointer;">Noir Productions</a></p>
-						<p>Τηλεοπτικές Παραγωγές & Γραφείο Παραγωγής</p>
+						<p><a class="sponsor_name" href="<?php echo $partners_items["noirproductions"]["link"]; ?>" target="_blank" style="cursor: pointer;"><?php echo $partners_items["noirproductions"][$language]["name"]; ?></a></p>
+						<p><?php if ( $language == "el" ) { echo "Τηλεοπτικές Παραγωγές & Γραφείο Παραγωγής"; } else { echo "Television production"; } ?></p>
 						<div class="company_section_content_partner_logo">
 						</div>
 						<div class="company_section_content_partner_data">
-							<p><a href="http://www.noirproductions.gr" target="_blank" style="cursor: pointer;">www.noirproductions.gr</a></p>
+							<?php echo $partners_items["noirproductions"][$language]["article"]; ?>
 						</div>
 				</div>
 				<div class="company_section_content_partner_wrapper">
-					<p><a class="sponsor_name" href="">ΧΡΥΣΟ ΚΟΥΦΕΤΟ</a></p>
+					<p><a class="sponsor_name" href="<?php echo $partners_items["xriso_koufeto"]["link"]; ?>"><?php echo $partners_items["xriso_koufeto"][$language]["name"]; ?></a></p>
 					<div class="company_section_content_partner_logo">
 						<figure class="clearfix">
 							<a>
-								<img src="../application/img/sponsors/xriso_koufeto.jpg" alt="Χρυσό Κουφέτο" title="Χρυσό Κουφέτο | Νυφικά - Βαπτιστικά" />
+								<img src="../application/img/sponsors/<?php echo $partners_items["xriso_koufeto"]["image"] . "." . $partners_items["xriso_koufeto"]["type"]; ?>" alt="<?php echo $partners_items["xriso_koufeto"][$language]["alt"]; ?>" title="<?php echo $partners_items["xriso_koufeto"][$language]["title"]; ?>" />
 							</a>
 						</figure>
 					</div>
 					<div class="company_section_content_partner_data">
-						<p>Νυφικά - Βαπτιστικά</p>
-						<p>Ναρσή & Μυθριδάτου 14 Κομοτηνή.<br />Τηλ.: 25310 32460</p>
+						<?php echo $partners_items["xriso_koufeto"][$language]["article"]; ?>
 					</div>
 				</div>
 				<div class="company_section_content_partner_wrapper">
-					<p><a class="sponsor_name" href="http://www.kenanidouagathi.gr" target="_blank" style="cursor: pointer;">Κενανίδου Αγαθή</a></p>
+					<p><a class="sponsor_name" href="<?php echo $partners_items["kenanidouagathi"]["link"]; ?>" target="_blank" style="cursor: pointer;"><?php echo $partners_items["kenanidouagathi"][$language]["name"]; ?></a></p>
 					<div class="company_section_content_partner_logo">
 						<figure class="clearfix">
-							<a href="http://www.kenanidouagathi.gr" target="_blank" style="cursor: pointer;">
-								<img src="../application/img/sponsors/kenanidou_agathi.jpg" alt="kenanidouagathi.gr" title="Κενανίδου Αγαθή | Υπηρεσίες αισθητικής" />
+							<a href="<?php echo $partners_items["kenanidouagathi"]["link"]; ?>" target="_blank" style="cursor: pointer;">
+								<img src="../application/img/sponsors/<?php echo $partners_items["kenanidouagathi"]["image"] . "." . $partners_items["kenanidouagathi"]["type"]; ?>" alt="<?php echo $partners_items["kenanidouagathi"][$language]["alt"]; ?>" title="<?php echo $partners_items["kenanidouagathi"][$language]["title"]; ?>" />
 							</a>
 						</figure>
 					</div>
 					<div class="company_section_content_partner_data">
-						<p><a href="http://www.kenanidouagathi.gr" target="_blank" style="cursor: pointer;">www.kenanidouagathi.gr</a></p>
-						<p>Υπηρεσίες αισθητικής σώματος και προσώπου. Η υγεία, η ευεξία και η ομορφιά είναι τα βασικά στοιχεία που χαρακτηρίζουν την δουλεία της.<br />Τηλ.: 25310 36770</p>
+						<?php echo $partners_items["kenanidouagathi"][$language]["article"]; ?>
 					</div>
 				</div>
 				<div class="company_section_content_partner_wrapper">
-					<p><a class="sponsor_name" href="http://www.sakishair.gr/" target="_blank" style="cursor: pointer;">Sakis Κομμωτήριο Προσωπολογίας</a></p>
+					<p><a class="sponsor_name" href="<?php echo $partners_items["sakishair"]["link"]; ?>" target="_blank" style="cursor: pointer;"><?php echo $partners_items["sakishair"][$language]["name"]; ?></a></p>
 					<div class="company_section_content_partner_logo">
 						<figure class="clearfix">
-							<a href="http://www.sakishair.gr/" target="_blank" style="cursor: pointer;">
-								<img src="../application/img/sponsors/sakis_hair.gif" alt="sakishair.gr" title="Sakis Κομμωτήριο Προσωπολογίας" />
+							<a href="<?php echo $partners_items["sakishair"]["link"]; ?>" target="_blank" style="cursor: pointer;">
+								<img src="../application/img/sponsors/<?php echo $partners_items["sakishair"]["image"] . "." .  $partners_items["sakishair"]["type"]; ?>" alt="<?php echo $partners_items["sakishair"][$language]["alt"]; ?>" title="<?php echo $partners_items["sakishair"][$language]["title"]; ?>" />
 							</a>
 						</figure>
 					</div>
 					<div class="company_section_content_partner_data">
-						<p><a href="http://www.sakishair.gr/" target="_blank" style="cursor: pointer;">www.sakishair.gr</a></p>
-						<p>Ένας νέος χώρος πολυτέλειας, αφιερωμένος σε εσάς που αναζητάτε την αρμονία, την ομορφιά και την υγεία.<br />Ατμοσφαιρική μουσική, αρωματισμένη ατμόσφαιρα, υδάτινοι καταρράκτες και μασάζ σιάτσου σε αναπαυτικές πολυθρόνες.<br />Τηλ.: 25310 22788</p>
+						<?php echo $partners_items["sakishair"][$language]["article"]; ?>
 					</div>
 				</div>
 				<div class="company_section_content_partner_wrapper">
-					<p><a class="sponsor_name" href="" target="_blank" style="cursor: pointer;">Γιάννης Γκόρης</a></p>
+					<p><a class="sponsor_name" href="<?php echo $partners_items["goris_photography"]["link"]; ?>" target="_blank" style="cursor: pointer;"><?php echo $partners_items["goris_photography"][$language]["name"]; ?></a></p>
 					<div class="company_section_content_partner_logo">
 						<figure class="clearfix">
-							<a href="" target="_blank" style="cursor: pointer;">
-								<img src="../application/img/sponsors/goris_photography.jpg" alt="Goris Photography" title="Goris Photography" />
+							<a href="<?php echo $partners_items["goris_photography"]["link"]; ?>" target="_blank" style="cursor: pointer;">
+								<img src="../application/img/sponsors/<?php echo $partners_items["goris_photography"]["image"] . "." . $partners_items["goris_photography"]["type"]; ?>" alt="<?php echo $partners_items["goris_photography"][$language]["alt"]; ?>" title="<?php echo $partners_items["goris_photography"][$language]["title"]; ?>" />
 							</a>
 						</figure>
 					</div>
 					<div class="company_section_content_partner_data">
-						<p><a href="" target="_blank" style="cursor: pointer;"></a></p>
-						<p>Υπηρεσίες φωτογράφησης και κινηματογράφησης<br />Τηλ.: 25310 26686</p>
+						<?php echo $partners_items["goris_photography"][$language]["article"]; ?>
 					</div>
 				</div>
 			</article>
