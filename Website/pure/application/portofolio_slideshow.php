@@ -36,6 +36,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<head>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css/mobile.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font_<?php echo $language; ?>.css" />
 		<link rel="stylesheet" type="text/css" href="css/portofolio_slideshow.css"/>
 		<?php if ( $slide_type == "st" ) { echo '<link rel="stylesheet" type="text/css" href="css/portofolio_slideshow' . "_st" . '.css"/>'; } ?>
 		

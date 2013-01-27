@@ -20,6 +20,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<head>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
+		<link rel="stylesheet" type="text/css" href="css/font_<?php echo $language; ?>.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/mobile.min.css" /> -->
 		<!-- Enabling HTML5 tags for older IE browsers -->
 		<!--[if lt IE 9]>

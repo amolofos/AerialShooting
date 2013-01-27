@@ -31,6 +31,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<head>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css/portofolio_item.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font_<?php echo $language; ?>.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/portofolio_item.min.css"/> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
