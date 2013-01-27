@@ -1,0 +1,129 @@
+﻿<?php
+
+	print ' <!-- top level header section -->
+			<div id="top_level_header_section_wrapper" class="top_level_header_section_wrapper">
+			<section id="top_level_header_section" class="top_level_header_section">
+			
+				<!-- top level branding section -->
+				<div id="top_level_header_branding_section_wrapper" class="top_level_header_branding_section_wrapper">
+				<section id="top_level_header_branding_section" class="top_level_header_branding_section">
+					<header  id="top_level_header_branding_name_header" class="top_level_header_branding_name_header">
+						<!-- company name -->
+						<p class="top_level_header_company_name">Unmanned <span class="top_level_header_company_name_colored">Evolution</span></p>
+					</header>
+					<header id="top_level_header_branding_moto_header" class="top_level_header_branding_moto_header">
+						<!-- moto -->
+					 	<p id="company_moto" class="company_moto">Air / Video Experts </p>
+					</header>
+					<!-- logo -->
+				 	<div id="top_level_header_branding_logo_wrapper" class="top_level_header_branding_logo_wrapper logo clearfix">
+						<a href="">
+							<img alt="Λογότυπο" src="./application/img/logo_medium.png">
+						</a>
+				 	</div>
+				</section>
+				</div>
+			
+				<!-- top level user section -->
+				<div id="top_level_header_user_section_wrapper" class="top_level_header_user_section_wrapper">
+				<section id="top_level_user_socializing_section" class="top_level_header_user_section">
+					<h2>dsfsdf</h2>
+				</section>
+				</div>
+			
+				<!-- top level socializing section -->
+				<div id="top_level_header_socializing_section_wrapper" class="top_level_header_socializing_section_wrapper">					
+				<section id="top_level_header_socializing_section" class="top_level_header_socializing_section">
+					<div id="top_level_header_socializing_twitter_wrapper" class="top_level_header_socializing_twitter_wrapper social_main">
+						<a href="http://twitter.com/#!/LIFEEDITE" class="zocial icon twitter" target="_blank" style="cursor: pointer;">Ακολουθήστε μας στο Twitter</a>
+					</div>
+					<div id="top_level_header_socializing_facebook_wrapper" class="top_level_header_socializing_facebook_wrapper social_main">
+						<a href="http://www.facebook.com/pages/Unmanned-Evolution-Air-Video-Exeprts/210476875747657" class="zocial icon facebook" target="_blank">Ακολουθήστε μας στο Facebook</a>
+					</div>
+					<div id="top_level_header_socializing_youtube_wrapper" class="top_level_header_socializing_youtube_wrapper social_main">
+						<a href="#" class="zocial icon youtube" target="_blank" style="cursor: pointer;">Ακολουθήστε μας στο YouTube</a>
+					</div>
+					<div id="top_level_header_socializing_vimeo_wrapper" class="top_level_header_socializing_vimeo_wrapper social_main">
+						<a href="#" class="zocial icon vimeo"  target="_blank" style="cursor: pointer;">Ακολουθήστε μας στο Vimeo</a>
+					</div>
+					<div id="top_level_header_socializing_pinterest_wrapper" class="top_level_header_socializing_pinterest_wrapper social">
+						<a href="#" class="zocial pinterest icon" target="_blank" style="cursor: pointer;">Ακολουθήστε μας στο Pinterest</a>
+					</div>
+					<div id="top_level_header_socializing_stumbleupon_wrapper" class="top_level_header_socializing_stumbleupon_wrapper social">
+						<a href="#" class="zocial stumbleupon icon" target="_blank" style="cursor: pointer;">Stumble!</a>
+					</div>
+					<div id="top_level_header_socializing_linkedin_wrapper" class="top_level_header_socializing_linkedin_wrapper social">
+						<a href="#" class="zocial icon linkedin" target="_blank" style="cursor: pointer;">Βρείτε μας στο LinkedIn</a>
+					</div>
+					<div id="top_level_header_socializing_evernote_wrapper" class="top_level_header_socializing_evernote_wrapper social">
+						<a href="#" class="zocial icon evernote" target="_blank" style="cursor: pointer;">Clip to Evernote</a>
+					</div>
+					<div id="top_level_header_socializing_delicious_wrapper" class="top_level_header_socializing_delicious_wrapper social">
+						<a href="#" class="zocial delicious icon" target="_blank" style="cursor: pointer;">Ακολουθήστε μας στο Del.icio.us</a>
+					</div>
+					<div id="top_level_header_socializing_flickr_wrapper" class="top_level_header_socializing_flickr_wrapper social">
+						<a href="#" class="zocial flickr icon" target="_blank" style="cursor: pointer;">Ακολουθήστε μας στο Flickr</a>
+					</div>
+				</section>
+				</div>
+			
+				<!-- top level highlighted section -->
+				<div id="top_level_header_highlighted_section_wrapper" class="top_level_header_highlighted_section_wrapper">
+				<section id="top_level_header_highlighted_section" class="top_level_header_highlighted_section">
+					<header  id="top_level_header_highlighted_header" class="top_level_header_highlighted_header">
+					 	<!-- highlighted text -->
+						<h2 id="top_level_header_highlighted_text" class="top_level_header_highlighted_text">Highlighted Text!</h2>
+					</header>
+				</section>
+				</div>
+			
+				<!-- top level navigation -->
+				<div id="top_level_header_navigation_section_wrapper" class="top_level_header_navigation_section_wrapper">
+				<nav id="top_level_header_navigation_nav" class="top_level_header_navigation_nav dark">
+					<ul id="top_level_header_navigation_list" class="top_level_header_navigation_list clear">
+						<li><a href="#">Αρχική</a></li>
+						<li><a href="#services_section_wrapper">Υπηρεσίες</a>
+							<ul>
+								<li><a href="#services_section_aerialvideo">Εναέρια Κινηματογράφηση</a></li>
+								<li><a href="#services_section_aerialphoto">Εναέρια Φωτογράφιση</a></li>
+								<li><a href="#services_section_materialproduction">Δημιουργία Οπτικο-ακουστικού Υλικού</a></li>
+								<li><a href="#services_section_aerialobservation">Εναέρια Παρατήρηση</a></li>
+								<li><a href="#services_section_searchandrescue">Έρευνα και Διάσωση</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Εφαρμογές</a>
+							<ul>
+								<li><a href="#">Συναυλίες, Αθλητικές και κοινωνικές εκδηλώσεις</a></li>
+								<li><a href="#">Παραγωγή ταινιών και βίντεο κλιπ</a></li>
+								<li><a href="#">Προώθηση ξενοδοχείων και κτηρίων</a></li>
+								<li><a href="#">Κτηματομεσιτικός τομέας</a></li>
+								<li><a href="#">Εφαρμογές μηχανικών και βιομηχανίας</a></li>
+								<li><a href="#">Παρατήρηση και προστασία περιβάλλοντος</a></li>
+								<li><a href="#">Καταστροφικά γεγονότα και Διασώσεις</a></li>
+								<li><a href="#">Αγροτική παραγωγή</a></li>
+								<li><a href="#">Εξειδικευμένες εφαρμογές</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Χαρτοφυλάκιο</a>
+							<ul>
+								<li><a href="#">Βίντεο</a></li>
+								<li><a href="#">Φωτογραφίες</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Εταιρία</a>
+							<ul>
+								<li><a href="#">Προφίλ</a></li>
+								<li><a href="#">Ανθρώπινο Δυναμικό</a></li>
+								<li><a href="#">Συνεργάτες</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Επικοινωνία</a></li>
+					</ul>
+				</nav>
+				</div>
+			
+			</section>
+			</div>
+	';
+			
+?>

@@ -22,7 +22,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="googlebot" content="noodp">
 		<meta name="rating" content="general">
 		<meta name="distribution" content="global" />
-		<meta name="DC.title" content="Unmanned Evolution portfolio" />
+		<meta name="DC.title" content="Unmanned Evolution Portofolio" />
 		<meta name="geo.region" content="GR-A1" />
 		<meta name="geo.placename" content="Athens" />
 		<meta name="geo.position" content="37.975496;23.734868" />

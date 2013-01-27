@@ -1,0 +1,258 @@
+﻿/*
+	By Kafetzi Dimitri (www.kafetzisd.gr)
+	This file contains custom scripts required by websites functionality
+
+*/
+
+/*
+	Setting up the page
+*/
+$(document).ready(function(){
+	setTopLevelNavBar();
+	
+	$("#applications_section_content_list li").hover(
+		function(e) {
+			if( $(this).find("header").hasClass("application_social") ) {
+				$(this).siblings().find("header").css( "visibility", "hidden" );
+				$(this).siblings().find(".application_social").each( function() { 
+																	$(this).css( "visibility","visible" );
+																	$(this).parent().css( "background", "transparent" );
+																	$(this).parent().css( "background-repeat", "repeat" );
+																	$(this).parent().css( "background-image", "url(../application/img/metal-texture-slice.png)" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_movies") ) {
+				$(this).siblings().find("header").css( "visibility", "hidden" );
+				$(this).siblings().find(".application_movies").each( function() { 
+																	$(this).css( "visibility","visible" );
+																	$(this).parent().css( "background", "transparent" );
+																	$(this).parent().css( "background-repeat", "repeat" );
+																	$(this).parent().css( "background-image", "url(../application/img/metal-texture-slice.png)" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_hotels") ) {
+				$(this).siblings().find("header").css( "visibility", "hidden" );
+				$(this).siblings().find(".application_hotels").each( function() { 
+																	$(this).css( "visibility","visible" );
+																	$(this).parent().css( "background", "transparent" );
+																	$(this).parent().css( "background-repeat", "repeat" );
+																	$(this).parent().css( "background-image", "url(../application/img/metal-texture-slice.png)" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_realestate") ) {
+				$(this).siblings().find("header").css( "visibility", "hidden" );
+				$(this).siblings().find(".application_realestate").each( function() { 
+																	$(this).css( "visibility","visible" );
+																	$(this).parent().css( "background", "transparent" );
+																	$(this).parent().css( "background-repeat", "repeat" );
+																	$(this).parent().css( "background-image", "url(../application/img/metal-texture-slice.png)" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_engineering") ) {
+				$(this).siblings().find("header").css( "visibility", "hidden" );
+				$(this).siblings().find(".application_engineering").each( function() { 
+																	$(this).css( "visibility","visible" );
+																	$(this).parent().css( "background", "transparent" );
+																	$(this).parent().css( "background-repeat", "repeat" );
+																	$(this).parent().css( "background-image", "url(../application/img/metal-texture-slice.png)" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_enviroment") ) {
+				$(this).siblings().find("header").css( "visibility", "hidden" );
+				$(this).siblings().find(".application_enviroment").each( function() { 
+																	$(this).css( "visibility","visible" );
+																	$(this).parent().css( "background", "transparent" );
+																	$(this).parent().css( "background-repeat", "repeat" );
+																	$(this).parent().css( "background-image", "url(../application/img/metal-texture-slice.png)" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_searchandrescue") ) {
+				$(this).siblings().find("header").css( "visibility", "hidden" );
+				$(this).siblings().find(".application_searchandrescue").each( function() { 
+																	$(this).css( "visibility","visible" );
+																	$(this).parent().css( "background", "transparent" );
+																	$(this).parent().css( "background-repeat", "repeat" );
+																	$(this).parent().css( "background-image", "url(../application/img/metal-texture-slice.png)" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_agriculture") ) {
+				$(this).siblings().find("header").css( "visibility", "hidden" );
+				$(this).siblings().find(".application_agriculture").each( function() { 
+																	$(this).css( "visibility","visible" );
+																	$(this).parent().css( "background", "transparent" );
+																	$(this).parent().css( "background-repeat", "repeat" );
+																	$(this).parent().css( "background-image", "url(../application/img/metal-texture-slice.png)" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_custom") ) {
+				$(this).siblings().find("header").css( "visibility", "hidden" );
+				//$("#applications_section_content_item_4").css( "background-position", "780px 500px" );
+			//	$("#applications_section_content_item_4").css( "background-image", "url(../application/img/helic.jpg)" );
+				$("#applications_section_content_item_4").css( "background-color", "rgba(252,180,31,.3)" );
+				$(this).siblings().find(".application_custom").each( function() { 
+																	$(this).css( "visibility","visible" );
+																	$(this).parent().css( "background", "transparent" );
+																	$(this).parent().css( "background-repeat", "repeat" );
+																	$(this).parent().css( "background-image", "url(../application/img/metal-texture-slice.png)" );
+																});
+			}
+		},
+		function(e) {
+			if( $(this).find("header").hasClass("application_social") ) {
+				$(this).siblings().find("header").css( "visibility", "visible" );
+				$(this).siblings().find(".application_social").each( function() { 
+																	$(this).css( "visibility","hidden" );
+																	$(this).parent().css( "background-color", "rgba(200,200,200,.3)" );
+																	$(this).parent().css( "background-repeat", "" );
+																	$(this).parent().css( "background-image", "" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_movies") ) {
+				$(this).siblings().find("header").css( "visibility", "visible" );
+				$(this).siblings().find(".application_movies").each( function() { 
+																	$(this).css( "visibility","hidden" );
+																	$(this).parent().css( "background-color", "rgba(200,200,200,.3)" );
+																	$(this).parent().css( "background-repeat", "" );
+																	$(this).parent().css( "background-image", "" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_hotels") ) {
+				$(this).siblings().find("header").css( "visibility", "visible" );
+				$(this).siblings().find(".application_hotels").each( function() { 
+																	$(this).css( "visibility","hidden" );
+																	$(this).parent().css( "background-color", "rgba(200,200,200,.3)" );
+																	$(this).parent().css( "background-repeat", "" );
+																	$(this).parent().css( "background-image", "" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_realestate") ) {
+				$(this).siblings().find("header").css( "visibility", "visible" );
+				$(this).siblings().find(".application_realestate").each( function() { 
+																	$(this).css( "visibility","hidden" );
+																	$(this).parent().css( "background-color", "rgba(200,200,200,.3)" );
+																	$(this).parent().css( "background-repeat", "" );
+																	$(this).parent().css( "background-image", "" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_engineering") ) {
+				$(this).siblings().find("header").css( "visibility", "visible" );
+				$(this).siblings().find(".application_engineering").each( function() { 
+																	$(this).css( "visibility","hidden" );
+																	$(this).parent().css( "background-color", "rgba(200,200,200,.3)" );
+																	$(this).parent().css( "background-repeat", "" );
+																	$(this).parent().css( "background-image", "" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_enviroment") ) {
+				$(this).siblings().find("header").css( "visibility", "visible" );
+				$(this).siblings().find(".application_enviroment").each( function() { 
+																	$(this).css( "visibility","hidden" );
+																	$(this).parent().css( "background-color", "rgba(200,200,200,.3)" );
+																	$(this).parent().css( "background-repeat", "" );
+																	$(this).parent().css( "background-image", "" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_searchandrescue") ) {
+				$(this).siblings().find("header").css( "visibility", "visible" );
+				$(this).siblings().find(".application_searchandrescue").each( function() { 
+																	$(this).css( "visibility","hidden" );
+																	$(this).parent().css( "background-color", "rgba(200,200,200,.3)" );
+																	$(this).parent().css( "background-repeat", "" );
+																	$(this).parent().css( "background-image", "" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_agriculture") ) {
+				$(this).siblings().find("header").css( "visibility", "visible" );
+				$(this).siblings().find(".application_agriculture").each( function() { 
+																	$(this).css( "visibility","hidden" );
+																	$(this).parent().css( "background-color", "rgba(200,200,200,.3)" );
+																	$(this).parent().css( "background-repeat", "" );
+																	$(this).parent().css( "background-image", "" );
+																});
+			} else
+			if( $(this).find("header").hasClass("application_custom") ) {
+				$(this).siblings().find("header").css( "visibility", "visible" );
+				$("#applications_section_content_item_4").css( "background-color", "rgba(200,200,200,.3)" );
+				$(this).siblings().find(".application_custom").each( function() { 
+																	$(this).css( "visibility","hidden" );
+																	$(this).parent().css( "background-color", "rgba(200,200,200,.3)" );
+																	$(this).parent().css( "background-repeat", "" );
+																	$(this).parent().css( "background-image", "" );
+																});
+			}
+		}
+	);
+				
+});
+
+
+
+function setTopLevelNavBar() {
+	// Requried: Navigation bar drop-down
+	$("nav ul li").hover(
+		function() {
+			$(this).addClass("active");
+			$(this).find("ul").show().animate({opacity: 1}, 400);
+		},
+		function() {
+			$(this).find("ul").hide().animate({opacity: 0}, 200);
+			$(this).removeClass("active");
+		}
+	);
+	
+	$("nav ul li").click(
+		function(){
+			$(this).siblings(".selected").find(".selected").removeClass("selected");	
+			$(this).siblings(".selected").removeClass("selected");
+			$(this).addClass("selected");
+		}
+	);
+	$("nav ul li ul li").click(
+		function(){
+			$(this).siblings(".selected").removeClass("selected");
+			$(this).parent().parent().siblings(".selected").find("ul li.selected").removeClass("selected");	
+			$(this).parent().parent().siblings(".selected").removeClass("selected");
+			
+			$(this).addClass("selected");
+			$(this).parent().parent().addClass("selected");
+		}
+	);
+	
+	// Requried: Additional styling elements
+	$('nav ul li ul li:first-child').prepend('<li class="arrow"></li>');
+	$('nav ul li:first-child').addClass('first');
+	$('nav ul li:last-child').addClass('last');
+	//$('nav ul li ul').parent().append('<span class="dropdown"></span>').addClass('drop');
+				
+}
+
+function setCookie(c_name, value, exdays) {
+	var exdate = new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value = escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+	document.cookie=c_name + "=" + c_value;
+}
+function getCookie(c_name) {
+	var i,x,y,ARRcookies=document.cookie.split(";");
+	for (i=0;i<ARRcookies.length;i++) {
+		x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+		y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+		x=x.replace(/^\s+|\s+$/g,"");
+		if (x==c_name) {
+			return unescape(y);
+		}
+	}
+}
+
+function validateEmailAddress( item ) {
+
+    var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
+    
+	var email = $(item).val();
+    
+	if ( !pattern.test(email) ) {
+        $(item).parent().addClass('error');
+        return false;
+    }
+    return true;
+}

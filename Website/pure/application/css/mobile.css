@@ -23,6 +23,35 @@ By Dimitri Kafetzi @ http://www.kafetzisd.gr
 Distributed under the Creative Commons Attribution 3.0 License
 */
 
+
+@font-face {
+		font-family: 'CoolveticaRegural';
+		src: url('../fonts/coolvetica_rg.eot');
+		src: local('‚ò∫'),
+		url('../fonts/coolvetica_rg.otf') format('opentype'),
+		url('../fonts/coolvetica_rg.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galatia';
+	src: local('‚ò∫'),
+         url('../fonts/GalSILR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}	
+
+@font-face {
+    font-family: 'GalatiaBold';
+	src: local('‚ò∫'),
+         url('../fonts/GalSILB.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body {	
 	border: 0%;
 	margin: 0%;
@@ -1606,6 +1635,15 @@ html, body {
 	width: 97%;
 	left: 0%;
 	top: 0%;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: normal;
+	line-height: 1.2em;
+	letter-spacing: 5px;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	font-family: DejaVuSerifBook, Galatia, NewAthinaUnicode, serif;
 }
 #company_section_content_list li:hover header > a:hover {
 	color: rgb(252,180,31);
@@ -1712,6 +1750,11 @@ html, body {
 #company_section_content_partners_wrapper section.company_content article div.company_section_content_partner_wrapper p {
 	position: relative;
 	width: 95%;
+	text-align: center;
+	font-family: DejaVuSerifBook, Galatia, NewAthinaUnicode, serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: normal;
 	color: #000;
 	border: none;
 	border-bottom: 1px solid rgb(252,180,31);
@@ -1767,6 +1810,13 @@ html, body {
 	height: 95%;
 	margin: 0%;
 	padding: 0%;
+	text-indent: 0%;
+	font-family: NewAthinaUnicode, Galatia, DejaVuSerifBook, serif;
+	font-size: 7px;
+	font-style: normal;
+	text-align: justify;
+	font-weight: normal;
+	text-transform: normal;
 	color: #000;
 	border: none;
 }
@@ -2673,7 +2723,7 @@ html, body {
 #landing_section_wrapper,
 #services_section_wrapper,
 #applications_section_wrapper,
-#portfolio_section_wrapper,
+#portofolio_section_wrapper,
 #company_section_wrapper,
 #contact_section_wrapper,
 #termsofuse_section_wrapper,
@@ -2689,7 +2739,7 @@ html, body {
 #landing_section_wrapper:target ,
 #services_section_wrapper:target,
 #applications_section_wrapper:target,
-#portfolio_section_wrapper:target,
+#portofolio_section_wrapper:target,
 #company_section_wrapper:target,
 #contact_section_wrapper:target,
 #termsofuse_section_wrapper:target,
@@ -2717,10 +2767,17 @@ html, body {
 
 /* 
 	Typography
-	All fonts are included in a seperate file per language
 */
 
+
+body {
+	font-family: "Courier New", Courier, monospace;
+
+}
+
 h3 {
+	font-family: Galatia, serif;
+
 	font-weight: normal;
 	text-transform: normal;
 	color: #000;
@@ -2728,6 +2785,7 @@ h3 {
 }
 
 p, p a {
+	font-family: "Courier New", Courier, monospace;
 	font-style: normal;
 	text-align: justify;
 
@@ -2738,6 +2796,7 @@ p, p a {
 
 a {
 	text-decoration: none;
+	font-family: Galatia, serif;
 	color: #ffffff;
 }
 
@@ -2752,6 +2811,7 @@ ul {
 
 
 .top_level_header_company_name {
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
 	font-weight: normal;
 	text-transform: normal;
 	color: #ffffff;
@@ -2760,6 +2820,7 @@ ul {
 }
 
 .top_level_header_company_name_colored {
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
 	font-weight: normal;
 	text-transform: normal;
 	color: rgb(252,180,31);
@@ -2768,6 +2829,7 @@ ul {
 				  1px 1px 1px rgb(252,180,31);
 }
 #company_moto {
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
 	font-weight: normal;
 	text-transform: normal;
 	text-align: left;
@@ -2777,6 +2839,7 @@ ul {
 
 #top_level_header_socializing_header p ,
 #top_level_header_languages p {
+	font-family: Galatia, serif;
 	font-style: normal;
 	text-align: justify;
 	font-weight: normal;
@@ -2797,6 +2860,7 @@ ul {
 	text-align: center;
 	color: #000;
 	text-decoration: none;
+	font-family: DejaVuSerifBook, Galatia, serif;
 }
 
 #applications_section_content_list li header {
@@ -2812,14 +2876,17 @@ ul {
 	text-align: center;
 	color: #000;
 	text-decoration: none;
+	font-family: DejaVuSerifBook, Galatia, serif;
 }
 
 #applications_section_content_list li header a {
 	text-decoration: none;
+	font-family: DejaVuSerifBook, Galatia, serif;
 	color: #fff;
 }
 
 .service_content_wrapper section.service_content header h3 {
+	font-family: Galatia, serif;
 	font-size: 18px;
 	font-weight: normal;
 	text-transform: normal;
@@ -2827,6 +2894,7 @@ ul {
 	text-align: center;
 }
 .service_content_wrapper section.service_content article p {
+	font-family: "Courier New", Courier, monospace;
 	font-style: normal;
 	text-align: justify;
 	font-weight: normal;
@@ -2834,6 +2902,7 @@ ul {
 	color: #000000;
 }
 .application_content_wrapper section.application_content header h3 {
+	font-family: Galatia, serif;
 	font-size: 18px;
 	font-weight: normal;
 	text-transform: normal;
@@ -2841,6 +2910,7 @@ ul {
 	text-align: center;
 }
 .application_content_wrapper section.application_content article p {
+	font-family: "Courier New", Courier, monospace;
 	font-style: normal;
 	text-align: justify;
 	font-weight: normal;
@@ -2857,8 +2927,10 @@ ul {
 	letter-spacing: 5px;
 	text-align: center;
 	text-decoration: none;
+	font-family: DejaVuSerifBook, Galatia, serif;
 }
 .company_content_wrapper section.company_content header h3 {
+	font-family: Galatia, serif;
 	font-size: 18px;
 	font-weight: normal;
 	text-transform: normal;
@@ -2866,6 +2938,7 @@ ul {
 	text-align: center;
 }
 .company_content_wrapper section.company_content header h3 span.company_name_text {
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: normal;
 	text-transform: normal;
@@ -2873,6 +2946,7 @@ ul {
 	text-shadow: -2px -2px 2px #000000;
 }
 .company_content_wrapper section.company_content header h3 span.company_name_text_colored {
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: normal;
 	text-transform: normal;
@@ -2881,6 +2955,7 @@ ul {
 				  1px 1px 1px rgb(252,180,31);
 }
 .company_content_wrapper section.company_content article p {
+	font-family: "Courier New", Courier, monospace;
 	font-style: normal;
 	text-align: justify;
 	font-weight: normal;
@@ -2892,6 +2967,7 @@ ul {
 #termsofuse_section_wrapper section#termsofuse_section article h3,
 #sensitivedata_section_wrapper  section#sensitivedata_section article h3,
 #unmannedlaw_section_wrapper  section#unmannedlaw_section  article h3 {
+	font-family: Galatia, serif;
 	font-weight: normal;
 	text-transform: normal;
 	color: #000;
@@ -2900,6 +2976,7 @@ ul {
 #termsofuse_section_wrapper section#termsofuse_section article p,
 #sensitivedata_section_wrapper  section#sensitivedata_section article p,
 #unmannedlaw_section_wrapper  section#unmannedlaw_section article p {
+	font-family: "Courier New", Courier, monospace;
 	font-style: normal;
 	text-align: justify;
 	font-weight: normal;
@@ -2910,6 +2987,7 @@ ul {
 
 
 #top_level_footer_section_wrapper p, #top_level_footer_section_wrapper p a {
+	font-family: Galatia, serif;
 	font-style: normal;
 	font-weight: normal;
 	text-transform: normal;
@@ -2919,12 +2997,15 @@ ul {
 	color: rgb(252,180,31);
 }
 #top_level_footer_contact_section p a {
+	font-family: Galatia, serif;
 	font-weight: normal;
 	text-transform: normal;
 	color: rgb(252,180,31);
 }
 
+
 .company_name_text {
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	text-transform: normal;
@@ -2933,6 +3014,7 @@ ul {
 	color: #ffffff;
 }
 .company_name_text_colored {
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	text-transform: normal;
@@ -2949,6 +3031,7 @@ ul {
 .unmannedlaw_content .company_name_text {
 	color: #000;
 	letter-spacing: 2px;
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
 	font-size: 14px;
 	
 }
@@ -2959,6 +3042,7 @@ ul {
 .sensitivedata_content .company_name_text_colored,
 .unmannedlaw_content .company_name_text_colored {
 	letter-spacing: 2px;
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
 	font-size: 14px;
 }
 
@@ -2973,6 +3057,7 @@ ul {
 	letter-spacing: 5px;
 	text-align: center;
 	text-decoration: none;
+	font-family: Galatia, serif;
 }
 
 label {

@@ -1,0 +1,453 @@
+﻿/*	
+	By Kafetzi Dimitri (www.kafetzisd.gr)
+	This file contains custom scripts required by websites functionality
+
+*/
+
+/*
+	Setting up the page
+*/
+var portofolio_trailers = [];
+var tag = document.createElement('script');
+tag.src = "//www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+$(document).ready(function(){
+	$("img.lazy").lazyload({ threshold : 200 });
+/////////////////////////////////////////////////////////////////////////	
+	// Code from web that handles portofolio
+////////////////////////////////////////////////////////////////////////
+	
+	var items = $('#stage li'),
+		itemsByTags = {};
+	
+	// Looping though all the li items:
+	
+	items.each(function(i){
+		var elem = $(this),
+			tags = elem.data('tags').split(',');
+		
+		// Adding a data-id attribute. Required by the Quicksand plugin:
+		elem.attr('data-id',i);
+		
+		$.each(tags,function(key,value){
+			
+			// Removing extra whitespace:
+			value = $.trim(value);
+			
+			if(!(value in itemsByTags)){
+				// Create an empty array to hold this item:
+				itemsByTags[value] = [];
+			}
+			
+			// Each item is added to one array per tag:
+			itemsByTags[value].push(elem);
+		});
+		
+	});
+
+	// Creating the "Everything" option in the menu:
+	createList('Everything',items);
+
+	// Looping though the arrays in itemsByTags:
+	$.each(itemsByTags,function(k,v){
+		createList(k,v);
+	});
+	
+	$('#filter a').live('click',function(e){
+		var link = $(this);
+		
+		link.addClass('active').siblings().removeClass('active');
+		
+		// Using the Quicksand plugin to animate the li items.
+		// It uses data('list') defined by our createList function:
+		
+		$('#stage').quicksand(link.data('list').find('li'));
+		e.preventDefault();
+	});
+	
+	$('#filter a:first').click();
+	
+	function createList(text,items){
+		
+		// This is a helper function that takes the
+		// text of a menu button and array of li items
+		
+		// Creating an empty unordered list:
+		var ul = $('<ul>',{'class':'hidden'});
+		
+		$.each(items,function(){
+			// Creating a copy of each li item
+			// and adding it to the list:
+			
+			$(this).clone().appendTo(ul);
+		});
+
+		ul.appendTo('#container');
+
+		// Creating a menu item. The unordered list is added
+		// as a data parameter (available via .data('list'):
+		
+		var a = $('<a>',{
+			html: text,
+			href:'#',
+			data: {list:ul}
+		}).appendTo('#filter');
+	}
+	
+/////////////////////////////////////////////////////////////////////////	
+	// end of Code from web that handles portofolio
+////////////////////////////////////////////////////////////////////////
+/*
+										<a class="addthis_button_facebook"></a>
+										<a class="addthis_button_twitter"></a>
+										<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+										<a class="addthis_button_tweet"></a>
+										<a class="addthis_button_linkedin"></a>
+										<a class="addthis_button_google_plusone_badge" g:plusone:href="https://plus.google.com/102383601500147943541/"></a>
+										 <a class="addthis_button_pinterest_pinit" pi:pinit:url="http://www.apple.com" pi:pinit:media="http://images.apple.com/home/images/hero.jpg" pi:pinit:layout="horizontal">
+										<a class="addthis_button_stumbleupon_badge"></a> 
+										<a class="addthis_button_tumblr"></a>
+										<a class="addthis_button_digg"></a>
+										<a class="addthis_button_delicious"></a>
+										<a class="addthis_button_compact"></a>
+										<a class="addthis_counter addthis_bubble_style"></a>
+*/
+
+	
+	setTopLevelNavBar();
+});
+
+function setTopLevelNavBar() {
+	// Requried: Navigation bar drop-down
+	$("nav ul li").hover(
+		function() {
+			$(this).addClass("active");
+			$(this).find("ul").css("display", "block");
+		},
+		function() {
+			$(this).removeClass("active");
+			$(this).find("ul").css("display", "none");
+		}
+	);
+	
+	$("nav ul li").click(
+		function(){
+			$(this).siblings(".selected").find(".selected").removeClass("selected");	
+			$(this).siblings(".selected").removeClass("selected");
+			$(this).addClass("selected");
+		}
+	);
+	$("nav ul li ul li").click(
+		function(){
+			$(this).siblings(".selected").removeClass("selected");
+			$(this).parent().parent().siblings(".selected").find("ul li.selected").removeClass("selected");	
+			$(this).parent().parent().siblings(".selected").removeClass("selected");
+			
+			$(this).addClass("selected");
+			$(this).parent().parent().addClass("selected");
+		}
+	);
+	
+	// Requried: Additional styling elements
+	$('nav ul li ul li:first-child').prepend('<li class="arrow"></li>');
+	$('nav ul li:first-child').addClass('first');
+	$('nav ul li:last-child').addClass('last');
+	//$('nav ul li ul').parent().append('<span class="dropdown"></span>').addClass('drop');
+				
+}
+
+function setCookie(c_name, value, exdays) {
+	var exdate = new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value = escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+	document.cookie=c_name + "=" + c_value;
+}
+function getCookie(c_name) {
+	var i,x,y,ARRcookies=document.cookie.split(";");
+	for (i=0;i<ARRcookies.length;i++) {
+		x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+		y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+		x=x.replace(/^\s+|\s+$/g,"");
+		if (x==c_name) {
+			return unescape(y);
+		}
+	}
+}
+
+function validateEmailAddress( item ) {
+
+    var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
+    
+	var email = $(item).val();
+    
+	if ( !pattern.test(email) ) {
+        $(item).parent().addClass('error');
+        return false;
+    }
+    return true;
+}
+
+
+function onYouTubeIframeAPIReady() {
+	createPortofolioTrailers();
+}
+
+function createPortofolioTrailers ( ) {
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_1', {
+		height: '250',
+		width: '400',
+		videoId: '_AeVgCd9U0E',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_2', {
+		height: '250',
+		width: '400',
+		videoId: 'rT1BICpC1Gg',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_3', {
+		height: '250',
+		width: '400',
+		videoId: 'AxmMFyiJ8uA',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_4', {
+		height: '250',
+		width: '400',
+		videoId: 'AD5CfwNcHHM',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_5', {
+		height: '250',
+		width: '400',
+		videoId: '-TIOiY6qpT8',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_6', {
+		height: '250',
+		width: '400',
+		videoId: 'sCE-Ci_ZkKw',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_7', {
+		height: '250',
+		width: '400',
+		videoId: 'jvBi8bLDCFk',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_8', {
+		height: '250',
+		width: '400',
+		videoId: 'L86CoQdCNaA',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_9', {
+		height: '250',
+		width: '400',
+		videoId: 'yMjJarOY-B8',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_10', {
+		height: '250',
+		width: '400',
+		videoId: '6SB9jgI6qks',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_11', {
+		height: '250',
+		width: '400',
+		videoId: 'zkF5QFWbBuU',
+		playerVars: {
+			'iv_load_policy': 3,
+			'autoplay': 0,
+			'origin': 'www.unmanned-evolution.com',
+			'rel': 0,
+			'wmode': 'opaque'
+		},
+		 events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPortofolioPlayerStateChanged
+		 }
+	});
+	
+	
+	
+	if ( $(window).width() >= 740 ) {
+		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
+			setVideoDimensions( portofolio_trailers[i], "portofolio", 20 );
+		}
+	} else {
+		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
+			setVideoDimensions( portofolio_trailers[i], "portofolio", 60 );
+		}
+	}
+}
+
+function onPlayerReady ( event ) {
+	event.target.setPlaybackQuality("large");
+}
+
+function onPortofolioPlayerStateChanged ( event ) {
+	
+	var wrapper = $(event.target.getIframe()).parent("figure");
+	var wrapper_div = $(event.target.getIframe()).parent("figure").parent("li");
+	var iframe = event.target.getIframe();
+	
+	if ( $(window).width() >= 740 ) {
+		if ( event.data == YT.PlayerState.PLAYING ) {
+			
+		} else if ( event.data == YT.PlayerState.ENDED ) {
+			
+		} else if ( event.data == YT.PlayerState.PAUSED ) {		
+			
+		} else if ( event.data == YT.PlayerState.BUFFERING ) {
+		
+		}
+	} else {
+		if ( event.data == YT.PlayerState.PLAYING ) {
+			
+		} else if ( event.data == YT.PlayerState.ENDED ) {
+			
+		} else if ( event.data == YT.PlayerState.PAUSED ) {
+			
+		} else if ( event.data == YT.PlayerState.BUFFERING ) {
+		
+		}
+	}
+}
+
+function setVideoDimensions( target, location_type, width_perc ) {
+	// setting percentage of screen that the video will take
+	var wrapper_width = $(window).width();
+	var video_width_n;
+	var video_height_n;
+	
+	switch ( location_type ) {
+		case "landing":
+			wrapper_width = $(window).width();
+			break;
+		case "section":
+			wrapper_width = $(target.getIframe()).parent("figure").width();
+			break;
+		case "portofolio":
+			wrapper_width = $(window).width();
+			break;		
+	}
+		
+	video_width_n = Math.round(wrapper_width*width_perc/100);
+	video_height_n = Math.round(video_width_n/1.77);
+	target.setSize( video_width_n, video_height_n );
+}

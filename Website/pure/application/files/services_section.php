@@ -116,11 +116,11 @@ $aerialphoto_slideshow = array (
 						<?php	foreach ( $aerialphoto_slideshow as $photo_id ) {
 									$html = '';
 									$html .= '<li>';
-									$html .= '<a class="thumb" href="./media/pictures/' . $portfolio_items[$photo_id]["original"] . '.' . $portfolio_items[$photo_id]["type"] . '" title="' . $portfolio_items[$photo_id][$language]["title"] . '">';
-									$html .= '<img src="./media/pictures/' . $portfolio_items[$photo_id]["thumb"] . '.' . $portfolio_items[$photo_id]["type"] . '" alt="' . $portfolio_items[$photo_id][$language]["alt"] . '" />';
+									$html .= '<a class="thumb" href="./media/pictures/' . $portofolio_items[$photo_id]["original"] . '.' . $portofolio_items[$photo_id]["type"] . '" title="' . $portofolio_items[$photo_id][$language]["title"] . '">';
+									$html .= '<img src="./media/pictures/' . $portofolio_items[$photo_id]["thumb"] . '.' . $portofolio_items[$photo_id]["type"] . '" alt="' . $portofolio_items[$photo_id][$language]["alt"] . '" />';
 									$html .= '</a>';
 									$html .= '<div class="caption">';
-									$html .= '<span>' . $portfolio_items[$photo_id][$language]["caption"] . '</span>';
+									$html .= '<span>' . $portofolio_items[$photo_id][$language]["caption"] . '</span>';
 									$html .= '</div>';
 									$html .= '</li>';
 									echo $html;

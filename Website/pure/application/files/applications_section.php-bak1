@@ -1,0 +1,291 @@
+<?php
+
+/*
+
+By Dimitri Kafetzi @ http://www.kafetzisd.gr
+Distributed under the Creative Commons Attribution 3.0 License
+
+*/
+?>
+<!-- applications section -->
+	<div id="applications_section_wrapper">
+		<section id="applications_section">
+			<div id="applications_section_nav_wrapper">
+				<nav id="applications_section_nav" class="light">
+					<ul id="applications_section_navigation_list" class="clear">
+						<li><a href="#applications_section_social">Συναυλίες, Αθλητικές και κοινωνικές εκδηλώσεις</a></li>
+						<li><a href="#applications_section_movies">Παραγωγή ταινιών και βίντεο κλιπ</a></li>
+						<li><a href="#applications_section_hotels">Προώθηση ξενοδοχείων και υπηρεσιών</a></li>
+						<li><a href="#applications_section_realestate">Κτηματομεσιτικός τομέας</a></li>
+						<li><a href="#applications_section_engineering">Εφαρμογές μηχανικών και βιομηχανίας</a></li>
+						<li><a href="#applications_section_environment">Παρατήρηση και προστασία περιβάλλοντος</a></li>
+						<li><a href="#applications_section_searchandrescue">Καταστροφικά γεγονότα και Διασώσεις</a></li>
+						<li><a href="#applications_section_agriculture">Αγροτική παραγωγή</a></li>
+						<li><a href="#applications_section_custom">Εξειδικευμένες εφαρμογές</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="applications_section_content_wrapper">
+				<ul id="applications_section_content_list">
+					<li id="applications_section_content_item_1" class="application">
+						<article id="applications_article_social" class="article">
+							<div id="applications_article_social_title" class="title">
+								<header>
+									<h3>Συναυλίες, Αθλητικές και κοινωνικές εκδηλώσεις</h3>
+								</header>
+							</div>
+							<div id="applications_article_social_content" class="content">
+								<figure id="applications_article_social_figure">
+									<video id="applications_social_trailer">
+										<source type="video/youtube" src="http://www.youtube.com/embed/AxmMFyiJ8uA">
+									</video>
+								</figure>
+								<div id="applications_article_social_summary" class="summary">
+									<p class="summary">Η κινηματογράφηση από ύψος είναι πλέον προσιτή σε όλους και για πληθώρα εφαρμογών</p>
+								</div>
+								<div id="applications_article_social_description" class="description">
+									<p>description 1</p>
+									<p>description 2</p>
+									<p>description 3</p>
+								</div>
+							</div>
+						</article>
+					</li>
+					<li id="applications_section_content_item_2" class="application">
+						<article id="applications_article_movies" class="article">
+							<div id="applications_article_movies_title" class="title">
+								<header>
+									<h3>Παραγωγή ταινιών και βίντεο κλιπ</h3>
+								</header>
+							</div>
+							<div id="applications_article_movies_content" class="content">
+								<figure id="applications_article_movies_figure">
+									<video id="applications_movies_trailer">
+										<source type="video/youtube" src="http://www.youtube.com/embed/AxmMFyiJ8uA">
+									</video>
+								</figure>
+								<div id="applications_article_movies_summary" class="summary">
+									<p class="summary">Η κινηματογράφηση από ύψος είναι πλέον προσιτή σε όλους και για πληθώρα εφαρμογών</p>
+								</div>
+								<div id="applications_article_movies_description" class="description">
+									<p>description 1</p>
+									<p>description 2</p>
+									<p>description 3</p>
+								</div>
+							</div>
+						</article>
+					</li>
+					<li id="applications_section_content_item_3" class="application">
+						<article id="applications_article_hotels" class="article">
+							<div id="applications_article_hotels_title" class="title">
+								<header>
+									<h3>Προώθηση ξενοδοχείων και υπηρεσιών</h3>
+								</header>
+							</div>
+							<div id="applications_article_hotels_content" class="content">
+								<figure id="applications_article_hotels_figure">
+									<img class="figure" alt="Προώθηση ξενοδοχείων και υπηρεσιών" src="./img/logo180X120.png" width="100%" height="100%"/>
+								</figure>
+								<div id="applications_article_hotels_summary" class="summary">
+									<p class="summary">Η κινηματογράφηση από ύψος είναι πλέον προσιτή σε όλους και για πληθώρα εφαρμογών</p>
+								</div>
+								<div id="applications_article_hotels_description" class="description">
+									<p>description 1</p>
+									<p>description 2</p>
+									<p>description 3</p>
+								</div>
+							</div>
+						</article>
+					</li>
+					<li id="applications_section_content_item_4" class="application">
+						<article id="applications_article_realestate" class="article">
+							<div id="applications_article_realestate_title" class="title">
+								<header>
+									<h3>Κτηματομεσιτικός τομέας</h3>
+								</header>
+							</div>
+							<div id="applications_article_realestate_content" class="content">
+								<figure id="applications_article_realestate_figure">
+									<img class="figure" alt="Κτηματομεσιτικός τομέας" src="./img/logo180X120.png" width="100%" height="100%"/>
+								</figure>
+								<div id="applications_article_realestate_summary" class="summary">
+									<p class="summary">Η κινηματογράφηση από ύψος είναι πλέον προσιτή σε όλους και για πληθώρα εφαρμογών</p>
+								</div>
+								<div id="applications_article_realestate_description" class="applications_article_realestate_description description">
+									<p>description 1</p>
+									<p>description 2</p>
+									<p>description 3</p>
+								</div>
+							</div>
+						</article>
+					</li>
+					<li id="applications_section_content_item_5" class="application">
+						<article id="applications_article_engineering" class="article">
+							<div id="applications_article_engineering_title" class="title">
+								<header>
+									<h3>Εφαρμογές μηχανικών και βιομηχανίας</h3>
+								</header>
+							</div>
+							<div id="applications_article_engineering_content" class="content">
+								<figure id="applications_article_engineering_figure">
+									<img class="figure" alt="Εφαρμογές μηχανικών και βιομηχανίας" src="./img/logo180X120.png" width="100%" height="100%"/>
+								</figure>
+								<div id="applications_article_engineering_summary" class="summary">
+									<p class="summary">Η κινηματογράφηση από ύψος είναι πλέον προσιτή σε όλους και για πληθώρα εφαρμογών</p>
+								</div>
+								<div id="applications_article_engineering_description" class="description">
+									<p>description 1</p>
+									<p>description 2</p>
+									<p>description 3</p>
+								</div>
+							</div>
+						</article>
+					</li>
+					<li id="applications_section_content_item_6" class="application">
+						<article id="applications_article_environment" class="article">
+							<div id="applications_article_environment_title" class="title">
+								<header>
+									<h3>Παρατήρηση και προστασία περιβάλλοντος</h3>
+								</header>
+							</div>
+							<div id="applications_article_environment_content" class="content">
+								<figure id="applications_article_environment_figure">
+									<video id="applications_environment_trailer">
+										<source type="video/youtube" src="http://www.youtube.com/embed/rT1BICpC1Gg">
+									</video>
+								</figure>
+								<div id="applications_article_environment_summary" class="summary">
+									<p class="summary">Η κινηματογράφηση από ύψος είναι πλέον προσιτή σε όλους και για πληθώρα εφαρμογών</p>
+								</div>
+								<div id="applications_article_environment_description" class="description">
+									<p>description 1</p>
+									<p>description 2</p>
+									<p>description 3</p>
+								</div>
+							</div>
+						</article>
+					</li>
+					<li id="applications_section_content_item_7" class="application">
+						<article id="applications_article_searchandrescue" class="article">
+							<div id="applications_article_searchandrescue_title" class="title">
+								<header>
+									<h3>Καταστροφικά γεγονότα και Διασώσεις</h3>
+								</header>
+							</div>
+							<div id="applications_article_searchandrescue_content" class="content">
+								<figure id="applications_article_searchandrescue_figure">
+									<img class="figure" alt="Καταστροφικά γεγονότα και Διασώσεις" src="./img/logo180X120.png" width="100%" height="100%"/>
+								</figure>
+								<div id="applications_article_searchandrescue_summary" class="summary">
+									<p class="summary">Η κινηματογράφηση από ύψος είναι πλέον προσιτή σε όλους και για πληθώρα εφαρμογών</p>
+								</div>
+								<div id="applications_article_searchandrescue_description" class="description">
+									<p>description 1</p>
+									<p>description 2</p>
+									<p>description 3</p>
+								</div>
+							</div>
+						</article>
+					</li>
+					<li id="applications_section_content_item_8" class="application">
+						<article id="applications_article_agriculture" class="article">
+							<div id="applications_article_agriculture_title" class="title">
+								<header>
+									<h3>Αγροτική παραγωγή</h3>
+								</header>
+							</div>
+							<div id="applications_article_agriculture_content" class="content">
+								<figure id="applications_article_agriculture_figure">
+									<img class="figure" alt="Αγροτική παραγωγή" src="./img/logo180X120.png" width="100%" height="100%"/>
+								</figure>
+								<div id="applications_article_agriculture_summary" class="summary">
+									<p class="summary">Η κινηματογράφηση από ύψος είναι πλέον προσιτή σε όλους και για πληθώρα εφαρμογών</p>
+								</div>
+								<div id="applications_article_agriculture_description" class="description">
+									<p>description 1</p>
+									<p>description 2</p>
+									<p>description 3</p>
+								</div>
+							</div>
+						</article>
+					</li>
+					<li id="applications_section_content_item_9" class="application">
+						<article id="applications_article_custom" class="article">
+							<div id="applications_article_custom_title" class="title">
+								<header>
+									<h3>Εξειδικευμένες εφαρμογές</h3>
+								</header>
+							</div>
+							<div id="applications_article_custom_content" class="content">
+								<figure id="applications_article_custom_figure">
+									<img class="figure" alt="Εξειδικευμένες εφαρμογές" src="./img/logo180X120.png" width="100%" height="100%"/>
+								</figure>
+								<div id="applications_article_custom_summary" class="summary">
+									<p class="summary">Η κινηματογράφηση από ύψος είναι πλέον προσιτή σε όλους και για πληθώρα εφαρμογών</p>
+								</div>
+								<div id="applications_article_custom_description" class="description">
+									<p>description 1</p>
+									<p>description 2</p>
+									<p>description 3</p>
+								</div>
+							</div>
+						</article>
+					</li>				
+				</ul>
+			</div>
+		</section>
+	</div>
+	
+		<script> 
+			$(document).ready(function(){ 
+				var aerialvideo_trailer = new MediaElementPlayer('#applications_social_trailer #applications_movies_trailer #applications_environment_trailer',{
+					<!--  if the <video width> is not specified, this is the default -->
+					defaultVideoWidth: 200, 
+					<!--  if the <video height> is not specified, this is the default -->
+					defaultVideoHeight: 120, 
+					<!--  if set, overrides <video width> -->
+					videoWidth: -1, 
+					<!--  if set, overrides <video height> -->
+					videoHeight: -1, 
+					<!--  width of audio player -->
+					audioWidth: 400, 
+					<!--  height of audio player -->
+					audioHeight: 30,
+					<!--  initial volume when the player starts -->
+					videoPreload: true, 
+					<!--  useful for <audio> player loops -->
+					loop: true,
+					<!--  enables Flash and Silverlight to resize to content size -->
+					enableAutosize: true,
+					<!--  the order of controls you want on the control bar (and other plugins below) -->
+					features: ['playpause', 'current', 'progress', 'duration', 'tracks', 'volume', 'logo', 'fontawesome'],
+					logo: { text: 'Unmanned-Evolution', link: 'http://www.unmanned-evolution.com/' },
+					<!--  Hide controls when playing and mouse is not over the video -->
+					alwaysShowControls: false, 
+					<!--  force iPad native controls -->
+					iPadUseNativeControls: false, 
+					<!--  force iPhone native controls -->
+					iPhoneUseNativeControls: false, 
+					<!--  force Android native controls -->
+					AndroidUseNativeControls: false, 
+					<!--  forces the hour marker (##:00:00) -->
+					alwaysShowHours: false, 
+					<!--  show framecount in timecode (##:00:00:00) -->
+					showTimecodeFrameCount: false, 
+					<!--  used when showTimecodeFrameCount is set to true -->
+					framesPerSecond: 25, 
+					<!--  turns keyboard support on and off for this instance -->
+					enableKeyboard: true, 
+					<!--  when this player starts, it will pause other players -->
+					pauseOtherPlayers: false,  
+					<!--  array of keyboard commands -->
+					keyActions: []
+				});
+			});
+		</script>
+		
+		<script>
+			$(document).ready(function(){ 
+				
+			});
+		</script>

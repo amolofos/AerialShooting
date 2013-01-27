@@ -1,0 +1,7 @@
+http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.alistapart.com%2Farticles%2Ftaminglists%2F&t=CSS+Design%3A+Taming+Lists
+
+https://twitter.com/intent/tweet?source=webclient&text=CSS+Design%3A+Taming+Lists%3A+http%3A%2F%2Fwww.alistapart.com%2Farticles%2Ftaminglists%2F
+
+http://delicious.com/post?url=http://www.alistapart.com/articles/taminglists/&title=CSS+Design%3A+Taming+Lists
+
+http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.webdesignerforum.co.uk%2Ftopic%2F8254-little-php-script-to-change-the-language-on-the-page%2F&title=little+php+script+to+change+the+language+on+the+page

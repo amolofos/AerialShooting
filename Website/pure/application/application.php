@@ -16,7 +16,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 	header( 'Last-Modified: ' . date("F d Y H:i:s e", getlastmod()) );
 	
 	include "application_items.php";
-	include "portfolio_items.php";
+	include "portofolio_items.php";
 	include "partners_items.php";
 	
 	if( isset($_GET[ 'lang' ]) ) {
@@ -33,7 +33,6 @@ Distributed under the Creative Commons Attribution 3.0 License
 	<head>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
-		<link rel="stylesheet" type="text/css" href="css/font_<?php echo $language; ?>.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/mobile.min.css" /> -->
 		<!-- Enabling HTML5 tags for older IE browsers -->
 		<!--[if lt IE 9]>
@@ -99,11 +98,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- <script src="scripts/jquery.viewport.mini.js"></script> -->
 		<!-- <script src="scripts/jquery.masonry.min.js"></script> -->
 		<!-- Custom scripts -->
-		<script src="scripts/unmanned_evolution.js"></script>
-		<!-- <script src="scripts/unmanned_evolution.min.js"></script> -->
+		<!-- <script src="scripts/unmanned_evolution.js"></script> -->
+		<script src="scripts/unmanned_evolution.min.js"></script>
 		
 		 <!-- Google analytics -->
-		<script>
+		<script type="text/javascript">
 			var _gaq = _gaq || [];
 				_gaq.push(['_setAccount', 'UA-35818718-1']);
 				_gaq.push(['_setDomainName', 'unmanned-evolution.com']);
