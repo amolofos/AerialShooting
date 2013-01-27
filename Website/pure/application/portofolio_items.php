@@ -777,7 +777,29 @@ Distributed under the Creative Commons Attribution 3.0 License
 				"caption"	=> "Someone is watching you from the sky.",
 				"tags"		=> "unmanned, evolution, aerial photography, photography, team, Unmanned-evolution, crew, multikopter, multicopter, multirotor"
 			)
-		),				
+		),
+		"Microlimano-Piraeus-Greece" => array (
+			"id" 		=> "Microlimano-Piraeus-Greece",
+			"type"		=> "jpg",
+			"nav_class" => "photography real_estate tourism",
+			"original"	=> "Microlimano-Piraeus-Greece_original",
+			"small"		=> "Microlimano-Piraeus-Greece_original_400x197-90q",
+			"thumb"		=> "Microlimano-Piraeus-Greece_original_60x30-90q",
+			"el" 		=> array (
+				"category"	=> "Λιμάνια",
+				"alt"		=> "Εναέρια φωτογραφία του Μικρολίμανου στον Πειραιά",
+				"title"		=> "Εναέρια φωτογραφία του Μικρολίμανου στον Πειραιά.",
+				"caption"	=> "Εναέρια φωτογραφία του Μικρολίμανου στον Πειραιά.",
+				"tags"		=> "unmanned, evolution, εναέρια φωτογράφηση, φωτογραφία, μικρολίμανο, Πειραιάς, Ελλάδα, λιμάνι"
+			),
+			"en"        => array (
+				"category"	=> "Ports",
+				"alt"		=> "Aerial photography of Mikrolimano marine at Piraeus, Greece",
+				"title"		=> "Aerial photography of Mikrolimano marine at Piraeus, Greece.",
+				"caption"	=> "Aerial photography of Mikrolimano marine at Piraeus, Greece.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, mikrolimano, Piraeus, Greece, port, marine"
+			)
+		),		
 		/***************** videos ******************/
 		"default" => array (
 			"id" 		=> "default",

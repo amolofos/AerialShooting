@@ -216,7 +216,12 @@ portofolio_items [ "Someone-is-watching-you-from-the-sky" ][ "type"      ] = "im
 portofolio_items [ "Someone-is-watching-you-from-the-sky" ][ "activated" ] = "N"; 
 portofolio_items [ "Someone-is-watching-you-from-the-sky" ][ "retracted" ] = "";
 portofolio_items [ "Someone-is-watching-you-from-the-sky" ][ "expanded"  ] = "";
-
+portofolio_items [ "Microlimano-Piraeus-Greece" ]                = [];
+portofolio_items [ "Microlimano-Piraeus-Greece" ][ "id"        ] = "Microlimano-Piraeus-Greece";
+portofolio_items [ "Microlimano-Piraeus-Greece" ][ "type"      ] = "image";
+portofolio_items [ "Microlimano-Piraeus-Greece" ][ "activated" ] = "N";
+portofolio_items [ "Microlimano-Piraeus-Greece" ][ "retracted" ] = "";
+portofolio_items [ "Microlimano-Piraeus-Greece" ][ "expanded"  ] = "";
 /* ********* videos ********************** */
 portofolio_items [ "default"                 ]                = [];
 portofolio_items [ "default"                 ][ "id"        ] = "_AeVgCd9U0E";
