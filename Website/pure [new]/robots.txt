@@ -1,0 +1,10 @@
+﻿
+User-agent: *
+Disallow: /application/css
+Disallow: /application/files
+Disallow: /application/fonts
+Disallow: /application/scripts
+Disallow: /application/files
+
+
+Sitemap: http://www.unmanned-evolution.com/sitemap.xml
