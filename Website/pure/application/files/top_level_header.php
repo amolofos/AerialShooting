@@ -62,7 +62,7 @@ $request_uri = $request_uri[ count($request_uri)-1 ];
 							<li class="applications_nav"><a href="application.php?lang=<?php echo $language; ?>#applications_section_content_custom_wrapper"><?php if ( $language == "el" ) { echo $application_items["appl_custom_title"]; } else { echo $application_items["appl_custom_title_en"]; } ?></a></li>
 						</ul>
 					</li>
-					<li id="top_level_header_navigation_list_item_portofolio"  class="portofolio_nav"><a id="top_level_header_nav_portofolio" href="portofolio.php?lang=<?php echo $language; ?>"><?php if ( $language == "el") { echo "Χαρτοφυλάκιο"; } else { echo "Portofolio"; } ?></a></li>
+					<li id="top_level_header_navigation_list_item_portfolio"  class="portfolio_nav"><a id="top_level_header_nav_portfolio" href="portfolio.php?lang=<?php echo $language; ?>"><?php if ( $language == "el") { echo "Χαρτοφυλάκιο"; } else { echo "portfolio"; } ?></a></li>
 					<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_wrapper"><?php if ( $language == "el") { echo "Εταιρία"; } else { echo "Company"; } ?></a>
 						<ul>
 							<li class="company_nav"><a href="application.php?lang=<?php echo $language; ?>#company_section_content_profil_wrapper"><?php if ( $language == "el" ) { echo $application_items["comp_profil_title"]; } else { echo $application_items["comp_profil_title_en"]; } ?></a></li>

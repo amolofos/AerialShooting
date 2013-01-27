@@ -205,8 +205,8 @@ print '
 	// applications section
 	include 'application/files/applications_section.php';
 	
-	// portofolio section
-	//include 'application/files/portofolio_section.php';
+	// portfolio section
+	//include 'application/files/portfolio_section.php';
 	
 	// company section
 	//include 'application/files/company_section.php';

@@ -16,7 +16,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 	header( 'Last-Modified: ' . date("F d Y H:i:s e", getlastmod()) );
 	
 	include "application_items.php";
-	include "portofolio_items.php";
+	include "portfolio_items.php";
 	include "partners_items.php";
 	
 	if( isset($_GET[ 'lang' ]) ) {

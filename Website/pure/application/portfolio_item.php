@@ -14,27 +14,34 @@ Distributed under the Creative Commons Attribution 3.0 License
 	header( 'Last-Modified: ' . date("F d Y H:i:s e", getlastmod()) );
 	
 	include "portfolio_items.php";
-	
+	include "application_items.php";
+
+	if( isset($_GET[ 'lang' ]) ) {
+		$language = $_GET[ 'lang' ];
+	} else {
+		$language = "el";
+	}
+
 	$type = $_GET[ 'type' ];
 	$id   = $_GET[ 'id' ];
 	
 ?>
 <!DOCTYPE HTML>
-<html xml:lang="el" lang="el" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:addthis="http://www.addthis.com/help/api-spec" itemscope itemtype="http://schema.org/WebPage">
+<html xml:lang="<?php echo $language; ?>" lang="<?php echo $language; ?>" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:addthis="http://www.addthis.com/help/api-spec" itemscope itemtype="http://schema.org/WebPage">
 	<head>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
-		<link rel="stylesheet" type="text/css" href="../css/portfolio_item.css"/>
+		<link rel="stylesheet" type="text/css" href="css/portfolio_item.css"/>
 		<!-- <link rel="stylesheet" type="text/css" href="css/portfolio_item.min.css"/> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<title>Unmanned Evolution portfolio | <?php echo $portfolio_items[$id]["title"]?></title>
-		<link rel="icon" type="image/png" href="../img/unmanned-evolution.ico"/>
-		<meta name="description" content="Welcome at Unmanned Evolution's portfolio. You are presented with <?php if($type=="image"){echo "the following photography";} elseif($type=="video"){echo "the following video";}?> : <?php echo $portfolio_items[$id]["title"]?>."/>
-		<meta name="application-name" content="Sample of Unmanned Evolution works."/>
-		<meta name="keywords" content="portfolio, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, aerial cinematography, aerial photography, unmanned aerial vehicles, uav, multicopter, helicopter, hexacopter, production, movie, movie production, video clip, marketing, weddings, search and rescue, aerial observation, greece, <?php echo $portfolio_items[$id]["tags"]?>"/>
+		<title><?php if ($language == "el") { echo $application_items["itm_head_title"]; } else { echo $application_items["itm_head_title_en"]; } ?> | <?php echo $portfolio_items[$id][$language]["title"]; ?></title>
+		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
+		<meta name="description" content="<?php if ( $language == "el" ) { echo "Καλώς ήλθατε στo χαρτοφυλάκιο -portfolio- της Unmanned Evolution. Σας παρουσιάζουμε "; } else { echo "Welcome at Unmanned Evolution\'s portfolio. You are presented with the following "; } ?><?php if($type=="image"){echo "την ακόλουθη φωτογραφία";} elseif($type=="video"){echo "το ακόλουθο video";}?> : <?php echo $portfolio_items[$id][$language]["title"]?>."/>
+		<meta name="application-name" content="<?php if ($language == "el") { echo $application_items["itm_application-name"]; } else { echo $application_items["itm_application-name_en"]; } ?>"/>
+		<meta name="keywords" content="<?php if ( $language == "el" ) { echo $application_items[$id]["itm_keywords"]; } else { echo $application_items[$id]["itm_keywords_en"]; } ?> <?php echo $portfolio_items[$id][$language]["tags"]?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
-		<link rel="canonical" href="http://www.unmanned-evolution.com/application/en/portfolio_item.php?type=<?php echo $type?>&id=<?php echo $id?>" />
+		<link rel="canonical" href="http://www.unmanned-evolution.com/application/portfolio_item.php?lang=<?php echo $language; ?>&type=<?php echo $type?>&id=<?php echo $id?>" />
 		
 		<meta name="robots" content="index, follow" />
 		<meta name="googlebot" content="noodp">
@@ -49,10 +56,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="geo.position" content="37.975496;23.734868" />
 		<meta name="ICBM" content="37.975496, 23.734868" />
 		<!-- open graph meta tags -->
-		<meta property='og:locale' content="en_GB"/>
-		<meta property='og:title' content="<?php echo $portfolio_items[$id]["title"]?>"/>
-		<meta property='og:description' content="<?php echo $portfolio_items[$id]["caption"]?>"/>
-		<meta property='og:url' content="http://www.unmanned-evolution.com/application/en/portfolio_slideshow.php?type=<?php echo $type?>&id=<?php echo $id?>"/>
+		<meta property='og:locale' content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>"/>
+		<meta property='og:locale:alternate' content="<?php if ($language == "el") { echo "en_US"; } else { echo "el_GR"; }?>"/>
+		<meta property='og:title' content="<?php echo $portfolio_items[$id][$language]["title"]?>"/>
+		<meta property='og:description' content="<?php echo $portfolio_items[$id][$language]["caption"]?>"/>
+		<meta property='og:url' content="http://www.unmanned-evolution.com/application/portfolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $id?>"/>
 		<?php 
 			if ( isset( $portfolio_items[$id]["small"] ) ) {
 				$html = "";
@@ -67,12 +75,12 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta property='og:type' content="article"/>
 		<meta property="og:site_name" content="Unmanned Evolution portfolio" />
 		<meta property="article:author"          content="Unmanned Evolution">
-		<meta property="article:section"         content="<?php echo $portfolio_items[$id]["category"]?>">
-		<meta property="article:tag"             content="<?php echo $portfolio_items[$id]["tags"]?>">
+		<meta property="article:section"         content="<?php echo $portfolio_items[$id][$language]["category"]?>">
+		<meta property="article:tag"             content="<?php echo $portfolio_items[$id][$language]["tags"]?>">
 		<!--  Google-compatible meta tags -->
-		<meta itemprop="name" content="<?php echo $portfolio_items[$id]["title"]?>" />
-		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/en/portfolio_slideshow.php?type=<?php echo $type?>&id=<?php echo $id?>"/>
-		<meta itemprop="description" content="<?php echo $portfolio_items[$id]["caption"]?>"/>
+		<meta itemprop="name" content="<?php echo $portfolio_items[$id][$language]["title"]?>" />
+		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portfolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $id?>"/>
+		<meta itemprop="description" content="<?php echo $portfolio_items[$id][$language]["caption"]?>"/>
 		<?php 
 			if ( isset( $portfolio_items[$id]["small"] ) ) {
 				$html = "";
@@ -87,8 +95,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 				echo $html;
 			}
 		?>
-		<meta itemprop="inLanguage" content="en_GB" />
-		<meta itemprop="keywords" content="portfolio, official webpage, unmanned-evolution, unmanned.evolution, unmanned, evolution, aerial cinematography, aerial photography, unmanned aerial vehicles, uav, multicopter, helicopter, hexacopter, production, movie, movie production, video clip, marketing, weddings, search and rescue, aerial observation, greece, <?php echo $portfolio_items[$id]["tags"]?>" />
+		<meta itemprop="inLanguage" content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>" />
+		<meta itemprop="keywords" content="<?php if ( $language == "el" ) { echo $application_items[$id]["itm_itemprop_keywords"]; } else { echo $application_items[$id]["itm_itemprop_keywords_en"]; } ?> <?php echo $portfolio_items[$id][$language]["tags"]?>"/>
 		<!-- Enabling HTML5 tags for older IE browsers -->
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>		
@@ -104,11 +112,11 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- <script src="scripts/jquery.lazyload.min.js"></script> -->
 		<!-- <script src="scripts/jquery.viewport.mini.js"></script> -->
 		<!-- <script src="scripts/jquery.masonry.min.js"></script> -->
-		<script src="../scripts/combined.min.js"></script>
-		<script src="../scripts/jquery.viewport.mini.js"></script>
-		<script src="../scripts/jquery.masonry.min.js"></script>
+		<script src="scripts/combined.min.js"></script>
+		<script src="scripts/jquery.viewport.mini.js"></script>
+		<script src="scripts/jquery.masonry.min.js"></script>
 
-		<script src="../scripts/portfolio_item.js"></script>
+		<script src="scripts/portfolio_item.js"></script>
 		<!-- <script src="scripts/portfolio_item.min.js"></script> -->
 		 <!-- Google analytics -->
 		<script type="text/javascript">
@@ -128,13 +136,13 @@ Distributed under the Creative Commons Attribution 3.0 License
 		
 		<script>
 			var addthis_share = {
-				"url": "http://www.unmanned-evolution.com/application/en/portfolio_slideshow.php?type=<?php echo $type?>&id=<?php echo $portfolio_items[$id]["id"]?>",
-				"title": "<?php echo $portfolio_items[$id]["title"]?>",
-				"description": "<?php echo $portfolio_items[$id]["caption"]?>"
+				"url": "http://www.unmanned-evolution.com/application/portfolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $portfolio_items[$id]["id"]?>",
+				"title": "<?php echo $portfolio_items[$id][$language]["title"]?>",
+				"description": "<?php echo $portfolio_items[$id][$language]["caption"]?>"
 			};
 			var addthis_config = {
 				"ui_click": true,
-				"ui_language": 'el',
+				"ui_language": '<?php echo $language; ?>',
 				"data_ga_property": 'UA-35818718-1',
 				"data_ga_social": true,
 				"data_track_addressbar": true
@@ -169,18 +177,18 @@ Distributed under the Creative Commons Attribution 3.0 License
 				<?php
 					if ( $type == "image" ) {
 						$html = "";
-						$html = '<img id="' . $portfolio_items[$id]["id"] . '" class="lazy portfolio_item_media"  data-original="../media/pictures/' . $portfolio_items[$id]["original"] . '.' . $portfolio_items[$id]["type"] . '" src="../media/pictures/' . $portfolio_items[$id]["small"] . '.' . $portfolio_items[$id]["type"] . '" alt="' . $portfolio_items[$id]["alt"] . '" title="' . $portfolio_items[$id]["title"] . '" itemprop="image"/>';
+						$html = '<img id="' . $portfolio_items[$id]["id"] . '" class="lazy portfolio_item_media"  data-original="media/pictures/' . $portfolio_items[$id]["original"] . '.' . $portfolio_items[$id]["type"] . '" src="media/pictures/' . $portfolio_items[$id]["small"] . '.' . $portfolio_items[$id]["type"] . '" alt="' . $portfolio_items[$id][$language]["alt"] . '" title="' . $portfolio_items[$id][$language]["title"] . '" itemprop="image"/>';
 						echo $html;
 					} elseif ( $type == "video" ) {
 						$html = "";
-						$html = '<div id="' . $portfolio_items[$id]["id"] . '_wrapper" class="portfolio_item_media" title="' . $portfolio_items[$id]["title"] . '">';
+						$html = '<div id="' . $portfolio_items[$id]["id"] . '_wrapper" class="portfolio_item_media" title="' . $portfolio_items[$id][$language]["title"] . '">';
 						$html .= '<div id="' . $portfolio_items[$id]["id"] . '" class="player" itemprop="video"></div>';
 						$html .= '</div>';
 						echo $html;
 					}
 				?>
 				<div id="<?php echo $portfolio_items[$id]["id"]?>_caption" class="portfolio_item_caption">
-					<p itemprop="description"><?php echo $portfolio_items[$id]["caption"]?></p>
+					<p itemprop="description"><?php echo $portfolio_items[$id][$language]["caption"]?></p>
 				</div>
 			</article>
 			<footer id="<?php echo $portfolio_items[$id]["id"]?>_footer">

@@ -7,7 +7,7 @@
 /*
 	Setting up the page
 */
-var portofolio_trailers = [];
+var portfolio_trailers = [];
 var tag = document.createElement('script');
 tag.src = "//www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -16,7 +16,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 $(document).ready(function(){
 	$("img.lazy").lazyload({ threshold : 200 });
 /////////////////////////////////////////////////////////////////////////	
-	// Code from web that handles portofolio
+	// Code from web that handles portfolio
 ////////////////////////////////////////////////////////////////////////
 	
 	var items = $('#stage li'),
@@ -97,7 +97,7 @@ $(document).ready(function(){
 	}
 	
 /////////////////////////////////////////////////////////////////////////	
-	// end of Code from web that handles portofolio
+	// end of Code from web that handles portfolio
 ////////////////////////////////////////////////////////////////////////
 /*
 										<a class="addthis_button_facebook"></a>
@@ -191,12 +191,12 @@ function validateEmailAddress( item ) {
 
 
 function onYouTubeIframeAPIReady() {
-	createPortofolioTrailers();
+	createportfolioTrailers();
 }
 
-function createPortofolioTrailers ( ) {
+function createportfolioTrailers ( ) {
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_1', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_1', {
 		height: '250',
 		width: '400',
 		videoId: '_AeVgCd9U0E',
@@ -209,11 +209,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_2', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_2', {
 		height: '250',
 		width: '400',
 		videoId: 'rT1BICpC1Gg',
@@ -226,11 +226,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_3', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_3', {
 		height: '250',
 		width: '400',
 		videoId: 'AxmMFyiJ8uA',
@@ -243,11 +243,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_4', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_4', {
 		height: '250',
 		width: '400',
 		videoId: 'AD5CfwNcHHM',
@@ -260,11 +260,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_5', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_5', {
 		height: '250',
 		width: '400',
 		videoId: '-TIOiY6qpT8',
@@ -277,11 +277,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_6', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_6', {
 		height: '250',
 		width: '400',
 		videoId: 'sCE-Ci_ZkKw',
@@ -294,11 +294,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_7', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_7', {
 		height: '250',
 		width: '400',
 		videoId: 'jvBi8bLDCFk',
@@ -311,11 +311,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_8', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_8', {
 		height: '250',
 		width: '400',
 		videoId: 'L86CoQdCNaA',
@@ -328,11 +328,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_9', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_9', {
 		height: '250',
 		width: '400',
 		videoId: 'yMjJarOY-B8',
@@ -345,11 +345,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_10', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_10', {
 		height: '250',
 		width: '400',
 		videoId: '6SB9jgI6qks',
@@ -362,11 +362,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_11', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_11', {
 		height: '250',
 		width: '400',
 		videoId: 'zkF5QFWbBuU',
@@ -379,19 +379,19 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
 	
 	
 	if ( $(window).width() >= 740 ) {
-		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
-			setVideoDimensions( portofolio_trailers[i], "portofolio", 20 );
+		for ( var i = 0; i < portfolio_trailers.length; i++ ) {
+			setVideoDimensions( portfolio_trailers[i], "portfolio", 20 );
 		}
 	} else {
-		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
-			setVideoDimensions( portofolio_trailers[i], "portofolio", 60 );
+		for ( var i = 0; i < portfolio_trailers.length; i++ ) {
+			setVideoDimensions( portfolio_trailers[i], "portfolio", 60 );
 		}
 	}
 }
@@ -400,7 +400,7 @@ function onPlayerReady ( event ) {
 	event.target.setPlaybackQuality("large");
 }
 
-function onPortofolioPlayerStateChanged ( event ) {
+function onportfolioPlayerStateChanged ( event ) {
 	
 	var wrapper = $(event.target.getIframe()).parent("figure");
 	var wrapper_div = $(event.target.getIframe()).parent("figure").parent("li");
@@ -442,7 +442,7 @@ function setVideoDimensions( target, location_type, width_perc ) {
 		case "section":
 			wrapper_width = $(target.getIframe()).parent("figure").width();
 			break;
-		case "portofolio":
+		case "portfolio":
 			wrapper_width = $(window).width();
 			break;		
 	}

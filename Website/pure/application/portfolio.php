@@ -16,8 +16,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 	header( 'Last-Modified: ' . date("F d Y H:i:s e", getlastmod()) );
 	
 	include "application_items.php";
-	include "portofolio_items.php";
-	include "portofolio_nav.php";
+	include "portfolio_items.php";
+	include "portfolio_nav.php";
 	
 	if( isset($_GET[ 'lang' ]) ) {
 		$language = $_GET[ 'lang' ];
@@ -25,8 +25,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 		$language = "el";
 	}
 	
-	$portofolio_nav_used = array (
-		"portofolio_item",
+	$portfolio_nav_used = array (
+		"portfolio_item",
 		"photography",
 		"video",
 		"aerial_cinematography",
@@ -50,7 +50,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		"equipment"
 	);
 	
-	$portofolio_items_used = array (
+	$portfolio_items_used = array (
 		/* ***************** picture ***************** */
 		"Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini",
 		"Married-couple-in-front-of-a-greek-church-low-height",
@@ -109,8 +109,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/mobile.min.css" /> -->
-		<link rel="stylesheet" type="text/css" href="css/portofolio.css" />
-		<!-- <link rel="stylesheet" type="text/css" href="css/portofolio.min.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/portfolio.min.css" /> -->
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<title lang="<?php echo $language ?>"><?php if ($language == "el") { echo $application_items["prt_head_title"]; } else { echo $application_items["prt_head_title_en"]; }?></title>
@@ -120,7 +120,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="keywords" content="<?php if ($language == "el") { echo $application_items["prt_keywords"]; } else { echo $application_items["prt_keywords_en"]; }?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
-		<link rel="canonical" href="www.unmanned-evolution.com/application/portofolio.php?lang=<?php echo $language; ?>" />
+		<link rel="canonical" href="www.unmanned-evolution.com/application/portfolio.php?lang=<?php echo $language; ?>" />
 		
 		<meta name="robots" content="index, follow" />
 		<meta name="googlebot" content="noodp">
@@ -129,7 +129,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="rating" content="general">
 		
 		<meta name="distribution" content="global" />
-		<meta name="DC.title" content="Unmanned Evolution Portofolio" />
+		<meta name="DC.title" content="Unmanned Evolution portfolio" />
 		<meta name="geo.region" content="GR-A1" />
 		<meta name="geo.placename" content="Athens" />
 		<meta name="geo.position" content="37.975496;23.734868" />
@@ -137,16 +137,16 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- open graph meta tags -->
 		<meta property='og:locale' content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>"/>
 		<meta property='og:locale:alternate' content="<?php if ($language == "el") { echo "en_US"; } else { echo "el_GR"; }?>"/>
-		<meta property="og:title" content="Unmanned Evolution portofolio | Air / Video Experts"/>
+		<meta property="og:title" content="Unmanned Evolution portfolio | Air / Video Experts"/>
 		<meta property="og:description" content="<?php if ($language == "el") { echo $application_items["prt_graph_desription"]; } else { echo $application_items["prt_graph_desription_en"]; }?>"/>
-		<meta property="og:url" content="http://www.unmanned-evolution.com/application/portofolio.php?lang=<?php echo $language; ?>"/>
+		<meta property="og:url" content="http://www.unmanned-evolution.com/application/portfolio.php?lang=<?php echo $language; ?>"/>
 		<meta property="og:type" content="image"/>
-		<meta property="og:site_name" content="Unmanned Evolution portofolio" />
+		<meta property="og:site_name" content="Unmanned Evolution portfolio" />
 		<meta property="og:image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
 		<meta property="og:image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
 		<!--  Google-compatible meta tags -->
 		<meta itemprop="name" content="Unmanned Evolution | Air / Video Experts" />
-		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio.php?lang=<?php echo $language; ?>"/>
+		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portfolio.php?lang=<?php echo $language; ?>"/>
 		<meta itemprop="description" content="<?php if ($language == "el") { echo $application_items["prt_itemprop_desription"]; } else { echo $application_items["prt_itemprop_desription_en"]; }?>"/>
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
@@ -172,8 +172,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<script src="scripts/jquery.viewport.mini.js"></script>
 		<script src="scripts/jquery.masonry.min.js"></script>
 		<!-- Custom scripts -->
-		<script src="scripts/portofolio.js"></script>
-		<!-- <script src="scripts/portofolio.min.js"></script> -->
+		<script src="scripts/portfolio.js"></script>
+		<!-- <script src="scripts/portfolio.min.js"></script> -->
 
 		 <!-- Google analytics -->
 		<script type="text/javascript">
@@ -194,9 +194,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5089d9595d29b9df&domready=1&async=1"></script>
 		<script>
 			var addthis_share = {
-				"url": "http://www.unmanned-evolution.com/application/portofolio.php?lang=<?php echo $language; ?>",
-				"title": "Unmanned Evolution portofolio",
-				"description": "Unmanned Evolution portofolio"
+				"url": "http://www.unmanned-evolution.com/application/portfolio.php?lang=<?php echo $language; ?>",
+				"title": "Unmanned Evolution portfolio",
+				"description": "Unmanned Evolution portfolio"
 			};
 			var addthis_config = {
 				"ui_click": true,
@@ -215,16 +215,16 @@ Distributed under the Creative Commons Attribution 3.0 License
 	// top level header
 	include 'files/top_level_header.php';
 ?>
-		<div id="portofolio_page_wrapper">		
+		<div id="portfolio_page_wrapper">		
 		
-			<!-- portofolio section -->
-			<div id="portofolio_section_wrapper">
-				<section id="portofolio_section">
+			<!-- portfolio section -->
+			<div id="portfolio_section_wrapper">
+				<section id="portfolio_section">
 					<nav id="filter">
 						<ul>
-							<?php	foreach ( $portofolio_nav_used as $nav_id ) {
+							<?php	foreach ( $portfolio_nav_used as $nav_id ) {
 									$html = '';
-									$html .= '<li id="' . $nav_id . '">' . $portofolio_nav[$language][$nav_id] . '</li>';
+									$html .= '<li id="' . $nav_id . '">' . $portfolio_nav[$language][$nav_id] . '</li>';
 									echo $html;
 								}
 							?>
@@ -235,9 +235,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 					<section id="container">
 						<div id="stage">
 							<!-- Your portfolio items go here -->
-							<?php	foreach ( $portofolio_items_used as $item_id ) {
+							<?php	foreach ( $portfolio_items_used as $item_id ) {
 									$html = '';
-									$html .= '<div id="' . $portofolio_items[$item_id]["id"] . '_iFrame_wrapper" class="portofolio_item ' . $portofolio_items[$item_id]["nav_class"] . '">';
+									$html .= '<div id="' . $portfolio_items[$item_id]["id"] . '_iFrame_wrapper" class="portfolio_item ' . $portfolio_items[$item_id]["nav_class"] . '">';
 									$html .= '</div>';
 									echo $html;
 								}
@@ -248,8 +248,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 				</section>
 			</div>
 
-			<div id="portofolio_slideshow_section_wrapper">
-				<section id="portofolio_slideshow_section">
+			<div id="portfolio_slideshow_section_wrapper">
+				<section id="portfolio_slideshow_section">
 				</section>
 			</div>
 		</div>

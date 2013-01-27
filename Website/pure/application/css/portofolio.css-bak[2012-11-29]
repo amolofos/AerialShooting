@@ -20,7 +20,7 @@ Large screens
 */
 
 
-#portofolio_page_wrapper {
+#portfolio_page_wrapper {
 	position: relative;
 	top: 15%;
 	left: 0%;
@@ -32,9 +32,9 @@ Large screens
 }
 
 /*
-	Portofolio section
+	portfolio section
 */
-#portofolio_section_wrapper {
+#portfolio_section_wrapper {
 	position: absolute;
 	top: 0%;
 	left: 0%;
@@ -42,10 +42,10 @@ Large screens
 	padding-bottom: 10%;
 }
 
-#portofolio_section_wrapper:target #filter a:target {
+#portfolio_section_wrapper:target #filter a:target {
 }
 
-#portofolio_section {
+#portfolio_section {
 	position: relative;
 	width: 99.5%;
 	left: 0%;
@@ -57,7 +57,7 @@ Large screens
 	margin-bottom: 10%;
 }
 
-#portofolio_section nav#filter {
+#portfolio_section nav#filter {
 	height: auto;
 	left: 0%;
 	margin: 0%;
@@ -76,20 +76,20 @@ Large screens
 	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=1);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=1)";
 }
-#portofolio_section nav#filter:hover {
+#portfolio_section nav#filter:hover {
 	background: transparent;
 	background-image: url(../img/carbon_tile_medium.png);
 	background-repeat: repeat;
 	border-top: 1px solid rgb(252, 189,31);
 	border-bottom: 1px solid rgb(252, 189,31);
 }
-#portofolio_section nav#filter ul {
+#portfolio_section nav#filter ul {
 	position: relative;
 	width: 95%;
 	margin: 0%;
 }
 
-#portofolio_section nav#filter ul li {
+#portfolio_section nav#filter ul li {
 	display: inline-block!important;
 	padding-left: 0.5%;
 	padding-right: 0.5%;
@@ -100,22 +100,22 @@ Large screens
 	text-shadow: 0px -1px 0px #000000;
 	text-decoration: none;
 }
-#portofolio_section nav#filter ul li:hover {
+#portfolio_section nav#filter ul li:hover {
 	color: rgb(252,180,31);
 	cursor: pointer;
 }
-#portofolio_section nav#filter ul li.selected {
+#portfolio_section nav#filter ul li.selected {
 	color: 1px solid rgb(252,180,31);
 }
 
 @media all and (max-width : 739px), all and (min-device-width : 320px) and (max-device-width : 480px) {
-	#portofolio_section nav#filter {
+	#portfolio_section nav#filter {
 		display: none;
 	}
 }
 
 @media all and (min-width : 740px) and (min-device-width : 740px), all and (max-device-width : 800px) and (min-width : 740px) and (orientation : landscape) {
-	#portofolio_section nav#filter {
+	#portfolio_section nav#filter {
 		display: inline;
 		
 	}
@@ -141,7 +141,7 @@ Large screens
 	padding: 0%;
 	margin: 0%;
 }
-.portofolio_item {
+.portfolio_item {
 	display: block;
 	position: relative;
 	float: left;
@@ -153,13 +153,13 @@ Large screens
     border-radius: 20px 20px 20px 20px;
 	border: 2px solid #000;
 }
-.portofolio_item.visible {
+.portfolio_item.visible {
 	display: block;
 }
-.portofolio_item.invisible {
+.portfolio_item.invisible {
 	display: none;
 }
-.portofolio_item:hover {
+.portfolio_item:hover {
 	background-color: rgba(200,200,200,0.8);
 	border: 2px solid rbg(252,180,31);
 }
@@ -172,7 +172,7 @@ Large screens
 
 }
 
-.portofolio_item_figure {
+.portfolio_item_figure {
 	display: block;
 	position: relative;
 	width: 98%;
@@ -181,7 +181,7 @@ Large screens
 	margin: 0%;
 }
 
-.portofolio_item_figure header {
+.portfolio_item_figure header {
 	display: none;
 	position: relative;
 	width: 100%;
@@ -189,20 +189,20 @@ Large screens
 	margin: 0%;
 	border-bottom: 2px solid rgb(252,180,31);
 }
-.portofolio_item_share_social {
+.portfolio_item_share_social {
 	display: inline-block;
 	position: relative;
 	width: 90%;
 	padding: 0%;
 	margin: 0%;
 }
-.portofolio_item_share_social a {
+.portfolio_item_share_social a {
 	display: inline-block;
 	position: relative;
 	padding: 0%;
 	margin: 0%;
 }
-.portofolio_item_full {
+.portfolio_item_full {
 	display: inline-block;
 	position: relative;
 	float: right;
@@ -212,18 +212,18 @@ Large screens
 	padding: 1%;
 	margin: 0%;
 }
-.portofolio_item_full:hover {
+.portfolio_item_full:hover {
 	cursor: pointer;
 }
 
-.portofolio_item_figure article {
+.portfolio_item_figure article {
 	position: relative;
 	width: 100%;
 	height: auto;
 	padding: 1%;
 	margin: 0%;
 }
-.portofolio_item_figure article img.portofolio_item_media {
+.portfolio_item_figure article img.portfolio_item_media {
 	position: relative;
 	width: 100%;
 	height: auto;
@@ -231,14 +231,14 @@ Large screens
 	margin: 0%;
 }
 
-.portofolio_item_figure article div.portofolio_item_media {
+.portfolio_item_figure article div.portfolio_item_media {
 	position: relative;
 	width: 100%;
 	height: auto;
 	padding: 0%;
 	margin: 0%;
 }
-.portofolio_item_figure article div.portofolio_item_media iframe {
+.portfolio_item_figure article div.portfolio_item_media iframe {
 	position: relative;
 	width: 100%;
 	height: auto;
@@ -246,7 +246,7 @@ Large screens
 	margin: 0%;
 }
 
-.portofolio_item_caption {
+.portfolio_item_caption {
 	display: none;
 	position: relative;
 	width: 100%;
@@ -255,14 +255,14 @@ Large screens
 	margin: 0%;
 }
 
-.portofolio_item_caption p {
+.portfolio_item_caption p {
 	display: block;
 	position: relative;
 	padding: 1%;
 	margin: 0%;
 }
 
-.portofolio_item_figure footer {
+.portfolio_item_figure footer {
 	display: none;
 	position: relative;
 	width: 98%;
@@ -271,21 +271,21 @@ Large screens
 	border-top: 2px solid rgb(252,180,31);
 }
 
-.portofolio_item_share_counters {
+.portfolio_item_share_counters {
 	display: block;
 	position: relative;
 	width: 100%;
 	padding: 0%;
 	margin: 0%;
 }
-.portofolio_item_share_counters a {
+.portfolio_item_share_counters a {
 	display: inline-block;
 	position: relative;
 	padding: 0%;
 	margin: 0%;
 }
 
-#portofolio_slideshow_wrapper {
+#portfolio_slideshow_wrapper {
 	display: none;
 	position: fixed;
 	width: 100%;
@@ -298,7 +298,7 @@ Large screens
 	z-index: 1000;
 }
 
-#portofolio_slideshow {
+#portfolio_slideshow {
 	display:block;
 	position: relative;
 	width: 100%;
@@ -310,7 +310,7 @@ Large screens
 	overflow: auto;
 }
 
-#portofolio_slideshow_header {
+#portfolio_slideshow_header {
 	display: inline-block;
 	position: fixed;
 	width: 80%;
@@ -322,32 +322,32 @@ Large screens
 	z-index: 1100;
 }
 
-#portofolio_slideshow_header p {
+#portfolio_slideshow_header p {
 	display: inline-block;
 	position: relative;
 	padding: 0%;
 	margin: 0%;
 }
-#portofolio_slideshow_header p a {
+#portfolio_slideshow_header p a {
 	padding: 0%;
 	margin: 0%;
 }
-#portofolio_slideshow_header figure {
+#portfolio_slideshow_header figure {
 	display: inline-block;
 	padding: 0%;
 	margin: 0%;
 }
-#portofolio_slideshow_header figure a {
+#portfolio_slideshow_header figure a {
 	padding: 0%;
 	margin: 0%;
 }
 
-#portofolio_slideshow_header figure a img {
+#portfolio_slideshow_header figure a img {
 	padding: 0%;
 	margin: 0%;
 }
 
-#portofolio_slideshow_close {
+#portfolio_slideshow_close {
 	display: inline-block;
 	position: fixed;
 	width: 20%;
@@ -358,10 +358,10 @@ Large screens
 	background: url(../img/carbon_tile_medium.png) repeat transparent;
 	z-index: 1100;
 }
-#portofolio_slideshow_close:hover {
+#portfolio_slideshow_close:hover {
 	cursor: pointer;
 }
-#portofolio_slideshow_close img {
+#portfolio_slideshow_close img {
 	position: relative;
 	height: 50px;
 	width: 50px;
@@ -372,19 +372,19 @@ Large screens
 	left: 20%;
 }
 
-#portofolio_slideshow_social {
+#portfolio_slideshow_social {
 	left: 1%;
 	padding: 1%;
 	margin: 0%;
 	background-color: rgba(200,200,200,0.3);
 	z-index: 1100;
 }
-#portofolio_slideshow_social a {
+#portfolio_slideshow_social a {
 	padding: 0%;
 	margin: 0%;
 }
 
-#portofolio_slideshow_media_wrapper {
+#portfolio_slideshow_media_wrapper {
 	position: relative;
 	top: 15%;
 	width: 79%;
@@ -392,13 +392,13 @@ Large screens
 	padding: 0%;
 	margin: 0%;
 }
-#portofolio_slideshow_media_figure {
+#portfolio_slideshow_media_figure {
 	width: 100%;
 	height: 99%;
 	padding: 0%;
 	margin: 0%;
 }
-#portofolio_slideshow_media_figure img {
+#portfolio_slideshow_media_figure img {
 	width: 100%;
 	height: auto;
 	padding: 0%;
@@ -407,18 +407,18 @@ Large screens
     -webkit-border-radius: 20px 20px 20px 20px;
     border-radius: 20px 20px 20px 20px;
 }
-#portofolio_slideshow_media_figure iframe {
+#portfolio_slideshow_media_figure iframe {
 	width: 100%;
 	height: 99%;
 	padding: 0%;
 	margin: 0%;
 }
-#portofolio_slideshow_thumbs_wrapper {
+#portfolio_slideshow_thumbs_wrapper {
 	display: none;
 	padding: 0%;
 	margin: 0%;
 }
-#portofolio_slideshow_thumbs_wrapper img {
+#portfolio_slideshow_thumbs_wrapper img {
 	padding: 0%;
 	margin: 0%;
 }
@@ -432,11 +432,11 @@ Large screens
 		width: 100%;
 		left: 0%;
 	}
-	.portofolio_item {
+	.portfolio_item {
 		width: 100%;
 		margin: 0%;
 	}
-	#portofolio_slideshow_header figure a img {
+	#portfolio_slideshow_header figure a img {
 		width: 50px;
 		height: 50px;
 	}
@@ -447,32 +447,32 @@ Large screens
 		width: 100%;
 		left: 0%;
 	}
-	.portofolio_item {
+	.portfolio_item {
 		width: 42%;
 	
 	}
-	#portofolio_slideshow_close {
+	#portfolio_slideshow_close {
 		left: 0%;
 	}
-	#portofolio_slideshow_header {
+	#portfolio_slideshow_header {
 		left: 16%;
 	}
-	#portofolio_slideshow_header p {
+	#portfolio_slideshow_header p {
 		top: 0%;
 	}
-	#portofolio_slideshow_header figure a img {
+	#portfolio_slideshow_header figure a img {
 		width: 100px;
 		height: 100px;
 	}
-	#portofolio_slideshow_header figure a img {
+	#portfolio_slideshow_header figure a img {
 		width: 60px;
 		height: 60px;
 	}
-	#portofolio_slideshow_social {
+	#portfolio_slideshow_social {
 		top: 15%;
 		width: 14%;
 	}
-	#portofolio_slideshow_media_wrapper {
+	#portfolio_slideshow_media_wrapper {
 		left: 16%;
 	}
 }
@@ -482,27 +482,27 @@ Large screens
 		width: 95%;
 		left: 5%;
 	}
-	.portofolio_item {
+	.portfolio_item {
 		width: 25%;
 	}
-	#portofolio_slideshow_close {
+	#portfolio_slideshow_close {
 		left: -1%;
 	}
-	#portofolio_slideshow_header {
+	#portfolio_slideshow_header {
 		left: 10%;
 	}
-	#portofolio_slideshow_header p {
+	#portfolio_slideshow_header p {
 		top: -30%;
 	}
-	#portofolio_slideshow_header figure a img {
+	#portfolio_slideshow_header figure a img {
 		width: 100px;
 		height: 100px;
 	}
-	#portofolio_slideshow_social {
+	#portfolio_slideshow_social {
 		top: 15%;
 		width: 8%;
 	}
-	#portofolio_slideshow_media_wrapper {
+	#portfolio_slideshow_media_wrapper {
 		left: 10%;
 	}
 }
@@ -512,5 +512,5 @@ Large screens
 }
 
 /*
-	end of Portofolio section
+	end of portfolio section
 */

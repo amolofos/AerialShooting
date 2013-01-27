@@ -7,7 +7,7 @@
 /*
 	Setting up the page
 */
-var portofolio_trailers = [];
+var portfolio_trailers = [];
 var tag = document.createElement('script');
 tag.src = "//www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -30,8 +30,8 @@ $(document).ready(function(){
 												},
 												500,
 												function ( ) {
-													for ( var i = 0; i < portofolio_trailers.length; i++ ) {
-														portofolio_trailers[i].stopVideo();
+													for ( var i = 0; i < portfolio_trailers.length; i++ ) {
+														portfolio_trailers[i].stopVideo();
 													}
 												}
 											);
@@ -160,12 +160,12 @@ function validateEmailAddress( item ) {
 }
 
 function onYouTubeIframeAPIReady() {
-	createPortofolioTrailers();
+	createportfolioTrailers();
 }
 
-function createPortofolioTrailers ( ) {
+function createportfolioTrailers ( ) {
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_1', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_1', {
 		videoId: '_AeVgCd9U0E',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -176,11 +176,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_2', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_2', {
 		videoId: 'rT1BICpC1Gg',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -191,11 +191,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_3', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_3', {
 		videoId: 'AxmMFyiJ8uA',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -206,11 +206,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_4', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_4', {
 		videoId: 'AD5CfwNcHHM',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -221,11 +221,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_5', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_5', {
 		videoId: '-TIOiY6qpT8',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -236,11 +236,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_6', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_6', {
 		videoId: 'sCE-Ci_ZkKw',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -251,11 +251,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_7', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_7', {
 		videoId: 'jvBi8bLDCFk',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -266,11 +266,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_8', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_8', {
 		videoId: 'L86CoQdCNaA',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -281,11 +281,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_9', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_9', {
 		videoId: 'yMjJarOY-B8',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -296,11 +296,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_10', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_10', {
 		videoId: '6SB9jgI6qks',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -311,11 +311,11 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
-	portofolio_trailers[portofolio_trailers.length] = new YT.Player('portofolio_video_11', {
+	portfolio_trailers[portfolio_trailers.length] = new YT.Player('portfolio_video_11', {
 		videoId: 'zkF5QFWbBuU',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -326,17 +326,17 @@ function createPortofolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onPortofolioPlayerStateChanged
+			'onStateChange': onportfolioPlayerStateChanged
 		 }
 	});
 	
 	if ( $(window).width() >= 740 ) {
-		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
-			setVideoDimensions( portofolio_trailers[i], "portofolio", 25 );
+		for ( var i = 0; i < portfolio_trailers.length; i++ ) {
+			setVideoDimensions( portfolio_trailers[i], "portfolio", 25 );
 		}
 	} else {
-		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
-			setVideoDimensions( portofolio_trailers[i], "portofolio", 60 );
+		for ( var i = 0; i < portfolio_trailers.length; i++ ) {
+			setVideoDimensions( portfolio_trailers[i], "portfolio", 60 );
 		}
 	}
 }
@@ -345,7 +345,7 @@ function onPlayerReady ( event ) {
 	event.target.setPlaybackQuality("large");
 }
 
-function onPortofolioPlayerStateChanged ( event ) {
+function onportfolioPlayerStateChanged ( event ) {
 	
 	var wrapper = $(event.target.getIframe()).parent("figure");
 	var wrapper_li = $(event.target.getIframe()).parent("figure").parent("li");
@@ -353,12 +353,12 @@ function onPortofolioPlayerStateChanged ( event ) {
 	
 	if ( $(window).width() >= 740 ) {
 		if ( event.data == YT.PlayerState.PLAYING ) {
-			setVideoDimensions( event.target, "portofolio", 50 );
+			setVideoDimensions( event.target, "portfolio", 50 );
 			$(wrapper_li).css("width", "auto");
 			$(iframe).css("background-color", "rgba(252,180,31,0.3)");
 			$(iframe).css("z-index", "400");
 		} else if ( event.data == YT.PlayerState.ENDED ) {
-			setVideoDimensions( event.target, "portofolio", 25 );
+			setVideoDimensions( event.target, "portfolio", 25 );
 			$(wrapper_li).css("width", "auto");
 			$(iframe).css("background-color", "rgba(200,200,200,0.3)");
 			$(iframe).css("z-index", "0");
@@ -369,12 +369,12 @@ function onPortofolioPlayerStateChanged ( event ) {
 		} 
 	} else {
 		if ( event.data == YT.PlayerState.PLAYING ) {
-			setVideoDimensions( event.target, "portofolio", 75 );
+			setVideoDimensions( event.target, "portfolio", 75 );
 			$(wrapper_li).css("width", "auto");
 			$(iframe).css("background-color", "rgba(252,180,31,0.3)");
 			$(iframe).css("z-index", "400");
 		} else if ( event.data == YT.PlayerState.ENDED ) {
-			setVideoDimensions( event.target, "portofolio", 60 );
+			setVideoDimensions( event.target, "portfolio", 60 );
 			$(wrapper_li).css("width", "auto");
 			$(iframe).css("background-color", "rgba(200,200,200,0.3)");
 			$(iframe).css("z-index", "0");			
@@ -399,7 +399,7 @@ function setVideoDimensions( target, location_type, width_perc ) {
 		case "section":
 			wrapper_width = $(target.getIframe()).parent("figure").width();
 			break;
-		case "portofolio":
+		case "portfolio":
 			wrapper_width = $(window).width();
 			break;		
 	}

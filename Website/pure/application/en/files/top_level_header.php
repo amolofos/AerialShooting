@@ -62,7 +62,7 @@ $request_uri = $request_uri[ count($request_uri)-1 ];
 							<li class="applications_nav"><a href="application.php#applications_section_content_custom_wrapper">Custum Applications</a></li>
 						</ul>
 					</li>
-					<li id="top_level_header_navigation_list_item_portofolio"  class="portofolio_nav"><a id="top_level_header_nav_portofolio" href="portofolio.php">Portofolio</a></li>
+					<li id="top_level_header_navigation_list_item_portfolio"  class="portfolio_nav"><a id="top_level_header_nav_portfolio" href="portfolio.php">portfolio</a></li>
 					<li class="company_nav"><a href="application.php#company_section_wrapper">Company</a>
 						<ul>
 							<li class="company_nav"><a href="application.php#company_section_content_profil_wrapper">Profil</a></li>

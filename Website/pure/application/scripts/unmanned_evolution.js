@@ -759,7 +759,7 @@ function setVideoDimensions( target, location_type, width_perc ) {
 		case "section":
 			wrapper_width = $(target.getIframe()).parent("figure").width();
 			break;
-		case "portofolio":
+		case "portfolio":
 			wrapper_width = $(window).width();
 			break;		
 	}
