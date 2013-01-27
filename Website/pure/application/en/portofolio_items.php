@@ -6,7 +6,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 */
 ?>
 <?php
-	$portfolio_items = array (
+	$portofolio_items = array (
 		/***************** images ******************/
 		"Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini" => array (
 			"id" 		=> "Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini",

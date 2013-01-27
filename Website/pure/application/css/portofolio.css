@@ -19,7 +19,7 @@ Large screens
 }
 */
 
-#portfolio_page_wrapper {
+#portofolio_page_wrapper {
 	position: relative;
 	top: 15%;
 	left: 0%;
@@ -31,9 +31,9 @@ Large screens
 }
 
 /*
-	portfolio section
+	Portofolio section
 */
-#portfolio_section_wrapper {
+#portofolio_section_wrapper {
 	position: absolute;
 	top: 0%;
 	left: 0%;
@@ -42,10 +42,10 @@ Large screens
 	padding-bottom: 10%;
 }
 
-#portfolio_section_wrapper:target #filter a:target {
+#portofolio_section_wrapper:target #filter a:target {
 }
 
-#portfolio_section {
+#portofolio_section {
 	position: relative;
 	width: 99.5%;
 	left: 0%;
@@ -57,7 +57,7 @@ Large screens
 	margin-bottom: 10%;
 }
 
-#portfolio_section nav#filter {
+#portofolio_section nav#filter {
 	height: auto;
 	left: 0%;
 	margin: 0%;
@@ -76,20 +76,20 @@ Large screens
 	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=1);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=1)";
 }
-#portfolio_section nav#filter:hover {
+#portofolio_section nav#filter:hover {
 	background: transparent;
 	background-image: url(../img/carbon_tile_medium.png);
 	background-repeat: repeat;
 	border-top: 1px solid rgb(252, 189,31);
 	border-bottom: 1px solid rgb(252, 189,31);
 }
-#portfolio_section nav#filter ul {
+#portofolio_section nav#filter ul {
 	position: relative;
 	width: 95%;
 	margin: 0%;
 }
 
-#portfolio_section nav#filter ul li {
+#portofolio_section nav#filter ul li {
 	display: inline-block!important;
 	padding-left: 0.5%;
 	padding-right: 0.5%;
@@ -100,22 +100,22 @@ Large screens
 	text-shadow: 0px -1px 0px #000000;
 	text-decoration: none;
 }
-#portfolio_section nav#filter ul li:hover {
+#portofolio_section nav#filter ul li:hover {
 	color: rgb(252,180,31);
 	cursor: pointer;
 }
-#portfolio_section nav#filter ul li.selected {
+#portofolio_section nav#filter ul li.selected {
 	color: 1px solid rgb(252,180,31);
 }
 
 @media all and (max-width : 739px), all and (min-device-width : 320px) and (max-device-width : 480px) {
-	#portfolio_section nav#filter {
+	#portofolio_section nav#filter {
 		display: none;
 	}
 }
 
 @media all and (min-width : 740px) and (min-device-width : 740px), all and (max-device-width : 800px) and (min-width : 740px) and (orientation : landscape) {
-	#portfolio_section nav#filter {
+	#portofolio_section nav#filter {
 		display: inline;
 		
 	}
@@ -142,7 +142,7 @@ Large screens
 	padding-left: 5%;
 	margin: 0%;
 }
-.portfolio_item {
+.portofolio_item {
 	display: block;
 	position: relative;
 	float: left;
@@ -159,18 +159,18 @@ Large screens
     border-radius: 20px 20px 20px 20px;
 	border: 2px solid #000;
 }
-.portfolio_item.visible {
+.portofolio_item.visible {
 	display: block;
 }
-.portfolio_item.invisible {
+.portofolio_item.invisible {
 	display: none;
 }
-.portfolio_item:hover {
+.portofolio_item:hover {
 	background-color: rgba(200,200,200,0.8);
 	border: 2px solid rbg(252,180,31);
 }
 
-.portfolio_item iframe {
+.portofolio_item iframe {
 	display: block;
 	border: 0px;
 	padding: 0%;
@@ -183,24 +183,24 @@ Large screens
 }
 
 @media all and (max-width : 739px), all and (min-device-width : 320px) and (max-device-width : 480px) {
-	.portfolio_item {
+	.portofolio_item {
 		width: 80%;
 	}
 }
 
 @media all and (min-width : 740px) and (min-device-width : 740px), all and (max-device-width : 800px) and (min-width : 740px) and (orientation : landscape) {
-	.portfolio_item {
+	.portofolio_item {
 		width: 40%;
 	}
 }
 
 @media all and (min-width : 980px) and (min-device-width : 980px), all and (max-device-width : 1024px) and (min-width : 1024px) and (orientation : landscape) {
-	.portfolio_item {
+	.portofolio_item {
 		width: 20%;
 	}
 }
 
-#portfolio_slideshow_section_wrapper {
+#portofolio_slideshow_section_wrapper {
 	display: none;
 	position: fixed;
 	top: 20%;
@@ -236,7 +236,7 @@ Large screens
 
 }
 
-#portfolio_slideshow_section {
+#portofolio_slideshow_section {
 	display: block;
 	position: relative;
 	top: 0%;
@@ -247,8 +247,8 @@ Large screens
 	margin: 0%;
 }
 
-#portfolio_slideshow_iFrame,
-.portfolio_slideshow_section iframe {
+#portofolio_slideshow_iFrame,
+.portofolio_slideshow_section iframe {
 	display: block;
 	height: 100%;
 	width: 100%;
@@ -257,12 +257,12 @@ Large screens
 	margin: 0%;
 }
 /*
-	end of portfolio section
+	end of Portofolio section
 */
 
 /* Smartphones (portrait and landscape) ----------- */
 @media all and (max-width : 739px), all and (min-device-width : 320px) and (max-device-width : 480px) {
-	#portfolio_slideshow_section_wrapper {
+	#portofolio_slideshow_section_wrapper {
 		display: none;
 	}
 }

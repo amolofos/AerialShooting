@@ -1,15 +1,15 @@
 ﻿
-#portfolio_slideshow_wrapper {
+#portofolio_slideshow_wrapper {
 	border-radius: 0px;
 }
 
-#portfolio_slideshow_social {
+#portofolio_slideshow_social {
 	height: 80%;
 	top: 5%;
 	left: 5%;
 	border: 2px dashed rgb(252,180,31);
 }
 
-..portfolio_item_caption {
+..portofolio_item_caption {
 	top: 10%;
 }

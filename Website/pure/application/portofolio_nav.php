@@ -6,9 +6,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 */
 ?>
 <?php
-	$portfolio_nav = array (
+	$portofolio_nav = array (
 		"el" => array (
-			"portfolio_item"        =>  "Πλήρης Λίστα",
+			"portofolio_item"        =>  "Πλήρης Λίστα",
 			"photography"            =>  "Φωτογραφία",
 			"video"                  =>  "Βίντεο",
 			"aerial_cinematography"  =>  "Εναέρια κινηματογράφιση",
@@ -32,7 +32,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"equipment"              =>  "Εξοπλισμός"
 		),
 		"en" => array (
-			"portfolio_item"        =>  "Full list",
+			"portofolio_item"        =>  "Full list",
 			"photography"            =>  "Photography",
 			"video"                  =>  "Vidoe",
 			"aerial_cinematography"  =>  "Aerila cinematography",

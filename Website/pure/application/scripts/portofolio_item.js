@@ -1,22 +1,22 @@
 ﻿
-portfolio_video_ids = [ ];
-portfolio_video_ids [ "default" 				 ] = [ "_AeVgCd9U0E" ];
-portfolio_video_ids [ "Multi-rotor-demo-scenes" ] = [ "_AeVgCd9U0E" ];
-portfolio_video_ids [ "Wedding-trailer"         ] = [ "zRsutyxTC_g" ];
-portfolio_video_ids [ "Concerts"                ] = [ "AxmMFyiJ8uA" ];
-portfolio_video_ids [ "Concerts_live"           ] = [ "AD5CfwNcHHM" ];
-portfolio_video_ids [ "Running_man"             ] = [ "-TIOiY6qpT8" ];
-portfolio_video_ids [ "Ιndustrial_area"         ] = [ "sCE-Ci_ZkKw" ];
-portfolio_video_ids [ "Τourism_businesses"      ] = [ "jvBi8bLDCFk" ];
-portfolio_video_ids [ "Οbservation_environment" ] = [ "L86CoQdCNaA" ];
-portfolio_video_ids [ "Downhill_dirfy_2011"     ] = [ "yMjJarOY-B8" ];
-portfolio_video_ids [ "Parkour_2011"            ] = [ "6SB9jgI6qks" ];
-portfolio_video_ids [ "Presentation_zembili"    ] = [ "zkF5QFWbBuU" ];
-portfolio_video_ids [ "Mountains"               ] = [ "rT1BICpC1Gg" ];
-portfolio_video_ids [ "Concerts_Tsaligopoulou"  ] = [ "xi3cxWC5iJI" ];
+portofolio_video_ids = [ ];
+portofolio_video_ids [ "default" 				 ] = [ "_AeVgCd9U0E" ];
+portofolio_video_ids [ "Multi-rotor-demo-scenes" ] = [ "_AeVgCd9U0E" ];
+portofolio_video_ids [ "Wedding-trailer"         ] = [ "zRsutyxTC_g" ];
+portofolio_video_ids [ "Concerts"                ] = [ "AxmMFyiJ8uA" ];
+portofolio_video_ids [ "Concerts_live"           ] = [ "AD5CfwNcHHM" ];
+portofolio_video_ids [ "Running_man"             ] = [ "-TIOiY6qpT8" ];
+portofolio_video_ids [ "Ιndustrial_area"         ] = [ "sCE-Ci_ZkKw" ];
+portofolio_video_ids [ "Τourism_businesses"      ] = [ "jvBi8bLDCFk" ];
+portofolio_video_ids [ "Οbservation_environment" ] = [ "L86CoQdCNaA" ];
+portofolio_video_ids [ "Downhill_dirfy_2011"     ] = [ "yMjJarOY-B8" ];
+portofolio_video_ids [ "Parkour_2011"            ] = [ "6SB9jgI6qks" ];
+portofolio_video_ids [ "Presentation_zembili"    ] = [ "zkF5QFWbBuU" ];
+portofolio_video_ids [ "Mountains"               ] = [ "rT1BICpC1Gg" ];
+portofolio_video_ids [ "Concerts_Tsaligopoulou"  ] = [ "xi3cxWC5iJI" ];
 
 var type;
-var portfolio_player;
+var portofolio_player;
 var social_init = 0;
 
 $(document).ready(function(){
@@ -35,7 +35,7 @@ $(document).ready(function(){
 		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 	}
 	
-	$( ".portfolio_item_full" ).bind( "click", function( e ) {
+	$( ".portofolio_item_full" ).bind( "click", function( e ) {
 		var type;
 		var id;
 		
@@ -100,7 +100,7 @@ function show_slideshow( e, type, id ) {
 	var type_item = type;
 	
 	slideshow_builder( id_item );
-	window.top.document.getElementById( "portfolio_slideshow_section_wrapper" ).style.display = "block";
+	window.top.document.getElementById( "portofolio_slideshow_section_wrapper" ).style.display = "block";
 }
 
 function slideshow_builder( id ) {
@@ -110,8 +110,8 @@ function slideshow_builder( id ) {
 	var iframe_span;
 	var iframe_tag;
 	var onload;
-	var portfolio_slideshow_section_wrapper;
-	var portfolio_slideshow_section;
+	var portofolio_slideshow_section_wrapper;
+	var portofolio_slideshow_section;
 	
 	if ( type ) {
 		type_item = "video";
@@ -119,17 +119,17 @@ function slideshow_builder( id ) {
 		type_item = "image";
 	}
 	
-	portfolio_slideshow_section_wrapper = window.top.document.getElementById( "portfolio_slideshow_section_wrapper" );
-	portfolio_slideshow_section = window.top.document.getElementById( "portfolio_slideshow_section" );
-	if ( portfolio_slideshow_section.firstChild ) {
-		portfolio_slideshow_section.removeChild( portfolio_slideshow_section.firstChild );
+	portofolio_slideshow_section_wrapper = window.top.document.getElementById( "portofolio_slideshow_section_wrapper" );
+	portofolio_slideshow_section = window.top.document.getElementById( "portofolio_slideshow_section" );
+	if ( portofolio_slideshow_section.firstChild ) {
+		portofolio_slideshow_section.removeChild( portofolio_slideshow_section.firstChild );
 	}
 	
 	iframe = document.createElement( "iframe" );
 	iframe.frameBorder = "0";
 	iframe.scrolling = "no";
-	iframe.src = "portfolio_slideshow.php?lang=" + getQueryParams( "lang" ) + "&slide=embed" + "&type=" + type_item + "&id=" + id;
-	iframe.id = "portfolio_slideshow_iFrame";
+	iframe.src = "portofolio_slideshow.php?lang=" + getQueryParams( "lang" ) + "&slide=embed" + "&type=" + type_item + "&id=" + id;
+	iframe.id = "portofolio_slideshow_iFrame";
 	iframe.style.width = "100%";
 	iframe.style.height = "100%";
 	
@@ -137,27 +137,27 @@ function slideshow_builder( id ) {
 	iframe_span.text = "Δυστυχώς προέκυψε κάποιο πρόβλημα με την συγκεκριμένη φωτογραφία.";
 	iframe.appendChild( iframe_span );
 	
-	portfolio_slideshow_section.appendChild( iframe );
+	portofolio_slideshow_section.appendChild( iframe );
 	
 }
 
 function onYouTubeIframeAPIReady ( ) {
 	type = $( "article" ).hasClass( "video" );
 	if ( type ) {
-		portfolio_player_id = $(".portfolio_item_media").attr("id");
-		portfolio_player_id = portfolio_player_id.split( "_wrapper" );
-		portfolio_player_id = portfolio_player_id[0];
-		video_id = portfolio_video_ids[ portfolio_player_id ];
-		createPlayer( portfolio_player_id, video_id );
+		portofolio_player_id = $(".portofolio_item_media").attr("id");
+		portofolio_player_id = portofolio_player_id.split( "_wrapper" );
+		portofolio_player_id = portofolio_player_id[0];
+		video_id = portofolio_video_ids[ portofolio_player_id ];
+		createPlayer( portofolio_player_id, video_id );
 	}
 }
 
-function createPlayer ( portfolio_player_id, video_id ) {
+function createPlayer ( portofolio_player_id, video_id ) {
 	
-	var portfolio_player_id_tmp = portfolio_player_id;
+	var portofolio_player_id_tmp = portofolio_player_id;
 	var video_id_tmp = video_id;
 	
-	portfolio_player = new YT.Player( portfolio_player_id_tmp, {
+	portofolio_player = new YT.Player( portofolio_player_id_tmp, {
 		videoId: video_id_tmp,
 		playerVars: {
 			'iv_load_policy': 3,
@@ -168,7 +168,7 @@ function createPlayer ( portfolio_player_id, video_id ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 }
@@ -177,7 +177,7 @@ function onPlayerReady ( event ) {
 	event.target.setPlaybackQuality( "large" );
 }
 
-function onportfolioPlayerStateChanged ( event ) {
+function onPortofolioPlayerStateChanged ( event ) {
 	
 	var wrapper = $(event.target.getIframe()).parent(" figure" );
 	var wrapper_div = $(event.target.getIframe()).parent( "figure" ).parent( "div" );
@@ -186,7 +186,7 @@ function onportfolioPlayerStateChanged ( event ) {
 	if ( $(window).width() >= 740 ) {
 		if ( event.data == YT.PlayerState.PLAYING ) {
 			/*
-			setVideoDimensions( event.target, "portfolio", 100 );
+			setVideoDimensions( event.target, "portofolio", 100 );
 			
 			$(wrapper).css( "width", "100%" );
 			$(wrapper).css( "height", "100%" );
@@ -197,7 +197,7 @@ function onportfolioPlayerStateChanged ( event ) {
 			*/
 		} else if ( event.data == YT.PlayerState.ENDED ) {
 			/*
-			setVideoDimensions( event.target, "portfolio", 25 );
+			setVideoDimensions( event.target, "portofolio", 25 );
 			$(wrapper_div).css("width", "auto");
 			$(iframe).css("background-color", "rgba(200,200,200,0.3)");
 			$(iframe).css("z-index", "0");
@@ -223,7 +223,7 @@ function setVideoDimensions( target, location_type, width_perc ) {
 		case "section":
 			wrapper_width = $(target.getIframe()).parent("figure").width();
 			break;
-		case "portfolio":
+		case "portofolio":
 			wrapper_width = $(window).width();
 			break;		
 	}

@@ -1,11 +1,11 @@
 function onYouTubeIframeAPIReady() {
-	setTimeout( function() {createportfolioTrailers();}, 500 );
+	setTimeout( function() {createPortofolioTrailers();}, 500 );
 }
 
-function createportfolioTrailers ( ) {
+function createPortofolioTrailers ( ) {
 	
 	//Multi Rotor demo scenes
-	portfolio_trailers_ids = [ "multi_rotor_demo_scenes",
+	portofolio_trailers_ids = [ "multi_rotor_demo_scenes",
 								"mountains_video",
 								"concerts",
 								"concerts_live",
@@ -18,7 +18,7 @@ function createportfolioTrailers ( ) {
 								"presentation_zembili",
 							];
 	
-	portfolio_trailers[ "multi_rotor_demo_scenes" ] = new YT.Player('multi_rotor_demo_scenes', {
+	portofolio_trailers[ "multi_rotor_demo_scenes" ] = new YT.Player('multi_rotor_demo_scenes', {
 		videoId: '_AeVgCd9U0E',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -29,12 +29,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - Mountains 
-	portfolio_trailers[ "mountains_video" ] = new YT.Player('mountains_video', {
+	portofolio_trailers[ "mountains_video" ] = new YT.Player('mountains_video', {
 		videoId: 'rT1BICpC1Gg',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -45,12 +45,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - Concerts 
-	portfolio_trailers[ "concerts" ] = new YT.Player('concerts', {
+	portofolio_trailers[ "concerts" ] = new YT.Player('concerts', {
 		videoId: 'AxmMFyiJ8uA',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -61,12 +61,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - Concerts -LIVE-
-	portfolio_trailers[ "concerts_live" ] = new YT.Player('concerts_live', {
+	portofolio_trailers[ "concerts_live" ] = new YT.Player('concerts_live', {
 		videoId: 'AD5CfwNcHHM',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -77,12 +77,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - Running Man
-	portfolio_trailers[ "running_man" ] = new YT.Player('running_man', {
+	portofolio_trailers[ "running_man" ] = new YT.Player('running_man', {
 		videoId: '-TIOiY6qpT8',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -93,12 +93,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - Éndustrial Área
-	portfolio_trailers[ "industrial_area" ] = new YT.Player('industrial_area', {
+	portofolio_trailers[ "industrial_area" ] = new YT.Player('industrial_area', {
 		videoId: 'sCE-Ci_ZkKw',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -109,12 +109,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - Tourism businesses
-	portfolio_trailers[ "tourism_businesses" ] = new YT.Player('tourism_businesses', {
+	portofolio_trailers[ "tourism_businesses" ] = new YT.Player('tourism_businesses', {
 		videoId: 'jvBi8bLDCFk',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -125,12 +125,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - Observation Environment
-	portfolio_trailers[ "observation_environment" ] = new YT.Player('observation_environment', {
+	portofolio_trailers[ "observation_environment" ] = new YT.Player('observation_environment', {
 		videoId: 'L86CoQdCNaA',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -141,12 +141,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - DownHill 2011, Dirfy
-	portfolio_trailers[ "downhill_dirfy_2011" ] = new YT.Player('downhill_dirfy_2011', {
+	portofolio_trailers[ "downhill_dirfy_2011" ] = new YT.Player('downhill_dirfy_2011', {
 		videoId: 'yMjJarOY-B8',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -157,12 +157,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - Parkour 2011, Athens
-	portfolio_trailers[ "parkour_2011" ] = new YT.Player('parkour_2011', {
+	portofolio_trailers[ "parkour_2011" ] = new YT.Player('parkour_2011', {
 		videoId: '6SB9jgI6qks',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -173,12 +173,12 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	//Air / Video Experts - presentation
-	portfolio_trailers[ "presentation_zembili" ] = new YT.Player('presentation_zembili', {
+	portofolio_trailers[ "presentation_zembili" ] = new YT.Player('presentation_zembili', {
 		videoId: 'zkF5QFWbBuU',
 		playerVars: {
 			'iv_load_policy': 3,
@@ -189,16 +189,16 @@ function createportfolioTrailers ( ) {
 		},
 		 events: {
 			'onReady': onPlayerReady,
-			'onStateChange': onportfolioPlayerStateChanged
+			'onStateChange': onPortofolioPlayerStateChanged
 		 }
 	});
 	
 	if ( $(window).width() >= 740 ) {
-		for ( var i = 0; i < portfolio_trailers.length; i++ ) {
-			setVideoDimensions( portfolio_trailers[i], "portfolio", 25 );
+		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
+			setVideoDimensions( portofolio_trailers[i], "portofolio", 25 );
 		}
 	} else {
-		for ( var i = 0; i < portfolio_trailers.length; i++ ) {
+		for ( var i = 0; i < portofolio_trailers.length; i++ ) {
 		}
 	}
 	*/
@@ -208,7 +208,7 @@ function onPlayerReady ( event ) {
 	event.target.setPlaybackQuality("large");
 }
 
-function onportfolioPlayerStateChanged ( event ) {
+function onPortofolioPlayerStateChanged ( event ) {
 	
 	var wrapper = $(event.target.getIframe()).parent("figure");
 	var wrapper_div = $(event.target.getIframe()).parent("figure").parent("div");
@@ -217,7 +217,7 @@ function onportfolioPlayerStateChanged ( event ) {
 	if ( $(window).width() >= 740 ) {
 		if ( event.data == YT.PlayerState.PLAYING ) {
 			/*
-			setVideoDimensions( event.target, "portfolio", 100 );
+			setVideoDimensions( event.target, "portofolio", 100 );
 			
 			$(wrapper).css( "width", "100%" );
 			$(wrapper).css( "height", "100%" );
@@ -228,7 +228,7 @@ function onportfolioPlayerStateChanged ( event ) {
 			*/
 		} else if ( event.data == YT.PlayerState.ENDED ) {
 			/*
-			setVideoDimensions( event.target, "portfolio", 25 );
+			setVideoDimensions( event.target, "portofolio", 25 );
 			$(wrapper_div).css("width", "auto");
 			$(iframe).css("background-color", "rgba(200,200,200,0.3)");
 			$(iframe).css("z-index", "0");
@@ -254,7 +254,7 @@ function setVideoDimensions( target, location_type, width_perc ) {
 		case "section":
 			wrapper_width = $(target.getIframe()).parent("figure").width();
 			break;
-		case "portfolio":
+		case "portofolio":
 			wrapper_width = $(window).width();
 			break;		
 	}
@@ -264,7 +264,7 @@ function setVideoDimensions( target, location_type, width_perc ) {
 	target.setSize( video_width_n, video_height_n );
 }
 
-function setAddThis ( portfolio_item_counters_id, portfolio_item_social_id, addthis_config, url, title, description ) {
+function setAddThis ( portofolio_item_counters_id, portofolio_item_social_id, addthis_config, url, title, description ) {
 	
 	var addthis_share = {
 		"url": url,
@@ -272,21 +272,21 @@ function setAddThis ( portfolio_item_counters_id, portfolio_item_social_id, addt
 		"description": description
 	};
 	
-	if ( portfolio_item_counters_id != "" ) {
+	if ( portofolio_item_counters_id != "" ) {
 		
-		var tbx_counters = document.getElementById( portfolio_item_counters_id );
+		var tbx_counters = document.getElementById( portofolio_item_counters_id );
 		tbx_counters.innerHTML += '<a class="addthis_button_facebook_like" fb:like:layout="box_count" fb:like:href="' + url + '"></a>';
 		tbx_counters.innerHTML += '<a class="addthis_button_tweet" tw:via="unmanned_gr" tw:count="vertical" tw:url="' + url + '"></a>';
 		tbx_counters.innerHTML += '<a class="addthis_button_pinterest_pinit" pi:pinit:media="' + url + '" pi:pinit:layout="vertical"></a>';
 		tbx_counters.innerHTML += '<a class="addthis_button_linkedin_counter"></a>';
 		tbx_counters.innerHTML += '<a class="addthis_button_stumbleupon_badge"></a>';		
 		
-		addthis.toolbox( "#"+portfolio_item_counters_id, addthis_config, addthis_share );
+		addthis.toolbox( "#"+portofolio_item_counters_id, addthis_config, addthis_share );
 	}
 	
-	if ( portfolio_item_social_id != "" ) {
+	if ( portofolio_item_social_id != "" ) {
 		
-		var tbx_social = document.getElementById( portfolio_item_social_id );
+		var tbx_social = document.getElementById( portofolio_item_social_id );
 		tbx_social.innerHTML += '<a class="addthis_button_facebook" href="' + url + '"></a>';
 		tbx_social.innerHTML += '<a class="addthis_button_twitter" href="' + url + '"></a>';
 		tbx_social.innerHTML += '<a class="addthis_button_linkedin"></a>';
@@ -299,7 +299,7 @@ function setAddThis ( portfolio_item_counters_id, portfolio_item_social_id, addt
 		tbx_social.innerHTML += '<a class="addthis_button_compact"></a>';
 		tbx_social.innerHTML += '<a class="addthis_bubble_style"></a>';
 
-		addthis.toolbox( "#"+portfolio_item_social_id, addthis_config, addthis_share );
+		addthis.toolbox( "#"+portofolio_item_social_id, addthis_config, addthis_share );
 	}
 
 }
@@ -312,8 +312,8 @@ function setAddThisSlideShow ( addthis_config, url, title, description ) {
 		"description": description
 	};
 		
-	$( "#portfolio_slideshow_social a").each( function(){ $(this).remove() } );
-	var tbx = document.getElementById( "portfolio_slideshow_social" );
+	$( "#portofolio_slideshow_social a").each( function(){ $(this).remove() } );
+	var tbx = document.getElementById( "portofolio_slideshow_social" );
 	tbx.innerHTML += '<a class="addthis_button_facebook_like" fb:like:layout="box_count" fb:like:href="' + url + '"></a>';
 	tbx.innerHTML += '<a class="addthis_button_facebook_send"></a>';
 	tbx.innerHTML += '<a class="addthis_button_tweet" tw:via="unmanned_gr" tw:count="vertical" tw:url="' + url + '"></a>';
@@ -325,6 +325,6 @@ function setAddThisSlideShow ( addthis_config, url, title, description ) {
 	tbx.innerHTML += '<a class="addthis_button_digg"></a>';
 	tbx.innerHTML += '<a class="addthis_button_compact"></a>';		
 	
-	addthis.toolbox( "#portfolio_slideshow_social", addthis_config, addthis_share );
+	addthis.toolbox( "#portofolio_slideshow_social", addthis_config, addthis_share );
 	
 }

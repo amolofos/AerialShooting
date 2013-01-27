@@ -1,4 +1,4 @@
-﻿.portfolio_item_figure {
+﻿.portofolio_item_figure {
 	display: block;
 	position: relative;
 	width: auto;
@@ -7,14 +7,14 @@
 	margin: 0%;
 }
 
-.portfolio_item_figure header {
+.portofolio_item_figure header {
 	display: block;
 	position: relative;
 	width: 100%;
 	padding: 0%;
 	margin: 0%;
 }
-.portfolio_item_share_social {
+.portofolio_item_share_social {
 	display: none;
 	position: relative;
 	height: auto;
@@ -22,13 +22,13 @@
 	padding: 0%;
 	margin: 0%;
 }
-.portfolio_item_share_social a {
+.portofolio_item_share_social a {
 	display: inline-block;
 	position: relative;
 	padding: 0%;
 	margin: 0%;
 }
-.portfolio_item_full {
+.portofolio_item_full {
 	display: none;
 	position: relative;
 	float: right;
@@ -38,17 +38,17 @@
 	padding: 1%;
 	margin: 0%;
 }
-.portfolio_item_full:hover {
+.portofolio_item_full:hover {
 	cursor: pointer;
 }
 
-.portfolio_item_figure article {
+.portofolio_item_figure article {
 	position: relative;
 	width: 100%;
 	padding: 1%;
 	margin: 0%;
 }
-.portfolio_item_figure article img.portfolio_item_media {
+.portofolio_item_figure article img.portofolio_item_media {
 	position: relative;
 	width: 100%;
 	height: auto;
@@ -56,14 +56,14 @@
 	margin: 0%;
 }
 
-.portfolio_item_figure article div.portfolio_item_media {
+.portofolio_item_figure article div.portofolio_item_media {
 	position: relative;
 	width: 100%;
 	height: auto;
 	padding: 0%;
 	margin: 0%;
 }
-.portfolio_item_figure article div.portfolio_item_media iframe {
+.portofolio_item_figure article div.portofolio_item_media iframe {
 	position: relative;
 	width: 100%;
 	height: auto;
@@ -71,7 +71,7 @@
 	margin: 0%;
 }
 
-.portfolio_item_caption {
+.portofolio_item_caption {
 	display: none;
 	position: relative;
 	width: 100%;
@@ -86,14 +86,14 @@
 	color: #000000;
 }
 
-.portfolio_item_caption p {
+.portofolio_item_caption p {
 	display: block;
 	position: relative;
 	padding: 1%;
 	margin: 0%;
 }
 
-.portfolio_item_figure footer {
+.portofolio_item_figure footer {
 	display: block;
 	position: relative;
 	width: 98%;
@@ -101,7 +101,7 @@
 	margin: 0%;
 }
 
-.portfolio_item_share_counters {
+.portofolio_item_share_counters {
 	display: none;
 	position: relative;
 	width: 98%;
@@ -109,7 +109,7 @@
 	margin: 0%;
 }
 
-.portfolio_item_share_counters a {
+.portofolio_item_share_counters a {
 	display: inline-block;
 	position: relative;
 	padding: 0%;
@@ -119,19 +119,19 @@
 }
 
 @media all and (max-width : 739px), all and (min-device-width : 320px) and (max-device-width : 480px) {
-	.portfolio_item_full {
+	.portofolio_item_full {
 		display: none;
 	}
 }
 
 @media all and (min-width : 740px) and (min-device-width : 740px), all and (max-device-width : 800px) and (min-width : 740px) and (orientation : landscape) {
-	.portfolio_item {
+	.portofolio_item {
 		width: 40%;
 	}
 }
 
 @media all and (min-width : 980px) and (min-device-width : 980px), all and (max-device-width : 1024px) and (min-width : 1024px) and (orientation : landscape) {
-	.portfolio_item {
+	.portofolio_item {
 		width: 20%;
 	}
 }
