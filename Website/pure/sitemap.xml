@@ -17,7 +17,7 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://unmanned-evolution.com/application/portofolio.php</loc>
+  <loc>http://unmanned-evolution.com/application/portfolio.php</loc>
   <priority>1.00</priority>
   <changefreq>daily</changefreq>
 </url>
@@ -117,7 +117,7 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://unmanned-evolution.com/portofolio.php</loc>
+  <loc>http://unmanned-evolution.com/portfolio.php</loc>
   <priority>0.70</priority>
   <changefreq>daily</changefreq>
 </url>

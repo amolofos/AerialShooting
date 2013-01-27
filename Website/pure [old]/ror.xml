@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.unmanned-evolution.com/</title>
+  <link>http://www.unmanned-evolution.com/</link>
+
+<item>
+     <link>http://www.unmanned-evolution.com/./application/application.php</link>
+     <title></title>
+     <description>Καλώς ήλθατε στην Unmanned Evolution. Ειδικευόμαστε στην εναέρια κινηματογράφηση, εναέρια φωτογράφηση, εναέρια παρατήρηση και διάσωση. Χρησιμοποιούμε μη επανδρωμένα πτητικά μέσα -πολύπτερα, multicopters- σε συνδυασμό με κάμερες υψηλής ευκρίνειας -high definition- ώστε να έχουμε την καλύτερη θ�</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.unmanned-evolution.com/./application/portofolio.php</link>
+     <title></title>
+     <description>Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε δείγματα εργασίας ώστε να αξιολογήσετε ιδίας όμασι την ποιότητα της δουλειάς μας. Πληθώρα φωτογραφιών και βίντεο ταξινομημένα κατά : εναέρια κινηματογράφηση, εναέρια φωτογράφηση, εναέρια παρατήρηση κα</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

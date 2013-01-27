@@ -1,0 +1,58 @@
+﻿/*
+By Dimitri Kafetzi @ http://www.kafetzisd.gr
+
+Distributed under the Creative Commons Attribution 3.0 License
+*/
+
+/* 
+	Typography
+*/
+
+@font-face {
+		font-family: 'CoolveticaRegural';
+		src: url('../fonts/coolvetica_rg.eot');
+		src: local('‚ò∫'),
+		url('../fonts/coolvetica_rg.otf') format('opentype'),
+		url('../fonts/coolvetica_rg.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+}
+
+/* ************************************************************************* */
+/*   mobile.css                                                      */
+/* ************************************************************************* */
+body,
+article p,
+p
+{
+	/* font-family: "Courier New", Courier, monospace; */
+	font-family: Courier;
+}
+
+#company_moto,
+.top_level_header_company_name,
+.top_level_header_company_name_colored,
+.company_name_text,
+.company_name_text_colored
+{
+	font-family: CoolveticaRegural, Verdana, Helvetica, sans-serif;
+
+}
+
+#top_level_footer_section_wrapper p,
+#top_level_footer_section_wrapper p a,
+#top_level_footer_contact_section p a,
+#top_level_header_socializing_header p,
+#top_level_header_languages p,
+h3,
+a
+ {
+	font-family: Courier;
+}
+
+/* ************************************************************************* */
+/*   portfolio_item.css                                                      */
+/* ************************************************************************* */
+.portfolio_item_caption {
+	font-family: "Courier New", Courier, monospace;
+}
