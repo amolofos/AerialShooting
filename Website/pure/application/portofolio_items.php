@@ -442,9 +442,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			),
 			"en"        => array (
 				"category"  => "City",
-				"alt"       => "Syntagma square at the center of Athens by Unmanned Evolution\'s flying camera",
-				"title"     => "Syntagma square at the center of Athens by Unmanned Evolution\'s flying camera.",
-				"caption"   => "Syntagma square at the center of Athens by Unmanned Evolution\'s flying camera.",
+				"alt"       => "Syntagma square at the center of Athens by Unmanned Evolution flying camera",
+				"title"     => "Syntagma square at the center of Athens by Unmanned Evolution flying camera.",
+				"caption"   => "Syntagma square at the center of Athens by Unmanned Evolution flying camera.",
 				"tags"		=> "unmanned, evolution, aerial photography, photography, tourism, marketing, archaelogical, Syntagma, Athens, Greece"
 			)
 		),
@@ -464,9 +464,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			),
 			"en"        => array (
 				"category"  => "Theatre",
-				"alt"       => "Theatre of Lykavittos by nightfall through Unmanned Evolution\'s camera",
-				"title"     => "Theatre of Lykavittos by nightfall through Unmanned Evolution\'s camera.",
-				"caption"   => "Theatre of Lykavittos by nightfall through Unmanned Evolution\'s camera.",
+				"alt"       => "Theatre of Lykavittos by nightfall through Unmanned Evolution camera",
+				"title"     => "Theatre of Lykavittos by nightfall through Unmanned Evolution camera.",
+				"caption"   => "Theatre of Lykavittos by nightfall through Unmanned Evolution camera.",
 				"tags"		=> "unmanned, evolution, aerial photography, photography, tourism, marketing, real estate, hotels, Lykavittos, theater, Athens, Greece"
 			)
 		),
@@ -640,9 +640,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			),
 			"en"        => array (
 				"category"	=> "Equipment",
-				"alt"		=> "Unmanned Evolution\'s multirotor in the clouds",
-				"title"		=> "Unmanned Evolution\'s multirotor in the clouds.",
-				"caption"	=> "Unmanned Evolution\'s multirotor in the clouds.",
+				"alt"		=> "Unmanned Evolution multirotor in the clouds",
+				"title"		=> "Unmanned Evolution multirotor in the clouds.",
+				"caption"	=> "Unmanned Evolution multirotor in the clouds.",
 				"tags"		=> "unmanned, evolution, aerial photography, photography, equipment, Unmanned-Evolution, multirotor, multikopter, multicopter"
 			)
 		),
@@ -662,9 +662,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			),
 			"en"        => array (
 				"category"	=> "Equipment",
-				"alt"		=> "Award: Unmanned Evolution\'s multirotor",
-				"title"		=> "Award: Unmanned Evolution\'s multirotor.",
-				"caption"	=> "Award: Unmanned Evolution\'s multirotor.",
+				"alt"		=> "Award: Unmanned Evolution multirotor",
+				"title"		=> "Award: Unmanned Evolution multirotor.",
+				"caption"	=> "Award: Unmanned Evolution multirotor.",
 				"tags"		=> "unmanned, evolution, aerial photography, photography, equipment, Unmanned-Evolution, multirotor, multikopter, multicopter"
 			)
 		),
@@ -684,9 +684,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 			),
 			"en"        => array (
 				"category"	=> "Team",
-				"alt"		=> "Unmanned Evolution\'s crew",
-				"title"		=> "Unmanned Evolution\'s crew.",
-				"caption"	=> "Unmanned Evolution\'s crew.",
+				"alt"		=> "Unmanned Evolution crew",
+				"title"		=> "Unmanned Evolution crew.",
+				"caption"	=> "Unmanned Evolution crew.",
 				"tags"		=> "unmanned, evolution, aerial photography, photography, team, crew, Unmanned-Evolution, multirotor, multikopter, multicopter"
 			)
 		),
@@ -809,13 +809,13 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"el"        => array (
 				"category"  => "Εναέρια κινηματογράφηση",
 				"title"		=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
-				"caption"	=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
+				"caption"	=> "Λυπούμαστε. Δεν βρήκαμε το βίντεο/φωτογραφία που ψάχνατε.",
 				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, κινηματογράφηση, trailer, uav, αεροναυτικά οχήματα, video"
 			),
 			"en"        => array (
 				"category"  => "Aerial Cinematography",
-				"title"		=> "Demo trailer of Unmanned Evolution\'s unmanned aerial vehicles -uavs-",
-				"caption"	=> 'Demo trailer of Unmanned Evolution\'s unmanned aerial vehicles -uavs-.',
+				"title"		=> "Demo trailer of Unmanned Evolution unmanned aerial vehicles -uavs-",
+				"caption"	=> "We are sorry. We did not find the video/photography you were looking for.",
 				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, trailer, demo trailer, uav, aerial vehicle, video"
 			)
 		),
@@ -832,8 +832,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 			),
 			"en"        => array (
 				"category"  => "Aerial Cinematography",
-				"title"		=> "Demo trailer of Unmanned Evolution\'s unmanned aerial vehicles -uavs-",
-				"caption"	=> 'Demo trailer of Unmanned Evolution\'s unmanned aerial vehicles -uavs-.',
+				"title"		=> "Demo trailer of Unmanned Evolution unmanned aerial vehicles -uavs-",
+				"caption"	=> 'Demo trailer of Unmanned Evolution unmanned aerial vehicles -uavs-.',
 				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, trailer, demo trailer, uav, aerial vehicle, video"
 			)
 		),
@@ -869,7 +869,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"en"        => array (
 				"category"  => "Search and rescue",
 				"title"		=> "Filming Parnasiou Mountain",
-				"caption"	=> 'Filming Parnasiou Mountain using uav\'s -unmanned aerial vehicles. These vehicles has been used in agriculture and in monitoring and observation of the environment.',
+				"caption"	=> 'Filming Parnasiou Mountain using uav -unmanned aerial vehicles. These vehicles has been used in agriculture and in monitoring and observation of the environment.',
 				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, agriculture, observation, serch and rescue, mountain, Parnasiou, Parnasiou mountain, panoramic, panoramic photograph"
 			)
 		),
@@ -922,8 +922,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 			),
 			"en"        => array (
 				"category"  => "Movies",
-				"title"		=> "Unmanned Evolution\'s capabilities in movie and media production.",
-				"caption"	=> 'Unmanned Evolution\'s capabilities in movie and media production.',
+				"title"		=> "Unmanned Evolution capabilities in movie and media production.",
+				"caption"	=> 'Unmanned Evolution capabilities in movie and media production.',
 				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, observation, engineers, produstion processes, video"
 			)
 		),
@@ -941,7 +941,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			"en"        => array (
 				"category"  => "Engineering",
 				"title"		=> "Observing production processes using uavs by Unmanned Evolution",
-				"caption"	=> 'Unmanned Evolution\'s services include observation and monitoring of production processes when non-uav means are proven to be insufficient.',
+				"caption"	=> 'Unmanned Evolution services include observation and monitoring of production processes when non-uav means are proven to be insufficient.',
 				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, observation, engineers, produstion processes, video"
 			)
 		),

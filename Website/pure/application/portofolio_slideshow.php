@@ -28,8 +28,19 @@ Distributed under the Creative Commons Attribution 3.0 License
 		$slide_type = "st"; /* standalone */
 	}
 
-	$type = $_GET[ 'type' ];
-	$id   = $_GET[ 'id' ];
+	if( !isset($_GET[ 'type' ]) || !isset($_GET[ 'id' ]) ) {
+		$type = "video";
+		$id   = "default";
+	} else {
+		$type = $_GET[ 'type' ];
+		$id   = $_GET[ 'id' ];
+	}
+	
+	if( !isset($portofolio_items[ $id ]) ) {
+		$type = "video";
+		$id   = "default";
+	}
+	
 ?>
 <!DOCTYPE HTML>
 <html xml:lang="<?php echo $language; ?>" lang="<?php echo $language; ?>" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:addthis="http://www.addthis.com/help/api-spec" itemscope itemtype="http://schema.org/WebPage">
@@ -46,7 +57,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<title>Unmanned Evolution portofolio slideshow | <?php echo $portofolio_items[$id][$language]["title"]?></title>
 		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
-		<meta name="description" content="<?php if ( $language == "el" ) { echo "Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε "; } else { echo "Welcome at Unmanned Evolution\'s portofolio. You are presented with the following "; } ?><?php if($type=="image"){echo "την ακόλουθη φωτογραφία";} elseif($type=="video"){echo "το ακόλουθο video";}?> : <?php echo $portofolio_items[$id][$language]["title"]?>."/>
+		<meta name="description" content="<?php if ( $language == "el" ) { echo "Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε "; } else { echo "Welcome at Unmanned Evolution portofolio. You are presented with the following "; } ?><?php if($type=="image"){echo "την ακόλουθη φωτογραφία";} elseif($type=="video"){echo "το ακόλουθο video";}?> : <?php echo $portofolio_items[$id][$language]["title"]?>."/>
 		
 		
 		<meta name="application-name" content="<?php if ($language == "el") { echo $application_items["itm_application-name"]; } else { echo $application_items["itm_application-name_en"]; } ?>"/>
