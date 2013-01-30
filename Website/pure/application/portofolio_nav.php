@@ -34,8 +34,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 		"en" => array (
 			"portofolio_item"        =>  "Full list",
 			"photography"            =>  "Photography",
-			"video"                  =>  "Vidoe",
-			"aerial_cinematography"  =>  "Aerila cinematography",
+			"video"                  =>  "Video",
+			"aerial_cinematography"  =>  "Aerial cinematography",
 			"marketing"              =>  "Marketing",
 			"tourism"                =>  "Tourism",
 			"hotels"                 =>  "Hotels",

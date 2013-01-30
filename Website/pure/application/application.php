@@ -49,7 +49,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
 		<meta name="description" content="<?php if ($language == "el") { echo $application_items["app_head_description"]; } else { echo $application_items["app_head_description_en"]; }?>"/>
 		<meta name="application-name" content="<?php if ($language == "el") { echo $application_items["app_application-name"]; } else { echo $application_items["app_application-name_en"]; }?>"/>
-		<meta name="keywords" content="<?php if ($language == "el") { echo $application_items["app_keywords"]; } else { echo $application_items["app_keywords_en"]; }?>"/>
+		<meta name="keywords" content="<?php if ($language == "el") { $keywords = $application_items["app_keywords_en"]; $keywords .= $application_items["app_keywords"]; echo $keywords; } else { echo $application_items["app_keywords_en"]; }?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
 		<link rel="canonical" href="www.unmanned-evolution.com" />
@@ -88,7 +88,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Aerial-photography-of-married-couple-in-front-of-a-greek-church-at-Komotini_original_445x200.png" />
 		<meta itemprop='image' content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
 		<meta itemprop='inLanguage' content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>" />
-		<meta itemprop='keywords' content="<?php if ($language == "el") { echo $application_items["app_itemprop_keywords"]; } else { echo $application_items["app_itemprop_keywords_en"]; }?>"/>
+		<meta itemprop='keywords' content="<?php if ($language == "el") { $keywords = $application_items["app_itemprop_keywords"]; $keywords .= $application_items["app_itemprop_keywords_en"]; echo $keywords; } else { echo $application_items["app_itemprop_keywords_en"]; }?>"/>
 		<!-- <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script> -->
 		<!-- <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script> -->
 		<!-- <script src="scripts/jquery.galleriffic.js"></script> -->

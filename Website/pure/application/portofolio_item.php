@@ -97,7 +97,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 			}
 		?>
 		<meta itemprop="inLanguage" content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>" />
-		<meta itemprop="keywords" content="<?php if ( $language == "el" ) { echo $application_items[$id]["itm_itemprop_keywords"]; } else { echo $application_items[$id]["itm_itemprop_keywords_en"]; } ?> <?php echo $portofolio_items[$id][$language]["tags"]?>"/>
+		<meta itemprop="keywords" content="<?php if ( $language == "el" ) { $keywords = $application_items["itm_itemprop_keywords_en"]; $keywords .= $application_items["itm_itemprop_keywords"]; echo $keywords; } else { echo $application_items[$id]["itm_itemprop_keywords_en"]; } ?> <?php echo $portofolio_items[$id][$language]["tags"]?>"/>
 		<!-- Enabling HTML5 tags for older IE browsers -->
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>		

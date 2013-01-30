@@ -118,7 +118,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
 		<meta name="description" content="<?php if ($language == "el") { echo $application_items["prt_head_description"]; } else { echo $application_items["prt_head_description_en"]; }?>"/>
 		<meta name="application-name" content="<?php if ($language == "el") { echo $application_items["prt_application-name"]; } else { echo $application_items["prt_application-name_en"]; }?>"/>
-		<meta name="keywords" content="<?php if ($language == "el") { echo $application_items["prt_keywords"]; } else { echo $application_items["prt_keywords_en"]; }?>"/>
+		<meta name="keywords" content="<?php if ($language == "el") { $keywords = $application_items["prt_keywords_en"]; $keywords .= $application_items["prt_keywords"]; echo $keywords; } else { echo $application_items["prt_keywords_en"]; }?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
 		<link rel="canonical" href="www.unmanned-evolution.com/application/portofolio.php?lang=<?php echo $language; ?>" />
@@ -152,7 +152,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolution-logo-multicopter-with-no-background.png" />
 		<meta itemprop="image" content="http://www.unmanned-evolution.com/public/pics/Unmanned-Evolutions-Multicopter-in-a-cloudy-day_original_300x200.png" />
 		<meta itemprop='inLanguage' content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>" />
-		<meta itemprop="keywords" content="<?php if ($language == "el") { echo $application_items["prt_itemprop_keywords"]; } else { echo $application_items["prt_itemprop_keywords_en"]; }?>" />
+		<meta itemprop="keywords" content="<?php if ($language == "el") { $keywords = $application_items["prt_itemprop_keywords"]; $keywords .= $application_items["prt_itemprop_keywords_en"]; echo $keywords; } else { echo $application_items["prt_itemprop_keywords_en"]; }?>" />
 		<!-- Enabling HTML5 tags for older IE browsers -->
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>		
