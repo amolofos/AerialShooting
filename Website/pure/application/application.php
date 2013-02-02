@@ -99,8 +99,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- <script src="scripts/jquery.viewport.mini.js"></script> -->
 		<!-- <script src="scripts/jquery.masonry.min.js"></script> -->
 		<!-- Custom scripts -->
-		<!-- <script src="scripts/unmanned_evolution.js"></script> -->
-		<script src="scripts/unmanned_evolution.min.js"></script>
+		<!-- <script src="scripts/unmanned_evolution.min.js"></script> -->
+		<script src="scripts/unmanned_evolution.js"></script>
 		
 		 <!-- Google analytics -->
 		<script type="text/javascript">

@@ -8,8 +8,8 @@
 	Setting up the page
 */
 
-var aerialvideo_video_index
 var landing_trailer;
+var landing_trailer_videoId = "awjOU34TxXA";
 var services_section_trailers = [];
 var applications_section_trailers = [];
 services_section_trailers[0] = [];
@@ -66,8 +66,6 @@ $(document).ready(function(){
 		setRealEstatePhotoPhotoGallery();
 	}
 });
-
-
 
 function setTopLevelNavBar() {
 	// Requried: Navigation bar drop-down
@@ -213,7 +211,6 @@ function validateEmailAddress( item ) {
     return true;
 }
 
-
 function onYouTubeIframeAPIReady() {
 	
 	var str = window.location.hash.slice(1);
@@ -254,7 +251,7 @@ function onYouTubeIframeAPIReady() {
 function createLandingTrailer ( ) {
 	if ( typeof landing_trailer == "undefined" ) {
 		landing_trailer = new YT.Player('landing_trailer', {
-			videoId: '_AeVgCd9U0E',
+			videoId: landing_trailer_videoId,
 			playerVars: {
 				'iv_load_policy': 3,
 				'autoplay': 0,
@@ -282,7 +279,7 @@ function createSectionTrailers ( ) {
 	section_trailers[section_trailers.length] = new YT.Player('services_aerialvideo_trailer_1', {
 		height: '250',
 		width: '400',
-		videoId: '_AeVgCd9U0E',
+		videoId: 'L86CoQdCNaA',
 		playerVars: {
 			'iv_load_policy': 3,
 			'autoplay': 0,
@@ -298,7 +295,7 @@ function createSectionTrailers ( ) {
 	section_trailers[section_trailers.length] = new YT.Player('services_aerialvideo_trailer_2', {
 		height: '250',
 		width: '400',
-		videoId: 'L86CoQdCNaA',
+		videoId: '_AeVgCd9U0E',
 		playerVars: {
 			'iv_load_policy': 3,
 			'autoplay': 0,
@@ -568,6 +565,10 @@ function createAerialVideoTrailer() {
 	if ( typeof services_section_trailers[0][0] == "undefined" ) {
 		services_section_trailers[0][0] = createYoutubeTrailer( 'services_aerialvideo_trailer_1', 'L86CoQdCNaA' );
 		setVideoDimensions( services_section_trailers[0][0], "section", 100 );
+	}
+	if ( typeof services_section_trailers[0][1] == "undefined" ) {
+		services_section_trailers[0][1] = createYoutubeTrailer( 'services_aerialvideo_trailer_2', '_AeVgCd9U0E' );
+		setVideoDimensions( services_section_trailers[0][1], "section", 100 );
 	}
 }
 function createAerialPhotoTrailer() {

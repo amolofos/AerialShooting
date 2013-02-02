@@ -804,18 +804,36 @@ Distributed under the Creative Commons Attribution 3.0 License
 		"default" => array (
 			"id" 		=> "default",
 			"type"		=> "youtube",
-			"host_id"	=> "_AeVgCd9U0E",
+			"host_id"	=> "awjOU34TxXA",
 			"nav_class" => "video aerial_cinematography",
 			"el"        => array (
 				"category"  => "Εναέρια κινηματογράφηση",
-				"title"		=> "Demo σκηνές των δυνατοτήτων των πολυπτέρων -ιπτάμενων μη επανδρωμένων οχημάτων- της Unmanned Evolution.",
+				"title"		=> "Το επίσημο βίντεο της Unmanned Evolution.",
 				"caption"	=> "Λυπούμαστε. Δεν βρήκαμε το βίντεο/φωτογραφία που ψάχνατε.",
 				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, κινηματογράφηση, trailer, uav, αεροναυτικά οχήματα, video"
 			),
 			"en"        => array (
 				"category"  => "Aerial Cinematography",
-				"title"		=> "Demo trailer of Unmanned Evolution unmanned aerial vehicles -uavs-",
+				"title"		=> "Official trailer of Unmanned Evolution.",
 				"caption"	=> "We are sorry. We did not find the video/photography you were looking for.",
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, trailer, demo trailer, uav, aerial vehicle, video"
+			)
+		),
+		"Official" => array (
+			"id" 		=> "Official",
+			"type"		=> "youtube",
+			"host_id"	=> "awjOU34TxXA",
+			"nav_class" => "video aerial_cinematography",
+			"el"        => array (
+				"category"  => "Εναέρια κινηματογράφηση",
+				"title"		=> "Το επίσημο βίντεο της Unmanned Evolution.",
+				"caption"	=> "Το επίσημο βίντεο της Unmanned Evolution.",
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, κινηματογράφηση, trailer, uav, αεροναυτικά οχήματα, video"
+			),
+			"en"        => array (
+				"category"  => "Aerial Cinematography",
+				"title"		=> "Official trailer of Unmanned Evolution.",
+				"caption"	=> "Official trailer of Unmanned Evolution.",
 				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, trailer, demo trailer, uav, aerial vehicle, video"
 			)
 		),

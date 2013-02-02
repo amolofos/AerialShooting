@@ -61,7 +61,7 @@ $formproc->AddFileUploadField("attachments","jpg,jpeg,png,doc,docx,odt,pdf,zip,,
 									<div class="general">
 										<p><span lang="en">production@unmanned-evolution.com</span></p>
 									</div>	
-									<?php if ( $language == "el" ) { echo "<p>Υπεύθυνος : Κωμάκης Γιώργος </br>Ειδικότητα : Σκηνοθέτης</p>"; } else { echo "<p>Director : Komakis George </br>Specialty : Director</p>";} ?>									
+									<?php if ( $language == "el" ) { echo "<p>Υπεύθυνος : Γιώργος </br>Ειδικότητα : Σκηνοθέτης</p>"; } else { echo "<p>Director : George </br>Specialty : Director</p>";} ?>									
 								</div>
 							</div>
 						</article>
@@ -78,8 +78,8 @@ $formproc->AddFileUploadField("attachments","jpg,jpeg,png,doc,docx,odt,pdf,zip,,
 									<div class="general">
 										<p><span lang="en">technical@unmanned-evolution.com</span></p>
 									</div>
-									<?php if ( $language == "el" ) { echo "<p>Υπεύθυνος : Ιμανιμίδης Κωνσταντίνος </br>Ειδικότητα : Πιλότος</p>"; } else { echo "<p>Director : Imanimidis Konstantinos </br>Specialty : Pilot</p>";} ?>
-									<?php if ( $language == "el" ) { echo "<p>Υπεύθυνος : Φανταουτσάκης Γιώργος </br>Ειδικότητα : Τεχνικός</p>"; } else { echo "<p>Director : Fantaoutsakis George </br>Specialty : Engineer</p>";} ?>
+									<?php if ( $language == "el" ) { echo "<p>Υπεύθυνος : Κώστας </br>Ειδικότητα : Πιλότος</p>"; } else { echo "<p>Director : Kostas </br>Specialty : Pilot</p>";} ?>
+									<?php if ( $language == "el" ) { echo "<p>Υπεύθυνος : Γιώργος </br>Ειδικότητα : Τεχνικός</p>"; } else { echo "<p>Director : George </br>Specialty : Engineer</p>";} ?>
 								</div>
 							</div>
 						</article>

@@ -98,6 +98,11 @@ $aerialphoto_slideshow = array (
 			<article id="services_section_content_aerialvideo_article">
 				<?php if ( $language == "el" ) { echo $application_items["serv_aerial_cinematography_article"]; } else { echo $application_items["serv_aerial_cinematography_article_en"]; } ?>
 			</article>
+			<div id="services_section_content_aerialvideo_figure_wrapper_2" class="service_figure_wrapper">
+				<figure id="services_section_content_aerialvideo_figure_2">
+					<div id="services_aerialvideo_trailer_2" class="player"></div>
+				</figure>
+			</div>
 		</section>
 	</div>
 	
