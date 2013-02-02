@@ -95,10 +95,10 @@ $aerialphoto_slideshow = array (
 					<div id="services_aerialvideo_trailer_1" class="player"></div>
 				</figure>
 			</div>
-			<article id="services_section_content_aerialvideo_article">
+			<article id="services_section_content_aerialvideo_article" class="figure_following">
 				<?php if ( $language == "el" ) { echo $application_items["serv_aerial_cinematography_article"]; } else { echo $application_items["serv_aerial_cinematography_article_en"]; } ?>
 			</article>
-			<div id="services_section_content_aerialvideo_figure_wrapper_2" class="service_figure_wrapper">
+			<div id="services_section_content_aerialvideo_figure_wrapper_2" class="service_figure_wrapper last_figure_div">
 				<figure id="services_section_content_aerialvideo_figure_2">
 					<div id="services_aerialvideo_trailer_2" class="player"></div>
 				</figure>
@@ -152,10 +152,10 @@ $aerialphoto_slideshow = array (
 					<div id="services_materialproduction_trailer_1" class="player"></div>
 				</figure>
 			</div>
-			<article id="services_section_content_materialproduction_article">
+			<article id="services_section_content_materialproduction_article" class="figure_following">
 				<h3><?php if ( $language == "el" ) { echo $application_items["serv_material_production_article"]; } else { echo $application_items["serv_material_production_article_en"]; } ?></h3>
 			</article>
-			<div id="services_section_content_materialproduction_figure_wrapper_2" class="service_figure_wrapper">
+			<div id="services_section_content_materialproduction_figure_wrapper_2" class="service_figure_wrapper last_figure_div">
 				<figure id="services_section_content_materialproduction_figure_2">
 					<div id="services_materialproduction_trailer_2" class="player"></div>
 				</figure>

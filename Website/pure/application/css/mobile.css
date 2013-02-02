@@ -990,11 +990,12 @@ html, body {
 	border: 0px;
 }
 
-#services_section_content_materialproduction article {
+section.service_content article.figure_following {
 	border-radius: 0px;
 	border-bottom: 1px solid rgb(252,180,31);
 }
-#services_section_content_materialproduction div.service_figure_wrapper:last-child {
+.service_content_wrapper section.service_content div.service_figure_wrapper.last_figure_div {
+	border-radius: 0px;
 	-moz-border-bottom-left-radius: 20px;
 	-webkit-border-bottom-left-radius: 20px;
 	border-bottom-left-radius: 20px;
@@ -1115,10 +1116,10 @@ html, body {
 	#services_section {
 		top: 25%;
 	}
-	.service_content_wrapper section.service_content {
+	section.service_content {
 		margin-top: 10%;
 	}
-	.service_content_wrapper section.service_content div.service_figure_wrapper figure {
+	section.service_content div.service_figure_wrapper figure {
 		width: 59.5%;
 		padding-left: 20%;
 	}
