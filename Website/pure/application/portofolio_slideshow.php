@@ -60,7 +60,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta name="description" content="<?php if ( $language == "el" ) { echo "Καλώς ήλθατε στo χαρτοφυλάκιο -portofolio- της Unmanned Evolution. Σας παρουσιάζουμε "; } else { echo "Welcome at Unmanned Evolution portofolio. You are presented with the following "; } ?><?php if($type=="image"){echo "την ακόλουθη φωτογραφία";} elseif($type=="video"){echo "το ακόλουθο video";}?> : <?php echo $portofolio_items[$id][$language]["title"]?>."/>
 		
 		<meta name="application-name" content="<?php if ($language == "el") { echo $application_items["itm_application-name"]; } else { echo $application_items["itm_application-name_en"]; } ?>"/>
-		<meta name="keywords" content="<?php if ( $language == "el" ) { $keywords = $application_items["sld_keywords_en"]; $keywords .= $application_items["sld_keywords"]; echo $keywords; } else { echo $application_items[$id]["sld_keywords_en"]; } ?> <?php echo $portofolio_items[$id][$language]["tags"]?>"/>
+		<meta name="keywords" content="<?php if ( $language == "el" ) { $keywords = $application_items["sld_keywords_en"]; $keywords .= $application_items["sld_keywords"]; echo $keywords; } else { echo $application_items[$id]["sld_keywords_en"]; } ?> <?php echo $portofolio_items[$id][$language]["tags"]; ?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
 		<link rel="canonical" href="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $id?>" />
@@ -81,13 +81,13 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<!-- open graph meta tags -->
 		<meta property='og:locale' content="<?php if ($language == "el") { echo "el_GR"; } else { echo "en_US"; }?>"/>
 		<meta property='og:locale:alternate' content="<?php if ($language == "el") { echo "en_US"; } else { echo "el_GR"; }?>"/>
-		<meta property='og:title' content="<?php echo $portofolio_items[$id][$language]["title"]?>"/>
-		<meta property='og:description' content="<?php echo $portofolio_items[$id][$language]["caption"]?>"/>
-		<meta property='og:url' content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $id?>"/>
+		<meta property='og:title' content="<?php echo $portofolio_items[$id][$language]["title"]; ?>"/>
+		<meta property='og:description' content="<?php echo $portofolio_items[$id][$language]["caption"]; ?>"/>
+		<meta property='og:url' content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type;?>&id=<?php echo $id;?>"/>
 		<?php 
 			if ( isset( $portofolio_items[$id]["small"] ) ) {
 				$html = "";
-				$html = '<meta property="og:image" content="http://www.unmanned-evolution.com/application/media/pictures/' . $portofolio_items[$id]["small"] . '" />';
+				$html = '<meta property="og:image" content="http://www.unmanned-evolution.com/application/media/pictures/' . $portofolio_items[$id]["small"] . '.' . $portofolio_items[$id]["type"] . '" />';
 				echo $html;
 			} else {
 				$html = "";
@@ -98,19 +98,19 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<meta property='og:type' content="article"/>
 		<meta property="og:site_name" content="Unmanned Evolution portofolio" />
 		<meta property="article:author"          content="Unmanned Evolution">
-		<meta property="article:section"         content="<?php echo $portofolio_items[$id][$language]["category"]?>">
-		<meta property="article:tag"             content="<?php echo $portofolio_items[$id][$language]["tags"]?>">
+		<meta property="article:section"         content="<?php echo $portofolio_items[$id][$language]["category"];?>">
+		<meta property="article:tag"             content="<?php echo $portofolio_items[$id][$language]["tags"];?>">
 		<!--  Google-compatible meta tags -->
-		<meta itemprop="name" content="<?php echo $portofolio_items[$id][$language]["title"]?>" />
-		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $id?>"/>
-		<meta itemprop="description" content="<?php echo $portofolio_items[$id][$language]["caption"]?>"/>
+		<meta itemprop="name" content="<?php echo $portofolio_items[$id][$language]["title"]; ?>" />
+		<meta itemprop="url" content="http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type;?>&id=<?php echo $id;?>"/>
+		<meta itemprop="description" content="<?php echo $portofolio_items[$id][$language]["caption"]; ?>"/>
 		<?php 
 			if ( isset( $portofolio_items[$id]["small"] ) ) {
 				$html = "";
-				$html = '<meta itemprop="image" content="http://www.unmanned-evolution.com/application/media/pictures/' . $portofolio_items[$id]["small"] . '" />';
+				$html = '<meta itemprop="image" content="http://www.unmanned-evolution.com/application/media/pictures/' . $portofolio_items[$id]["small"] . '.' . $portofolio_items[$id]["type"] . '" />';
 				echo $html;
 				$html = "";
-				$html = '<meta itemprop="thumbnailUrl" content="http://www.unmanned-evolution.com/application/media/pictures/' . $portofolio_items[$id]["thumb"] . '" />';
+				$html = '<meta itemprop="thumbnailUrl" content="http://www.unmanned-evolution.com/application/media/pictures/' . $portofolio_items[$id]["thumb"] . '.' . $portofolio_items[$id]["type"] . '" />';
 				echo $html;
 			} else {
 				$html = "";
@@ -159,9 +159,9 @@ Distributed under the Creative Commons Attribution 3.0 License
 
 		<script>
 			var addthis_share = {
-				"url": "http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $portofolio_items[$id]["id"]?>",
-				"title": "<?php echo $portofolio_items[$id][$language]["title"]?>",
-				"description": "<?php echo $portofolio_items[$id][$language]["caption"]?>"
+				"url": "http://www.unmanned-evolution.com/application/portofolio_slideshow.php?lang=<?php echo $language; ?>&slide=st&type=<?php echo $type?>&id=<?php echo $portofolio_items[$id]["id"]; ?>",
+				"title": "<?php echo $portofolio_items[$id][$language]["title"]; ?>",
+				"description": "<?php echo $portofolio_items[$id][$language]["caption"]; ?>"
 			};
 			var addthis_config = {
 				"ui_click": true,
@@ -191,7 +191,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 								<a class="addthis_button_tweet" tw:via="unmanned_gr" tw:count="vertical"></a>
 								<?php
 									if ( $type == "image" ) {
-										echo '<a class="addthis_button_pinterest_pinit" pi:pinit:media="http://www.unmanned-evolution.com/application/media/pictures/' . $portofolio_items[$id]["original"] . '.' . $portofolio_items[$id]["type"] . '" pi:pinit:layout="vertical"></a>';
+										echo '<a class="addthis_button_pinterest_pinit" pi:pinit:layout="vertical"></a>';
 									}
 								?>
 								<a class="addthis_button_linkedin_counter"></a>
