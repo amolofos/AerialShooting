@@ -91,6 +91,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		"Official",
 		"Multi-rotor-demo-scenes",
 		"Wedding-trailer",
+		"Wedding-trailer-2",
 		"Mountains",
 		"Concerts",
 		"Concerts_live",

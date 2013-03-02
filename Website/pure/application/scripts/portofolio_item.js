@@ -4,6 +4,7 @@ portofolio_video_ids [ "default" 				 ] = [ "awjOU34TxXA" ];
 portofolio_video_ids [ "Official" 				 ] = [ "awjOU34TxXA" ];
 portofolio_video_ids [ "Multi-rotor-demo-scenes" ] = [ "_AeVgCd9U0E" ];
 portofolio_video_ids [ "Wedding-trailer"         ] = [ "zRsutyxTC_g" ];
+portofolio_video_ids [ "Wedding-trailer-2"       ] = [ "PdU8GGVLxQg" ];
 portofolio_video_ids [ "Concerts"                ] = [ "AxmMFyiJ8uA" ];
 portofolio_video_ids [ "Concerts_live"           ] = [ "AD5CfwNcHHM" ];
 portofolio_video_ids [ "Running_man"             ] = [ "-TIOiY6qpT8" ];

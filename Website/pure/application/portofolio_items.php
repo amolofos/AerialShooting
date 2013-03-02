@@ -870,7 +870,25 @@ Distributed under the Creative Commons Attribution 3.0 License
 				"category"  => "Social events",
 				"title"		=> "Wedding trailer",
 				"caption"	=> 'Wedding trailer filmed by overground and flying cameras of Unmanned Evolution at Northen Greece.',
-				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, agriculture, observation, serch and rescue, mountain, Parnasiou, Parnasiou mountain, panoramic, panoramic photograph, Greece, northen Greece"
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, wedding, groom, bribe, social events, wedding video, wedding photos, panoramic, panoramic photograph, Greece, northen Greece"
+			)
+		),
+		"Wedding-trailer-2" => array (
+			"id" 		=> "Wedding-trailer-2",
+			"type"		=> "youtube",
+			"host_id"	=> "PdU8GGVLxQg",
+			"nav_class" => "video aerial_cinematography social",
+			"el"        => array (
+				"category"  => "Κοινωνικές εκδηλώσεις",
+				"title"		=> "Wedding trailer No2",
+				"caption"	=> "Trailer γάμου γυρισμένο με τις επίγειες και εναέριες κάμερες της Unmanned Evolution σε εντυπωσιακά μέρη της βορείου Ελλάδος.",
+				"tags"		=> "unmanned, evolution, εναέρια κινηματογράφηση, video, wedding, weddings, γάμοι, ζευγάρια, Ελλάδα, εναέρια φωτογράφηση, βιντεοσκόπηση γάμων, φωτογράφηση γάμου, βίντεο γάμου, video γάμου, φωτογραφίες γάμου, βιντεοσκόπηση εκδηλώσεων, φωτογράφηση εκδηλώσεων, λίστα γάμου, Ελλάδα, βόρεια Ελλάδα"
+			),
+			"en"        => array (
+				"category"  => "Social events",
+				"title"		=> "Wedding trailer No2",
+				"caption"	=> 'Wedding trailer filmed by overground and flying cameras of Unmanned Evolution at Northen Greece.',
+				"tags"		=> "unmanned, evolution, aerial photography, photography, aerial cinematography, cinematography, filming, wedding, groom, bribe, social events, wedding video, wedding photos, panoramic, panoramic photograph, Greece, northen Greece"
 			)
 		),
 		"Mountains" => array (
