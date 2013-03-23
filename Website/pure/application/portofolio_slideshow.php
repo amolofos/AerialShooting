@@ -191,7 +191,8 @@ Distributed under the Creative Commons Attribution 3.0 License
 								<a class="addthis_button_tweet" tw:via="unmanned_gr" tw:count="vertical"></a>
 								<?php
 									if ( $type == "image" ) {
-										echo '<a class="addthis_button_pinterest_pinit" pi:pinit:layout="vertical"></a>';
+										$html = '<a class="addthis_button_pinterest_pinit" pi:pinit:media="http://www.unmanned-evolution.com/application/media/pictures/' . $portofolio_items[$id]["original"] . '.' . $portofolio_items[$id]["type"] . '" pi:pinit:layout="vertical"></a>';
+										echo $html;
 									}
 								?>
 								<a class="addthis_button_linkedin_counter"></a>
