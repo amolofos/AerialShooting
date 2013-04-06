@@ -1,4 +1,4 @@
-﻿/*	
+﻿/*
 	By Kafetzi Dimitri (www.kafetzisd.gr)
 	This file contains custom scripts required by websites functionality
 
@@ -28,44 +28,10 @@ applications_section_trailers[7] = [];
 applications_section_trailers[8] = [];
 applications_section_trailers[9] = [];
 
-var tag = document.createElement('script');
-tag.src = "//www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
 var photo_gallery = [];
 var flag = true;
 
-
-$(document).ready(function(){
-	if ( !(window.location.hash) ) {
-		window.location += "#landing_section_wrapper"
-	}
-			
-	setTopLevelNavBar();
-	setSectionListHovering();
-	
-	var str = window.location.hash.slice(1);
-	if ( str.indexOf("landing_section_wrapper") == 0 ) {
-		$("nav > ul > li:nth-child(1)").addClass("selected");
-	} else if ( str.indexOf("services_section_wrapper") == 0 ) {
-		$("nav > ul > li:nth-child(2)").addClass("selected");
-	} else if ( str.indexOf("applications_section_wrapper") == 0 ) {
-		$("nav ul li:nth-child(3)").addClass("selected");
-	} else if ( str.indexOf("company_section_wrapper") == 0 ) {
-		$("nav ul li:nth-child(5)").addClass("selected");
-	}  else if ( str.indexOf("contact_section_wrapper") == 0 ) {
-		$("nav ul li:nth-child(6)").addClass("selected");
-	}
- 	
-	if ( str.indexOf("services_section_content_aerialphoto_wrapper") == 0 ) {
-		setAerialPhotoPhotoGallery();
-	} else if ( str.indexOf("applications_section_content_social_wrapper") == 0 ) {
-		setSocialPhotoPhotoGallery();
-	} else if ( str.indexOf("applications_section_content_realestate_wrapper") == 0 ) {
-		setRealEstatePhotoPhotoGallery();
-	}
-});
+insertScriptTag( "http://www.youtube.com/iframe_api" );
 
 function setTopLevelNavBar() {
 	// Requried: Navigation bar drop-down
@@ -104,7 +70,7 @@ function setTopLevelNavBar() {
 	$('nav ul li:last-child').addClass('last');				
 }
 
-function setSectionListHovering () {		
+function setSectionListHovering () {
 		$("#services_section_content_list li").hover(
 			function(e) {
 				if ( $(window).width() >= 740 ) {
@@ -656,7 +622,6 @@ function createCustomTrailer() {
 	}
 }
 
-
 function onLandingPlayerReady ( event ) {
 	event.target.setPlaybackQuality("large");
 	var str = window.location.hash.slice(1);
@@ -664,7 +629,7 @@ function onLandingPlayerReady ( event ) {
 		landing_trailer.playVideo();
 	}
 }
-			  
+  
 function onPlayerReady ( event ) {
 	//event.target.setPlaybackQuality("large");
 }
@@ -746,7 +711,7 @@ function onSectionPlayerStateChanged ( event ) {
 function stopVideo() {
 	landing_trailer.stopVideo();
 }
-			  
+ 
 function setVideoDimensions( target, location_type, width_perc ) {
 	// setting percentage of screen that the video will take
 	var wrapper_width = $(window).width();
@@ -789,7 +754,7 @@ function createYoutubeTrailer ( divContainerID, youtubeVideoID ) {
 			 }
 	});
 }
-				  
+  
 $(window).bind('resize', function () {
 	
 	if ( $(window).width() >= 740 ) {
@@ -902,7 +867,7 @@ $(window).bind('resize', function () {
 		}
 	}
 });		
-				  
+ 
 $(window).bind('hashchange', function () {
 	var str = window.location.hash.slice(1);
 	if ( typeof landing_trailer != "undefined" ) {
@@ -1039,3 +1004,46 @@ function changeLanguage( lang ) {
 	url = url + lang + ".php";
 	console.log( url );
 }
+
+function insertScriptTag( src ) {
+
+	var tag;
+	var firstScriptTag;
+
+	tag = document.createElement('script');
+	tag.src = src;
+	firstScriptTag = document.getElementsByTagName('script')[0];
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+}
+
+jQuery(function() {
+	$(document).ready(function(){
+		if ( !(window.location.hash) ) {
+			window.location += "#landing_section_wrapper"
+		}
+				
+		setTopLevelNavBar();
+		setSectionListHovering();
+		
+		var str = window.location.hash.slice(1);
+		if ( str.indexOf("landing_section_wrapper") == 0 ) {
+			$("nav > ul > li:nth-child(1)").addClass("selected");
+		} else if ( str.indexOf("services_section_wrapper") == 0 ) {
+			$("nav > ul > li:nth-child(2)").addClass("selected");
+		} else if ( str.indexOf("applications_section_wrapper") == 0 ) {
+			$("nav ul li:nth-child(3)").addClass("selected");
+		} else if ( str.indexOf("company_section_wrapper") == 0 ) {
+			$("nav ul li:nth-child(5)").addClass("selected");
+		}  else if ( str.indexOf("contact_section_wrapper") == 0 ) {
+			$("nav ul li:nth-child(6)").addClass("selected");
+		}
+		
+		if ( str.indexOf("services_section_content_aerialphoto_wrapper") == 0 ) {
+			setAerialPhotoPhotoGallery();
+		} else if ( str.indexOf("applications_section_content_social_wrapper") == 0 ) {
+			setSocialPhotoPhotoGallery();
+		} else if ( str.indexOf("applications_section_content_realestate_wrapper") == 0 ) {
+			setRealEstatePhotoPhotoGallery();
+		}
+	});
+})

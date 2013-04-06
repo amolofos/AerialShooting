@@ -49,7 +49,7 @@ Distributed under the Creative Commons Attribution 3.0 License
 		<link rel="icon" type="image/png" href="img/unmanned-evolution.ico"/>
 		<meta name="description" content="<?php if ($language == "el") { echo $application_items["app_head_description"]; } else { echo $application_items["app_head_description_en"]; }?>"/>
 		<meta name="application-name" content="<?php if ($language == "el") { echo $application_items["app_application-name"]; } else { echo $application_items["app_application-name_en"]; }?>"/>
-		<meta name="keywords" content="<?php if ($language == "el") { $keywords = $application_items["app_keywords_en"]; $keywords .= $application_items["app_keywords"]; echo $keywords; } else { echo $application_items["app_keywords_en"]; }?>"/>
+		<meta name="keywords" content="<?php if ($language == "el") { $keywords = $application_items["app_keywords"]; $keywords .= $application_items["app_keywords_en"]; echo $keywords; } else { echo $application_items["app_keywords_en"]; }?>"/>
 		<meta name="author" content="Unmanned Evolution"/>
 		
 		<link rel="canonical" href="www.unmanned-evolution.com" />

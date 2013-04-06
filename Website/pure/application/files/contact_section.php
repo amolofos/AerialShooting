@@ -45,6 +45,11 @@ $formproc->AddFileUploadField("attachments","jpg,jpeg,png,doc,docx,odt,pdf,zip,,
 									<div class="general">
 										<p><span lang="en">info@unmanned-evolution.com</span></p>
 									</div>
+									<div>
+										<p><?php if ( $language == "el" ) { echo "Τηλέφωνα"; } else { echo "Contact numbers";} ?></p>
+										<p>+00 697 4464165</p>
+										<p>+00 699 8314141</p>
+									</div>
 								</div>
 							</div>
 						</article>
