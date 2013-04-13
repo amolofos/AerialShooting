@@ -47,8 +47,8 @@ $formproc->AddFileUploadField("attachments","jpg,jpeg,png,doc,docx,odt,pdf,zip,,
 									</div>
 									<div>
 										<p><?php if ( $language == "el" ) { echo "Τηλέφωνα"; } else { echo "Contact numbers";} ?></p>
-										<p>+00 697 4464165</p>
-										<p>+00 699 8314141</p>
+										<p>+30 697 4464165</p>
+										<p>+30 699 8314141</p>
 									</div>
 								</div>
 							</div>
@@ -66,7 +66,7 @@ $formproc->AddFileUploadField("attachments","jpg,jpeg,png,doc,docx,odt,pdf,zip,,
 									<div class="general">
 										<p><span lang="en">production@unmanned-evolution.com</span></p>
 									</div>	
-									<?php if ( $language == "el" ) { echo "<p>Υπεύθυνος : Γιώργος </br>Ειδικότητα : Σκηνοθέτης</p>"; } else { echo "<p>Director : George </br>Specialty : Director</p>";} ?>									
+									<?php if ( $language == "el" ) { echo "<p>Υπεύθυνος : Γιώργος </br>Ειδικότητα : Σκηνοθέτης</p>"; } else { echo "<p>Director : George </br>Specialty : Director</p>";} ?>
 								</div>
 							</div>
 						</article>
@@ -114,7 +114,7 @@ $formproc->AddFileUploadField("attachments","jpg,jpeg,png,doc,docx,odt,pdf,zip,,
 										<div id="stumbleupon_contact"><a href="http://www.stumbleupon.com/stumbler/Unmannedgr" target="_blank" style="cursor: pointer;" class="social" title="<?php if ( $language == "el") { echo "Σταμπαρετέ μας στο "; } else { echo "Stumple us upon "; } ?>StumbleUpon"><img src="./img/social/stumbleupon.png" alt="StumbleUpon"/></a></div>
 										<div id="delicious_contact"><a href="http://delicious.com/post?url=http://www.unmanned-evolution.com/index.php%23landing_page_wrapper/&amp;title=Unmanned%20Evolution%20%7C%20Air%2FVideo%20Experts" target="_blank" style="cursor: pointer;" class="social" title="<?php if ( $language == "el") { echo "κρατήστε μας στο "; } else { echo "Bookmark us in "; } ?>Delicious"><img src="./img/social/delicious.png" alt="Delicious"/></a></div>
 										<div id="digg_contact"><a href="http://digg.com/submit?phase=2&amp;url=http://www.unmanned-evolution.com/&amp;title=Unmanned%20Evolution%20%7C%20Air%2FVideo%20Experts" target="_blank" style="cursor: pointer;" class="social" title="Digg us"><img src="./img/social/digg.png" alt="Digg"/></a></div>
-									</div>	
+									</div>
 								</div>
 							</div>
 						</article>
